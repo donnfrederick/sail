@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Thankyou /> 1`] = `
+<div
+  className="sc-jTzLTM dMEaru"
+>
+  <div
+    className="sc-VigVT kaYUeB"
+  >
+    <div
+      className="sc-gZMcBi fxOrEW"
+    >
+      ご利用ありがとうございました
+    </div>
+  </div>
+  <div
+    className="sc-fjdhpX efXwve"
+  >
+    <button
+      className="sc-bZQynM jTOtoa"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={304}
+    >
+      <a
+        className="sc-dnqmqq iPjOZM"
+        href="/teachers/mypage"
+        onClick={[Function]}
+      >
+        とじる
+      </a>
+    </button>
+  </div>
+</div>
+`;

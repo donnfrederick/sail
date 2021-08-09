@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <OrganizationsUserName /> 1`] = `
+<div
+  className="sc-bdVaJa hrvsBA"
+  data-selected={false}
+>
+  
+</div>
+`;

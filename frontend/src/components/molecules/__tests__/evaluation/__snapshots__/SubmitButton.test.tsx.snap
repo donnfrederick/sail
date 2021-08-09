@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <SubmitButton /> 1`] = `
+<button
+  className="sc-bdVaJa ljRQxQ"
+  data-active={true}
+  fontSize={28}
+  height={250}
+  onClick={[Function]}
+  type="blue"
+  width={360}
+>
+  次へ
+</button>
+`;

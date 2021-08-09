@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Modal /> 1`] = `
+<div
+  className="sc-bwzfXH ePRBm"
+  data-hidden={true}
+>
+  <div
+    className="sc-htpNat kfyHwT"
+  />
+</div>
+`;

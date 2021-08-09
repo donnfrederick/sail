@@ -1,0 +1,34 @@
+<h3><%= @user.name_ja %>様</h3>
+
+<div class="section">
+  <p>
+    Sailカスタマーサポートです。
+  </p>
+  <p>
+    いつもSailでの異文化交流にご参加くださり誠にありがとうございます。
+    日本語学習者の方との会話をお楽しみいただけていますでしょうか？
+  </p>
+  <p>
+    この度は、現在積極的にSailを活用いただいている日本語学習者ユーザーの方々を何名か紹介いたします。
+    すでに一度はお話しいただいた方もいらっしゃるかと思いますが、現在このような方々が活発にSailをご利用いただいています。
+    是非また予約をしていただき、素敵な方々とのお話ができることを願っております。
+  </p>
+</div>
+
+<div class="section-comfortable-margin-top">
+  <h2 class="title">Sailで活躍しているユーザー</h2>
+  <% @students.each do |student| %>
+    <div class="wide-stretched">
+      <%= render partial: "components/user_profile_simplest", locals: {locale: "ja", user: student, context_user: @user} %>
+    </div>
+  <% end %>
+</div>
+
+<div class="section">
+  <p>
+    他にも現在行われている会話の半数が新しくSailに参加しようと登録いただいている方々です。
+    是非いろいろな方とお話しできるよう、また予約を入れてみましょう！
+  </p>
+</div>
+
+<%= render partial: "components/mailer/launcher_guide", locals: {locale: "ja", url: "https://sail.helte.jp/"} %>

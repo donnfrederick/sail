@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <UserProfile /> 1`] = `
+<div
+  className="sc-cJSrbW bIhDnv"
+>
+  <div
+    className="sc-kvZOFW okliJ"
+  >
+    <div
+      className="sc-EHOje fbzZrP"
+    >
+      <img
+        className="sc-gzVnrw fVmgVV"
+        height="200px"
+        src=""
+        srcSet=""
+        width="200px"
+      />
+    </div>
+    <div
+      className="sc-hqyNC cHNpOR"
+    >
+      <div
+        className="sc-ksYbfQ fddiQK"
+      >
+        
+      </div>
+      <div
+        className="sc-dNLxif iyaPbt"
+      >
+        You had 
+        0
+         conversations with
+         
+        him
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-kgAjT jMsbSN"
+  >
+    
+  </div>
+  <div
+    className="sc-hmzhuo hHoyUE"
+  >
+    <div
+      className="sc-htoDjs jCGtRE"
+    >
+      <img
+        className="sc-dnqmqq jsykLn"
+        src="/assets/img/students/reservation-detail/gender@3x.png"
+      />
+      <div
+        className="sc-iwsKbI gLuosb"
+      >
+        Male
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs jCGtRE"
+    >
+      <img
+        className="sc-dnqmqq jsykLn"
+        src="/assets/img/students/reservation-detail/hobbies@3x.png"
+      />
+      <div
+        className="sc-iwsKbI gLuosb"
+      >
+        
+      </div>
+    </div>
+  </div>
+</div>
+`;

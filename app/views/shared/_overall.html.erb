@@ -1,0 +1,28 @@
+<table class='index_table index'>
+	<tr>
+		<td>時期</td>
+		<% overall_headers.each do |h| %>
+			<td><%= h %></td>
+		<% end %>
+	</tr>
+	<% 6.times do |i| %>
+		<% us = data[:users].where(created_at: Time.now.ago(i.weeks).all_week) %>ß
+		<% us_pluck = us.pluck(:id, :type) %>
+		<% convs1 = data[:conversations].where(created_at: Time.now.ago((i).weeks).all_week)%>
+		<% is1 = data[:issues].where(created_at: Time.now.ago((i).weeks).all_week).pluck(:type)%>
+		<% is2 = data[:issues].where(created_at: Time.now.ago((i + 1).weeks).all_week).pluck(:type)%>
+		<tr>
+			<td><%= str_week(i) %></td>
+			<td><%= us.size %></td>
+			<td><%= us_pluck.flatten.count('Teacher') %>(<%= us.includes(:teachers_conversations).select(:id).distinct.where(type: 'Teacher', conversations: {status: 'completed'}).count %>)</td>
+			<td><%= us_pluck.flatten.count('Student') %>(<%= us.includes(:students_conversations).select(:id).distinct.where(type: 'Student', conversations: {status: 'completed'}).count %>)</td>
+			<td><%= us.includes(:issues).where.not(issues: {type: 'FreeIssue'}).size %></td>
+			<td><%= convs1.size %></td>
+			<td><%= convs1.where(status: 'completed').size %>(<%= status_rate(convs1, 'completed') %>%)</td>
+			<td><%= convs1.where(status: 'cancled').size %>(<%= status_rate(convs1, 'cancled') %>%)</td>
+			<td><%= convs1.where(status: 'unmatched').size %>(<%= status_rate(convs1, 'unmatched') %>%)</td>
+			<td><%= "シニア #{(convs1.size.to_f / convs1.pluck(:teacher_id).uniq.size.to_f).round(1)} 学生 #{(convs1.where.not(student: nil).size.to_f / convs1.pluck(:student_id).uniq.size.to_f).round(1)}"%></td>
+		</tr>
+	<% end %>
+</table>
+<%= link_to 'monthly report', admin_stats_monthly_report_path %>

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <NationalitySelect /> 1`] = `
+<div
+  className="sc-bwzfXH GmOYK"
+>
+  <div
+    className="sc-bdVaJa hckTEI"
+  >
+    Country code
+  </div>
+  <div
+    className="ReactFlagsSelect-module_flagsSelect__2pfa2"
+    data-testid="rfs"
+  >
+    <button
+      aria-expanded={false}
+      aria-haspopup="listbox"
+      aria-labelledby="rfs-btn"
+      className="ReactFlagsSelect-module_selectBtn__19wW7"
+      data-testid="rfs-btn"
+      disabled={false}
+      id="rfs-btn"
+      onClick={[Function]}
+      onKeyUp={[Function]}
+      style={
+        Object {
+          "fontSize": 24,
+        }
+      }
+      type="button"
+    >
+      <span
+        className="ReactFlagsSelect-module_selectValue__152eS"
+      >
+        Select a country
+      </span>
+    </button>
+  </div>
+</div>
+`;

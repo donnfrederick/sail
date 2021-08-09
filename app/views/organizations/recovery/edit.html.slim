@@ -1,0 +1,16 @@
+= form_tag org_recovery_update_path(@digest), class: "recovery col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 offset-sm-1 offset-md-2 offset-lg-3 offset-xl-4" do |f|
+  h2.title.text-center = I18n.t("organization.recovery.edit.title")
+  - flash.each do |name, msg|
+    .alert.alert-danger = msg.html_safe
+  .col-12
+    label.sr-only[for="user-password"] = I18n.t("organization.password")
+    .input-group.mb-2
+      .input-group-prepend
+        .input-group-text
+          i.fa.fa-unlock-alt
+      = text_field_tag :password, '', class: 'form-control', id: 'input-user-password', autofocus: 'autofocus', placeholder:  I18n.t("organization.password_placeholder"), required: "required"
+
+  input[name="_method" type="hidden" value="PUT"]
+
+  .text-center
+    = submit_tag  = I18n.t("organization.recovery.edit.button"), class: 'btn btn-success', role: 'button', style: 'margin-top: 2.5vh; margin-bottom: 2.5.vh'

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <EditEmail /> 1`] = `
+<div
+  className="sc-EHOje gSShek"
+>
+  <div
+    className="sc-bZQynM hACQYa"
+    data-error={false}
+  >
+    メールアドレス
+  </div>
+  <input
+    className="sc-gzVnrw cxZZGk"
+    data-error={false}
+    defaultValue=""
+    maxLength={254}
+    name="mail"
+    onInput={[Function]}
+    placeholder="sail@example.com"
+  />
+</div>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConversationHistoryIndex /> 1`] = `
+<div
+  className="sc-frDJqD eVQxtm"
+>
+  <header
+    className="sc-kjoXOD beGJxR"
+  >
+    <div
+      className="sc-cHGsZl cpcOeW"
+    >
+      Conversation History
+    </div>
+    <div
+      className="sc-TOsTZ jXZhvT"
+      onClick={[Function]}
+    />
+  </header>
+  <div
+    className="sc-fAjcbJ dcgTkJ"
+  />
+</div>
+`;

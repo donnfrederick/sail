@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StudentsSignin /> 1`] = `
+<div
+  className="sc-hMqMXs kYapml"
+>
+  <img
+    className="sc-kEYyzF fmcjnH"
+    src="/assets/img/common/students@3x.png"
+  />
+  <div
+    className="sc-ckVGcZ bCiOVj"
+  >
+    <div
+      className="sc-jKJlTe ihlKwh"
+    >
+      <div
+        className="sc-kpOJdX cvLuzE"
+      >
+        <div
+          className="sc-kGXeez fKrAyL"
+        >
+          Email
+        </div>
+        <input
+          className="sc-kgoBCf eGzvkR"
+          data-error={false}
+          onInput={[Function]}
+          placeholder="Email"
+          type="email"
+        />
+        <div
+          className="sc-chPdSV eNzZGR"
+        />
+      </div>
+      <div
+        className="sc-dxgOiQ fhwOyN"
+      >
+        <div
+          className="sc-kGXeez fKrAyL"
+        >
+          Password
+        </div>
+        <input
+          className="sc-kgoBCf eGzvkR"
+          data-error={false}
+          onInput={[Function]}
+          placeholder="Password"
+          type="password"
+        />
+        <div
+          className="sc-chPdSV eNzZGR"
+        />
+      </div>
+    </div>
+    <a
+      className="sc-eNQAEJ koVoTc"
+      href="/students/password_reset"
+      onClick={[Function]}
+    >
+      Forgot Password?
+    </a>
+    <button
+      className="sc-bdVaJa evUcPv"
+      data-active={false}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={488}
+    >
+      Continue
+    </button>
+  </div>
+  <header
+    className="sc-gqjmRU gZGMWp"
+  >
+    <div
+      className="sc-VigVT jjOcSI"
+    >
+      Sign in to Sail
+    </div>
+    <div
+      className="sc-jTzLTM RWxjb"
+      onClick={[Function]}
+    />
+  </header>
+</div>
+`;

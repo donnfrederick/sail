@@ -1,0 +1,8 @@
+---
+ja:
+  errors:
+    conversation:
+      not_permitted: "You cannot evaluate this conversation."
+    user:
+      invalid_phone_number: "正しくない電話番号です。"
+

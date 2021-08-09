@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConversationHistoryCard /> 1`] = `
+<div
+  className="sc-brqgnP fXxjmc"
+>
+  <div
+    className="sc-cMljjf MiFm"
+  >
+    <div
+      className="sc-jAaTju jIighK"
+    >
+      2018年1月2日(火)
+00:00 - 00:25
+    </div>
+    <div
+      className="sc-gZMcBi bCFLrz"
+      data-favorite={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-dnqmqq hzwWbW"
+      >
+        +
+      </div>
+      <div
+        className="sc-iwsKbI avhxC"
+      >
+        お気に入り
+        に追加
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-jDwBTQ gWgMRz"
+  >
+    <div
+      className="sc-bdVaJa bHgtVR"
+    >
+      <img
+        className="sc-htpNat iiyWLF"
+        height="150px"
+        src=""
+        srcSet=""
+        width="150px"
+      />
+    </div>
+    <p
+      className="sc-gPEVay kUmtNo"
+    >
+      吉野 瑞葵
+    </p>
+    <img
+      className="sc-iRbamj gaVNvo"
+      src="/assets/img/common/evaluation/smiley_humorous_active@2x.png"
+    />
+  </div>
+  <div
+    className="sc-jlyJG iHGVne"
+  >
+    <div
+      className="sc-gipzik denMFN"
+    >
+      <div
+        className="sc-csuQGl erkOIq"
+      >
+        日本語レベル
+      </div>
+      <div
+        className="sc-Rmtcm kXToGw"
+      >
+        スムーズに会話ができた
+      </div>
+    </div>
+    <div
+      className="sc-gipzik denMFN"
+    >
+      <div
+        className="sc-csuQGl erkOIq"
+      >
+        時間
+      </div>
+      <div
+        className="sc-Rmtcm kXToGw"
+      >
+        時間通りに来た
+      </div>
+    </div>
+    <div
+      className="sc-gipzik denMFN"
+    >
+      <div
+        className="sc-csuQGl erkOIq"
+      >
+        会話環境
+      </div>
+      <div
+        className="sc-Rmtcm kXToGw"
+      >
+        問題なし
+      </div>
+    </div>
+    <div
+      className="sc-gipzik denMFN"
+    >
+      <div
+        className="sc-csuQGl erkOIq"
+      >
+        メモ
+      </div>
+      <div
+        className="sc-Rmtcm kXToGw"
+      >
+        memo
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-hzDkRC vAroK"
+  >
+    <button
+      className="sc-bxivhb eeLFPz"
+      data-active={true}
+      fontSize={28}
+      height={56}
+      width={224}
+    >
+      <a
+        className="sc-gzVnrw aZXRC"
+        href="/teachers/history/26227"
+        onClick={[Function]}
+      >
+        詳細を見る
+      </a>
+    </button>
+    <button
+      className="sc-bxivhb eeLFPz"
+      data-active={true}
+      fontSize={28}
+      height={56}
+      onClick={[Function]}
+      width={224}
+    >
+      <div
+        className="sc-htoDjs cPDCmq"
+      >
+        メモの編集
+      </div>
+    </button>
+  </div>
+</div>
+`;

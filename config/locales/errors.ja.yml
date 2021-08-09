@@ -1,0 +1,58 @@
+---
+ja:
+  errors:
+    format: "%{attribute}%{message}"
+    messages:
+      accepted: を受諾してください
+      blank: を入力してください
+      present: は入力しないでください
+      confirmation: と%{attribute}の入力が一致しません
+      empty: を入力してください
+      equal_to: は%{count}にしてください
+      even: は偶数にしてください
+      exclusion: は予約されています
+      greater_than: は%{count}より大きい値です
+      greater_than_or_equal_to: は%{count}以上の値です
+      inclusion: は一覧にありません
+      invalid: が正しくありません
+      less_than: は%{count}より小さい値です
+      less_than_or_equal_to: は%{count}以下の値にしてください
+      model_invalid: "バリデーションに失敗しました: %{errors}"
+      not_a_number: は数値で入力してください
+      not_an_integer: は整数で入力してください
+      odd: は奇数にしてください
+      required: を入力してください
+      taken: はすでに存在します
+      too_long: は%{count}文字以内です
+      too_short: は%{count}文字以上です
+      wrong_length: は%{count}文字です
+      other_than: は%{count}以外の値です
+      format_with_hiragana: "は「ひらがな」で入力してください"
+    template:
+      body: 次の項目を確認してください
+      header:
+        one: "%{model}にエラーが発生しました"
+        other: "%{model}に%{count}個のエラーが発生しました"
+    authentication: "メールアドレス か パスワード が違います"
+    conversation:
+      past_date: "過去の日時は選択できません"
+      less_than_start_at: "終了時刻は開始時刻よりも先の時刻を選択してください"
+      duplicate_schedule: "既にこの時間帯に予約しています"
+      duplicate_schedule_at: "%{start_at}に重複している予約があります"
+      duplicate_schedule_in_device: "この端末を利用している他の方と予約時間が重複しています"
+      not_available: "この会話は、ご利用できません"
+      not_permitted: "この会話の評価は行うことができません。"
+      staff_has_only_one_device: "この職員はすでに他のデバイスに関連付けられています"
+    point_transaction:
+      duplicate_consumption: "会話 #%{conversation_id} のポイントはすでに消費されています。"
+      no_available_consumption_history: "会話 #%{conversation_id} の有効なポイント消費履歴が確認できません。"
+    sms_authentication:
+      invalid: "正しくない電話番号です。"
+      unsupported: "Sailからはこの電話番号にはSMSメッセージを送信できません。"
+      restricted: "お住まいの国またはお使いのプロバイダーは%{phone_number}の番号からのSMSメッセージを受信できません。"
+      banned: "この電話番号は除外されています。"
+      incapable: "この電話番号はSMSメッセージを受け取ることができません。"
+      bad_code: "違います。SMSメッセージを確認してください。"
+      already_exists: "この電話番号はすでに登録されています。"
+    user:
+      invalid_phone_number: "正しくない電話番号です。"

@@ -1,0 +1,13 @@
+h1.title = I18n.t("organization.accounts.title")
+
+table.table.table-striped
+  tr
+    th = I18n.t("organization.accounts.email")
+    th = I18n.t("organization.accounts.owner_device")
+  - @accounts.each do | account |
+    tr
+      td.name = account.email
+      - if account.organization_device.present?
+        td.device = account.organization_device.cognitive_name
+      - else
+        td.device = I18n.t("organization.accounts.no_device_to_signin")

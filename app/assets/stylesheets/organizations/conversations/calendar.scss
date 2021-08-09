@@ -1,0 +1,63 @@
+@import "../bootstrap-colors";
+
+// Colors: status
+$color_open:     $bt_color_waiting;
+$color_matched:  $bt_color_success;
+$color_waiting:  $bt_color_success_light;
+
+// Colors: weekdays
+$color_saturday: $bt_color_success;
+$color_sunday:   $bt_color_error;
+
+body.org table.conversations {
+  border: 1px solid #000;
+
+  th.month {
+    font-size: 150%;
+    padding: 0.5vh 0.5vw;
+    word-break: keep-all;
+    word-wrap: normal;
+    white-space: nowrap;
+    span, a {
+      @extend .align-middle;
+    }
+    span + a, a + span {
+      margin-left: 0.5vw;
+    }
+  }
+  th.date {
+    font-size: 120%;
+  }
+  th.date.week-6 {
+    color: $color_saturday;
+  }
+  th.date.week-0 {
+    color: $color_sunday;
+  }
+  th, td {
+    border: 1px solid #ccc;
+  }
+
+  td.time.waiting[datetime]:not(.matched):not(.open) {
+    background-color: $color_waiting;
+  }
+
+  td.name {
+    width: 8vw;
+  }
+  td.time {
+    font-size: 0.6vw;
+  }
+  td.time.open {
+    background-color: $color_open;
+  }
+  td.time.matched {
+    background-color: $color_matched;
+  }
+  td.time.disabled {
+    cursor: not-allowed;
+  }
+  td.time.disabled:not(.open):not(.matched) {
+    background-color: $bt_color_light;
+  }
+}

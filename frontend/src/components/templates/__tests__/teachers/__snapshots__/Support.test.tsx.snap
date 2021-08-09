@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TeachersSupport /> 1`] = `
+<div
+  className="sc-kkGfuU caxXCF"
+>
+  <div
+    className="sc-hMqMXs hXuWdI"
+  >
+    <div
+      className="sc-kEYyzF eSqWsX"
+    >
+      <div
+        className="sc-cSHVUG jHUXrf"
+      >
+        <a
+          className="sc-kgoBCf jfWKtk"
+          href="/teachers/profile"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-kAzzGY gxTpSZ"
+          >
+            自分の情報
+          </div>
+          <img
+            className="sc-chPdSV iwQmvt"
+            src="/assets/img/teachers/arrow@3x.png"
+          />
+        </a>
+      </div>
+      <div
+        className="sc-cSHVUG jHUXrf"
+      >
+        <a
+          className="sc-kgoBCf jfWKtk"
+          href="/teachers/history"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-kAzzGY gxTpSZ"
+          >
+            会話履歴
+          </div>
+          <img
+            className="sc-chPdSV iwQmvt"
+            src="/assets/img/teachers/arrow@3x.png"
+          />
+        </a>
+      </div>
+      <div
+        className="sc-cSHVUG jHUXrf"
+      >
+        <a
+          className="sc-kgoBCf jfWKtk"
+          href="/teachers/favorites"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-kAzzGY gxTpSZ"
+          >
+            お気に入り一覧
+          </div>
+          <img
+            className="sc-chPdSV iwQmvt"
+            src="/assets/img/teachers/arrow@3x.png"
+          />
+        </a>
+      </div>
+      <div
+        className="sc-cSHVUG jHUXrf"
+      >
+        <a
+          className="sc-kgoBCf jfWKtk"
+          href="/teachers/faq"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-kAzzGY gxTpSZ"
+          >
+            よくある質問
+          </div>
+          <img
+            className="sc-chPdSV iwQmvt"
+            src="/assets/img/teachers/arrow@3x.png"
+          />
+        </a>
+      </div>
+      <div
+        className="sc-cSHVUG jHUXrf"
+      >
+        <a
+          className="sc-kgoBCf jfWKtk"
+          href="/teachers/terms"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-kAzzGY gxTpSZ"
+          >
+            利用規約
+          </div>
+          <img
+            className="sc-chPdSV iwQmvt"
+            src="/assets/img/teachers/arrow@3x.png"
+          />
+        </a>
+      </div>
+      <div
+        className="sc-cSHVUG jHUXrf"
+      >
+        <a
+          className="sc-kgoBCf jfWKtk"
+          href="/teachers/privacy"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-kAzzGY gxTpSZ"
+          >
+            プライバシーポリシー
+          </div>
+          <img
+            className="sc-chPdSV iwQmvt"
+            src="/assets/img/teachers/arrow@3x.png"
+          />
+        </a>
+      </div>
+      <div
+        className="sc-cSHVUG jHUXrf"
+      >
+        <a
+          className="sc-kgoBCf jfWKtk"
+          href="/teachers/about"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-kAzzGY gxTpSZ"
+          >
+            運営会社について
+          </div>
+          <img
+            className="sc-chPdSV iwQmvt"
+            src="/assets/img/teachers/arrow@3x.png"
+          />
+        </a>
+      </div>
+      <div
+        className="sc-cSHVUG jHUXrf"
+      >
+        <a
+          className="sc-kgoBCf jfWKtk"
+          href="/teachers/blocked"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-kAzzGY gxTpSZ"
+          >
+            ブロックした世界の人
+          </div>
+          <img
+            className="sc-chPdSV iwQmvt"
+            src="/assets/img/teachers/arrow@3x.png"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      className="sc-kGXeez iYgaOI"
+      onClick={[Function]}
+    >
+      ログアウト
+    </div>
+  </div>
+  <button
+    className="sc-EHOje fgtSBR"
+    data-active={true}
+    fontSize={40}
+    height={112}
+    onClick={[Function]}
+    width={384}
+  >
+    <div
+      className="sc-iwsKbI lgKvmV"
+    >
+      戻る
+    </div>
+  </button>
+  <div
+    className="sc-gZMcBi kmcvuH"
+  >
+    <div
+      className="sc-gqjmRU deILtk"
+    >
+      メニュー
+    </div>
+    <a
+      className="sc-VigVT ewNaTQ"
+      href="/teachers/mypage"
+      onClick={[Function]}
+    >
+      ホームに戻る
+    </a>
+  </div>
+</div>
+`;

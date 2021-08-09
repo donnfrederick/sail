@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TeachersBlocked /> 1`] = `
+<div
+  className="sc-jAaTju nehmv"
+>
+  <div
+    className="sc-iAyFgw dYMYvE"
+  />
+  <div
+    className="sc-EHOje itwipb"
+  >
+    <div
+      className="sc-bZQynM bZKBNj"
+    >
+      ブロックした世界の人
+    </div>
+    <a
+      className="sc-gzVnrw jTRbiO"
+      href="/teachers/mypage"
+      onClick={[Function]}
+    >
+      ホームに戻る
+    </a>
+  </div>
+</div>
+`;

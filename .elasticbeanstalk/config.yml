@@ -1,0 +1,3 @@
+branch-defaults:
+  production:
+    environment: sail-prod

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TopicBalloon /> 1`] = `
+<div>
+  <div
+    className="sc-jlyJG lDFWQ"
+    onClick={[Function]}
+  >
+    Free
+  </div>
+  <div
+    className="sc-jlyJG lDFWQ"
+    onClick={[Function]}
+  >
+    Art
+  </div>
+  <div
+    className="sc-jlyJG lDFWQ"
+    onClick={[Function]}
+  >
+    Music
+  </div>
+  <div
+    className="sc-jlyJG lDFWQ"
+    onClick={[Function]}
+  >
+    Sports
+  </div>
+</div>
+`;

@@ -1,0 +1,21 @@
+<div class='float-right'>
+  <%= form_with url: admin_stats_torpors_report_path, method: :post, local: true do |f| %>
+  <br>
+    <div class='form-group'>
+      <%= f.label '学生登録 (開始)' %>
+        <%= f.date_select :start_at, start_year: Time.current.year - 5, end_year: Time.current.year + 1, default: Time.current - 5.years %>
+    </div>
+    <div class='form-group'>
+      <%= f.label '学生登録 (終了)' %>
+      <%= f.date_select :end_at, start_year: Time.current.year - 5, end_year: Time.current.year + 1, default: Time.current - 1.months + 1.days%>
+    </div>
+    <div class='form-group'>
+      <%= f.label '国選択' %>
+      <% countries_jp = Hash.new %>
+      <%countries.each {|country| countries_jp.merge!(ISO3166::Country[country].translated_names[1] => country) }%>
+      <%= f.select :country,  countries_jp, {prompt: "全て"}%>
+    </div>
+    <br>
+    <%= submit_tag 'generate'%>
+  <% end %>
+</div>

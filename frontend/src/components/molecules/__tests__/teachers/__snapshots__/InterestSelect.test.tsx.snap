@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <InterestSelect /> 1`] = `
+<div
+  className="sc-bwzfXH hbpmqX"
+>
+  <button
+    className="sc-bdVaJa fEeQWl"
+    data-selected={false}
+    fontSize={48}
+    onClick={[Function]}
+    size={172}
+  >
+    
+  </button>
+</div>
+`;

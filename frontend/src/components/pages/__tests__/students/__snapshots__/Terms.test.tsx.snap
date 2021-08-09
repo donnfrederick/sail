@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StudentsTerms /> 1`] = `
+<div
+  className="sc-kGXeez jiCLde"
+>
+  <p
+    className="sc-bZQynM gkFmQT"
+  >
+    This application, running on a web browser and smartphone through the internet, serves the video chat and conversation with other registered users, provided by Helte co., ltd.
+As you register an account for the service, you may be granted you have agreed with these terms. Additionally we keep the terms updated without individual notification.
+  </p>
+  <div>
+    <h2
+      className="sc-EHOje zkWQt"
+    >
+      Qualifications
+    </h2>
+    <p
+      className="sc-bZQynM gkFmQT"
+    >
+      "User" is one who has agreed with these terms and make sure this application is available according to the local laws. As using the service, User may agree with the terms.
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-EHOje zkWQt"
+    >
+      Privacy policy
+    </h2>
+    <p
+      className="sc-bZQynM gkFmQT"
+    >
+      The company have defined our privacy policy to protect and manage User information properly at Privacy Policy page.
+As using the service, User may not violate the security intentionally.
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-EHOje zkWQt"
+    >
+      Contents
+    </h2>
+    <p
+      className="sc-bZQynM gkFmQT"
+    >
+      This application requires and provides User information to run the service properly and comfortably.
+･ Email address (encrypted)
+･ Password (encrypted)
+･ Country
+･ Local timezone
+･ User photo
+･ Gender
+･ Language speaking level
+･ Conversation topics
+･ History of conversation (optional)
+･ Conversation schedule (optional)
+
+Each content should be appropriate for the purpose of this service - conversation. User may not pretend another existing person or not attempt to harm people.
+
+Any improper contents will be deleted or nullified without warning in advance.
+
+If you find your data property is used by another user, please notify us by email written at the very bottom of this page.
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-EHOje zkWQt"
+    >
+      Data ownership
+    </h2>
+    <p
+      className="sc-bZQynM gkFmQT"
+    >
+      A user has ownership of any uploaded data by himself/herself. By uploading the data, the user may be granted as publishing it to the world excluding credential information.
+Although, the license of the application is only for using. It requires another license to modify or publish the application. Also, the user never owns other users' data properties by any reasons.
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-EHOje zkWQt"
+    >
+      Withdraw of the service
+    </h2>
+    <p
+      className="sc-bZQynM gkFmQT"
+    >
+      You can withdraw the service by uninstalling the smartphone application or stopping the use, or requesting us to completely stop any further contact.
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-EHOje zkWQt"
+    >
+      Disclaimer
+    </h2>
+    <p
+      className="sc-bZQynM gkFmQT"
+    >
+      We daily afford serving good experiences, however, our responsibilities are feasibly limited.
+･ The application only works with the enough speed of internet connection.
+･ We cannot control the contents of the conversation.
+･ We cannot represent what you want to talk to the opponent.
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-EHOje zkWQt"
+    >
+      About service
+    </h2>
+    <p
+      className="sc-bZQynM gkFmQT"
+    >
+      Company contact and service information are written in company page.
+    </p>
+  </div>
+  <header
+    className="sc-jTzLTM gniuBU"
+  >
+    <div
+      className="sc-fjdhpX elOMpg"
+    >
+      Terms
+    </div>
+    <div
+      className="sc-jzJRlG YWUlh"
+      onClick={[Function]}
+    />
+  </header>
+</div>
+`;

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConfirmBlock /> 1`] = `
+<div
+  className="sc-gqjmRU hSHDLZ"
+>
+  <div
+    className="sc-gzVnrw gGucts"
+  >
+    <div
+      className="sc-EHOje emHEG"
+    >
+      Add this user?
+    </div>
+  </div>
+  <div
+    className="sc-jTzLTM zTzxT"
+  >
+    This user's information will be added to your favorite users' list.
+  </div>
+  <div
+    className="sc-VigVT jaAGru"
+  >
+    <button
+      className="sc-bdVaJa bsJYMs"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      type="red"
+      width={272}
+    >
+      Cancel
+    </button>
+    <button
+      className="sc-bdVaJa cLgmoo"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      type="white"
+      width={272}
+    >
+      OK
+    </button>
+  </div>
+</div>
+`;

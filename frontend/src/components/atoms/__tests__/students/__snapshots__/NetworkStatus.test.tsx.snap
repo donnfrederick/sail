@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <NetworkStatus /> 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa laRVbW"
+  >
+    <img
+      className="sc-bxivhb fRSJqW"
+      src="/assets/img/students/conversation/network-status@3x.png"
+    />
+    GOOD
+  </div>
+  <div
+    className="sc-bwzfXH dIckEq"
+  >
+    <img
+      className="sc-bxivhb fRSJqW"
+      src="/assets/img/students/conversation/network-status@3x.png"
+    />
+    NORMAL
+  </div>
+  <div
+    className="sc-htpNat lmnHMa"
+  >
+    <img
+      className="sc-bxivhb fRSJqW"
+      src="/assets/img/students/conversation/network-status@3x.png"
+    />
+    BAD
+  </div>
+</div>
+`;

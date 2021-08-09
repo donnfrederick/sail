@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Checklist /> 1`] = `
+<div
+  className="sc-bdVaJa jQyLZh"
+>
+  <img
+    className="sc-bwzfXH chcSXJ"
+    src="/assets/img/common/evaluation/check_red@2x.png"
+  />
+  <span
+    className="sc-htpNat vsbMt"
+  >
+    このユーザーをブロックする
+  </span>
+</div>
+`;

@@ -1,0 +1,18 @@
+<%= column_chart chart_data(data[:users].where(country: data[:cn])) %>
+<% students = Student.includes(:students_conversations).where(country: data[:cn]) %>
+<% prev_students = students.where.not(created_at: Time.now.last_month..Time.now) %>
+<% maidens = prev_students.where(conversations: {id: nil}).size %>
+<% torpers = prev_students.where.not(conversations: {created_at: Time.now.last_month..Time.now}).size %>
+<table class='index_table index'>
+  <tr>
+    <td>Total</td>
+    <td>Maidens(%)</td>
+    <td>Topers(%)</td>
+  </tr>
+  <tr>
+    <td><%= students.size %></td>
+    <td><%= maidens %>(<%= percent(maidens, prev_students.size) %>)</td>
+    <td><%= torpers %>(<%= percent(torpers, prev_students.size) %>)</td>
+  </tr>
+
+</table>

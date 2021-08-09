@@ -1,0 +1,2 @@
+class GradeMember < Grade
+end

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <EditGender /> 1`] = `
+<div
+  className="sc-bZQynM fhwnEK"
+>
+  <button
+    className="sc-EHOje fTPjGG"
+    data-selected={false}
+    fontSize={48}
+    onClick={[Function]}
+    size={240}
+  >
+    男性
+  </button>
+  <button
+    className="sc-EHOje fTPjGG"
+    data-selected={false}
+    fontSize={48}
+    onClick={[Function]}
+    size={240}
+  >
+    女性
+  </button>
+</div>
+`;

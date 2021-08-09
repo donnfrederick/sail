@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <UserSatisfaction /> 1`] = `
+<div
+  className="sc-bdVaJa bfJDMR"
+>
+  <div
+    className="sc-bwzfXH bckPmE"
+  >
+    <div
+      className="sc-ifAKCX hLRocU"
+    >
+      会話数
+    </div>
+    <div
+      className="sc-bZQynM bqnXsI"
+    >
+      9
+    </div>
+  </div>
+  <div
+    className="sc-htpNat chitAT"
+  >
+    <div
+      className="sc-bxivhb kNDuWC"
+    >
+      <img
+        className="sc-EHOje eMGNza"
+        src="/assets/img/common/evaluation/smiley_humorous_active@2x.png"
+      />
+      <div
+        className="sc-bZQynM bqnXsI"
+      >
+        0
+      </div>
+    </div>
+    <div
+      className="sc-bxivhb kNDuWC"
+    >
+      <img
+        className="sc-EHOje eMGNza"
+        src="/assets/img/common/evaluation/smiley_impressed_active@2x.png"
+      />
+      <div
+        className="sc-bZQynM bqnXsI"
+      >
+        0
+      </div>
+    </div>
+    <div
+      className="sc-bxivhb kNDuWC"
+    >
+      <img
+        className="sc-EHOje eMGNza"
+        src="/assets/img/common/evaluation/smiley_discovered_active@2x.png"
+      />
+      <div
+        className="sc-bZQynM bqnXsI"
+      >
+        0
+      </div>
+    </div>
+    <div
+      className="sc-bxivhb kNDuWC"
+    >
+      <img
+        className="sc-EHOje eMGNza"
+        src="/assets/img/common/evaluation/smiley_fine_active@2x.png"
+      />
+      <div
+        className="sc-bZQynM bqnXsI"
+      >
+        0
+      </div>
+    </div>
+  </div>
+</div>
+`;

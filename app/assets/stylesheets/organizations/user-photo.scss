@@ -1,0 +1,11 @@
+body.org {
+  .user-photo {
+    .rounded-circle {
+      width: 3.5vw;
+      min-width: 24px;
+    }
+  }
+  .user-photo + .name {
+    margin-left: 1vw;
+  }
+}

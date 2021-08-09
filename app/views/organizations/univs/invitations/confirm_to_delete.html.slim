@@ -1,0 +1,9 @@
+= form_tag(org_invitation_destroy_path(@role_type, @invitation.token), class: "read col-4 offset-4", method: "post")
+  h1.title Are you sure to delete the invitation URL of #{@invitation.organization_section.name} ?
+  p You are going to delete the invitation URL of #{@invitation.organization_section.name}. Once you delete it, it will be nullified and students cannot join the class by it. (Existing students will still remain)
+
+  input[name="_method" type="hidden" value="DELETE"]
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='#{org_invitation_path(@role_type)}'; return false;"] = I18n.t("organization.back_button")
+    button.btn.btn-danger[type="submit"] Delete

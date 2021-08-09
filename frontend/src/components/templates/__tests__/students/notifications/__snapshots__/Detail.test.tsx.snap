@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StudentsNotificationsDetail /> 1`] = `
+<div
+  className="sc-gzOgki gLZrVj"
+>
+  <div
+    className="sc-btzYZH ifahpr"
+  >
+    <div
+      className="sc-lhVmIH cXMCfh"
+    >
+      <time
+        className="sc-bYSBpT eCTKOT"
+      >
+        Invalid date
+      </time>
+      <h2
+        className="sc-elJkPf dnGCJg"
+      >
+        
+      </h2>
+      <p
+        className="sc-jtRfpW dHoIdO"
+      >
+        
+      </p>
+    </div>
+    <div
+      className="sc-dqBHgY dOoybE"
+    />
+    <div
+      className="sc-kTUwUJ kYPFWk"
+    />
+  </div>
+  <header
+    className="sc-fjdhpX gQoSWG"
+  >
+    <div
+      className="sc-jzJRlG gGXDMs"
+    >
+      Notifications
+    </div>
+    <div
+      className="sc-cSHVUG eZtxOt"
+      onClick={[Function]}
+    />
+  </header>
+  <div
+    className="sc-gzVnrw bbOeQD"
+  >
+    <a
+      className="sc-EHOje gEifQf"
+      href="/students/mypage"
+      icon="/assets/img/students/footer/home@3x.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-EHOje bIkBAA"
+      href="/students/notifications"
+      icon="/assets/img/students/footer/notification@3x.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-EHOje exXkhS"
+      href="/students/mypage"
+      icon="/assets/img/students/footer/cart.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-bZQynM iAxnUN"
+      href="/students/reservations/new"
+      icon="/assets/img/students/footer/calendar@3x.png"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Week /> 1`] = `
+<div
+  className="sc-bdVaJa bbgQhG"
+>
+  <div
+    className="sc-bwzfXH cDlwhv"
+  >
+    2018年06月
+  </div>
+  <div
+    className="sc-htpNat cxHgEh"
+  >
+    <div
+      className="sc-bxivhb icxEh"
+    >
+      日
+    </div>
+    <div
+      className="sc-bxivhb icxEh"
+    >
+      月
+    </div>
+    <div
+      className="sc-bxivhb icxEh"
+    >
+      火
+    </div>
+    <div
+      className="sc-bxivhb icxEh"
+    >
+      水
+    </div>
+    <div
+      className="sc-bxivhb icxEh"
+    >
+      木
+    </div>
+    <div
+      className="sc-bxivhb icxEh"
+    >
+      金
+    </div>
+    <div
+      className="sc-bxivhb icxEh"
+    >
+      土
+    </div>
+  </div>
+  <div
+    className="sc-ifAKCX gtiVHl"
+  >
+    <div
+      className="sc-EHOje idtMQl"
+    >
+      3
+    </div>
+    <div
+      className="sc-EHOje idtMQl"
+    >
+      4
+    </div>
+    <div
+      className="sc-EHOje idtMQl"
+    >
+      5
+    </div>
+    <div
+      className="sc-EHOje idtMQl"
+    >
+      6
+    </div>
+    <div
+      className="sc-EHOje idtMQl"
+    >
+      7
+    </div>
+    <div
+      className="sc-EHOje idtMQl"
+    >
+      8
+    </div>
+    <div
+      className="sc-EHOje idtMQl"
+    >
+      9
+    </div>
+  </div>
+</div>
+`;

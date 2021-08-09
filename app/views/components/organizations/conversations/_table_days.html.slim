@@ -1,0 +1,48 @@
+tr.date
+  th.month
+    - if week == 0
+      a.btn.btn-outline-secondary[role="button" href="#{org_conversations_calendar_path(role_type, dimension.id, page - 1)}"]= I18n.t("organization.calendar.prev_month")
+      span = calendar_head_name(month, next_month - 1.seconds, week)
+      a.btn.btn-outline-secondary[role="button" href="#{org_conversations_calendar_path(role_type, dimension.id, page + 1)}"] = I18n.t("organization.calendar.next_month")
+  - for i in offset..(offset+days-1) do
+    th[class="#{calendar_head_date_attr_class(month + i.days)}" colspan="#{calendar_head_date_attr_colspan(first, last)}"] = calendar_head_date_name(month + i.days)
+tr.index
+  td.cross = I18n.t("organization.calendar.name_and_time")
+  - for i in 1..days do
+    - for t in first..last do
+      td.time[colspan="2"] = calendar_time_oclock(t)
+- for i in 0..capacity do
+  tr.input
+    - if participants[i].present?
+      td.name = participants[i].name
+    - else
+      td.name &nbsp;
+    - for j in offset..(offset+days-1) do
+      - for t in first..last do
+        td[datetime="#{(month + j.days + t.hours).strftime("%Y-%m-%dT%H:%M:%SZ")}" class="#{calendar_column_attr_class(participants[i], section_schedule, dimension, month + j.days + t.hours)}" onclick="#{calendar_column_attr_onclick(role_type, participants[i], section_schedule, dimension, month + j.days + t.hours)}"]
+        td[datetime="#{(month + j.days + t.hours + 30.minutes).strftime("%Y-%m-%dT%H:%M:%SZ")}" class="#{calendar_column_attr_class(participants[i], section_schedule, dimension, month + j.days + t.hours + 30.minutes)}" onclick="#{calendar_column_attr_onclick(role_type, participants[i], section_schedule, dimension, month + j.days + t.hours + 30.minutes)}"]
+
+
+tr.date
+  th.month
+  - for i in (offset+days)..(offset+6) do
+    th[class="#{calendar_head_date_attr_class(month + i.days)}" colspan="#{calendar_head_date_attr_colspan(first, last)}"] = calendar_head_date_name(month + i.days)
+  - for i in 2..(6-days) do
+    th.date[colspan="#{calendar_head_date_attr_colspan(first, last)}"] メモ
+tr.index
+    td.cross = I18n.t("organization.calendar.name_and_time")
+    - for i in days..6 do
+      - for t in first..last do
+        td.time[colspan="2"] = calendar_time_oclock(t)
+    - for i in 2..(6-days) do
+      td.margin[colspan="#{calendar_head_date_attr_colspan(first, last)}" rowspan="#{(capacity + 1).to_s}"]
+- for i in 0..(capacity-1) do
+  tr.input
+    - if participants[i].present?
+      td.name = participants[i].name
+    - else
+      td.name &nbsp;
+    - for j in (offset+days)..(offset+6) do
+      - for t in first..last do
+        td[datetime="#{(month + j.days + t.hours).strftime("%Y-%m-%dT%H:%M:%SZ")}" class="#{calendar_column_attr_class(participants[i], section_schedule, dimension, month + j.days + t.hours)}" onclick="#{calendar_column_attr_onclick(role_type, participants[i], section_schedule, dimension, month + j.days + t.hours)}"]
+        td[datetime="#{(month + j.days + t.hours + 30.minutes).strftime("%Y-%m-%dT%H:%M:%SZ")}" class="#{calendar_column_attr_class(participants[i], section_schedule, dimension, month + j.days + t.hours + 30.minutes)}" onclick="#{calendar_column_attr_onclick(role_type, participants[i], section_schedule, dimension, month + j.days + t.hours + 30.minutes)}"]

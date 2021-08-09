@@ -1,0 +1,136 @@
+<h1 style="display: flex;align-items: center;justify-content: center;">
+  <span>You are now <%= @student.grade.name %>&nbsp;&nbsp;</span>
+  <img src="/assets/img/common/badge-<%= @student.grade.name.downcase %>.png" width="56px" />
+</h1>
+
+<% if false %>
+  <table>
+    <tr>
+      <th>Requirements</th>
+      <td>Your status</td>
+      <td><%= @student.users_grade.next_grade.try(:name) || "-" %></td>
+    </tr>
+    <tr>
+      <th>Minimum conversations</th>
+      <td><%= @student.users_grade.conversation_count %></td>
+      <td><%= @student.users_grade.next_grade.try(:min_conversation_count) || "-" %></td>
+    </tr>
+    <tr>
+      <th>Attendance (%)</th>
+      <td><%= @student.users_grade.conversation_count > 0 ? 100 - @student.users_grade.absence_percentage : "-" %> %</td>
+      <td><%= @student.users_grade.next_grade.present? ? (100 - @student.users_grade.next_grade.max_absence_percentage) : "-" %> %</td>
+    </tr>
+    <tr>
+      <th>Lateness (%)</th>
+      <td><%= @student.users_grade.conversation_count > 0 ? @student.users_grade.lateness_percentage : "-" %> %</td>
+      <td><%= @student.users_grade.next_grade.try(:lateness_percentage) || "-" %> %</td>
+    </tr>
+    <tr>
+      <th>Positive feedback (%)</th>
+      <td><%= @student.users_grade.conversation_count > 0 ? (100 - @student.users_grade.negative_feedback_percentage) : "-" %> %</td>
+      <td><%= @student.users_grade.next_grade.present? ? @student.users_grade.next_grade.max_negative_feedback_percentage : "-" %> %</td>
+    </tr>
+    <tr>
+      <th>Communicability (%)</th>
+      <td><%= @student.users_grade.conversation_count > 0 ? (100 - @student.users_grade.discommunication_percentage) : "-" %> %</td>
+      <td><%= @student.users_grade.next_grade.present? ? (100 - @student.users_grade.next_grade.max_discommunication_percentage) : "-" %> %</td>
+    </tr>
+    <tr>
+      <th>Video visibility (%)</th>
+      <td><%= @student.users_grade.conversation_count > 0 ? (100 - @student.users_grade.no_video_percentage) : "-" %> %</td>
+      <td><%= @student.users_grade.next_grade.present? ? (100 - @student.users_grade.next_grade.max_no_video_percentage) : "-" %> %</td>
+    </tr>
+    <tr>
+      <th>Calm environment (%)</th>
+      <td><%= @student.users_grade.conversation_count > 0 ? (100 - @student.users_grade.noisy_place_percentage) : "-" %> %</td>
+      <td><%= @student.users_grade.next_grade.present? ? (100 - @student.users_grade.next_grade.max_noisy_place_percentage) : "-" %> %</td>
+    </tr>
+    <tr>
+      <th colspan="3">Bonus conversations</th>
+    </tr>
+    <% @packages.each_with_index do |package, index| %>
+      <tr>
+        <th>$<%= package.discounted_price %></th>
+        <td><%= package.bonus_conversations %></td>
+        <td><%= @student.users_grade.next_grade.present? ? (Package.available.by_grade_name(@student.users_grade.next_grade.name).limit(1).offset(index).first.try(:bonus_conversations) || "-") : "-" %></td>
+      </tr>
+    <% end %>
+  </table>
+<% end %>
+
+
+<h1>
+  <% if @student.free? %>
+    <span>You are now in free use</span>
+    <% if @student.available_issues.by_type(Issue::TYPE_FREE).first.expired_at.present? %>
+      <span> by <%= @student.available_issues.by_type(Issue::TYPE_FREE).first.expired_at %></span>
+    <% end %>
+  <% elsif @student.subscribing? && @student.available_issues.subscription.all.select {|i| i.is_a?(StripeIssue) ? i.subscription.canceled_at.present? : i.agreement.state === "Cancelled" }.count > 0 %>
+    <span>You still can talk unlimited by the last subscription</span>
+  <% elsif @student.subscribing? %>
+    <span>You subscribe monthly unlimited package</span>
+  <% else %>
+    <span>You can talk more&nbsp;</span>
+    <span><%= @student.available_conversation_count %></span>
+    <span>&nbsp;conversations by current packages</span>
+  <% end %>
+</h1>
+
+<% if @student.subscribing? %>
+  <div style="margin-top: 32px;" class="sc-gJWqzi fZlDTF">
+    <button class="sc-bdVaJa eEjsbL disabled" data-active="false" font-size="32" height="88" type="blue" width="494">Check below</button>
+  </div>
+<% else %>
+  <div style="margin-top: 32px;" class="sc-gJWqzi fZlDTF">
+    <button class="sc-bdVaJa eEjsbL" data-active="true" font-size="32" height="88" type="blue" width="494" onclick="window.location.href='/billing/students/payment_methods/<%= @student.auth_token %>'; return false;"><%= @student.available_conversation_count > 0 ? 'Purchase more' : 'Go to pay' %></button>
+  </div>
+<% end %>
+<h3 style="margin-top: 166px;">Statements of your billing</h3>
+<table>
+  <tr>
+    <th>Remaining conversations</th>
+    <th>Expiration</th>
+    <th>Operation</th>
+  </tr>
+  <% @student.available_issues.oldest.each do |issue| %>
+    <tr>
+      <% if issue.is_a?(StripeIssue) %>
+        <% if issue.subscription? %>
+          <% if issue.subscription.canceled_at.present? %>
+            <td>(Unlimited)</td>
+            <td>By <%= issue.user.local_time_expr(Time.at(issue.subscription.current_period_end), :long) %></td>
+            <td></td>
+          <% else %>
+            <td>Subscription</td>
+            <td><%= issue.user.local_time_expr(Time.at(issue.subscription.current_period_end), :long) %> (recurring)</td>
+            <td><a href="/billing/students/issues/stripe/cancel/<%= @student.auth_token %>/<%= issue.id %>">Cancel</a></td>
+          <% end %>
+        <% else %>
+          <td><%= issue.conversations < 0 ? "(Unlimited)" : issue.conversations %></td>
+          <td><%= issue.expired_at.nil? ? "(No expiration)" : issue.user.local_time_expr(issue.expired_at, :long) %></td>
+          <td></td>
+        <% end %>
+      <% elsif issue.is_a?(PaypalIssue) %>
+        <% if issue.agreement? %>
+          <% if issue.agreement.state === "Cancelled" %>
+            <td>(Unlimited)</td>
+            <td>By <%= issue.user.local_time_expr(issue.agreement.start_date + 1.month - 1.second, :long) %></td>
+            <td></td>
+          <% else %>
+            <td>Subscription</td>
+            <td><%= issue.user.local_time_expr(issue.agreement.start_date + 1.month - 1.second, :long) %> (recurring)</td>
+            <td><a href="/billing/students/issues/paypal/cancel/<%= @student.auth_token %>/<%= issue.id %>">Cancel</a></td>
+          <% end %>
+        <% else %>
+          <td><%= issue.conversations < 0 ? "(Unlimited)" : issue.conversations %></td>
+          <td><%= issue.expired_at.nil? ? "(No expiration)" : "By " + issue.user.local_time_expr(issue.expired_at, :long) %></td>
+          <td></td>
+        <% end %>
+      <% else %>
+        <td><%= issue.conversations < 0 ? "(Unlimited)" : issue.conversations %></td>
+        <td><%= issue.expired_at.nil? ? "(No expiration)" : "By " + issue.user.local_time_expr(issue.expired_at, :long) %></td>
+        <td></td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>

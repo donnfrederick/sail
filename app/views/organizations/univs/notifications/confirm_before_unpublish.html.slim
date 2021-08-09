@@ -1,0 +1,11 @@
+
+= form_tag(org_notification_unpublish_path(@role_type), class: "publish col-4 offset-4", method: "post") do
+  h1.title Are you sure to cancel publishing the below notification in your class ?
+
+  = render partial: "components/organizations/notifications/notification", locals: { notification: @notification, level: 2 }
+
+  input[type="hidden" name="notification_id" value="#{@notification.id}"]
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='#{org_path(@role_type)}'; return false;"] = I18n.t("organization.back_button")
+    button.btn.btn-outline-success[type="submit"] Unpublish

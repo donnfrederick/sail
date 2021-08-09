@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConfirmBlock /> 1`] = `
+<div
+  className="sc-kGXeez hFnrPY"
+>
+  <div
+    className="sc-jzJRlG bkdbxf"
+  >
+    <div
+      className="sc-jTzLTM llGFMw"
+    >
+      この学生をブロックしますか？
+    </div>
+  </div>
+  <div
+    className="sc-EHOje fbzZrP"
+  >
+    <img
+      className="sc-gzVnrw QJFQI"
+      height="200px"
+      src=""
+      srcSet=""
+      width="200px"
+    />
+  </div>
+  <div
+    className="sc-dxgOiQ cShNCJ"
+  >
+    
+  </div>
+  <div
+    className="sc-ckVGcZ jggDvi"
+  >
+    ※ブロックした学生は、あなたと会話することができなくなります。また、あなたの情報はブロックした学生側には表示されなくなります。
+  </div>
+  <div
+    className="sc-kpOJdX iIilcU"
+  >
+    <button
+      className="sc-htoDjs iiCvpw"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={272}
+    >
+      <div
+        className="sc-VigVT dXzNKq"
+      >
+        いいえ
+      </div>
+    </button>
+    <button
+      className="sc-iwsKbI fgZUUv"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={272}
+    >
+      <div
+        className="sc-VigVT dXzNKq"
+      >
+        はい
+      </div>
+    </button>
+  </div>
+</div>
+`;

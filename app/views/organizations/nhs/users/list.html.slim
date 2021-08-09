@@ -1,0 +1,70 @@
+
+h1.title
+  span ユーザー管理
+  - if @at_max_users
+    button.btn.btn-success[disabled="disabled" type="button"]
+      span.d-none.d-sm-none.d-md-inline すでに最大人数のため追加できません
+      span.d-inline.d-sm-inline.d-md-none.d-lg-none.d-xl-none 追加する
+  - else
+    a[href="#{org_user_new_path(@role_type, @current_device.id)}"]
+      button.btn.btn-success[type="button"] 追加する
+p タブレットごとに登録されているシニアのデータを変更・削除ができます。新しくシニアを登録するには「追加する」を押します。
+
+ul.nav.nav-tabs
+    - @devices.each do |device|
+      li.nav-item
+      - if device.id == @current_device.id
+        a.nav-link.active[href="#{org_user_list_path(@role_type, device.id)}"] = device.cognitive_name
+      - else
+        a.nav-link[href="#{org_user_list_path(@role_type, device.id)}"] = device.cognitive_name.truncate(16)
+
+.organization-section
+  table.table.table-striped
+    tr
+      th.name 名前
+      th.sex.d-none.d-sm-none.d-md-none.d-lg-none.d-xl-table-cell 性別
+      th.hobbies 興味があること
+      th.purposes.d-none.d-sm-none.d-md-table-cell 利用目的
+      th.desire.d-none.d-sm-none.d-md-none.d-lg-table-cell 学生への希望条件
+      th.commands 操作
+    - @users_in_device.each do |user|
+      tr
+
+        td.name
+          a.user-photo[href="#{org_user_show_path(@role_type, user.id)}"]
+            img.rounded-circle[src="#{small_user_photo(user)}"]
+          a.name.ja[href="#{org_user_show_path(@role_type, user.id)}"] = user.name_ja
+
+        td.sex.d-none.d-sm-none.d-md-none.d-lg-none.d-xl-table-cell
+          - if user.sex == 1
+            a.sex[href="#{org_user_show_path(@role_type, user.id)}"] 男性
+          - elsif user.sex == 2
+            a.sex[href="#{org_user_show_path(@role_type, user.id)}"] 女性
+          - elsif user.sex == 9
+            a.sex[href="#{org_user_show_path(@role_type, user.id)}"] その他
+          - else
+            a.sex.none[href="#{org_user_show_path(@role_type, user.id)}"]
+
+        td.hobbies
+          - user.hobbies.each do |hobby|
+            - if hobby.present? && hobby.name.present?
+              li.hobby
+                a[href="#{org_user_show_path(@role_type, user.id)}"] = hobby.name
+
+        td.purposes.d-none.d-sm-none.d-md-table-cell
+          - user.purposes.each do |purpose|
+            - if purpose.present? && purpose.name.present?
+              li.purpose
+                a[href="#{org_user_show_path(@role_type, user.id)}"] = purpose.name
+
+        td.desire.d-none.d-sm-none.d-md-none.d-lg-table-cell
+          - if user.desired_condition == 1
+            a.desire[href="#{org_user_show_path(@role_type, user.id)}"] 日本語が得意な方がいい
+          - else
+            a.desire[href="#{org_user_show_path(@role_type, user.id)}"] 日本語が不得意でも構わない
+
+        td.commands
+          a.btn.btn-success.action.edit[role="button" href="#{org_user_edit_path(@role_type, user.id)}"] 編集
+          a.btn.btn-danger.action.remove[role="button" href="#{org_user_confirm_destroy_path(@role_type, user.id)}"] 削除
+
+  = will_paginate @pagination, :renderer => WillPaginate::ActionView::Bootstrap4LinkRenderer

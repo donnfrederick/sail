@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ProfileIndex /> 1`] = `
+<div
+  className="sc-iELTvK ioeYTA"
+>
+  <div
+    className="sc-kafWEX bTASmM"
+  >
+    <div
+      className="sc-uJMKN gKtYWV"
+    >
+      <div
+        className="sc-jnlKLf hqMkMG"
+      >
+        <div
+          className="sc-cSHVUG iHiRjc"
+        >
+          <img
+            className="sc-chPdSV eiIAxa"
+            height="200px"
+            src="/assets/img/common/user.png"
+            srcSet=""
+            width="200px"
+          />
+        </div>
+        <div
+          className="sc-fYxtnH dCnLUn"
+        >
+          <div
+            className="sc-bbmXgH dsnWSh"
+            data-self={true}
+          >
+            
+          </div>
+          <div
+            className="sc-gGBfsJ kqMrLH"
+            data-self={true}
+          >
+            Sail公認サポーター
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jqCOkK dZPNsp"
+      >
+        
+      </div>
+      <div
+        className="sc-kvZOFW dwaBMW"
+      >
+        <div
+          className="sc-hqyNC bZwaHk"
+        >
+          <div
+            className="sc-jbKcbu fxNZlU"
+          >
+            性別
+          </div>
+          <div
+            className="sc-dNLxif KzmkZ"
+          >
+            未登録
+          </div>
+        </div>
+        <div
+          className="sc-hqyNC bZwaHk"
+        >
+          <div
+            className="sc-jbKcbu fxNZlU"
+          >
+            国籍
+          </div>
+          <div
+            className="sc-dNLxif KzmkZ"
+          >
+            
+          </div>
+        </div>
+        <div
+          className="sc-hqyNC bZwaHk"
+        >
+          <div
+            className="sc-jbKcbu fxNZlU"
+          >
+            興味
+          </div>
+          <div
+            className="sc-dNLxif KzmkZ"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-ktHwxA cNslbd"
+      >
+        <div
+          className="sc-Rmtcm kSKecE"
+        >
+          <div
+            className="sc-bRBYWo TjvRM"
+          >
+            <div
+              className="sc-fBuWsC dhBfeB"
+            >
+              会話数
+            </div>
+            <div
+              className="sc-dVhcbM cVDZXK"
+            >
+              0
+            </div>
+          </div>
+          <div
+            className="sc-hzDkRC ehwSZq"
+          >
+            <div
+              className="sc-jhAzac flbzCW"
+            >
+              <img
+                className="sc-fMiknA cDJVht"
+                src="/assets/img/common/evaluation/smiley_humorous_active@2x.png"
+              />
+              <div
+                className="sc-dVhcbM cVDZXK"
+              >
+                0
+              </div>
+            </div>
+            <div
+              className="sc-jhAzac flbzCW"
+            >
+              <img
+                className="sc-fMiknA cDJVht"
+                src="/assets/img/common/evaluation/smiley_impressed_active@2x.png"
+              />
+              <div
+                className="sc-dVhcbM cVDZXK"
+              >
+                0
+              </div>
+            </div>
+            <div
+              className="sc-jhAzac flbzCW"
+            >
+              <img
+                className="sc-fMiknA cDJVht"
+                src="/assets/img/common/evaluation/smiley_discovered_active@2x.png"
+              />
+              <div
+                className="sc-dVhcbM cVDZXK"
+              >
+                0
+              </div>
+            </div>
+            <div
+              className="sc-jhAzac flbzCW"
+            >
+              <img
+                className="sc-fMiknA cDJVht"
+                src="/assets/img/common/evaluation/smiley_fine_active@2x.png"
+              />
+              <div
+                className="sc-dVhcbM cVDZXK"
+              >
+                0
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-feJyhm gqptAe"
+    >
+      <button
+        className="sc-gZMcBi fWJovM"
+        data-active={true}
+        fontSize={40}
+        height={112}
+        width={344}
+      >
+        <a
+          className="sc-fjdhpX fRklgf"
+          href="/teachers/support"
+          onClick={[Function]}
+        >
+          戻る
+        </a>
+      </button>
+      <button
+        className="sc-gZMcBi fWJovM"
+        data-active={true}
+        fontSize={40}
+        height={112}
+        width={344}
+      >
+        <a
+          className="sc-fjdhpX fRklgf"
+          href="/teachers/profile/edit"
+          onClick={[Function]}
+        >
+          編集する
+        </a>
+      </button>
+    </div>
+  </div>
+  <div
+    className="sc-EHOje itwipb"
+  >
+    <div
+      className="sc-bZQynM bZKBNj"
+    >
+      自分の情報
+    </div>
+    <a
+      className="sc-gzVnrw jTRbiO"
+      href="/teachers/mypage"
+      onClick={[Function]}
+    >
+      ホームに戻る
+    </a>
+    <div
+      className="sc-htoDjs fUCPvq"
+    >
+      <a
+        className="sc-dnqmqq engvPe"
+        href="/teachers/notifications"
+        onClick={[Function]}
+      />
+      <a
+        className="sc-iwsKbI jCgDjX"
+        href="/teachers/support"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

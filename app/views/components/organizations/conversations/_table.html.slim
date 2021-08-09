@@ -1,0 +1,3 @@
+table.conversations.calendar[page="#{page}"]
+  - for week in 0..(@weeks - 1) do
+    .test = render partial: "components/organizations/conversations/table_days", locals: { controller: controller, page: page, role_type: role_type, section_schedule: @section_schedule, month: month, next_month: next_month, week: week, this_month: this_month, dimension: dimension, days: days, offset: week*7, first: first, last: last, participants: participants, capacity: capacity }

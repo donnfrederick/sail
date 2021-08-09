@@ -1,0 +1,24 @@
+= form_tag org_signin_path, class: "signin col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 offset-sm-1 offset-md-2 offset-lg-3 offset-xl-4" do |f|
+  - flash.each do |name, msg|
+    .alert.alert-danger = msg.html_safe
+  .col-12
+    label.sr-only[for="user-email"] = I18n.t("organization.email")
+    .input-group.mb-2
+      .input-group-prepend
+        .input-group-text
+          i.fa.fa-user
+      = text_field_tag :email, '', class: 'form-control', id: 'input-user-email', autofocus: 'autofocus', placeholder: I18n.t("organization.email_placeholder")
+
+  .col-12
+    label.sr-only[for="user-password"] = I18n.t("organization.password")
+    .input-group.mb-2
+      .input-group-prepend
+        .input-group-text
+          i.fa.fa-unlock-alt
+      = password_field_tag :password, '', class: 'form-control', id: 'input-user-password', autofocus: 'autofocus', placeholder: 'password'
+
+  .col-12.text-right
+    = link_to 'forgot password?', org_recovery_path
+
+  .text-center
+    = submit_tag 'Login', class: 'btn btn-primary', role: 'button', style: 'margin-top: 2.5vh; margin-bottom: 2.5.vh'

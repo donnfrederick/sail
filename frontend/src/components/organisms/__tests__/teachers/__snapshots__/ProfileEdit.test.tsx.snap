@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ProfileEdit /> 1`] = `
+<div
+  className="sc-jzJRlG bjuybl"
+>
+  <div
+    className="sc-jTzLTM fhlAqo"
+  >
+    <button
+      className="sc-iwsKbI hDICPW"
+      data-active={true}
+      fontSize={36}
+      height={84}
+      width={352}
+    >
+      <a
+        className="sc-gqjmRU klaAAy"
+        href="/teachers/profile/edit/picture"
+        onClick={[Function]}
+      >
+        顔写真
+      </a>
+    </button>
+    <div
+      className="sc-fjdhpX dbLsDu"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="sc-jTzLTM fhlAqo"
+  >
+    <button
+      className="sc-iwsKbI hDICPW"
+      data-active={true}
+      fontSize={36}
+      height={84}
+      width={352}
+    >
+      <a
+        className="sc-gqjmRU klaAAy"
+        href="/teachers/profile/edit/name"
+        onClick={[Function]}
+      >
+        名前
+      </a>
+    </button>
+    <div
+      className="sc-fjdhpX dbLsDu"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="sc-jTzLTM fhlAqo"
+  >
+    <button
+      className="sc-iwsKbI hDICPW"
+      data-active={true}
+      fontSize={36}
+      height={84}
+      width={352}
+    >
+      <a
+        className="sc-gqjmRU klaAAy"
+        href="/teachers/profile/edit/gender"
+        onClick={[Function]}
+      >
+        性別
+      </a>
+    </button>
+    <div
+      className="sc-fjdhpX dbLsDu"
+    >
+      未登録
+    </div>
+  </div>
+  <div
+    className="sc-jTzLTM fhlAqo"
+  >
+    <button
+      className="sc-iwsKbI hDICPW"
+      data-active={true}
+      fontSize={36}
+      height={84}
+      width={352}
+    >
+      <a
+        className="sc-gqjmRU klaAAy"
+        href="/teachers/profile/edit/hobbies"
+        onClick={[Function]}
+      >
+        興味があること
+      </a>
+    </button>
+    <div
+      className="sc-fjdhpX dbLsDu"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="sc-jTzLTM fhlAqo"
+  >
+    <button
+      className="sc-iwsKbI hDICPW"
+      data-active={true}
+      fontSize={36}
+      height={84}
+      width={352}
+    >
+      <a
+        className="sc-gqjmRU klaAAy"
+        href="/teachers/profile/edit/purposes"
+        onClick={[Function]}
+      >
+        利用目的
+      </a>
+    </button>
+    <div
+      className="sc-fjdhpX dbLsDu"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="sc-jTzLTM fhlAqo"
+  >
+    <button
+      className="sc-iwsKbI hDICPW"
+      data-active={true}
+      fontSize={36}
+      height={84}
+      width={352}
+    >
+      <a
+        className="sc-gqjmRU klaAAy"
+        href="/teachers/profile/edit/desired_condition"
+        onClick={[Function]}
+      >
+        学生への希望条件
+      </a>
+    </button>
+    <div
+      className="sc-fjdhpX dbLsDu"
+    />
+  </div>
+  <div
+    className="sc-jTzLTM fhlAqo"
+  >
+    <button
+      className="sc-iwsKbI hDICPW"
+      data-active={true}
+      fontSize={36}
+      height={84}
+      width={352}
+    >
+      <a
+        className="sc-gqjmRU klaAAy"
+        href="/teachers/profile/edit/email"
+        onClick={[Function]}
+      >
+        メールアドレス
+      </a>
+    </button>
+    <div
+      className="sc-fjdhpX dbLsDu"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="sc-jTzLTM fhlAqo"
+  >
+    <button
+      className="sc-iwsKbI hDICPW"
+      data-active={true}
+      fontSize={36}
+      height={84}
+      width={352}
+    >
+      <a
+        className="sc-gqjmRU klaAAy"
+        href="/teachers/profile/edit/password"
+        onClick={[Function]}
+      >
+        パスワード
+      </a>
+    </button>
+    <div
+      className="sc-fjdhpX dbLsDu"
+    />
+  </div>
+  <div
+    className="sc-jTzLTM fhlAqo"
+  >
+    <button
+      className="sc-iwsKbI hDICPW"
+      data-active={true}
+      fontSize={36}
+      height={84}
+      width={352}
+    >
+      <a
+        className="sc-gqjmRU klaAAy"
+        href="/teachers/profile/edit/introduce"
+        onClick={[Function]}
+      >
+        自己紹介
+      </a>
+    </button>
+    <div
+      className="sc-fjdhpX dbLsDu"
+    >
+      
+    </div>
+  </div>
+</div>
+`;

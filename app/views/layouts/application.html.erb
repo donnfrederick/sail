@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105776977-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-105776977-2');
+  </script>
+
+  <%
+      lang = request.path.match(%r{^/students}) ? :en : :ja
+      meta = Settings.meta[lang]
+    -%>
+  <title><%= meta.title %></title>
+  <meta name="keywords" content="<%= meta.keywords %>" />
+  <meta name="description" content="<%= meta.description %>" />
+
+  <meta property="og:title" content="<%= meta.title %>" />
+  <meta property="og:description" content="<%= meta.description %>" />
+  <meta property="og:url" content="<%= meta.og.url %>" />
+  <meta property="og:image" content="<%= meta.og.image %>" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Sail" />
+  <meta property="fb:app_id" content="938291346358113" />
+
+  <meta name="twitter:title" content="<%= meta.title %>" />
+  <meta name="twitter:description" content="<%= meta.description %>" />
+  <meta name="twitter:image" content="<%= meta.twitter.image %>" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <meta name="viewport" content="width=750">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css" />
+</head>
+
+<body>
+
+  <div id="app"></div>
+
+  <div data-webview style="display: none"><%= webview? %></div>
+  <div data-webview-version style="display: none"><%= webview_version %></div>
+  <div data-ios style="display: none"><%= ios? %></div>
+  <div data-android style="display: none"><%= android? %></div>
+
+  <%= yield %>
+  <script src="<%= js_file_path('sora.min.js') %>"></script>
+  <script src="<%= js_file_path('app.bundle.js') %>"></script>
+  <script>
+    (function() {
+      const originalConversationId = getPageConversationId();
+
+      function getPageConversationId() {
+        const digits = window.location.pathname.split(" /");
+        if (digits.length >
+          3 && digits[2] === "conversations") {
+          const digit = parseInt(digits[3]);
+          return isNaN(digit) ? 0 : digit;
+        } else {
+          return 0;
+        }
+      }
+
+      function composeConversationPageUrl(conversationId) {
+        const digits = window.location.href.split("/");
+        if (digits.length > 4) {
+          digits.splice(4, digits.length - 4, "conversations", conversationId.toString());
+          return digits.join("/");
+        } else {
+          return 0;
+        }
+      }
+
+      setInterval(function() {
+        const conversationId = getPageConversationId();
+        if (conversationId > 0 && originalConversationId !== conversationId) {
+          const url = composeConversationPageUrl(conversationId);
+          location.href = url;
+        }
+      }, 1000);
+    })();
+  </script>
+</body>
+
+</html>

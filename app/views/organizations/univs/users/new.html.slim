@@ -1,0 +1,42 @@
+section.py-5
+  .container
+    .card
+      .card-header.bg-light New Student
+      .card-body
+        - if @error_message.present?
+          - @error_message.each do |e|
+            .alert.alert-danger.alert-dismissible.fade.show
+              = e
+              button.close[data-dismiss='alert']  ×
+        = form_with model: @student, url: :organizations_univs_users, method: :post, local: true do |form|
+          = render 'form', form: form
+          = submit_tag 'Register', class: 'btn btn-primary float-right'
+
+javascript:
+  $(document).ready(function(){
+    $("div[class='col-6 form-group detail']").hide()
+    if($("#student_email").val()){
+      checkAccount()
+    }
+  })
+
+  $("#student_email").change(function(){
+    checkAccount();
+  })
+
+  function checkAccount(){
+    let $email = $("#student_email").val();
+    $.ajax({
+      type: 'GET',
+      url: "/organizations/univs/users",
+      data: { email: $email },
+      dataType: 'json'
+      })
+    .done(function (student) {
+      if(!student){
+        $("div[class='col-6 form-group detail']").fadeIn(500)
+      }
+    })
+    .fail(function (){
+    });
+  }

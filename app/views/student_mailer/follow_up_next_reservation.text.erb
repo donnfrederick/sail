@@ -1,0 +1,27 @@
+Hello <%= @user.name_en %>
+
+<%= @notification.title_en %>
+<%= @notification.body_en %>
+
+<% if @favorite_teachers_conversations.empty? %>
+Check "favorite" feature!
+
+Once you add favorite users by the feature, you will get the information of their recent conversation timing.
+It would be a big help to check when the Japanese can talk regularly.
+Try it and check their information now!
+<% else %>
+Favorite users talk at these timing
+
+Here your favorite users talk at the below timing recently. You can see 5 users at maximum.
+<% @favorite_teachers_conversations.each do |conversation| %>
+<%= render partial: "components/user_profile_with_time", locals: {locale: @user.default_locale, user: conversation.teacher, start_at: conversation.start_at, end_at: conversation.end_at, context_user: @user} %>
+<% end %>
+
+※To check the teachers' pictures, please use a mailer which supports HTML email.
+
+<% end %>
+
+Currently there are many Japanese who have joined in Sail.
+Check Sail app and reserve conversations!
+
+<%= render partial: "components/mailer/launcher_guide", locals: {locale: @user.default_locale, url: "https://sail.helte.jp/"} %>

@@ -1,0 +1,16 @@
+= form_tag(org_invitation_create_path(@role_type), class: "new col-4 offset-4", method: "post") do
+  h1.title Invite students
+  p To invite students in your class room, select a class room and press "Proceed" button to proceed.
+  .row
+    .form-group.col-12
+      label[for="select-section"] Class
+      select#select-section.custom-select[name="section_id"]
+        - @sections.each do |section|
+          - if @current_section.present? && section.id == @current_section.id
+            option[value="#{section.id}" selected="selected"] = section.name
+          - else
+            option[value="#{section.id}"] = section.name
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='#{org_user_list_path(@role_type)}'; return false;"] = I18n.t("organization.back_button")
+    button.btn.btn-primary[type="submit"] Proceed

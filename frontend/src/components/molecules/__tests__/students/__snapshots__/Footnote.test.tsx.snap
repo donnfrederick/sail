@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Footnote /> 1`] = `
+<small
+  className="sc-bdVaJa gRAUAp"
+>
+  By tapping Continue, Create Account, Sign in, you agree to Sail's
+   
+  <a
+    className="sc-bwzfXH kqfjrq"
+    href="/students/terms"
+    onClick={[Function]}
+  >
+    Terms and Conditions of Use
+  </a>
+   
+  and
+   
+  <a
+    className="sc-bwzfXH kqfjrq"
+    href="/students/privacy"
+    onClick={[Function]}
+  >
+    Privacy Policy
+  </a>
+  .
+</small>
+`;

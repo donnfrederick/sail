@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <EvaluationPrompt /> 1`] = `
+<div>
+  <div
+    className="sc-bZQynM iEQZsW"
+  >
+    <div
+      className="sc-gzVnrw ceQPce"
+    >
+      Please rate your conversation on
+       
+      January 2nd 00:00
+      .
+    </div>
+    <button
+      className="sc-bwzfXH dTASPx"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={528}
+    >
+      <div
+        className="sc-EHOje jfyosa"
+      >
+        Rate
+      </div>
+    </button>
+  </div>
+  <div
+    className="sc-bZQynM iEQZsW"
+  >
+    <div
+      className="sc-gzVnrw ceQPce"
+    >
+      Please rate your conversation on
+       
+      January 2nd 00:00
+      .
+    </div>
+    <button
+      className="sc-bwzfXH dTASPx"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={528}
+    >
+      <div
+        className="sc-EHOje jfyosa"
+      >
+        Rate
+      </div>
+    </button>
+  </div>
+</div>
+`;

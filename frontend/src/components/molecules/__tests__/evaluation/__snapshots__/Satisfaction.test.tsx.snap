@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Satisfaction /> 1`] = `
+Array [
+  <div
+    className="sc-bZQynM hnhkng"
+  >
+    <div
+      className="sc-VigVT bKQDaM"
+    >
+      <div
+        className="sc-fjdhpX bHWyla"
+      />
+      <div
+        className="sc-jTzLTM fBajDi"
+        data-completed={true}
+        data-current={true}
+      >
+        1
+      </div>
+      <div
+        className="sc-jTzLTM fBajDi"
+        data-completed={false}
+        data-current={false}
+      >
+        2
+      </div>
+      <div
+        className="sc-jTzLTM fBajDi"
+        data-completed={false}
+        data-current={false}
+      >
+        3
+      </div>
+      <div
+        className="sc-jTzLTM fBajDi"
+        data-completed={false}
+        data-current={false}
+      >
+        4
+      </div>
+    </div>
+    <div
+      className="sc-bxivhb bnphqz"
+    >
+      <h2
+        className="sc-ifAKCX bLrNrv"
+      >
+        この方との会話は楽しめましたか？
+      </h2>
+      <h3
+        className="sc-EHOje cLIsgX"
+      >
+        どれか１つだけ選んでください。
+      </h3>
+    </div>
+  </div>,
+  <div
+    className="sc-htoDjs fsyInk"
+  >
+    <button
+      className="sc-bdVaJa haJVns"
+      data-active={false}
+      onClick={[Function]}
+    >
+      <img
+        className="sc-bwzfXH jOYpiy"
+        src="/assets/img/common/evaluation/smiley_humorous_inactive@2x.png"
+      />
+      <span
+        className="sc-htpNat clHFgE"
+      >
+        談笑できた
+      </span>
+    </button>
+    <button
+      className="sc-bdVaJa haJVns"
+      data-active={false}
+      onClick={[Function]}
+    >
+      <img
+        className="sc-bwzfXH jOYpiy"
+        src="/assets/img/common/evaluation/smiley_impressed_inactive@2x.png"
+      />
+      <span
+        className="sc-htpNat clHFgE"
+      >
+        感動した
+      </span>
+    </button>
+    <button
+      className="sc-bdVaJa haJVns"
+      data-active={true}
+      onClick={[Function]}
+    >
+      <img
+        className="sc-bwzfXH jOYpiy"
+        src="/assets/img/common/evaluation/smiley_discovered_active@2x.png"
+      />
+      <span
+        className="sc-htpNat clHFgE"
+      >
+        新しい発見があった
+      </span>
+    </button>
+    <button
+      className="sc-bdVaJa haJVns"
+      data-active={false}
+      onClick={[Function]}
+    >
+      <img
+        className="sc-bwzfXH jOYpiy"
+        src="/assets/img/common/evaluation/smiley_fine_inactive@2x.png"
+      />
+      <span
+        className="sc-htpNat clHFgE"
+      >
+        その他よかった
+      </span>
+    </button>
+    <button
+      className="sc-bdVaJa haJVns"
+      data-active={false}
+      onClick={[Function]}
+    >
+      <img
+        className="sc-bwzfXH jOYpiy"
+        src="/assets/img/common/evaluation/smiley_uncomfortable_inactive@2x.png"
+      />
+      <span
+        className="sc-htpNat clHFgE"
+      >
+        不満がある
+      </span>
+    </button>
+  </div>,
+  <div
+    className="sc-gzVnrw eaRuPB"
+  >
+    <button
+      className="sc-jzJRlG eRWgux"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={360}
+    >
+      次へ
+    </button>
+  </div>,
+]
+`;

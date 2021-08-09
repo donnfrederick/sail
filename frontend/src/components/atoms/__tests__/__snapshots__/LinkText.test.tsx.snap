@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <LinkText /> 1`] = `
+<p
+  className="sc-bdVaJa NNHmo"
+>
+  <a
+    href="/students/mypage"
+    onClick={[Function]}
+  >
+    ホームページに戻る
+  </a>
+</p>
+`;

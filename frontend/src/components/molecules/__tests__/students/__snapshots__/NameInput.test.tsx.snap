@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <NameInput /> 1`] = `
+<div>
+  <div
+    className="sc-bxivhb jtytOk"
+  >
+    <div
+      className="sc-ifAKCX YXhEi"
+    >
+      <div
+        className="sc-htpNat dAEpvs"
+      >
+        First Name (Hiragana)
+      </div>
+      <input
+        className="sc-bwzfXH fKJexp"
+        data-error={false}
+        data-name-input-ja={true}
+        defaultValue="Helte "
+        onInput={[Function]}
+        placeholder="First Name"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-EHOje YtnhP"
+    >
+      <div
+        className="sc-htpNat dAEpvs"
+      >
+        Last Name (Hiragana)
+      </div>
+      <input
+        className="sc-bwzfXH fKJexp"
+        data-error={false}
+        data-name-input-ja={true}
+        defaultValue=" Sail"
+        onInput={[Function]}
+        placeholder="Last Name"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-bdVaJa fqKIaj"
+    />
+  </div>
+  <div
+    className="sc-bxivhb jtytOk"
+  >
+    <div
+      className="sc-ifAKCX YXhEi"
+    >
+      <div
+        className="sc-htpNat dAEpvs"
+      >
+        First Name
+      </div>
+      <input
+        className="sc-bwzfXH fKJexp"
+        data-error={false}
+        data-name-input-ja={false}
+        defaultValue="へるて "
+        onInput={[Function]}
+        placeholder="First Name"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-EHOje YtnhP"
+    >
+      <div
+        className="sc-htpNat dAEpvs"
+      >
+        Last Name
+      </div>
+      <input
+        className="sc-bwzfXH fKJexp"
+        data-error={false}
+        data-name-input-ja={false}
+        defaultValue=" せいる"
+        onInput={[Function]}
+        placeholder="Last Name"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-bdVaJa fqKIaj"
+    />
+  </div>
+</div>
+`;

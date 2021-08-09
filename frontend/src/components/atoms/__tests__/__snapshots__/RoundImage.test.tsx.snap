@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <RoundImage /> 1`] = `
+<div
+  className="sc-bdVaJa bHgtVR"
+>
+  <img
+    className="sc-htpNat bWAYps"
+    height="200px"
+    src="/assets/img/common/user.png"
+    srcSet="/assets/img/common/user.png 1x, /assets/img/common/user@2x.png 2x, /assets/img/common/user@3x.png 3x"
+    width="200px"
+  />
+</div>
+`;

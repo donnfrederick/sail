@@ -1,0 +1,12 @@
+.col-4.offset-4
+  h1.title Invite students in your class room by the URL
+  p Students can join your class room by the URL with their own Sail account.
+
+  .alert.alert-default
+    a[href="#{@invitation.url}"] #{@url[:root]}#{@invitation.url}
+
+  .text-center
+    = qrcode_tag @url[:root] + @invitation.url, module_size: 8
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='#{org_invitation_path(@role_type)}'; return false;"] = I18n.t("organization.back_button")

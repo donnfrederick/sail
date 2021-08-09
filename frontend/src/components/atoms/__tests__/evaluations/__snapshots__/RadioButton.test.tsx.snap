@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <RadioButton /> 1`] = `
+<button
+  className="sc-bdVaJa dATEOj"
+  onClick={[Function]}
+>
+  <div
+    className="sc-bwzfXH frmFcw"
+    data-active={true}
+  />
+  <span
+    className="sc-htpNat jjyYkU"
+  >
+    スムーズに会話ができた
+  </span>
+</button>
+`;

@@ -1,0 +1,58 @@
+<h1>Select your payment method</h1>
+<div style="margin-top: 96px;">
+  <h3>Credit card / debit card</h3>
+  <a href="/billing/students/issues/stripe/new/<%= @student.auth_token %>">
+    <img class="select-method" src="/assets/img/students/billing/cards.png" width="80%" />
+  </a>
+</div>
+<div style="margin-top: 64px;">
+  <h3>PayPal</h3>
+  <a href="/billing/students/issues/paypal/new/<%= @student.auth_token %>">
+    <img class="select-method" src="/assets/img/students/billing/cards2.png" width="80%" />
+  </a>
+</div>
+
+<div style="margin-top: 64px;" id="GooglePlay">
+  <h3>Google Play</h3>
+  <h4>(Android User Only)</h4>
+  <button onclick="StartGooglePlayBilling()">    
+    <img class="select-method" src="/assets/img/students/billing/en_badge_web_generic.png"  width="70%"/>
+    <script type="text/javascript">
+      function StartGooglePlayBilling() {
+        // Android側でGoogleStoreを呼び出し/併せてSailのUserIDを渡す
+        sailAndroid.StartGooglePlayBilling("<%= @student.id %>");
+      }
+    </script>
+</div>
+
+<script language="JavaScript" type="text/javascript">
+  var elem_google = document.getElementById("GooglePlay");
+
+  //ユーザー属性判定
+  function isAndroid(){
+
+    //Android判定
+    function isAndroidDevice(){
+      const userAgent = window.navigator.userAgent.toLowerCase()
+      return /android/.test(userAgent)
+    }
+
+    //開発者判定
+    window.currentUserEmail = '<%= @student.email %>';
+    function isDeveloper(){
+      return currentUserEmail.includes('helte-corp.com') || currentUserEmail.includes('iwayac+sailstudent')
+    }
+
+    //開発リリース公開用
+    //return isAndroidDevice() && isDeveloper()
+    //本番リリース公開用
+    return isAndroidDevice()
+  }
+
+  //表示・非表示
+  if (isAndroid()) {
+    elem_google.style.display = "";
+  }else{
+    elem_google.style.display = "none";
+  }    
+</script>

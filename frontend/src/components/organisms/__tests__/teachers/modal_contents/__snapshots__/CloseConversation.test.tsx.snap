@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <CloseConversation /> 1`] = `
+<div
+  className="sc-jTzLTM dMEaru"
+>
+  <div
+    className="sc-VigVT kaYUeB"
+  >
+    <div
+      className="sc-gZMcBi fxOrEW"
+    >
+      本当に通話を終了しますか？
+    </div>
+  </div>
+  <div
+    className="sc-fjdhpX eIDOHw"
+  >
+    <button
+      className="sc-bZQynM iiToMd"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={272}
+    >
+      <div
+        className="sc-iwsKbI lgKvmV"
+      >
+        いいえ
+      </div>
+    </button>
+    <button
+      className="sc-EHOje dyvxUy"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={272}
+    >
+      <a
+        className="sc-dnqmqq iPjOZM"
+        href="/teachers/mypage"
+        onClick={[Function]}
+      >
+        はい
+      </a>
+    </button>
+  </div>
+</div>
+`;

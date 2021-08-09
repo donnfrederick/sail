@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <HeaderText /> 1`] = `
+<div
+  className="sc-bdVaJa FMzly"
+  width={650}
+>
+  <h2
+    className="sc-bwzfXH gxTqoK"
+    fontSize={40}
+  >
+    このかたの日本語レベルはどうdでしたか？
+  </h2>
+  <h3
+    className="sc-htpNat dVKQpm"
+    fontSize={32}
+  >
+    どれか１つだけ選んでください。
+  </h3>
+</div>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TeachersLicense /> 1`] = `
+<div
+  className="sc-chPdSV hybHHb"
+>
+  <button
+    className="sc-EHOje hdWGXo"
+    data-active={true}
+    fontSize={40}
+    height={112}
+    onClick={[Function]}
+    width={344}
+  >
+    <div
+      className="sc-iwsKbI lgKvmV"
+    >
+      戻る
+    </div>
+  </button>
+  <div
+    className="sc-VigVT loCcMa"
+  >
+    <div
+      className="sc-jTzLTM ktlLxn"
+    >
+      ライセンス
+    </div>
+    <a
+      className="sc-fjdhpX lbaKI"
+      href="/teachers/mypage"
+      onClick={[Function]}
+    >
+      ホームに戻る
+    </a>
+  </div>
+</div>
+`;

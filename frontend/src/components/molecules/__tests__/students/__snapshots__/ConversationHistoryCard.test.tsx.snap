@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConversationHistoryCard /> 1`] = `
+<div
+  className="sc-jDwBTQ AQYCj"
+>
+  <div
+    className="sc-gPEVay dgeFfi"
+  >
+    <div
+      className="sc-iRbamj cIYnrd"
+    >
+      2018/01/02 (Tue)
+00:00 - 00:25
+    </div>
+    <div
+      className="sc-iwsKbI fNyiVr"
+      data-favorite={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-htoDjs eOtUCo"
+      >
+        +
+      </div>
+      <div
+        className="sc-dnqmqq dlgvdx"
+      >
+        Add to 
+        Favorite
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-jlyJG AtNpC"
+  >
+    <div
+      className="sc-bdVaJa bHgtVR"
+    >
+      <img
+        className="sc-htpNat iiyWLF"
+        height="150px"
+        src=""
+        srcSet=""
+        width="150px"
+      />
+    </div>
+    <p
+      className="sc-gipzik iGOiTs"
+    >
+      吉野 瑞葵
+    </p>
+    <img
+      className="sc-csuQGl kXQIgq"
+      src="/assets/img/common/evaluation/smiley_humorous_active@2x.png"
+    />
+  </div>
+  <div
+    className="sc-Rmtcm ckzqVj"
+  >
+    <div
+      className="sc-EHOje edBKtO"
+    >
+      <img
+        className="sc-bZQynM fANzPe"
+        src="/assets/img/common/evaluation/punctuality@3x.png"
+      />
+      <div
+        className="sc-gzVnrw coZxgf"
+      >
+        On time
+      </div>
+    </div>
+    <div
+      className="sc-EHOje edBKtO"
+    >
+      <img
+        className="sc-bZQynM fANzPe"
+        src="/assets/img/common/evaluation/chat_quality@3x.png"
+      />
+      <div
+        className="sc-gzVnrw coZxgf"
+      >
+        
+      </div>
+    </div>
+    <div
+      className="sc-EHOje edBKtO"
+    >
+      <img
+        className="sc-bZQynM fANzPe"
+        src="/assets/img/common/evaluation/memo@3x.png"
+      />
+      <div
+        className="sc-gzVnrw coZxgf"
+      >
+        memo
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-hzDkRC vAroK"
+  >
+    <button
+      className="sc-bxivhb jBZrTn"
+      data-active={true}
+      fontSize={28}
+      height={56}
+      type="white"
+      width={224}
+    >
+      <a
+        className="sc-ifAKCX fArVEN"
+        href="/students/history/26227"
+        onClick={[Function]}
+      >
+        View Profile
+      </a>
+    </button>
+    <button
+      className="sc-bxivhb jBZrTn"
+      data-active={true}
+      fontSize={28}
+      height={56}
+      onClick={[Function]}
+      type="white"
+      width={224}
+    >
+      Edit Memo
+    </button>
+  </div>
+</div>
+`;

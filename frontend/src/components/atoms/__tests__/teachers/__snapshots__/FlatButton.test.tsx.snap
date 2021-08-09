@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <FlatButton /> 1`] = `
+<button
+  className="sc-bdVaJa fYkQJF"
+  color="#138efd"
+  data-disabled={false}
+  data-selected={false}
+  fontSize={36}
+  height={100}
+  width={640}
+>
+  日本語を教えたい
+</button>
+`;

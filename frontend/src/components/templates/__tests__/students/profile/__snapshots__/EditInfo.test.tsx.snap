@@ -1,0 +1,476 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ProfileEditInfo /> 1`] = `
+<div
+  className="sc-hmzhuo dUarVj"
+>
+  <div
+    className="sc-dVhcbM fbBnzI"
+  >
+    <div
+      className="sc-kEYyzF hDMdCu"
+    >
+      <label
+        className="sc-kkGfuU kgxjwe"
+        htmlFor="file"
+        size={128}
+      >
+        <div
+          className="sc-jKJlTe fyLCso"
+        >
+          <img
+            className="sc-hMqMXs gXGFhO"
+            height="128px"
+            src="/assets/img/common/user@3x.png"
+            srcSet=""
+            width="128px"
+          />
+          <img
+            className="sc-eNQAEJ kZfnos"
+            src="/assets/img/common/flags/camera.png"
+            width={42.666666666666664}
+          />
+        </div>
+        <div
+          className="sc-hSdWYo dfWkOe"
+        >
+          Change Profile Picture
+        </div>
+        <img
+          className="sc-iAyFgw kdJHmz"
+          onClick={[Function]}
+          src="/assets/img/common/picture-rotate@2x.png"
+        />
+      </label>
+      <input
+        accept="image/*"
+        className="sc-eHgmQL dkdBFE"
+        id="file"
+        onChange={[Function]}
+        type="file"
+      />
+    </div>
+    <div
+      className="sc-gZMcBi UIhMm"
+    >
+      <div
+        className="sc-iwsKbI dRoDuh"
+      >
+        Email
+      </div>
+      <input
+        className="sc-dnqmqq cFKGVo"
+        data-error={false}
+        onInput={[Function]}
+        placeholder="Email"
+        type="email"
+      />
+      <div
+        className="sc-htoDjs knnjmL"
+      />
+    </div>
+    <div
+      className="sc-kGXeez cNOYfc"
+    >
+      <div
+        className="sc-kpOJdX kfnjTX"
+      >
+        <div
+          className="sc-iwsKbI dRoDuh"
+        >
+          First Name
+        </div>
+        <input
+          className="sc-dnqmqq cFKGVo"
+          data-error={false}
+          data-name-input-ja={false}
+          onInput={[Function]}
+          placeholder="First Name"
+          type="text"
+        />
+      </div>
+      <div
+        className="sc-dxgOiQ gBOGKs"
+      >
+        <div
+          className="sc-iwsKbI dRoDuh"
+        >
+          Last Name
+        </div>
+        <input
+          className="sc-dnqmqq cFKGVo"
+          data-error={false}
+          data-name-input-ja={false}
+          onInput={[Function]}
+          placeholder="Last Name"
+          type="text"
+        />
+      </div>
+      <div
+        className="sc-htoDjs knnjmL"
+      />
+    </div>
+    <div
+      className="sc-kGXeez cNOYfc"
+    >
+      <div
+        className="sc-kpOJdX kfnjTX"
+      >
+        <div
+          className="sc-iwsKbI dRoDuh"
+        >
+          First Name (Hiragana)
+        </div>
+        <input
+          className="sc-dnqmqq cFKGVo"
+          data-error={false}
+          data-name-input-ja={true}
+          onInput={[Function]}
+          placeholder="First Name"
+          type="text"
+        />
+      </div>
+      <div
+        className="sc-dxgOiQ gBOGKs"
+      >
+        <div
+          className="sc-iwsKbI dRoDuh"
+        >
+          Last Name (Hiragana)
+        </div>
+        <input
+          className="sc-dnqmqq cFKGVo"
+          data-error={false}
+          data-name-input-ja={true}
+          onInput={[Function]}
+          placeholder="Last Name"
+          type="text"
+        />
+      </div>
+      <div
+        className="sc-htoDjs knnjmL"
+      />
+    </div>
+    <div
+      className="sc-fjdhpX dcyroD"
+    >
+      <div
+        className="sc-iwsKbI dRoDuh"
+      >
+        Gender (Optional)
+      </div>
+      <select
+        className="sc-gqjmRU fCwWpV"
+        defaultValue=""
+        onChange={[Function]}
+        required={true}
+      >
+        <option
+          className="sc-VigVT iyEYjY"
+          disabled={true}
+          value=""
+        >
+          Select Gender
+        </option>
+        <option
+          value={1}
+        >
+          Male
+        </option>
+        <option
+          value={2}
+        >
+          Female
+        </option>
+        <option
+          value={9}
+        >
+          Other
+        </option>
+      </select>
+      <div
+        className="sc-jTzLTM kpGQcp"
+      />
+    </div>
+    <div
+      className="sc-ckVGcZ hXYnOx"
+    >
+      <div
+        className="sc-iwsKbI dRoDuh"
+      >
+        Country code
+      </div>
+      <div
+        className="ReactFlagsSelect-module_flagsSelect__2pfa2"
+        data-testid="rfs"
+      >
+        <button
+          aria-expanded={false}
+          aria-haspopup="listbox"
+          aria-labelledby="rfs-btn"
+          className="ReactFlagsSelect-module_selectBtn__19wW7"
+          data-testid="rfs-btn"
+          disabled={false}
+          id="rfs-btn"
+          onClick={[Function]}
+          onKeyUp={[Function]}
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+          type="button"
+        >
+          <span
+            className="ReactFlagsSelect-module_selectValue__152eS"
+          >
+            Select a country
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      className="sc-cvbbAY efsxuo"
+    >
+      <div
+        className="sc-iwsKbI dRoDuh"
+      >
+        Time Zone
+      </div>
+      <div
+        className="sc-jTzLTM kpGQcp"
+      />
+    </div>
+    <div
+      className="sc-kgoBCf cpWmaV"
+    >
+      <div
+        className="sc-iwsKbI dRoDuh"
+      >
+        Language
+      </div>
+      <select
+        className="sc-gqjmRU fCwWpV"
+        defaultValue="en"
+        onChange={[Function]}
+        required={true}
+      >
+        <option
+          value="en"
+        >
+          English
+        </option>
+        <option
+          value="id"
+        >
+          Indonesian
+        </option>
+        <option
+          value="vn"
+        >
+          Vietnamese
+        </option>
+        <option
+          value="ch"
+        >
+          簡体字
+        </option>
+        <option
+          value="tw"
+        >
+          繁体字
+        </option>
+      </select>
+      <div
+        className="sc-jTzLTM kpGQcp"
+      />
+    </div>
+    <div
+      className="sc-kAzzGY jqbTWd"
+    >
+      <div
+        className="sc-iwsKbI dRoDuh"
+      >
+        Japanese Conversation Level
+      </div>
+      <select
+        className="sc-gqjmRU fCwWpV"
+        defaultValue=""
+        onChange={[Function]}
+        required={true}
+      >
+        <option
+          className="sc-VigVT iyEYjY"
+          disabled={true}
+          value=""
+        >
+          Select Conversation Level
+        </option>
+        <option
+          value={1}
+        >
+          Little to no understanding
+        </option>
+        <option
+          value={2}
+        >
+          Knowledge of basic vobaulary
+        </option>
+        <option
+          value={3}
+        >
+          Able to form simple sentences
+        </option>
+        <option
+          value={4}
+        >
+          Daily conversation level
+        </option>
+        <option
+          value={5}
+        >
+          Able to handle complex topics
+        </option>
+      </select>
+      <div
+        className="sc-jTzLTM kpGQcp"
+      />
+    </div>
+    <div
+      className="sc-chPdSV cItweD"
+    >
+      <div
+        className="sc-iwsKbI dRoDuh"
+      >
+        JLPT
+      </div>
+      <select
+        className="sc-gqjmRU fCwWpV"
+        defaultValue=""
+        onChange={[Function]}
+        required={true}
+      >
+        <option
+          className="sc-VigVT iyEYjY"
+          disabled={true}
+          value=""
+        >
+          Select Level
+        </option>
+        <option
+          value={-10}
+        >
+          I have never taken the JLPT
+        </option>
+        <option
+          value={-1}
+        >
+          I have never passed the JLPT
+        </option>
+        <option
+          value={5}
+        >
+          N5
+        </option>
+        <option
+          value={4}
+        >
+          N4
+        </option>
+        <option
+          value={3}
+        >
+          N3
+        </option>
+        <option
+          value={2}
+        >
+          N2
+        </option>
+        <option
+          value={1}
+        >
+          N1
+        </option>
+      </select>
+      <div
+        className="sc-jTzLTM kpGQcp"
+      />
+    </div>
+    <div
+      className="sc-jzJRlG hCoQVq"
+    >
+      <div
+        className="sc-iwsKbI dRoDuh"
+      >
+        Self Introduction (MAX: 144 characters)
+      </div>
+      <textarea
+        className="sc-cSHVUG kWpfls"
+        defaultValue=""
+        maxLength={144}
+        onInput={[Function]}
+        placeholder="Example: I live in Tokyo."
+        type="text"
+        width={640}
+      />
+    </div>
+    <div
+      className="sc-eqIVtm fHbeWX"
+    >
+      <button
+        className="sc-bdVaJa eEjsbL"
+        data-active={true}
+        fontSize={32}
+        height={88}
+        onClick={[Function]}
+        type="blue"
+        width={494}
+      >
+        Save
+      </button>
+    </div>
+  </div>
+  <header
+    className="sc-gisBJw kEwpVu"
+  >
+    <div
+      className="sc-kjoXOD bNYbUG"
+    >
+      Edit Profile
+    </div>
+    <div
+      className="sc-cHGsZl jzxJVQ"
+      onClick={[Function]}
+    />
+  </header>
+  <div
+    className="sc-gzVnrw bbOeQD"
+  >
+    <a
+      className="sc-EHOje gEifQf"
+      href="/students/mypage"
+      icon="/assets/img/students/footer/home@3x.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-EHOje bIkBAA"
+      href="/students/notifications"
+      icon="/assets/img/students/footer/notification@3x.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-EHOje exXkhS"
+      href="/students/mypage"
+      icon="/assets/img/students/footer/cart.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-bZQynM iAxnUN"
+      href="/students/reservations/new"
+      icon="/assets/img/students/footer/calendar@3x.png"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

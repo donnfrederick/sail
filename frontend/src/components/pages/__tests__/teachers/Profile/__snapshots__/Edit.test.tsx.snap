@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ProfileEdit /> 1`] = `
+<div
+  className="sc-dxgOiQ cwVcgy"
+>
+  <h2
+    className="sc-ckVGcZ bweyiG"
+  >
+    変更したい項目を選んでください
+  </h2>
+  <div
+    className="sc-kpOJdX jeXnzF"
+  >
+    <div
+      className="sc-kgoBCf beUpyn"
+    >
+      <button
+        className="sc-gzVnrw JckhG"
+        data-active={true}
+        fontSize={36}
+        height={84}
+        width={352}
+      >
+        <a
+          className="sc-dnqmqq iPjOZM"
+          href="/teachers/profile/edit/picture"
+          onClick={[Function]}
+        >
+          顔写真
+        </a>
+      </button>
+      <div
+        className="sc-kGXeez bmkEqD"
+      >
+        
+      </div>
+    </div>
+    <div
+      className="sc-kgoBCf beUpyn"
+    >
+      <button
+        className="sc-gzVnrw JckhG"
+        data-active={true}
+        fontSize={36}
+        height={84}
+        width={352}
+      >
+        <a
+          className="sc-dnqmqq iPjOZM"
+          href="/teachers/profile/edit/name"
+          onClick={[Function]}
+        >
+          名前
+        </a>
+      </button>
+      <div
+        className="sc-kGXeez bmkEqD"
+      >
+        
+      </div>
+    </div>
+    <div
+      className="sc-kgoBCf beUpyn"
+    >
+      <button
+        className="sc-gzVnrw JckhG"
+        data-active={true}
+        fontSize={36}
+        height={84}
+        width={352}
+      >
+        <a
+          className="sc-dnqmqq iPjOZM"
+          href="/teachers/profile/edit/gender"
+          onClick={[Function]}
+        >
+          性別
+        </a>
+      </button>
+      <div
+        className="sc-kGXeez bmkEqD"
+      >
+        未登録
+      </div>
+    </div>
+    <div
+      className="sc-kgoBCf beUpyn"
+    >
+      <button
+        className="sc-gzVnrw JckhG"
+        data-active={true}
+        fontSize={36}
+        height={84}
+        width={352}
+      >
+        <a
+          className="sc-dnqmqq iPjOZM"
+          href="/teachers/profile/edit/hobbies"
+          onClick={[Function]}
+        >
+          興味があること
+        </a>
+      </button>
+      <div
+        className="sc-kGXeez bmkEqD"
+      >
+        
+      </div>
+    </div>
+    <div
+      className="sc-kgoBCf beUpyn"
+    >
+      <button
+        className="sc-gzVnrw JckhG"
+        data-active={true}
+        fontSize={36}
+        height={84}
+        width={352}
+      >
+        <a
+          className="sc-dnqmqq iPjOZM"
+          href="/teachers/profile/edit/purposes"
+          onClick={[Function]}
+        >
+          利用目的
+        </a>
+      </button>
+      <div
+        className="sc-kGXeez bmkEqD"
+      >
+        
+      </div>
+    </div>
+    <div
+      className="sc-kgoBCf beUpyn"
+    >
+      <button
+        className="sc-gzVnrw JckhG"
+        data-active={true}
+        fontSize={36}
+        height={84}
+        width={352}
+      >
+        <a
+          className="sc-dnqmqq iPjOZM"
+          href="/teachers/profile/edit/desired_condition"
+          onClick={[Function]}
+        >
+          学生への希望条件
+        </a>
+      </button>
+      <div
+        className="sc-kGXeez bmkEqD"
+      />
+    </div>
+    <div
+      className="sc-kgoBCf beUpyn"
+    >
+      <button
+        className="sc-gzVnrw JckhG"
+        data-active={true}
+        fontSize={36}
+        height={84}
+        width={352}
+      >
+        <a
+          className="sc-dnqmqq iPjOZM"
+          href="/teachers/profile/edit/email"
+          onClick={[Function]}
+        >
+          メールアドレス
+        </a>
+      </button>
+      <div
+        className="sc-kGXeez bmkEqD"
+      >
+        
+      </div>
+    </div>
+    <div
+      className="sc-kgoBCf beUpyn"
+    >
+      <button
+        className="sc-gzVnrw JckhG"
+        data-active={true}
+        fontSize={36}
+        height={84}
+        width={352}
+      >
+        <a
+          className="sc-dnqmqq iPjOZM"
+          href="/teachers/profile/edit/password"
+          onClick={[Function]}
+        >
+          パスワード
+        </a>
+      </button>
+      <div
+        className="sc-kGXeez bmkEqD"
+      />
+    </div>
+    <div
+      className="sc-kgoBCf beUpyn"
+    >
+      <button
+        className="sc-gzVnrw JckhG"
+        data-active={true}
+        fontSize={36}
+        height={84}
+        width={352}
+      >
+        <a
+          className="sc-dnqmqq iPjOZM"
+          href="/teachers/profile/edit/introduce"
+          onClick={[Function]}
+        >
+          自己紹介
+        </a>
+      </button>
+      <div
+        className="sc-kGXeez bmkEqD"
+      >
+        
+      </div>
+    </div>
+  </div>
+  <button
+    className="sc-bZQynM jXsrCR"
+    data-active={true}
+    fontSize={40}
+    height={112}
+    width={384}
+  >
+    <a
+      className="sc-dnqmqq iPjOZM"
+      href="/teachers/profile"
+      onClick={[Function]}
+    >
+      完了
+    </a>
+  </button>
+  <div
+    className="sc-gZMcBi kmcvuH"
+  >
+    <div
+      className="sc-gqjmRU deILtk"
+    >
+      自分の情報
+    </div>
+    <a
+      className="sc-VigVT ewNaTQ"
+      href="/teachers/mypage"
+      onClick={[Function]}
+    >
+      ホームに戻る
+    </a>
+    <div
+      className="sc-jTzLTM byGjfV"
+    >
+      <a
+        className="sc-fjdhpX fPwXvL"
+        href="/teachers/notifications"
+        onClick={[Function]}
+      />
+      <a
+        className="sc-jzJRlG cIavGO"
+        href="/teachers/support"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

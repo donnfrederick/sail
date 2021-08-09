@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <CompleteReservation /> 1`] = `
+<div
+  className="sc-gZMcBi iecTqH"
+>
+  <div
+    className="sc-iwsKbI jLHIKR"
+  >
+    <div
+      className="sc-htoDjs dFIQgt"
+    >
+      Reservation is completed!
+    </div>
+    <p
+      className="sc-dnqmqq eOvuEk"
+    >
+      Please participate on time.
+    </p>
+  </div>
+  <div
+    className="sc-EHOje cjnsNm"
+  >
+    <div
+      className="sc-bZQynM kTHdjF"
+    >
+      
+    </div>
+    <div
+      className="sc-gzVnrw fNtXaw"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="sc-gqjmRU iITfUx"
+  >
+    <button
+      className="sc-bdVaJa PyDfG"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={430}
+    >
+      <a
+        className="sc-bwzfXH dYvddp"
+        href="/students/mypage"
+        onClick={[Function]}
+      >
+        OK
+      </a>
+    </button>
+  </div>
+</div>
+`;

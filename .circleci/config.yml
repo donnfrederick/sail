@@ -1,0 +1,202 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@4.4.0
+  ruby: circleci/ruby@1.1.3
+  eb: circleci/aws-elastic-beanstalk@1.0.0
+  s3: circleci/aws-s3@2.0.0
+
+executors: 
+  default:
+    docker:
+      - image: circleci/ruby:2.5.1-node
+        environment:
+          - TZ: Asia/Tokyo
+          - LANG: ja_JP.UTF-8
+          - LC_ALL: C.UTF-8
+          - LANGUAGE: ja_JP.UTF-8
+      - image: circleci/mysql:5.6-ram
+        environment:
+          - MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      - image: circleci/redis
+    working_directory: ~/repo
+  deploy:
+    docker:
+      - image: circleci/python:latest
+    working_directory: ~/repo
+
+commands:
+  setup_vips:
+    steps:
+      - run: sudo apt-get update 
+      - run: sudo apt install -y libvips-dev
+  setup_node:
+    steps:
+      - node/install:
+          install-yarn: true
+          node-version: 14.15.1
+          npm-version: 6.14.8
+      - run: node --version
+      - node/install-packages:
+          pkg-manager: yarn
+  setup_db:
+    steps:
+      - run:
+          name: Wait for DB
+          command: dockerize -wait tcp://127.0.0.1:3306 -timeout 120s
+      - run: 
+          name: rake db:create db:migrate
+          command: |
+            export RAILS_ENV="test"
+            export RACK_ENV="test"
+            bundle exec rake db:create db:migrate --trace 
+  push_to_deploy_branch:
+    parameters:
+      from:
+        type: string
+      to:
+        type: string
+    steps:
+      - run:
+          name: set config
+          command: |
+            git config --global user.email "circle-ci@sail.helte.jp" 
+            git config --global user.name "circle-ci"
+      - run: git checkout << parameters.to >>
+      - run:
+          name: push to << parameters.to >>
+          command: |
+            git pull --no-edit origin << parameters.from >>
+            git push --set-upstream origin << parameters.to >>
+
+jobs:
+  build: 
+    executor: default
+    steps:
+      - checkout
+      - setup_vips
+      - setup_node
+      - ruby/install-deps:
+          key: v1-dependencies
+      - run:
+          name: setup env
+          command: cp .env.example .env
+      - setup_db
+      - ruby/rspec-test
+      - run:
+          name: jest
+          command: yarn test --maxWorkers=2
+
+  build_js:
+    executor: default
+    steps:
+      - checkout
+      - setup_node
+      - run:
+          name: yarn build
+          command: yarn build
+      - run: 
+          name: prepare persist JS assets
+          command: |
+            mkdir -p /tmp/workspace
+            mv public/assets/js /tmp/workspace
+
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - js
+
+  upload_assets:
+    executor: deploy
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - s3/sync:
+          arguments: --exact-timestamps --delete
+          aws-region: AWS_DEFAULT_REGION
+          from: /tmp/workspace/js
+          to: "s3://sail-production-assets/js"
+
+  deploy:
+    executor: deploy
+    parameters:
+      env:
+        type: enum
+        enum: ["prod", "dev", "video"]
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "c1:f3:8d:16:37:c7:a9:c8:a3:76:23:3d:9b:1c:4c:51"
+      - checkout
+      - eb/setup
+      - when:
+          condition: 
+            equal: [dev, << parameters.env >>]
+          steps:
+            - push_to_deploy_branch:
+                from: develop
+                to: deploy/development
+      - when:
+          condition: 
+            equal: [video, << parameters.env >>]
+          steps:
+            - push_to_deploy_branch:
+                from: hotfix/org-video-player
+                to: deploy/video
+      - run:
+          name: EB Deploy
+          command: |
+              eb deploy sail-<< parameters.env >> --timeout 60
+              if [ "<<parameters.env>>" == "prod" ]; then
+                eb deploy sail-worker --timeout 60
+              fi
+          no_output_timeout: 40m
+
+workflows:
+  build-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore:
+                - /^deploy\/.*/
+      - build_js:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
+      - upload_assets:
+          requires:
+            - build_js
+          filters:
+            branches:
+              only: master
+      - deploy:
+          name: production-deploy
+          env: prod
+          requires:
+            - upload_assets
+          filters:
+            branches:
+              only:
+                - master
+      - deploy:
+          name: dev-deploy
+          env: dev
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - develop
+      - deploy:
+          name: dev_video-deploy
+          env: video
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - hotfix/org-video-player

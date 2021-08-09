@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ModalTextContainer /> 1`] = `
+<div
+  className="sc-htpNat feCSBT"
+>
+  <div
+    className="sc-bdVaJa doSFKG"
+  >
+    heading
+  </div>
+  <p
+    className="sc-bwzfXH gHBqwT"
+  >
+    Heading
+  </p>
+</div>
+`;

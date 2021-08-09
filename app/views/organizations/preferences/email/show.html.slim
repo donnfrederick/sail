@@ -1,0 +1,9 @@
+.preferences.email.col-4.offset-4.text-center
+  h1.title = I18n.t("organization.preferences.email.show.title")
+
+  .current-email.email
+    h3.title = I18n.t("organization.preferences.email.show.current_email")
+    span.email = @current_staff.email
+
+  .text-center.footer-buttons
+    a.btn.btn-success[href="#{org_preference_email_edit_path}"] = I18n.t("organization.preferences.email.show.edit_button")

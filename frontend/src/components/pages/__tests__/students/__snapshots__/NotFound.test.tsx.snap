@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StudentsNotFound /> 1`] = `
+<div
+  className="sc-EHOje eOcynP"
+>
+  <div
+    className="sc-bZQynM cUPyeE"
+  >
+    It looks like you are lost
+  </div>
+  <img
+    className="sc-gzVnrw eDNOnj"
+    src="/assets/img/students/404@3x.png"
+  />
+  <div
+    className="sc-htoDjs cAWgwS"
+  >
+    <button
+      className="sc-bdVaJa eEjsbL"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      type="blue"
+      width={494}
+    >
+      <a
+        className="sc-bwzfXH dYvddp"
+        href="/"
+        onClick={[Function]}
+      >
+        Back
+      </a>
+    </button>
+  </div>
+</div>
+`;

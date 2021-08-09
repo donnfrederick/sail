@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <NotifyAbsence /> 1`] = `
+<div
+  className="sc-jTzLTM dMEaru"
+>
+  <div
+    className="sc-VigVT kaYUeB"
+  >
+    <div
+      className="sc-gZMcBi jeuDio"
+    >
+      無断欠席しました
+    </div>
+    <p
+      className="sc-gqjmRU kxDtlD"
+    >
+      前回の会話で無断欠席しました。
+次回は必ず出席しましょう。
+
+次回も無断欠席をすると
+ペナルティが発生します。
+    </p>
+  </div>
+  <div
+    className="sc-fjdhpX efXwve"
+  >
+    <button
+      className="sc-bZQynM jTOtoa"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={304}
+    >
+      <div
+        className="sc-iwsKbI lgKvmV"
+      >
+        とじる
+      </div>
+    </button>
+  </div>
+</div>
+`;

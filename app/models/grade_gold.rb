@@ -1,0 +1,2 @@
+class GradeGold < Grade
+end

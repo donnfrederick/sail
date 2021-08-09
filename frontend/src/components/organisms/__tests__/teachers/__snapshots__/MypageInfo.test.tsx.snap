@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <MypageInfo /> 1`] = `
+<div
+  className="sc-jAaTju edgkvB"
+>
+  <a
+    className="sc-gPEVay iDxOhC"
+    href="/teachers/reservations/new"
+    onClick={[Function]}
+  >
+    <button
+      className="sc-EHOje hMukup"
+      color="#fff"
+      data-disabled={false}
+      data-selected={false}
+      fontSize={36}
+      height={80}
+      width={276}
+    >
+      予約する
+    </button>
+    <span
+      className="sc-iRbamj dMNRZc"
+    >
+      いくつでも予約できます
+    </span>
+  </a>
+  <div
+    className="sc-jDwBTQ flNkmz"
+  />
+</div>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <MenuList /> 1`] = `
+<div
+  className="sc-dnqmqq fAsIIr"
+>
+  <h1
+    className="sc-iwsKbI crYdJu"
+  >
+    予期せぬエラーが発生しました
+An unexpected error occurred.
+  </h1>
+  <img
+    className="sc-gZMcBi fUeNxh"
+    src="/assets/img/common/maintenance@3x.png"
+  />
+  <button
+    className="sc-gzVnrw hBuARj"
+    data-active={true}
+    fontSize={32}
+    height={88}
+    onClick={[Function]}
+    type="blue"
+    width={488}
+  >
+    ホームに戻る
+  </button>
+</div>
+`;

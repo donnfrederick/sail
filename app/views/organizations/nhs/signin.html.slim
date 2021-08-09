@@ -1,0 +1,28 @@
+.container
+  = form_tag './signin', remote: true, id: 'request_ajax_update', class: "form-ajax login col-4 offset-4", style: "margin-top: 20vh" do |f|
+    h2.title.text-center シニア管理システム
+    .alert.error.alert-danger
+      b エラー:
+      span ユーザーIDまたはパスワードが違います。
+    .col-12
+      label.sr-only[for="user-email"] User ID
+      .input-group.mb-2
+        .input-group-prepend
+          .input-group-text
+            i.fa.fa-user
+        = text_field_tag :email, '', class: 'form-control', id: 'input-user-email', autofocus: 'autofocus', placeholder: 'email@address'
+
+    .col-12
+      label.sr-only[for="user-password"] Password
+      .input-group.mb-2
+        .input-group-prepend
+          .input-group-text
+            i.fa.fa-unlock-alt
+        = password_field_tag :password, '', class: 'form-control', id: 'input-user-password', autofocus: 'autofocus', placeholder: 'パスワード'
+
+    .col-12.text-right
+      a#updated_by_ajax パスワードをお忘れですか？
+
+    .text-center
+      = button_tag '戻る', class: 'btn btn-secondary', role: 'button', style: 'margin-top: 2.5vh; margin-bottom: 2.5.vh; margin-right: 3vw;', onclick: 'location.href="/organizations/"; return false;'
+      = submit_tag 'ログインする', class: 'btn btn-success', role: 'button', style: 'margin-top: 2.5vh; margin-bottom: 2.5.vh', data: {disable_with: '処理中...'}

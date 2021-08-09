@@ -1,0 +1,155 @@
+.ReactFlagsSelect-module_label__27pw9,
+.ReactFlagsSelect-module_secondaryLabel__37t1D{
+  padding-right:10px !important;
+  text-align: right !important;
+  width: 12% !important;
+}
+.ReactFlagsSelect-module_secondaryLabel__37t1D{
+  width: auto !important;
+}
+.ReactFlagsSelect-module_selectOptionsWithSearch__1W03w {
+  padding: 0 0 8px 0;
+  max-height: 560px !important;
+}
+
+.ReactFlagsSelect-module_fullWidthOptions__1XeR6 {
+  position: fixed;
+}
+.ReactFlagsSelect-module_flagsSelect__2pfa2 {
+  position: relative;
+  vertical-align: inherit;
+  padding-bottom: 5px;
+  text-align: left;
+}
+.ReactFlagsSelect-module_flagsSelectInline__cUnnz {
+  display: inline-block;
+}
+.ReactFlagsSelect-module_selectBtn__19wW7 {
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  font-family: inherit !important;
+  color: #405766;
+  border: none !important;
+  border-bottom: 1px solid #a3b0b8 !important;
+  background: transparent;
+}
+.ReactFlagsSelect-module_selectBtn__19wW7:after,
+.ReactFlagsSelect-module_selectBtn__19wW7[aria-expanded="true"]:after {
+  content: " ";
+  width: 0;
+  height: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+.ReactFlagsSelect-module_selectBtn__19wW7:after {
+  border-top: 10px solid #4d4d4d !important;
+  border-left: 10px solid transparent !important;
+  border-right: 10px solid transparent !important;
+  border-bottom: 0 !important;
+}
+.ReactFlagsSelect-module_selectBtn__19wW7[aria-expanded="true"]:after {
+  border-top: 0 !important;
+  border-left: 10px solid transparent !important;
+  border-right: 10px solid transparent !important;
+  border-bottom: 10px solid #4d4d4d !important;
+}
+.ReactFlagsSelect-module_disabledBtn__3A4GF {
+  background: #eaeaea;
+  cursor: default;
+}
+.ReactFlagsSelect-module_label__27pw9 {
+  width: auto;
+  padding-left: 15px;
+  font-family: inherit !important;
+  color: #405766 !important;
+}
+.ReactFlagsSelect-module_label__27pw9,
+.ReactFlagsSelect-module_secondaryLabel__37t1D {
+  font-size: 24px;
+  font: 400 13.3333px Arial;
+  padding-left: 15px;
+  padding-right: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 15%;
+  text-align: right;
+}
+.ReactFlagsSelect-module_secondaryLabel__37t1D {
+  font-family: inherit !important;
+  color: #405766 !important;
+  padding-left: 5px;
+  width: auto;
+}
+.ReactFlagsSelect-module_selectValue__152eS,
+.ReactFlagsSelect-module_selectOption__3pcgW {
+  cursor: pointer;
+  padding: 0 8px;
+  margin: 4px 0;
+  white-space: nowrap;
+}
+.ReactFlagsSelect-module_selectValue__152eS {
+  font-size: 32px !important;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  width: 92%;
+}
+.ReactFlagsSelect-module_selectOption__3pcgW {
+  padding: 2px 18px;
+}
+.ReactFlagsSelect-module_selectOption__3pcgW:hover, .ReactFlagsSelect-module_selectOption__3pcgW:focus {
+  outline: none;
+  background: #eaeaea;
+}
+.ReactFlagsSelect-module_selectFlag__2q5gC {
+  display: inline-flex;
+  font-size: 24px;
+}
+.ReactFlagsSelect-module_selectOptionValue__vS99- {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 15px;
+}
+.ReactFlagsSelect-module_selectOptionWithlabel__2GpmM {
+  padding: 4px 10px;
+}
+.ReactFlagsSelect-module_selectOptions__3LNBJ {
+  position: absolute;
+  z-index: 999999;
+  border: 1px solid #bdbbbb;
+  border-radius: 3px;
+  background: #ffffff;
+  margin-top: 8px;
+  padding: 8px 0;
+  overflow: auto;
+}
+
+.ReactFlagsSelect-module_alignOptionsToRight__3Qvq2 {
+  right: 0;
+}
+.ReactFlagsSelect-module_filterBox__3m8EU {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding-top: 8px;
+  background: #ffffff;
+}
+.ReactFlagsSelect-module_filterBox__3m8EU input {
+  width: calc(100% - 20px);
+  margin: 0 10px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #bdbbbb;
+  background-color: #eaeaea;
+  line-height: 1px;
+  border-radius: 8px
+}
+.ReactFlagsSelect-module_filterBox__3m8EU input:focus {
+  outline: none;
+}

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <EditDesiredCondition /> 1`] = `
+<div
+  className="sc-gzVnrw dUjKSS"
+>
+  <button
+    className="sc-EHOje bpREwu"
+    color="#138efd"
+    data-disabled={false}
+    data-selected={false}
+    fontSize={36}
+    height={100}
+    onClick={[Function]}
+    width={640}
+  >
+    日本語が得意な方がいい
+  </button>
+  <button
+    className="sc-EHOje bpREwu"
+    color="#138efd"
+    data-disabled={false}
+    data-selected={false}
+    fontSize={36}
+    height={100}
+    onClick={[Function]}
+    width={640}
+  >
+    日本語が不得意でも構わない
+  </button>
+</div>
+`;

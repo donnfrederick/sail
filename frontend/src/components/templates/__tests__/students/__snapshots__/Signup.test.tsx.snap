@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StudentsSignup /> 1`] = `
+<div
+  className="sc-kvZOFW gYiuMD"
+>
+  <div
+    className="sc-ksYbfQ fRrZHT"
+  >
+    <div
+      className="sc-dnqmqq fZTPMH"
+    >
+      <div
+        className="sc-EHOje fxLPLO"
+      >
+        <div
+          className="sc-bZQynM iCJOUZ"
+        >
+          <div
+            className="sc-htoDjs hmvgoU"
+          />
+          <div
+            className="sc-gzVnrw bmuuJy"
+            data-completed={true}
+            data-current={true}
+          />
+          <div
+            className="sc-gzVnrw bmuuJy"
+            data-completed={false}
+            data-current={false}
+          />
+          <div
+            className="sc-gzVnrw bmuuJy"
+            data-completed={false}
+            data-current={false}
+          />
+          <div
+            className="sc-gzVnrw bmuuJy"
+            data-completed={false}
+            data-current={false}
+          />
+        </div>
+      </div>
+      <div
+        className="sc-iwsKbI jcIMUk"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="sc-hmzhuo hSBxvP"
+    >
+      <div
+        className="sc-jTzLTM kAqFIi"
+      >
+        <div
+          className="sc-VigVT iwCALK"
+        >
+          Email
+        </div>
+        <input
+          className="sc-gqjmRU jDOsyJ"
+          data-error={false}
+          onInput={[Function]}
+          placeholder="Email"
+          type="email"
+        />
+        <div
+          className="sc-gZMcBi dDMgKl"
+        />
+      </div>
+      <div
+        className="sc-ckVGcZ iDdoFS"
+      >
+        <div
+          className="sc-VigVT iwCALK"
+        >
+          Password
+        </div>
+        <input
+          className="sc-gqjmRU jDOsyJ"
+          data-error={false}
+          onInput={[Function]}
+          placeholder="Password"
+          type="password"
+        />
+        <div
+          className="sc-gZMcBi dDMgKl"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-frDJqD jBBUgf"
+    >
+      <button
+        className="sc-bdVaJa evUcPv"
+        data-active={false}
+        fontSize={32}
+        height={88}
+        onClick={[Function]}
+        type="blue"
+        width={488}
+      >
+        Next
+      </button>
+    </div>
+  </div>
+</div>
+`;

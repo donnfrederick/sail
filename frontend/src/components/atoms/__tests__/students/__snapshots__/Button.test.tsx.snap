@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <FooterButton /> 1`] = `
+<button
+  className="sc-bdVaJa evUcPv"
+  data-active={true}
+  fontSize={32}
+  height={88}
+  type="blue"
+  width={488}
+>
+  
+</button>
+`;

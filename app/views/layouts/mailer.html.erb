@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <%= stylesheet_link_tag :mailer, media: :all %>
+  </head>
+
+  <body>
+    <div class="content-wrapper">
+      <div class="header">
+        <img src="https://www.helte.jp/downloads/sail-official-header.jpeg" alt="" />
+      </div>
+
+      <div class="content">
+        <%= yield %>
+
+        <%= render partial: "components/mailer/content_footer", locals: {user: @user} %>
+
+        <div class="footer">
+          <% if @notification.nil? %>
+            <cite>Helte co., ltd</cite>
+          <% else %>
+            <cite><%= I18n.t("notification.footer_note", locale: @notification.user.default_locale, your_name: @notification.user.local_name(locale: @notification.user.default_locale)) %></cite>
+            <p style="text-align: center;">support@helte-corp.com</p>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <%= render partial: "components/mailer/footer", locals: {
+      google_analytics_event: @notification.try(:google_analytics_event),
+    } %>
+  </body>
+</html>

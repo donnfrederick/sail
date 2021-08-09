@@ -1,0 +1,8 @@
+h1.title = I18n.t("organization.accounts.title")
+
+table.table.table-striped
+  tr
+    th = I18n.t("organization.accounts.email")
+  - @accounts.each do | account |
+    tr
+      td.name = account.email

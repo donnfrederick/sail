@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Mypageinfo /> 1`] = `
+<div
+  className="sc-bRBYWo eAjqzy"
+>
+  <div
+    className="sc-hzDkRC gkzAcs"
+  />
+</div>
+`;

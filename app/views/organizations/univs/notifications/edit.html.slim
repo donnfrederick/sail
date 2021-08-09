@@ -1,0 +1,31 @@
+= form_tag("#{org_notification_update_path(@role_type, @notification.id)}", class: "edit col-4 offset-4", method: "post") do
+  h1.title Edit the notification
+  p You can edit the notification. Fill the below form and press "Apply" button.
+  .row
+    .form-group.col-12
+      label[for="input-title-ja"] Subject (Japanese)
+      input#input-title-ja.form-control[type="text" name="title_ja" placeholder="Subject" value="#{@notification.title_ja}" required]
+    .form-group.col-12
+      label[for="input-title-en"] Subject (English)
+      input#input-title-en.form-control[type="text" name="title_en" placeholder="Subject" value="#{@notification.title_en}" required]
+    .form-group.col-12
+      label[for="input-body-ja"] Text (Japanese)
+      textarea#input-body-ja.form-control[name="body_ja" placeholder="お知らせの本文を書いてください。" required] = @notification.body_ja
+    .form-group.col-12
+      label[for="input-body-en"] Text (English)
+      textarea#input-body-en.form-control[name="body_en" placeholder="Write down the description here" required] = @notification.body_en
+  .row
+    .form-group.col-12
+      label[for="select-section"] Class room
+      select#select-section.custom-select[name="target_section_id"]
+        - @sections.each do |section|
+          - if section.id == @notification.target_section_id
+            option[value="#{section.id}" selected="selected"] = section.name
+          - else
+            option[value="#{section.id}"] = section.name
+
+  input[name="_method" type="hidden" value="PUT"]
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='#{org_notification_list_path(@role_type)}'; return false;"] = I18n.t("organization.back_button")
+    button.btn.btn-primary[type="submit"] Apply

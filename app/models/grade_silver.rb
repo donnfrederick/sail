@@ -1,0 +1,2 @@
+class GradeSilver < Grade
+end

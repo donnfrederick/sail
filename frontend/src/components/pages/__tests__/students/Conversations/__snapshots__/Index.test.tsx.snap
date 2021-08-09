@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StudentsConversationsIndex /> 1`] = `
+<div
+  className="sc-cIShpX brWPts"
+>
+  <div
+    className="sc-dNLxif dcXSbu"
+  >
+    <div
+      className="sc-bbmXgH jIDZuZ"
+    >
+      <video
+        autoPlay={true}
+        className="sc-gGBfsJ gfMkIV"
+        id="remote-video"
+        playsInline={true}
+      />
+    </div>
+    <div
+      className="sc-jqCOkK gqDuOt"
+    >
+      <video
+        autoPlay={true}
+        className="sc-uJMKN eYkejE"
+        id="local-video"
+        playsInline={true}
+      />
+    </div>
+    <div
+      className="sc-jTzLTM lmzlmH"
+    >
+      <img
+        className="sc-jzJRlG bIrnut"
+        src="/assets/img/students/conversation/network-status@3x.png"
+      />
+      NORMAL
+    </div>
+    <div
+      className="sc-dVhcbM iBLtIz"
+    >
+      <div
+        className="sc-eqIVtm illvIh"
+      >
+        Time Limit
+      </div>
+      <div
+        className="sc-fAjcbJ eiJFIT"
+        data-color={null}
+      >
+        
+      </div>
+    </div>
+    <div
+      className="sc-cHGsZl hstrww"
+    >
+      <button
+        className="sc-caSCKo dUFIWV"
+        onClick={[Function]}
+      />
+      <button
+        className="sc-kjoXOD bnFCeL"
+        onClick={[Function]}
+      />
+    </div>
+    <canvas
+      className="sc-hEsumM kZHQxf"
+      id="check-stream"
+    />
+  </div>
+</div>
+`;

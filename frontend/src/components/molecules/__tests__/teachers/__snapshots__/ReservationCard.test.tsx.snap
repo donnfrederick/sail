@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ReservationCard /> 1`] = `
+<div>
+  <div
+    className="sc-EHOje eXYtbq"
+    data-status="queued"
+  >
+    <div
+      className="sc-bdVaJa bHgtVR"
+    >
+      <img
+        className="sc-htpNat iiyWLF"
+        data-border={false}
+        height="150px"
+        src="/assets/img/common/user@3x.png"
+        srcSet=""
+        width="150px"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-EHOje eXYtbq"
+    data-status="no-reserved"
+  >
+    <div
+      className="sc-bdVaJa bHgtVR"
+    >
+      <img
+        className="sc-htpNat iiyWLF"
+        data-border={false}
+        height="150px"
+        src="/assets/img/common/user@3x.png"
+        srcSet=""
+        width="150px"
+      />
+    </div>
+    <div
+      className="sc-bZQynM hgsYro"
+    >
+      <div
+        className="sc-iwsKbI hFhfOD"
+      >
+        海外の学生と交流しましょう
+      </div>
+      <button
+        className="sc-bxivhb fTmgeZ"
+        color="#8ebbde"
+        data-disabled={false}
+        data-selected={false}
+        fontSize={40}
+        height={82}
+        width={362}
+      >
+        <a
+          className="sc-ifAKCX XJNxd"
+          href="/teachers/reservations/new"
+          onClick={[Function]}
+        >
+          予約する
+        </a>
+      </button>
+    </div>
+  </div>
+  <div
+    className="sc-EHOje eXYtbq"
+    data-status="waiting"
+  >
+    <div
+      className="sc-bdVaJa bHgtVR"
+    >
+      <img
+        className="sc-htpNat iiyWLF"
+        data-border={false}
+        height="150px"
+        src="/assets/img/common/user@3x.png"
+        srcSet=""
+        width="150px"
+      />
+    </div>
+  </div>
+</div>
+`;

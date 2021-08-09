@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ReservationsDetail /> 1`] = `
+<div
+  className="sc-btzYZH hEyfNr"
+>
+  <div
+    className="sc-lhVmIH bZvTpG"
+  >
+    <div
+      className="sc-EHOje ggffGJ"
+    >
+      <img
+        className="sc-bZQynM cxoaRs"
+        src="/assets/img/students/reservation-detail/calendar@3x.png"
+      />
+      <div
+        className="sc-gzVnrw htmXZY"
+      >
+        <div
+          className="sc-htoDjs gZMFfE"
+        >
+          Invalid date
+        </div>
+        <div
+          className="sc-dnqmqq goJTjw"
+        >
+          Invalid date - Invalid date
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bYSBpT iUppen"
+    >
+      <button
+        className="sc-bdVaJa dtbBWx"
+        data-active={false}
+        fontSize={32}
+        height={88}
+        onClick={[Function]}
+        type="green"
+        width={492}
+      >
+        Talk
+      </button>
+    </div>
+  </div>
+</div>
+`;

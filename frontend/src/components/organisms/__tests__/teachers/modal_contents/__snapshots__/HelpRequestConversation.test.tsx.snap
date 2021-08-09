@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <HelpRequestConversation /> 1`] = `
+<div
+  className="sc-jTzLTM dMEaru"
+>
+  <div
+    className="sc-VigVT kaYUeB"
+  >
+    <div
+      className="sc-gZMcBi fxOrEW"
+    >
+      予約方法は2通り
+    </div>
+    <p
+      className="sc-gqjmRU blEEVi"
+    >
+      【A: 通常予約】
+1. あなたが会話したい時間を予約
+2. その予約を学生が選択し、確定
+
+【B: リクエスト予約】
+1. あなたが会話したい時間を予約
+2. その予約を見た学生が、あなたにリクエスト
+3. あなたが相手を選んで承認し、確定
+    </p>
+  </div>
+  <div
+    className="sc-fjdhpX efXwve"
+  >
+    <button
+      className="sc-bZQynM jTOtoa"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={304}
+    >
+      <div
+        className="sc-iwsKbI lgKvmV"
+      >
+        とじる
+      </div>
+    </button>
+  </div>
+</div>
+`;

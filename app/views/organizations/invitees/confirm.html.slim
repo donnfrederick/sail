@@ -1,0 +1,15 @@
+= form_tag org_invitation_accept_path(@digest), class: "form-ajax login col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 offset-sm-1 offset-md-2 offset-lg-3 offset-xl-4", style: "margin-top: 20vh" do |f|
+  h1.title = I18n.t("organization.invitees.confirm.title", class_name: @invitation.organization_section.name)
+  p = I18n.t("organization.invitees.confirm.message", org_name: @invitation.organization_section.organization.name, class_name: @invitation.organization_section.name)
+  p = I18n.t("organization.invitees.confirm.otherwise")
+
+  h1.title
+    i.fa.fa-info-circle.align-middle
+    span.h3.align-middle = I18n.t("organization.invitees.confirm.merits.title", class_name: @invitation.organization_section.name)
+  p = I18n.t("organization.invitees.confirm.merits.message", user_name: @current_user.name, class_name: @invitation.organization_section.name)
+
+  input[type="hidden" name="token" value="#{@invitation.token}"]
+
+  .text-center.footer-buttons
+    a.btn.btn-secondary[role="button" href="#{student_mypage_path}"] = I18n.t("organization.back_button")
+    button.btn.btn-primary[type="submit"] = I18n.t("organization.invitees.confirm.proceed_button")

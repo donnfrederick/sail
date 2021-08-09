@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Confirm /> 1`] = `
+<div
+  className="sc-VigVT kxLHnZ"
+>
+  <h2
+    className="sc-EHOje eCFfIu"
+  >
+    この内容で登録しますか？
+  </h2>
+  <div
+    className="sc-dnqmqq fYCMAF"
+    data-no-border={false}
+  >
+    <div
+      className="sc-gZMcBi cbgfWe"
+    >
+      1
+    </div>
+    <div
+      className="sc-iwsKbI itMcWI"
+    >
+      メールアドレス
+    </div>
+    <div
+      className="sc-gqjmRU hrrCkA"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="sc-dnqmqq fYCMAF"
+    data-no-border={false}
+  >
+    <div
+      className="sc-gZMcBi cbgfWe"
+    >
+      2
+    </div>
+    <div
+      className="sc-iwsKbI itMcWI"
+    >
+      名前
+    </div>
+    <div
+      className="sc-gqjmRU hrrCkA"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="sc-dnqmqq fYCMAF"
+    data-no-border={false}
+  >
+    <div
+      className="sc-gZMcBi cbgfWe"
+    >
+      3
+    </div>
+    <div
+      className="sc-iwsKbI itMcWI"
+    >
+      性別
+    </div>
+    <div
+      className="sc-gqjmRU hrrCkA"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="sc-dnqmqq fYCMAF"
+    data-no-border={false}
+  >
+    <div
+      className="sc-gZMcBi cbgfWe"
+    >
+      4
+    </div>
+    <div
+      className="sc-iwsKbI itMcWI"
+    >
+      顔写真
+    </div>
+    <div
+      className="sc-gqjmRU hrrCkA"
+    >
+      <div
+        className="sc-bZQynM jSqUka"
+      >
+        <img
+          className="sc-htoDjs eWjmZn"
+          height="240px"
+          src=""
+          srcSet=""
+          width="240px"
+        />
+        <img
+          className="sc-gzVnrw gSByUY"
+          src="/assets/img/common/flags/camera.png"
+          width={80}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-dnqmqq fYCMAF"
+    data-no-border={false}
+  >
+    <div
+      className="sc-gZMcBi cbgfWe"
+    >
+      5
+    </div>
+    <div
+      className="sc-iwsKbI itMcWI"
+    >
+      興味があること
+    </div>
+    <div
+      className="sc-gqjmRU hrrCkA"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="sc-dnqmqq fYCMAF"
+    data-no-border={false}
+  >
+    <div
+      className="sc-gZMcBi cbgfWe"
+    >
+      6
+    </div>
+    <div
+      className="sc-iwsKbI itMcWI"
+    >
+      利用目的
+    </div>
+    <div
+      className="sc-gqjmRU hrrCkA"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="sc-dnqmqq fYCMAF"
+    data-no-border={true}
+  >
+    <div
+      className="sc-gZMcBi cbgfWe"
+    >
+      7
+    </div>
+    <div
+      className="sc-iwsKbI itMcWI"
+    >
+      学生への希望条件
+    </div>
+    <div
+      className="sc-gqjmRU hrrCkA"
+    >
+      
+    </div>
+  </div>
+</div>
+`;

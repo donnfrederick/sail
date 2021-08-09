@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Favorite /> 1`] = `
+Array [
+  <div
+    className="sc-gzVnrw bQleIr"
+  >
+    <div
+      className="sc-ifAKCX ejEYMR"
+    >
+      <h2
+        className="sc-EHOje hkpgLc"
+      >
+        ありがとうございました
+      </h2>
+      <h3
+        className="sc-bZQynM jwtZBH"
+      >
+        お気に入りとは？
+      </h3>
+    </div>
+  </div>,
+  <div
+    className="sc-dnqmqq fRdUii"
+    width={570}
+  >
+    <p
+      className="sc-jTzLTM irjtpA"
+      fontSize={28}
+    >
+      お気に入り情報は、マッチング精度の改善に活用しています。
+    </p>
+    <div
+      className="sc-bdVaJa euAaOh"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH kzjiuI"
+        data-active={false}
+      >
+        <img
+          className="sc-htpNat ldDEDY"
+          data-active={false}
+          src="/assets/img/common/evaluation/check@2x.png"
+        />
+      </div>
+      <span
+        className="sc-bxivhb jYwlOI"
+      >
+        この方をお気入りにする
+      </span>
+    </div>
+    <div
+      className="sc-VigVT cxTBom"
+    >
+      <button
+        className="sc-iwsKbI bPKDWm"
+        data-active={true}
+        fontSize={32}
+        height={88}
+        onClick={[Function]}
+        type="blue"
+        width={360}
+      >
+        <a
+          className="sc-gZMcBi DMCJr"
+          href="/teachers/mypage"
+          onClick={[Function]}
+        >
+          ホームに戻る
+        </a>
+      </button>
+    </div>
+  </div>,
+  <div
+    className="sc-htoDjs bqFwbt"
+  >
+    <hr
+      className="sc-gqjmRU HoGLu"
+    />
+    <div
+      className="sc-ifAKCX cZeuDO"
+    >
+      <h2
+        className="sc-EHOje ggWjip"
+        fontSize={36}
+      >
+        会話相手に問題はありましたか？
+      </h2>
+      <h3
+        className="sc-bZQynM kTOdTU"
+        fontSize={28}
+      >
+        問題があった場合ユーザーをブロックしたり、運営に通報できます。
+      </h3>
+    </div>
+    <button
+      className="sc-iwsKbI hxovbL"
+      data-active={true}
+      fontSize={24}
+      height={50}
+      onClick={[Function]}
+      type="white"
+      width={250}
+    >
+      問題を報告する
+    </button>
+  </div>,
+]
+`;

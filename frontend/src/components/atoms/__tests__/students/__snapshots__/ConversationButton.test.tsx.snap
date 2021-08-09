@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConversationButton /> 1`] = `
+<div>
+  <button
+    className="sc-jlyJG kiJKwJ"
+    onClick={[Function]}
+  />
+  <button
+    className="sc-csuQGl CmESQ"
+    onClick={[Function]}
+  />
+</div>
+`;

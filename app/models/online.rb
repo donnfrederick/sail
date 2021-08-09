@@ -1,0 +1,3 @@
+class Online < UsersNetworkActivity
+
+end

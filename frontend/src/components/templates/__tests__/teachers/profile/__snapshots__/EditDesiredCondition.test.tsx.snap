@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ProfileEditDesiredCondition /> 1`] = `
+<div
+  className="sc-kpOJdX iLOjFd"
+>
+  <h2
+    className="sc-EHOje glaEUF"
+  >
+    新しい希望条件を
+選んでください
+  </h2>
+  <div
+    className="sc-jTzLTM hRdErb"
+  >
+    <button
+      className="sc-gqjmRU KGhLM"
+      color="#138efd"
+      data-disabled={false}
+      data-selected={false}
+      fontSize={36}
+      height={100}
+      onClick={[Function]}
+      width={640}
+    >
+      日本語が得意な方がいい
+    </button>
+    <button
+      className="sc-gqjmRU KGhLM"
+      color="#138efd"
+      data-disabled={false}
+      data-selected={false}
+      fontSize={36}
+      height={100}
+      onClick={[Function]}
+      width={640}
+    >
+      日本語が不得意でも構わない
+    </button>
+  </div>
+  <div
+    className="sc-kGXeez eUtzhB"
+  >
+    <button
+      className="sc-fjdhpX hazIFB"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      width={304}
+    >
+      <a
+        className="sc-chPdSV hdIjsw"
+        href="/teachers/profile/edit"
+        onClick={[Function]}
+      >
+        戻る
+      </a>
+    </button>
+    <button
+      className="sc-jzJRlG jYfYsa"
+      data-active={false}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={304}
+    >
+      <div
+        className="sc-kgoBCf bnrbZE"
+      >
+        完了
+      </div>
+    </button>
+  </div>
+  <div
+    className="sc-bZQynM exyLZf"
+  >
+    <div
+      className="sc-gzVnrw iZddOJ"
+    >
+      学生への希望条件を変更
+    </div>
+    <a
+      className="sc-htoDjs bISPcs"
+      href="/teachers/mypage"
+      onClick={[Function]}
+    >
+      ホームに戻る
+    </a>
+    <div
+      className="sc-dnqmqq gIvixX"
+    >
+      <a
+        className="sc-iwsKbI kedmBh"
+        href="/teachers/notifications"
+        onClick={[Function]}
+      />
+      <a
+        className="sc-gZMcBi jjSsDW"
+        href="/teachers/support"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

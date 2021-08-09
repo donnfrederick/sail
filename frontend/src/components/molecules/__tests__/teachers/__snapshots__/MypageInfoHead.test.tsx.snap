@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <MypageInfoHead /> 1`] = `
+<div
+  className="sc-VigVT fGcwc"
+>
+  <div
+    className="sc-bdVaJa bbgQhG"
+  >
+    <div
+      className="sc-bwzfXH cDlwhv"
+    >
+      2018年07月
+    </div>
+    <div
+      className="sc-htpNat cxHgEh"
+    >
+      <div
+        className="sc-bxivhb icxEh"
+      >
+        日
+      </div>
+      <div
+        className="sc-bxivhb icxEh"
+      >
+        月
+      </div>
+      <div
+        className="sc-bxivhb icxEh"
+      >
+        火
+      </div>
+      <div
+        className="sc-bxivhb icxEh"
+      >
+        水
+      </div>
+      <div
+        className="sc-bxivhb icxEh"
+      >
+        木
+      </div>
+      <div
+        className="sc-bxivhb icxEh"
+      >
+        金
+      </div>
+      <div
+        className="sc-bxivhb icxEh"
+      >
+        土
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX gtiVHl"
+    >
+      <div
+        className="sc-EHOje idtMQl"
+      >
+        15
+      </div>
+      <div
+        className="sc-EHOje idtMQl"
+      >
+        16
+      </div>
+      <div
+        className="sc-EHOje idtMQl"
+      >
+        17
+      </div>
+      <div
+        className="sc-EHOje idtMQl"
+      >
+        18
+      </div>
+      <div
+        className="sc-EHOje idtMQl"
+      >
+        19
+      </div>
+      <div
+        className="sc-EHOje idtMQl"
+      >
+        20
+      </div>
+      <div
+        className="sc-EHOje idtMQl"
+      >
+        21
+      </div>
+    </div>
+  </div>
+  <img
+    className="sc-jTzLTM gQNPMG"
+    data-disabled={true}
+    onClick={[Function]}
+    src="/assets/img/common/left-arrow.png"
+  />
+  <img
+    className="sc-fjdhpX cdGrrG"
+    onClick={[Function]}
+    src="/assets/img/common/right-arrow.png"
+  />
+</div>
+`;

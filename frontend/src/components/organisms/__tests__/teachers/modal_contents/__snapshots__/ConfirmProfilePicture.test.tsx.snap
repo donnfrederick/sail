@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <EditPageButtons /> 1`] = `
+<div
+  className="sc-jTzLTM jFncqe"
+>
+  <div
+    className="sc-EHOje fbzZrP"
+  >
+    <img
+      className="sc-gzVnrw hBgCoE"
+      height="240px"
+      src="/assets/img/common/user.png"
+      srcSet=""
+      width="240px"
+    />
+  </div>
+  <div
+    className="sc-fjdhpX iUjtMg"
+  >
+    登録するのは顔写真ですか？ はっきりと顔が分からなければ、会話相手が安心しません。 顔写真以外を登録しようしている方は、戻って写真を変更してください。
+  </div>
+  <div
+    className="sc-jzJRlG jHOqOp"
+  >
+    <button
+      className="sc-htoDjs kkIADE"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={250}
+    >
+      <div
+        className="sc-VigVT dXzNKq"
+      >
+        戻る
+      </div>
+    </button>
+    <button
+      className="sc-dnqmqq IoeOJ"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={250}
+    >
+      <div
+        className="sc-VigVT dXzNKq"
+      >
+        OK
+      </div>
+    </button>
+  </div>
+</div>
+`;

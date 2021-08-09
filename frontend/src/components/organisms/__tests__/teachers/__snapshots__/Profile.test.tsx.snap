@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Profile /> 1`] = `
+<div
+  className="sc-jnlKLf adGQN"
+>
+  <div
+    className="sc-frDJqD cNJXYW"
+  >
+    <div
+      className="sc-jbKcbu ipOTQr"
+    >
+      <div
+        className="sc-gZMcBi NtWjs"
+      >
+        <img
+          className="sc-VigVT FhRvK"
+          height="200px"
+          src="/assets/img/common/user.png"
+          srcSet=""
+          width="200px"
+        />
+      </div>
+      <div
+        className="sc-dNLxif eRXkoG"
+      >
+        <div
+          className="sc-kvZOFW ivbOlf"
+          data-self={true}
+        >
+          
+        </div>
+        <div
+          className="sc-hqyNC fpOelQ"
+          data-self={true}
+        >
+          Sail公認サポーター
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-hmzhuo kjACse"
+    >
+      
+    </div>
+    <div
+      className="sc-TOsTZ jRZkxO"
+    >
+      <div
+        className="sc-kgAjT jctAkV"
+      >
+        <div
+          className="sc-cJSrbW ftcugI"
+        >
+          性別
+        </div>
+        <div
+          className="sc-ksYbfQ jHwjmi"
+        >
+          未登録
+        </div>
+      </div>
+      <div
+        className="sc-kgAjT jctAkV"
+      >
+        <div
+          className="sc-cJSrbW ftcugI"
+        >
+          国籍
+        </div>
+        <div
+          className="sc-ksYbfQ jHwjmi"
+        >
+          
+        </div>
+      </div>
+      <div
+        className="sc-kgAjT jctAkV"
+      >
+        <div
+          className="sc-cJSrbW ftcugI"
+        >
+          興味
+        </div>
+        <div
+          className="sc-ksYbfQ jHwjmi"
+        >
+          
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bbmXgH iVafSX"
+    >
+      <div
+        className="sc-jDwBTQ jskYWM"
+      >
+        <div
+          className="sc-gPEVay jpQbrn"
+        >
+          <div
+            className="sc-gipzik kyboVn"
+          >
+            会話数
+          </div>
+          <div
+            className="sc-Rmtcm iqqDdo"
+          >
+            0
+          </div>
+        </div>
+        <div
+          className="sc-iRbamj bojdQX"
+        >
+          <div
+            className="sc-jlyJG cJkzVy"
+          >
+            <img
+              className="sc-csuQGl hXUqMU"
+              src="/assets/img/common/evaluation/smiley_humorous_active@2x.png"
+            />
+            <div
+              className="sc-Rmtcm iqqDdo"
+            >
+              0
+            </div>
+          </div>
+          <div
+            className="sc-jlyJG cJkzVy"
+          >
+            <img
+              className="sc-csuQGl hXUqMU"
+              src="/assets/img/common/evaluation/smiley_impressed_active@2x.png"
+            />
+            <div
+              className="sc-Rmtcm iqqDdo"
+            >
+              0
+            </div>
+          </div>
+          <div
+            className="sc-jlyJG cJkzVy"
+          >
+            <img
+              className="sc-csuQGl hXUqMU"
+              src="/assets/img/common/evaluation/smiley_discovered_active@2x.png"
+            />
+            <div
+              className="sc-Rmtcm iqqDdo"
+            >
+              0
+            </div>
+          </div>
+          <div
+            className="sc-jlyJG cJkzVy"
+          >
+            <img
+              className="sc-csuQGl hXUqMU"
+              src="/assets/img/common/evaluation/smiley_fine_active@2x.png"
+            />
+            <div
+              className="sc-Rmtcm iqqDdo"
+            >
+              0
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-fYxtnH iFXYXl"
+  >
+    <button
+      className="sc-EHOje hdWGXo"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      width={344}
+    >
+      <a
+        className="sc-dnqmqq iPjOZM"
+        href="/teachers/support"
+        onClick={[Function]}
+      >
+        戻る
+      </a>
+    </button>
+    <button
+      className="sc-EHOje hdWGXo"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      width={344}
+    >
+      <a
+        className="sc-dnqmqq iPjOZM"
+        href="/teachers/profile/edit"
+        onClick={[Function]}
+      >
+        編集する
+      </a>
+    </button>
+  </div>
+</div>
+`;

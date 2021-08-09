@@ -1,0 +1,12 @@
+.col-4.offset-4
+  = form_tag(org_picture_destroy_path, class: "read", method: "post")
+    h1.title = I18n.t("organization.picture.confirm_to_delete.title")
+
+    .text-center
+      img.staff-photo[src="#{small_photo(@picture)}"]
+
+    input[name="_method" type="hidden" value="DELETE"]
+
+    .text-center.footer-buttons
+      button.btn.btn-secondary[onclick="location.href='#{org_picture_show_path}'; return false;"] = I18n.t("organization.back_button")
+      button.btn.btn-danger[type="submit"] = I18n.t("organization.picture.confirm_to_delete.button")

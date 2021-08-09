@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StartConversation /> 1`] = `
+<div
+  className="sc-gZMcBi ibJjjF"
+>
+  <div
+    className="sc-iwsKbI jLHIKR"
+  >
+    <div
+      className="sc-htoDjs dFIQgt"
+    >
+      It is time to start the conversation
+    </div>
+  </div>
+  <div
+    className="sc-EHOje fbzZrP"
+  >
+    <img
+      className="sc-gzVnrw dRzjfo"
+      height="176px"
+      src=""
+      srcSet=""
+      width="176px"
+    />
+  </div>
+  <div
+    className="sc-VigVT hFFCuT"
+  >
+    吉野 瑞葵
+  </div>
+  <div
+    className="sc-gqjmRU iITfUx"
+  >
+    <button
+      className="sc-bdVaJa dilhBq"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="green"
+      width={488}
+    >
+      <a
+        className="sc-bwzfXH dYvddp"
+        href="/students/conversations/1"
+        onClick={[Function]}
+      >
+        Talk
+      </a>
+    </button>
+  </div>
+</div>
+`;

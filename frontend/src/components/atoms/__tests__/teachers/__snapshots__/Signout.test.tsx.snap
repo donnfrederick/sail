@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Signout /> 1`] = `
+<div
+  className="sc-bdVaJa itLZrL"
+  onClick={[Function]}
+>
+  ログアウト
+</div>
+`;

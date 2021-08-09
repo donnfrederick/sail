@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Biography /> 1`] = `
+<div
+  className="sc-ifAKCX jhmgvX"
+>
+  <div>
+    <div
+      className="sc-bwzfXH fORsMl"
+      width={656}
+    >
+      <hr
+        className="sc-htpNat creaID"
+      />
+      <span
+        className="sc-bxivhb ixAoOK"
+      >
+        性別
+      </span>
+    </div>
+    <div
+      className="sc-bdVaJa enCgeE"
+    >
+      未登録
+    </div>
+  </div>
+  <div>
+    <div
+      className="sc-bwzfXH fORsMl"
+      width={656}
+    >
+      <hr
+        className="sc-htpNat creaID"
+      />
+      <span
+        className="sc-bxivhb ixAoOK"
+      >
+        興味があること
+      </span>
+    </div>
+    <div
+      className="sc-bdVaJa enCgeE"
+    >
+      
+    </div>
+  </div>
+  <div>
+    <div
+      className="sc-bwzfXH fORsMl"
+      width={656}
+    >
+      <hr
+        className="sc-htpNat creaID"
+      />
+      <span
+        className="sc-bxivhb ixAoOK"
+      >
+        利用目的
+      </span>
+    </div>
+    <div
+      className="sc-bdVaJa enCgeE"
+    >
+      
+    </div>
+  </div>
+  <div>
+    <div
+      className="sc-bwzfXH fORsMl"
+      width={656}
+    >
+      <hr
+        className="sc-htpNat creaID"
+      />
+      <span
+        className="sc-bxivhb ixAoOK"
+      >
+        学生への希望条件
+      </span>
+    </div>
+    <div
+      className="sc-bdVaJa enCgeE"
+    />
+  </div>
+</div>
+`;

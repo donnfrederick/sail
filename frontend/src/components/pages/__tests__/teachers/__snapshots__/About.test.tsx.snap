@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TeachersAbout /> 1`] = `
+<div
+  className="sc-chPdSV cwOJwV"
+>
+  <div>
+    <h2
+      className="sc-gZMcBi fwfQKC"
+    >
+      社名
+    </h2>
+    <p
+      className="sc-gqjmRU cMPFPf"
+    >
+      株式会社Helte
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-gZMcBi fwfQKC"
+    >
+      コーポレートサイト
+    </h2>
+    <p
+      className="sc-gqjmRU cMPFPf"
+    >
+      https://www.helte.jp/
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-gZMcBi fwfQKC"
+    >
+      本社所在地
+    </h2>
+    <p
+      className="sc-gqjmRU cMPFPf"
+    >
+      〒277-0011 千葉県柏市東上町2-28 第一水戸屋ビル3F Noblesses Oblige内
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-gZMcBi fwfQKC"
+    >
+      お問い合わせ
+    </h2>
+    <p
+      className="sc-gqjmRU cMPFPf"
+    >
+      050-3358-6892
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-gZMcBi fwfQKC"
+    >
+      サービス内容
+    </h2>
+    <p
+      className="sc-gqjmRU cMPFPf"
+    >
+      教育・福祉のためのオンラインビデオチャット会話サービス
+    </p>
+  </div>
+  <button
+    className="sc-EHOje hdWGXo"
+    data-active={true}
+    fontSize={40}
+    height={112}
+    onClick={[Function]}
+    width={344}
+  >
+    <div
+      className="sc-iwsKbI lgKvmV"
+    >
+      戻る
+    </div>
+  </button>
+  <div
+    className="sc-VigVT loCcMa"
+  >
+    <div
+      className="sc-jTzLTM ktlLxn"
+    >
+      運営会社について
+    </div>
+    <a
+      className="sc-fjdhpX lbaKI"
+      href="/teachers/mypage"
+      onClick={[Function]}
+    >
+      ホームに戻る
+    </a>
+  </div>
+</div>
+`;

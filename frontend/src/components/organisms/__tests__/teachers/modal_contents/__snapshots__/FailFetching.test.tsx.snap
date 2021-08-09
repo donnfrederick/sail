@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <FailFetching /> 1`] = `
+<div
+  className="sc-jTzLTM dMEaru"
+>
+  <div
+    className="sc-VigVT kaYUeB"
+  >
+    <div
+      className="sc-gZMcBi fxOrEW"
+    >
+      データの取得に失敗しました
+    </div>
+    <p
+      className="sc-gqjmRU kxDtlD"
+    >
+      もう一度お試しください
+    </p>
+  </div>
+  <div
+    className="sc-fjdhpX efXwve"
+  >
+    <button
+      className="sc-bZQynM jTOtoa"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={304}
+    >
+      <div
+        className="sc-iwsKbI lgKvmV"
+      >
+        再読み込み
+      </div>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,37 @@
+---
+- :id: 1
+  :scope: 
+  :name_ja: 料理
+  :name_en: Cooking
+- :id: 2
+  :scope: 
+  :name_ja: 読書
+  :name_en: Reading
+- :id: 3
+  :scope: 
+  :name_ja: スポーツ
+  :name_en: Sports
+- :id: 4
+  :scope: 
+  :name_ja: 歴史
+  :name_en: History
+- :id: 5
+  :scope: 
+  :name_ja: 音楽
+  :name_en: Music
+- :id: 6
+  :scope: 
+  :name_ja: 芸術
+  :name_en: Art
+- :id: 7
+  :scope: 
+  :name_ja: 哲学
+  :name_en: Philosophy
+- :id: 8
+  :scope: 
+  :name_ja: 旅行
+  :name_en: Travel
+- :id: 9
+  :scope: 
+  :name_ja: 社会
+  :name_en: Society

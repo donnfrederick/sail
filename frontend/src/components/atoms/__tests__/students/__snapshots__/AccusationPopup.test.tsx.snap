@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <AccusationPopup /> 1`] = `
+<div
+  className="sc-bdVaJa khrEoP"
+  data-open={true}
+  onClick={[Function]}
+>
+  <div
+    className="sc-bwzfXH WyNdZ"
+    onClick={[Function]}
+  >
+    Block
+  </div>
+  <div
+    className="sc-bwzfXH WyNdZ"
+    onClick={[Function]}
+  >
+    Report
+  </div>
+</div>
+`;

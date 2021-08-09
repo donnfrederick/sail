@@ -1,0 +1,8 @@
+h2.title.text-center = I18n.t("organization.recovery.created.title")
+.alert.alert-success
+  p
+    b #{@email}
+    span = I18n.t("organization.recovery.created.message")
+
+.text-center.footer-buttons
+  a.btn.btn-secondary[href="#{org_recovery_path}" role="button" style="margin-top: 2.5vh; margin-bottom: 2.5.vh;"] = I18n.t("organization.back_button")

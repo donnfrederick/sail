@@ -1,0 +1,431 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <EditInfo /> 1`] = `
+<div
+  className="sc-jhAzac fGRzfo"
+>
+  <div
+    className="sc-jKJlTe loJnkS"
+  >
+    <label
+      className="sc-eNQAEJ dLmkcb"
+      htmlFor="file"
+      size={128}
+    >
+      <div
+        className="sc-kpOJdX eRMxDu"
+      >
+        <img
+          className="sc-ckVGcZ kaLVBu"
+          height="128px"
+          src="/assets/img/common/user@3x.png"
+          srcSet=""
+          width="128px"
+        />
+        <img
+          className="sc-dxgOiQ ZIdwj"
+          src="/assets/img/common/flags/camera.png"
+          width={42.666666666666664}
+        />
+      </div>
+      <div
+        className="sc-kEYyzF bCLiJx"
+      >
+        Change Profile Picture
+      </div>
+      <img
+        className="sc-hMqMXs gMIfYe"
+        onClick={[Function]}
+        src="/assets/img/common/picture-rotate@2x.png"
+      />
+    </label>
+    <input
+      accept="image/*"
+      className="sc-kkGfuU cwsqjQ"
+      id="file"
+      onChange={[Function]}
+      type="file"
+    />
+  </div>
+  <div
+    className="sc-htoDjs bXSIZO"
+  >
+    <div
+      className="sc-gzVnrw cegWGq"
+    >
+      Email
+    </div>
+    <input
+      className="sc-bZQynM kKwPOo"
+      data-error={false}
+      onInput={[Function]}
+      placeholder="Email"
+      type="email"
+    />
+    <div
+      className="sc-EHOje gtuuwv"
+    />
+  </div>
+  <div
+    className="sc-kAzzGY fakvuB"
+  >
+    <div
+      className="sc-chPdSV efkgEH"
+    >
+      <div
+        className="sc-gzVnrw cegWGq"
+      >
+        First Name
+      </div>
+      <input
+        className="sc-bZQynM kKwPOo"
+        data-error={false}
+        data-name-input-ja={false}
+        onInput={[Function]}
+        placeholder="First Name"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-kgoBCf bTMKZV"
+    >
+      <div
+        className="sc-gzVnrw cegWGq"
+      >
+        Last Name
+      </div>
+      <input
+        className="sc-bZQynM kKwPOo"
+        data-error={false}
+        data-name-input-ja={false}
+        onInput={[Function]}
+        placeholder="Last Name"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-EHOje gtuuwv"
+    />
+  </div>
+  <div
+    className="sc-kAzzGY fakvuB"
+  >
+    <div
+      className="sc-chPdSV efkgEH"
+    >
+      <div
+        className="sc-gzVnrw cegWGq"
+      >
+        First Name (Hiragana)
+      </div>
+      <input
+        className="sc-bZQynM kKwPOo"
+        data-error={false}
+        data-name-input-ja={true}
+        onInput={[Function]}
+        placeholder="First Name"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-kgoBCf bTMKZV"
+    >
+      <div
+        className="sc-gzVnrw cegWGq"
+      >
+        Last Name (Hiragana)
+      </div>
+      <input
+        className="sc-bZQynM kKwPOo"
+        data-error={false}
+        data-name-input-ja={true}
+        onInput={[Function]}
+        placeholder="Last Name"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-EHOje gtuuwv"
+    />
+  </div>
+  <div
+    className="sc-gqjmRU bwzuMg"
+  >
+    <div
+      className="sc-gzVnrw cegWGq"
+    >
+      Gender (Optional)
+    </div>
+    <select
+      className="sc-dnqmqq cRdeRF"
+      defaultValue=""
+      onChange={[Function]}
+      required={true}
+    >
+      <option
+        className="sc-iwsKbI izSUON"
+        disabled={true}
+        value=""
+      >
+        Select Gender
+      </option>
+      <option
+        value={1}
+      >
+        Male
+      </option>
+      <option
+        value={2}
+      >
+        Female
+      </option>
+      <option
+        value={9}
+      >
+        Other
+      </option>
+    </select>
+    <div
+      className="sc-gZMcBi jBDWtA"
+    />
+  </div>
+  <div
+    className="sc-kGXeez ekErsU"
+  >
+    <div
+      className="sc-gzVnrw cegWGq"
+    >
+      Country code
+    </div>
+    <div
+      className="ReactFlagsSelect-module_flagsSelect__2pfa2"
+      data-testid="rfs"
+    >
+      <button
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-labelledby="rfs-btn"
+        className="ReactFlagsSelect-module_selectBtn__19wW7"
+        data-testid="rfs-btn"
+        disabled={false}
+        id="rfs-btn"
+        onClick={[Function]}
+        onKeyUp={[Function]}
+        style={
+          Object {
+            "fontSize": 24,
+          }
+        }
+        type="button"
+      >
+        <span
+          className="ReactFlagsSelect-module_selectValue__152eS"
+        >
+          Select a country
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="sc-iAyFgw feHyCz"
+  >
+    <div
+      className="sc-gzVnrw cegWGq"
+    >
+      Time Zone
+    </div>
+    <div
+      className="sc-gZMcBi jBDWtA"
+    />
+  </div>
+  <div
+    className="sc-cSHVUG iEvlbh"
+  >
+    <div
+      className="sc-gzVnrw cegWGq"
+    >
+      Language
+    </div>
+    <select
+      className="sc-dnqmqq cRdeRF"
+      defaultValue="en"
+      onChange={[Function]}
+      required={true}
+    >
+      <option
+        value="en"
+      >
+        English
+      </option>
+      <option
+        value="id"
+      >
+        Indonesian
+      </option>
+      <option
+        value="vn"
+      >
+        Vietnamese
+      </option>
+      <option
+        value="ch"
+      >
+        簡体字
+      </option>
+      <option
+        value="tw"
+      >
+        繁体字
+      </option>
+    </select>
+    <div
+      className="sc-gZMcBi jBDWtA"
+    />
+  </div>
+  <div
+    className="sc-fjdhpX dcyroD"
+  >
+    <div
+      className="sc-gzVnrw cegWGq"
+    >
+      Japanese Conversation Level
+    </div>
+    <select
+      className="sc-dnqmqq cRdeRF"
+      defaultValue=""
+      onChange={[Function]}
+      required={true}
+    >
+      <option
+        className="sc-iwsKbI izSUON"
+        disabled={true}
+        value=""
+      >
+        Select Conversation Level
+      </option>
+      <option
+        value={1}
+      >
+        Little to no understanding
+      </option>
+      <option
+        value={2}
+      >
+        Knowledge of basic vobaulary
+      </option>
+      <option
+        value={3}
+      >
+        Able to form simple sentences
+      </option>
+      <option
+        value={4}
+      >
+        Daily conversation level
+      </option>
+      <option
+        value={5}
+      >
+        Able to handle complex topics
+      </option>
+    </select>
+    <div
+      className="sc-gZMcBi jBDWtA"
+    />
+  </div>
+  <div
+    className="sc-jzJRlG isFYHE"
+  >
+    <div
+      className="sc-gzVnrw cegWGq"
+    >
+      JLPT
+    </div>
+    <select
+      className="sc-dnqmqq cRdeRF"
+      defaultValue=""
+      onChange={[Function]}
+      required={true}
+    >
+      <option
+        className="sc-iwsKbI izSUON"
+        disabled={true}
+        value=""
+      >
+        Select Level
+      </option>
+      <option
+        value={-10}
+      >
+        I have never taken the JLPT
+      </option>
+      <option
+        value={-1}
+      >
+        I have never passed the JLPT
+      </option>
+      <option
+        value={5}
+      >
+        N5
+      </option>
+      <option
+        value={4}
+      >
+        N4
+      </option>
+      <option
+        value={3}
+      >
+        N3
+      </option>
+      <option
+        value={2}
+      >
+        N2
+      </option>
+      <option
+        value={1}
+      >
+        N1
+      </option>
+    </select>
+    <div
+      className="sc-gZMcBi jBDWtA"
+    />
+  </div>
+  <div
+    className="sc-VigVT dkIGPc"
+  >
+    <div
+      className="sc-gzVnrw cegWGq"
+    >
+      Self Introduction (MAX: 144 characters)
+    </div>
+    <textarea
+      className="sc-jTzLTM kbhczM"
+      defaultValue=""
+      maxLength={144}
+      onInput={[Function]}
+      placeholder="Example: I live in Tokyo."
+      type="text"
+      width={640}
+    />
+  </div>
+  <div
+    className="sc-fBuWsC dXecaD"
+  >
+    <button
+      className="sc-bdVaJa eEjsbL"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={494}
+    >
+      Save
+    </button>
+  </div>
+</div>
+`;

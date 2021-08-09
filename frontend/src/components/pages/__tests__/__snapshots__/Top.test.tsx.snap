@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Top /> 1`] = `
+<div
+  className="sc-dnqmqq gPykYc"
+>
+  <div
+    className="sc-EHOje grfhqt"
+  >
+    <h1
+      className="sc-bZQynM kZcFBv"
+    >
+      <img
+        className="sc-gzVnrw gvGNHk"
+        src="/assets/img/common/sail@3x.png"
+      />
+    </h1>
+    <h2
+      className="sc-htoDjs dVTyxY"
+    >
+      さあ、世界へ船出しよう
+    </h2>
+  </div>
+  <div
+    className="sc-iwsKbI gdsWSN"
+  >
+    <button
+      className="sc-bdVaJa hZKRMy"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      type="blue"
+      width={590}
+    >
+      <a
+        className="sc-bwzfXH dYvddp"
+        href="/teachers"
+        onClick={[Function]}
+      >
+        日本の人
+      </a>
+    </button>
+    <button
+      className="sc-bdVaJa bDOXjh"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      type="blue"
+      width={590}
+    >
+      <a
+        className="sc-bwzfXH dYvddp"
+        href="/students"
+        onClick={[Function]}
+      >
+        International People
+      </a>
+    </button>
+  </div>
+</div>
+`;

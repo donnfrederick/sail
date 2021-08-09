@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Stars /> 1`] = `
+<div
+  className="sc-Rmtcm bCGiBO"
+>
+  <button
+    className="sc-jlyJG dJCUOH"
+    onClick={[Function]}
+  >
+    通話終了
+  </button>
+  <button
+    className="sc-csuQGl bynJRL"
+    onClick={[Function]}
+  >
+    ビデオ通話
+  </button>
+</div>
+`;

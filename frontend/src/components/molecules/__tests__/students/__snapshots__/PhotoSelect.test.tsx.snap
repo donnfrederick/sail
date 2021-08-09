@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <PhotoSelect /> 1`] = `
+<div
+  className="sc-bxivhb iXvnUD"
+>
+  <label
+    className="sc-ifAKCX gEqhOi"
+    htmlFor="file"
+    size={128}
+  >
+    <div
+      className="sc-bdVaJa bHgtVR"
+    >
+      <img
+        className="sc-htpNat iiyWLF"
+        height="128px"
+        src="/assets/img/common/user@3x.png"
+        srcSet=""
+        width="128px"
+      />
+      <img
+        className="sc-bwzfXH doWymX"
+        src="/assets/img/common/flags/camera.png"
+        width={42.666666666666664}
+      />
+    </div>
+    <div
+      className="sc-bZQynM bbnLsu"
+    >
+      Change Profile Picture
+    </div>
+    <img
+      className="sc-EHOje gmeXGG"
+      onClick={[Function]}
+      src="/assets/img/common/picture-rotate@2x.png"
+    />
+  </label>
+  <input
+    accept="image/*"
+    className="sc-gzVnrw aZFdW"
+    id="file"
+    onChange={[Function]}
+    type="file"
+  />
+</div>
+`;

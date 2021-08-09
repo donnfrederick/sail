@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <InputName /> 1`] = `
+<div
+  className="sc-bdVaJa kifdhM"
+>
+  <div
+    className="sc-bwzfXH CfcXv"
+    data-error={false}
+  >
+    せい
+  </div>
+  <input
+    className="sc-htpNat fEncHU"
+    data-error={false}
+    data-name-input={true}
+    defaultValue=""
+    maxLength={30}
+    onInput={[Function]}
+    placeholder="やまだ"
+  />
+  <div
+    className="sc-bwzfXH CfcXv"
+  >
+    めい
+  </div>
+  <input
+    className="sc-htpNat fEncHU"
+    data-error={false}
+    data-name-input={true}
+    maxLength={30}
+    onInput={[Function]}
+    placeholder="たろう"
+  />
+</div>
+`;

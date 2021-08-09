@@ -1,0 +1,91 @@
+---
+- :id: 1
+  :type: Teacher
+  :name_ja: おおさき じゅん
+  :name_en: Jun Oosaki
+  :sex: 1
+  :timezone: Asia/Tokyo
+  :email: teacher+1@preset.example.com
+  :country: JP
+  :level:
+  :password: password
+- :id: 2
+  :type: Teacher
+  :name_ja: きたの よしか
+  :name_en: Yoshika Kitano
+  :sex: 1
+  :timezone: Asia/Tokyo
+  :email: teacher+2@preset.example.com
+  :country: JP
+  :level:
+  :password: password
+- :id: 3
+  :type: Teacher
+  :name_ja: よしもと よしえ
+  :name_en: Yoshie Yoshimoto
+  :sex: 1
+  :timezone: Asia/Tokyo
+  :email: teacher+3@preset.example.com
+  :country: JP
+  :level:
+  :password: password
+- :id: 4
+  :type: Teacher
+  :name_ja: みよし たかのり
+  :name_en: Takanori Miyoshi
+  :sex: 1
+  :timezone: Asia/Tokyo
+  :email: teacher+4@preset.example.com
+  :country: JP
+  :level:
+  :password: password
+- :id: 5
+  :type: Teacher
+  :name_ja: もりかわ あい
+  :name_en: Ai Morikawa
+  :sex: 1
+  :timezone: Asia/Tokyo
+  :email: teacher+5@preset.example.com
+  :country: JP
+  :level:
+  :password: password
+- :id: 6
+  :type: Student
+  :name_ja:
+  :name_en: Miss Nils
+  :sex: 9
+  :timezone: Asia/Dushanbe
+  :email: student+1@preset.example.com
+  :country: TJ
+  :level: 3
+  :password: password
+- :id: 7
+  :type: Student
+  :name_ja:
+  :name_en: Grace Ruecker
+  :sex: 9
+  :timezone: Asia/Dushanbe
+  :email: student+2@preset.example.com
+  :country: TJ
+  :level: 1
+  :password: password
+- :id: 8
+  :type: Student
+  :name_ja:
+  :name_en: Leta Littel
+  :sex: 2
+  :timezone: Asia/Dushanbe
+  :email: student+3@preset.example.com
+  :country: TJ
+  :level: 3
+  :password: password
+- :id: 9
+  :type: Student
+  :name_ja:
+  :name_en: Rocky Bradtke
+  :sex: 2
+  :timezone: Asia/Dushanbe
+  :email: student+4@preset.example.com
+  :country: TJ
+  :level: -1
+  :password: password

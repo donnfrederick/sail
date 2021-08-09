@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <PunctualityEmoji /> 1`] = `
+<div
+  className="sc-bdVaJa iYhYMH"
+>
+  <img
+    className="sc-bwzfXH cjsWnA"
+    src="/assets/img/common/evaluation/punctuality@3x.png"
+  />
+  <div
+    className="sc-htpNat vsbMt"
+  >
+    欠席1回
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ListItem /> 1`] = `
+<div
+  className="sc-bdVaJa gVVLWS"
+>
+  <a
+    className="sc-bxivhb kZOLLW"
+    href="/"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-bwzfXH fephsi"
+    >
+      List Item
+    </div>
+    <img
+      className="sc-htpNat cFIObi"
+      src="/assets/img/teachers/arrow@3x.png"
+    />
+  </a>
+</div>
+`;

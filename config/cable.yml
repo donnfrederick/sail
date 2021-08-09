@@ -1,0 +1,16 @@
+development:
+  <% if ENV["APP_REDIS_URL"] %>
+    adapter: redis
+    url: <%= ENV.fetch("APP_REDIS_URL") { "redis://localhost:6379/1" } %>
+    channel_prefix: sail_development
+  <% else %>
+   adapter: async
+  <% end %>
+
+test:
+  adapter: async
+
+production:
+  adapter: redis
+  url: <%= ENV.fetch("APP_REDIS_URL") { "redis://localhost:6379/1" } %>
+  channel_prefix: sail_production

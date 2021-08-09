@@ -1,0 +1,562 @@
+---
+ja:
+  errors:
+    issue:
+      wrong_type: "支払い額が0より大きい取引は無料の取引として扱うことはできません。"
+      cannot_suspend: "データの整合性がないため支払データを保留にできません。"
+      cannot_cancel: "データの整合性がないため支払データをキャンセルできません。"
+    users_organization_section:
+      duplicated_users_section: You have already joined the class
+    pricing_table:
+      nothing_always_accessible: "誰もがアクセス可能な価格表が少なくともひとつはなければいけません。"
+    package_property:
+      unavailable_currency: "正しい通貨名を記入してください。"
+  date:
+    abbr_day_names:
+    - 日
+    - 月
+    - 火
+    - 水
+    - 木
+    - 金
+    - 土
+    abbr_month_names:
+    -
+    - 1月
+    - 2月
+    - 3月
+    - 4月
+    - 5月
+    - 6月
+    - 7月
+    - 8月
+    - 9月
+    - 10月
+    - 11月
+    - 12月
+    day_names:
+    - 日曜日
+    - 月曜日
+    - 火曜日
+    - 水曜日
+    - 木曜日
+    - 金曜日
+    - 土曜日
+    formats:
+      default: "%Y/%m/%d"
+      long: "%Y年%m月%d日(%a)"
+      short: "%m/%d"
+    month_names:
+    -
+    - 1月
+    - 2月
+    - 3月
+    - 4月
+    - 5月
+    - 6月
+    - 7月
+    - 8月
+    - 9月
+    - 10月
+    - 11月
+    - 12月
+    order:
+    - :year
+    - :month
+    - :day
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: 約1時間
+        other: 約%{count}時間
+      about_x_months:
+        one: 約1ヶ月
+        other: 約%{count}ヶ月
+      about_x_years:
+        one: 約1年
+        other: 約%{count}年
+      almost_x_years:
+        one: 1年弱
+        other: "%{count}年弱"
+      half_a_minute: 30秒前後
+      less_than_x_minutes:
+        one: 1分以内
+        other: "%{count}分未満"
+      less_than_x_seconds:
+        one: 1秒以内
+        other: "%{count}秒未満"
+      over_x_years:
+        one: 1年以上
+        other: "%{count}年以上"
+      x_days:
+        one: 1日
+        other: "%{count}日"
+      x_minutes:
+        one: 1分
+        other: "%{count}分"
+      x_months:
+        one: 1ヶ月
+        other: "%{count}ヶ月"
+      x_years:
+        one: 1年
+        other: "%{count}年"
+      x_seconds:
+        one: 1秒
+        other: "%{count}秒"
+    prompts:
+      day: 日
+      hour: 時
+      minute: 分
+      month: 月
+      second: 秒
+      year: 年
+  helpers:
+    select:
+      prompt: 選択してください
+    submit:
+      create: 登録する
+      submit: 保存する
+      update: 更新する
+  number:
+    currency:
+      format:
+        delimiter: ","
+        format: "%n%u"
+        precision: 0
+        separator: "."
+        significant: false
+        strip_insignificant_zeros: false
+        unit: 円
+    format:
+      delimiter: ","
+      precision: 3
+      separator: "."
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion: 十億
+          million: 百万
+          quadrillion: 千兆
+          thousand: 千
+          trillion: 兆
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n%u"
+        units:
+          byte: バイト
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+        format: "%n%"
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: 、
+      two_words_connector: 、
+      words_connector: 、
+  time:
+    am: 午前
+    formats:
+      default: "%Y年%m月%d日(%a) %H時%M分%S秒 %z"
+      long: "%Y/%m/%d %H:%M"
+      short: "%m/%d %H:%M"
+      at: "%H:%M"
+      date: "%m月%d日(%a)"
+      long_date: "%Y年%m月%d日(%a)"
+      month: "%Y年%m月"
+    pm: 午後
+    zone:
+      JST: "日本時間"
+      other: "%{country} time"
+  user_profile:
+    conversations: "会話数"
+    conversation_experiences: "%{count} Times"
+    conversation_experiences_with_partner_male: "You had %{count} conversations with him"
+    conversation_experiences_with_partner_female: "You had %{count} conversations with her"
+    conversation_experiences_with_partner_unknown: "You had %{count} conversations with this user"
+    conversation_experiences_with_partner_other: "You had %{count} conversations with this user"
+    sex:
+      unknown: "不明"
+      male: "男性"
+      female: "女性"
+      other: "その他"
+  mailer:
+    launcher_button: "Sailを起動"
+    launcher_guide: "スマートフォン用SailアプリまたはデスクトップPC用Google ChromeからSailを開いて確認してください。"
+  notification:
+    footer_note: "このメッセージはSailから%{your_name}さんに宛てて送信しています。"
+    conversation_matching:
+      title: "%{start_on} %{start_at} (%{timezone})からの会話相手が見つかりました"
+      body:  "%{start_on} %{start_at} (%{timezone})から%{your_name}さんと%{user_name}の会話が確定しました！今すぐ詳細を確認しましょう。"
+    conversation_canceled:
+      title: "%{start_on} %{start_at} (%{timezone})からの予定はキャンセルされました"
+      body:  "%{start_on} %{start_at} (%{timezone})から予定されていた%{your_name}さんと%{user_name}の会話がキャンセルされました。そのため、予定は%{start_on} %{start_at} (%{timezone})から25分の枠で未確定に戻りました。他の日時を検討すると良いかもしれません。"
+    conversation_canceled_today:
+      title: "急用のため、%{start_on} %{start_at} (%{timezone})からの予定はキャンセルされました"
+      body:  "大変申し訳ございません。%{user_name}さんが急用のため、%{start_on} %{start_at} (%{timezone})から予定されていた%{your_name}さんの会話がキャンセルされました。%{user_name}さんがどうしても会話に出られなくなったこと、ご本人に代わりお詫び申し上げます。このため、%{start_on} %{start_at} (%{timezone})からの会話の準備は不要です。"
+    conversation_canceled_today_culprit:
+      title: "%{start_on} %{start_at} (%{timezone})からの予定はキャンセルされました"
+      body:  "急用ありとして、%{start_on} %{start_at} (%{timezone})から予定されていた%{your_name}さんと%{user_name}の会話がキャンセルされました。次回は会話予約のとおりに参加しましょう。"
+    conversation_cancelled_by_absent_penalty:
+      title: "今一度、出席の可否を確認しましょう。"
+      body: "欠席が続いたため、予約いただいている会話を自動的にキャンセルしました。今一度、出席の可否をしっかり確認してから予約を入れ直しましょう。相手の方も会話を楽しみにしていますので、欠席はできるだけしないようにしてください。"
+    warn_absence:
+      title: ""
+      body: ""
+    conversation_start:
+      title: "会話時刻になりました"
+      body:  "%{user_name}さんとの会話時刻になりました。さぁ、会話を始めましょう！"
+    conversation_points_retrieved_because_of_absence:
+      title: "会話可能数が払い戻されました"
+      body:  "%{start_on} %{start_at} (%{timezone})から予定されていた%{your_name}さんと%{user_name}の会話について、%{user_name}さんが欠席されたため、%{your_name}さんの会話可能数が払い戻されました。また予約をしてみましょう！"
+    follow_up_next_reservation:
+      title: "お疲れ様でした！"
+      body: "%{user_name}さんとの会話は楽しめたでしょうか？是非また予約を入れて、多くの方々とお話しをしてみてください！"
+    follow_up_next_reservation_with_sorry:
+      title: "お疲れ様でした！"
+      body: "%{user_name}さんとの会話が終了しました。是非また予約を入れて、多くの方々とお話しをしてみてください！"
+    remind_1day_ago:
+      title: "明日は会話の予定が入っています"
+      body:  "明日は、%{start_on} %{start_at} (%{timezone})から%{your_name}さんと%{user_name}の会話の予定が入っています。事前にインターネットの状態の良いところで、イヤホンマイクまたはヘッドセットマイクをつけて準備できるようにしましょう。"
+    remind_1hour_ago:
+      title: "会話予定時間の1時間前です"
+      body:  "%{user_name}さんとの会話まであと1時間です。忘れないように詳細を確認しましょう。"
+    remind_10minutes_ago:
+      title: "あと10分で会話がはじまります"
+      body:  "あと10分で、%{start_on} %{start_at} (%{timezone})から%{your_name}さんと%{user_name}の会話がはじまります。インターネットの状態の良いところで、イヤホンマイクまたはヘッドセットマイクをつけて準備をしましょう。"
+    request_approved:
+      title: ""
+      body:  ""
+    request_rejected:
+      title: ""
+      body:  ""
+    new_request:
+      title: "新しい会話リクエストが届きました"
+      body:  "%{user_name}さんから%{start_on} %{start_at} (%{timezone})の会話リクエストが届きました。詳細を確認してよろしければ承認をしましょう。"
+    request_cancelled:
+      title: "会話リクエストがキャンセルされました"
+      body:  "%{user_name}さんから%{start_on} %{start_at} (%{timezone})の会話リクエストはキャンセルされました。他の方からのリクエストを待つか、他の時間での予約をご検討ください。"
+    removed_followed_up:
+      title: "より多くの会話が予約できるようになりました！"
+      body: "おめでとうございます。Sailの使い方に慣れてきたようですので、より多くの会話が予約できるようになりました。是非いろいろな方と予約をして会話を楽しんでください！"
+  conversation:
+    close_soon:
+      comment: "そろそろお別れの時間です"
+    late:
+      comment: "遅刻ですよ！"
+    status:
+      waiting: "空き時間を登録中"
+      queued: "開始待ち"
+      progress: "通話中"
+      completed: "正常終了"
+      failed: "異常終了"
+      cancled: "キャンセル"
+      unmatched: "マッチング不成立"
+      unknown: "ステータス異常"
+    cancelled_at:
+      title: "%{time} (%{reason}によりキャンセル)"
+      missing: "%{time} (データ欠損によりキャンセル主は不明)"
+      reason:
+        admin: "Helte"
+        teacher: "日本人側"
+        student: "日本語学習者側"
+        other: "不明な状況"
+  user:
+    conversation_level:
+      level_0: "まだ評価はありません"
+      level_1: "ほとんど分からない"
+      level_2: "いくつかの単語を言える"
+      level_3: "簡単なセンテンスが話せる"
+      level_4: "日常会話が可能"
+      level_5: "幅広い話題の会話が可能"
+    level:
+      level_-10: "日本語能力試験を受験したことがない"
+      level_-1: "日本語能力試験を合格したことがない"
+      level_1: "複雑な日本語での会話ができる"
+      level_2: "日常的な会話に加えて、複雑な日本語での会話が少しできる"
+      level_3: "日常的な会話が少しできる"
+      level_4: "基本的な日本語での会話ができる"
+      level_5: "基本的な日本語での会話が少しできる"
+    reliability:
+      highly_reliable: "信頼できるユーザー"
+      suspicious: "信頼性の低いユーザー"
+      other: "通常のユーザー"
+    payment:
+      trial_user: "無料試用中"
+      free_user: "特別無料"
+      paid_user: "課金中"
+      organization_section_paid_user: "組織として課金中"
+      expired_user: "課金なし"
+  sms_authentication:
+    body: "確認コード： %{code}\n上記番号を入力してください。\n\nSail"
+  organization:
+    title: 管理システム
+    signin: ログイン
+    do_signin: ログインする
+    email: メールアドレス
+    password: パスワード
+    email_placeholder: sail@example.com
+    password_placeholder: パスワード
+    invalid_signin: メールアドレスまたはパスワードが間違っています。
+    invalid_user: ユーザーIDが違います。
+    back_button: 戻る
+    header:
+      menu:
+        home: ホーム
+        users: ユーザー管理
+        schedule: スケジュール管理
+        history: 会話履歴
+        notifications: お知らせ管理
+        accounts: アカウント管理
+        settings: 設定
+        icon: アイコン設定
+        tablets: タブレット名称
+        signout: ログアウト
+    forgot_password:
+      title: パスワードの再設定
+      label: パスワードをお忘れですか？
+      reset_password: パスワードの再設定
+      do_reset_password: パスワードを再設定する
+      new:
+        title: パスワードの再設定をします。
+        button: 再発行メールを送信する
+    calendar:
+      name_and_time: "名前 / 時間"
+      month_header_head: "%-m/%-d"
+      month_header_middle: "〜"
+      month_header_tail: "%-m/%-d"
+      prev_month: "<"
+      next_month: ">"
+    accounts:
+      title: 管理アカウント一覧
+      email: メールアドレス
+      owner_device: ログインするタブレット
+      no_device_to_signin: "(なし)"
+    invitees:
+      confirm:
+        title: "%{class_name}に招待されています。"
+        message: "%{org_name}の%{class_name}に参加する場合は「参加する」を押してください。"
+        otherwise: 参加しない場合はこのまま画面を閉じてください。
+        merits:
+          title: "%{class_name}に参加すると..."
+          message: "参加すると、%{user_name}さんの話題や会話履歴は%{class_name}に共有され、%{class_name}の先生はいつでも確認することができるようになります。日本語の授業や課題で使っている場合は、参加するようにしてください。"
+        proceed_button: 参加する
+      invalid:
+        title: "エラー： 招待URLが古いか間違っています"
+        message: 招待URLがすでに使われていないかURLが間違っているようです。もう一度招待をした方にご確認のほど宜しくお願い致します。
+      joined:
+        title: "%{class_name}に参加しました！"
+        message: "%{class_name}にに参加しました。会話を始めてみましょう。"
+        alert: "%{class_name}の先生が%{user_name}さんの話題や会話履歴を確認できるようになりました。"
+      signin:
+        title: "参加するにはログインしてください。"
+    profile:
+      student:
+        name: 名前
+        sex: 性別
+        level: 日本語レベル
+        hobbies: 興味のあること
+        purposes: 利用目的
+        lateness: 遅刻率
+        evaluate: 評価
+        male: 男性
+        female: 女性
+        other: その他
+        level_-10: 日本語能力試験を受験したことがない
+        level_-1: 日本語能力試験を合格したことがない
+        level_1: 1級
+        level_2: 2級
+        level_3: 3級
+        level_4: 4級
+        level_5: 5級
+      teacher:
+        name: 名前
+        sex: 性別
+        hobbies: 興味のあること
+        purposes: 利用目的
+        evaluate: 評価
+        desire: 学生への希望条件
+        male: 男性
+        female: 女性
+        other: その他
+        san: さん
+    nhs:
+      title: Sail管理システム
+      switch_section: 運営施設の切り替え
+      users:
+        confirm_to_delete:
+          title: "%{user_name}さんを削除しますか？"
+          message: "「%{user_name}」さんのアカウントを削除しようとしています。やり直しはできません。削除してよろしいですか？"
+          button: 削除する
+    univs:
+      title: Sail management for academic usage
+    recovery:
+      new:
+        not_found: メールアドレスが見つかりません。
+      email:
+        title: パスワード再設定のリンク
+        message1: 管理ページのログインパスワードの再設定の申請をいただきましたので、パスワード設定用のリンクを発行致します。
+        message2: 下記のリンクにブラウザでアクセスいただきますようお願い致します。
+        url_title: パスワード設定用URL
+        url_note: パスワード再設定の申請に心覚えがない場合はこのままメールを無視していただいて構いません。上記のリンクはこのメールにのみ記載されているもののため、他者による不正利用できません。また、一度使われたリンクは次回以降では無効となりますので、パスワードをお忘れの際は都度、再設定の申請をお願い致します。
+        greeting: 今後とも「Sail」をご愛顧のほど宜しくお願い致します。
+      created:
+        title: 確認のメールを送信しました。
+        message: に確認のメールを送信しました。メールボックスをご確認ください。15分以上経っても受信できていない場合はメールアドレスが間違っている可能性があります。
+      edit:
+        title: 新しいパスワードを設定してください。
+        button: 変更する
+        no_longer_available: このURLはすでに期限が切れています。再度申請をし直してください。
+    picture:
+      confirm_to_delete:
+        title: 下記のアイコンを削除しますか？
+        button: 削除する
+      index:
+        title: 現在のアイコン
+        message: 現在設定されている画像です。特にお知らせのページにアイコンが表示されます。
+        edit_button: 編集
+        delete_button: 削除
+      new:
+        title: アイコン画像のアップロード
+        message: 画像を選んでアップロードしてください。
+        picture: 画像
+        upload: アップロードする
+    videos:
+      play:
+       title: "%{start_at}〜%{end_at}の会話ビデオの再生"
+       download:
+         title: "ダウンロード"
+    history:
+      list:
+        title: 会話履歴
+        teacher:
+          title: シニア
+        student:
+          title: 生徒
+        datetime:
+          title: 日時
+    conversations:
+      the_conversation_at: "%{start_at} (%{timezone})〜%{end_at}の会話"
+      confirm_before_create:
+        the_conversation_at: "%{start_at} (%{timezone})〜%{end_at}に会話の予約をひとつ設定しますか？"
+        button: 設定する
+      confirm_before_reserve:
+        the_conversation_at: "下記の会話を予約しますか？"
+      table:
+        title: 希望会話スケジュール表
+        calendar:
+          title: カレンダー
+        table:
+          title: 一覧
+      delete_button: 削除する
+      new:
+        title: "%{start_at} (%{timezone})からの会話"
+        title2: 時間の範囲を指定してください
+        message: 指定された範囲からいずれかの25分で生徒から予約が入ると、予定として会話が確定します。
+        range:
+          title: 範囲
+        button: 進む
+      none: 現在はまだ会話が予約されていません。
+    notifications:
+      title: お知らせ
+      index:
+        datetime: 日時
+        title: タイトル
+        conversations: 会話スケジュール
+        conversations_note: 日時の変更やキャンセルはスケジュール管理ページで行えます。
+      none: 現在は特にお知らせはございません。
+    preferences:
+      email:
+        show:
+          title: メールアドレスの設定
+          edit_button: 変更する
+          current_email: 現在のメールアドレス
+        edit:
+          title: メールアドレスの変更
+          message: ログインに使用するメールアドレスを変更するには下記を編集し「変更する」を押してください。
+          button: 変更する
+          email: メールアドレス
+      password:
+        edit:
+          title: パスワードの変更
+          message: パスワードを変更するには、現在のパスワードと新しいパスワードの両方を記入してください。現在のパスワードが合っていた場合にのみパスワードの変更が可能です。
+          button: 変更する
+          current_password: 現在のパスワード
+          password: 新しいパスワード
+          current_password_placeholder: 現在のパスワード
+          password_placeholder: 新しいパスワード
+    formats:
+      datetime:
+        long: "%-m月%-d日 %k:%M"
+        full: "%Y年%-m月%-d日 %k:%M"
+      time:
+        middle: "%k:%M"
+      quotations:
+        start: "「"
+        end: "」"
+      expressions:
+        and: "と"
+    errors:
+      no_contract_section:
+        title: 現在ご契約の施設はありません
+        message: 現在ご契約の施設はありません。このページはご契約いただいた施設が1件以上ある際にご利用いただけます。
+        contact: Sailのサービス導入をご希望の場合は、Helteまでご連絡ください。
+      database_error:
+        title: 処理に異常がありました。すこし経ってからアクセスしなおしてください。
+    prev_month: 前へ
+    next_month: 次へ
+  analysis:
+    matching:
+      wait_time:
+        in_an_hour: "1時間以内"
+        in_6_hours: "6時間以内"
+        in_3_days: "3日以内"
+        in_a_week: "1週間以内"
+        more_than_a_week: "1週間以上"
+        note: "注意: \"1時間以内\"にはHelte管理ページから予約した会話が含まれています"
+  analytics:
+    student_registrants:
+      description: ""
+    teacher_registrants:
+      description: ""
+    sections_conversations:
+      description: "※統計データの「施設・授業」を追加したり削除するには、「施設・授業」の編集から「統計データに含む」のチェックをつける、または外してください。"
+    conversation_schedules:
+      description: ""
+    conversation_creations:
+      description: ""
+    successful_conversations:
+      description: ""
+    failure_conversations:
+      description: ""
+    unmatched_conversations:
+      description: ""
+  nh_report:
+    action: "レポート"
+    title:
+      conversations_in_month: "会話の記録： %Y年%-m月"
+      total_numer_prefix: "今月のトータルの会話数： "
+    table:
+      empty: "-"
+      skip: ":"
+      conversation_count: "%{count}回"
+      head:
+        date_time: "日時"
+        remote_user_name: "学生の名前"
+        star_count: "評価"
+        country: "国"
+        comment: "コメント"

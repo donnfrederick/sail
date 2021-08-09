@@ -1,0 +1,31 @@
+section
+  .container.py-5
+    .row
+      .col-md-4
+        .py-3.text-center
+          = image_tag @student.picture.small.url unless @student.picture.small.url.nil?
+        .text-center
+          p= @student.name
+          p
+            = link_to 'Edit', edit_organizations_univs_user_path(@student), class: 'btn'
+            |#{link_to 'Remove', organizations_univs_user_path(@student), class: 'btn text-danger', method: 'delete', data: {confirm: 'Are you sure you would like to remove?' }}
+      .col-md-8
+        .container
+          table.table.table-hover
+            tbody
+              tr
+                td Section
+                td= @student.organization_sections.first.name
+              tr
+                td Email
+                td= @student.email
+              tr
+                - cs = @student.conversations.pluck(:status)
+                td Conversations
+                td= simple_format("Total:#{cs.size}\nCompleted:#{cs.count('completed')}\nCancelled: #{cs.count('cancled')}")
+
+section
+  .container
+    = render 'organizations/univs/conversations/table'
+    = paginate @conversations
+

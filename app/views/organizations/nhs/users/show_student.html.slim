@@ -1,0 +1,32 @@
+.user.profile.show.col-12.col-sm-10.col-md-8.col-lg-6.col-xl-4.offset-sm-1.offset-md-2.offset-lg-3.offset-xl-4
+  h1.title
+    span.user.name = @user.name
+    span さん
+
+  .user-photo
+    img.rounded-circle[src="#{small_user_photo(@user)}"]
+
+  h3.title Speaking level
+  span.number =  I18n.t("organization.profile.student.level_" + @user.level.to_s)
+
+  h3.title Hobbies
+  ul.hobbies
+    - @user.hobbies.each do |hobby|
+      - if hobby.present? && hobby.name.present?
+        li.hobby = hobby.name
+
+  h3.title Purposes
+  ul.purposes
+    - @user.purposes.each do |purpose|
+      - if purpose.present? && purpose.name.present?
+        li.purpose = purpose.name
+
+  h3.title Lateness
+  span.lateness = @user.lateness.to_s + " %"
+
+  h3.title Feedback
+  - (1..@user.evaluate).each do |i|
+    i.fa.fa-star
+
+  .text-center.footer-buttons
+    a.btn.btn-secondary[href="#{org_user_list_path(@role_type)}"] 戻る

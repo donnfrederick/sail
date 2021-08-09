@@ -1,0 +1,51 @@
+
+h1.title
+  span ユーザー管理
+  a.btn.btn-success[href="/organizations/#{@role_type}/users/new"] 追加する
+p 編集*マークのついている項目についてユーザー情報を編集したり、登録を解除できます。
+
+ul.nav.nav-tabs
+    - @sections.each do |section|
+      li.nav-item
+      - if section.id == @current_section.id
+        a.nav-link.active[href="/organizations/#{@role_type}/users/list/#{section.id}"] = section.name_ja
+      - else
+        a.nav-link[href="/organizations/#{@role_type}/users/list/#{section.id}"] = section.name_ja.truncate(16)
+
+
+.organization-section
+  table.table.table-striped
+    tr
+      th Name
+      th Speaking level
+      th Topics
+      th Lateness
+      th Feedback
+      th Operation
+    - @users_in_section.each do |section|
+      tr
+        td.name
+          span.user-photo
+            img.rounded-circle[src="#{small_user_photo(section.user)}"]
+          span.name.ja.editable = section.user.name_ja
+          span.name.en.editable = section.user.name_en
+        td.speaking-level
+          span.speaking-level 0
+        td.topics
+          span.topic.selectable トピック1
+          span.topic.selectable トピック2
+          span.topic.selectable トピック3
+          span.topic.selectable トピック4
+          span.topic.selectable トピック5
+        td.lateness
+          span.number lateness
+        td.feedback
+          i.fa.fa-star.ratable
+          i.fa.fa-star.ratable
+          i.fa.fa-star.ratable
+          i.fa.fa-star.ratable
+          i.fa.fa-star.ratable
+        td.operation
+          a.btn.btn-success.action.edit[role="button" href="/organizations/#{@role_type}/users/edit/#{section.user.id}"] 編集
+          a.btn.btn-danger.action.remove[role="button" href="/organizations/#{@role_type}/users/confirm_to_delete/#{section.user.id}"] 解除
+  = will_paginate @pagination, :renderer => WillPaginate::ActionView::Bootstrap4LinkRenderer

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <PurposeText /> 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa bqYLga"
+  >
+    What is your
+purpose of usage?
+  </div>
+  <div
+    className="sc-bwzfXH jZImby"
+  >
+    You can select more than one.
+  </div>
+</div>
+`;

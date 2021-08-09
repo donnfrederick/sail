@@ -1,0 +1,13 @@
+section.py-5
+  .container
+    .card
+      .card-header.bg-light Edit Student
+      .card-body
+        - if @error_message.present?
+          - @error_message.each do |e|
+            .alert.alert-danger.alert-dismissible.fade.show
+              = e
+              button.close[data-dismiss='alert']  ×
+        = form_with model: @student, url: :organizations_univs_user, local: true do |form|
+          = render 'form', form: form
+          = submit_tag 'Register', class: 'btn btn-primary float-right'

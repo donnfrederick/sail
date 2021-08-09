@@ -1,0 +1,12 @@
+<% if user.nil? %>
+<% elsif user.default_locale === :ja %>
+  <div class="footer-contact">
+    お困りの事やご不明点がございましたら、お気軽にお問合せください。<br />
+    Sailカスタマーサポート：<a href="mailto:support@helte-corp.com">support@helte-corp.com</a><br />
+  </div>
+<% else %>
+  <div class="footer-contact">
+    *Any questions?<br />
+    Feel free to contact us: <a href="mailto:support@helte-corp.com">support@helte-corp.com</a><br />
+  </div>
+<% end %>

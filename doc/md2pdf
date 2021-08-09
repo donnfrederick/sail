@@ -1,0 +1,5 @@
+#!/bin/sh
+for mdfile in `find . -type f | grep .md | grep -v .erb`
+do
+  markdown-pdf $mdfile
+done

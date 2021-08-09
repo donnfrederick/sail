@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ProfileItem /> 1`] = `
+<div
+  className="sc-bdVaJa cddhVC"
+>
+  <img
+    className="sc-bwzfXH duAxXA"
+    src="/assets/img/students/reservation-detail/gender@3x.png"
+  />
+  <div
+    className="sc-htpNat fIypZi"
+  >
+    Female
+  </div>
+</div>
+`;

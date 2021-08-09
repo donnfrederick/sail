@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StudentsMenu /> 1`] = `
+<div
+  className="sc-eHgmQL iFlQFf"
+>
+  <div
+    className="sc-gqjmRU gggsyL"
+  >
+    <div
+      className="sc-VigVT jpTuN"
+    >
+      Account
+    </div>
+    <div
+      className="sc-jTzLTM gLnvy"
+    >
+      <div
+        className="sc-htoDjs bUzAjn"
+      >
+        <a
+          className="sc-gZMcBi dTGJGz"
+          href="/students/profile"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-dnqmqq hkiqYL"
+          >
+            My Page
+          </div>
+          <img
+            className="sc-iwsKbI fIyQcL"
+            src="/assets/img/students/profile/arrow@3x.png"
+          />
+        </a>
+      </div>
+      <div
+        className="sc-htoDjs bUzAjn"
+      >
+        <a
+          className="sc-gZMcBi dTGJGz"
+          href="/students/profile/edit/info"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-dnqmqq hkiqYL"
+          >
+            Edit Profile
+          </div>
+          <img
+            className="sc-iwsKbI fIyQcL"
+            src="/assets/img/students/profile/arrow@3x.png"
+          />
+        </a>
+      </div>
+      <div
+        className="sc-htoDjs bUzAjn"
+      >
+        <a
+          className="sc-gZMcBi dTGJGz"
+          href="/students/profile/edit/password"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-dnqmqq hkiqYL"
+          >
+            Change Password
+          </div>
+          <img
+            className="sc-iwsKbI fIyQcL"
+            src="/assets/img/students/profile/arrow@3x.png"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gqjmRU gggsyL"
+  >
+    <div
+      className="sc-VigVT jpTuN"
+    >
+      Support
+    </div>
+    <div
+      className="sc-jTzLTM gLnvy"
+    >
+      <div
+        className="sc-htoDjs bUzAjn"
+      >
+        <a
+          className="sc-gZMcBi dTGJGz"
+          href="/students/faq"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-dnqmqq hkiqYL"
+          >
+            Help Center
+          </div>
+          <img
+            className="sc-iwsKbI fIyQcL"
+            src="/assets/img/students/profile/arrow@3x.png"
+          />
+        </a>
+      </div>
+      <div
+        className="sc-htoDjs bUzAjn"
+      >
+        <a
+          className="sc-gZMcBi dTGJGz"
+          href="/students/history"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-dnqmqq hkiqYL"
+          >
+            Conversation History
+          </div>
+          <img
+            className="sc-iwsKbI fIyQcL"
+            src="/assets/img/students/profile/arrow@3x.png"
+          />
+        </a>
+      </div>
+      <div
+        className="sc-htoDjs bUzAjn"
+      >
+        <a
+          className="sc-gZMcBi dTGJGz"
+          href="/students/favorites"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-dnqmqq hkiqYL"
+          >
+            Favorited Users
+          </div>
+          <img
+            className="sc-iwsKbI fIyQcL"
+            src="/assets/img/students/profile/arrow@3x.png"
+          />
+        </a>
+      </div>
+      <div
+        className="sc-htoDjs bUzAjn"
+      >
+        <a
+          className="sc-gZMcBi dTGJGz"
+          href="/students/blocked"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-dnqmqq hkiqYL"
+          >
+            Blocked Accounts
+          </div>
+          <img
+            className="sc-iwsKbI fIyQcL"
+            src="/assets/img/students/profile/arrow@3x.png"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gqjmRU gggsyL"
+  >
+    <div
+      className="sc-VigVT jpTuN"
+    >
+      Legal
+    </div>
+    <div
+      className="sc-jTzLTM gLnvy"
+    >
+      <div
+        className="sc-htoDjs bUzAjn"
+      >
+        <a
+          href="https://www.helte.jp/privacy-policy-en/"
+        >
+          <div
+            className="sc-dnqmqq hkiqYL"
+          >
+            Privacy Policy
+          </div>
+        </a>
+      </div>
+      <div
+        className="sc-htoDjs bUzAjn"
+      >
+        <a
+          href="https://www.helte.jp/terms-en/"
+        >
+          <div
+            className="sc-dnqmqq hkiqYL"
+          >
+            Terms
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gqjmRU gggsyL"
+  >
+    <div
+      className="sc-VigVT jpTuN"
+    >
+      About
+    </div>
+    <div
+      className="sc-jTzLTM gLnvy"
+    >
+      <div
+        className="sc-htoDjs bUzAjn"
+      >
+        <a
+          className="sc-gZMcBi dTGJGz"
+          href="/students/about"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-dnqmqq hkiqYL"
+          >
+            Operating Company
+          </div>
+          <img
+            className="sc-iwsKbI fIyQcL"
+            src="/assets/img/students/profile/arrow@3x.png"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-hSdWYo eXlnsO"
+    onClick={[Function]}
+  >
+    Sign Out
+  </div>
+  <header
+    className="sc-kpOJdX eZErHz"
+  >
+    <div
+      className="sc-dxgOiQ lkITdM"
+    >
+      Menu
+    </div>
+    <a
+      className="sc-jKJlTe iZdiKE"
+      href="/students/mypage"
+      onClick={[Function]}
+      theme="blue"
+    />
+  </header>
+  <div
+    className="sc-gzVnrw bbOeQD"
+  >
+    <a
+      className="sc-EHOje gEifQf"
+      href="/students/mypage"
+      icon="/assets/img/students/footer/home@3x.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-EHOje bIkBAA"
+      href="/students/notifications"
+      icon="/assets/img/students/footer/notification@3x.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-EHOje exXkhS"
+      href="/students/mypage"
+      icon="/assets/img/students/footer/cart.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-bZQynM iAxnUN"
+      href="/students/reservations/new"
+      icon="/assets/img/students/footer/calendar@3x.png"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

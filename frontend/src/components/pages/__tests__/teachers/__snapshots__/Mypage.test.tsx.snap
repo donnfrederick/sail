@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TeachersMypage /> 1`] = `
+<div
+  className="sc-uJMKN QJUqB"
+>
+  <div
+    className="sc-csuQGl huCqsR"
+  >
+    <a
+      className="sc-bRBYWo fbatnD"
+      href="/teachers/reservations/new"
+      onClick={[Function]}
+    >
+      <button
+        className="sc-gZMcBi kVauJl"
+        color="#fff"
+        data-disabled={false}
+        data-selected={false}
+        fontSize={36}
+        height={80}
+        width={276}
+      >
+        予約する
+      </button>
+      <span
+        className="sc-hzDkRC kBKapq"
+      >
+        いくつでも予約できます
+      </span>
+    </a>
+    <div
+      className="sc-Rmtcm bngpZP"
+    />
+  </div>
+  <div
+    className="sc-EHOje itwipb"
+  >
+    <div
+      className="sc-bZQynM bZKBNj"
+    >
+      ホーム
+    </div>
+    <div
+      className="sc-htoDjs fUCPvq"
+    >
+      <a
+        className="sc-dnqmqq engvPe"
+        href="/teachers/notifications"
+        onClick={[Function]}
+      />
+      <a
+        className="sc-iwsKbI jCgDjX"
+        href="/teachers/support"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

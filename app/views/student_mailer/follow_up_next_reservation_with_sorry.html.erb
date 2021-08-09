@@ -1,0 +1,36 @@
+<h3>Hello <%= @user.name_en %></h3>
+
+<div class="section">
+  <h1 class="title"><%= @notification.title_en %></h1>
+  <p><%= @notification.body_en %></p>
+</div>
+
+<div class="section-comfortable-margin-top">
+  <% if @favorite_teachers_conversations.empty? %>
+    <h2 class="title">Check "favorite" feature!</h2>
+    <p>
+      Once you add favorite users by the feature, you will get the information of their recent conversation timing.
+      It would be a big help to check when the Japanese can talk regularly.
+      Try it and check their information now!
+    </p>
+  <% else %>
+    <h2 class="title">Favorite users talk at these timing</h2>
+    <p>
+      Here your favorite users talk at the below timing recently. You can see 5 users at maximum.
+    </p>
+    <% @favorite_teachers_conversations.each do |conversation| %>
+      <div class="wide-stretched">
+        <%= render partial: "components/user_profile_with_time", locals: {locale: @user.default_locale, user: conversation.teacher, start_at: conversation.start_at, end_at: conversation.end_at, context_user: @user} %>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+
+<div class="section-less-comfortable-margin">
+  <p>
+    Currently there are many Japanese who have joined in Sail.
+    Check Sail app and reserve conversations!
+  </p>
+</div>
+
+<%= render partial: "components/mailer/launcher_guide", locals: {locale: @user.default_locale, url: "https://sail.helte.jp/"} %>

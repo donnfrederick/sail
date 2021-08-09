@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <SigninButtons /> 1`] = `
+<div
+  className="sc-bZQynM gvJEZE"
+>
+  <button
+    className="sc-bdVaJa lcPqDm"
+    data-active={true}
+    fontSize={40}
+    height={112}
+    width={304}
+  >
+    <a
+      className="sc-ifAKCX htePvU"
+      href="/teachers"
+      onClick={[Function]}
+    >
+      戻る
+    </a>
+  </button>
+  <button
+    className="sc-bwzfXH cRumUs"
+    data-active={false}
+    fontSize={40}
+    height={112}
+    onClick={[Function]}
+    width={304}
+  >
+    <div
+      className="sc-EHOje jfyosa"
+    >
+      ログイン
+    </div>
+  </button>
+</div>
+`;

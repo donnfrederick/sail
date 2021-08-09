@@ -1,0 +1,2 @@
+class FreeIssue < Issue
+end

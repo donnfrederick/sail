@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Memo /> 1`] = `
+Array [
+  <div
+    className="sc-bxivhb cSClNk"
+  >
+    <div
+      className="sc-bdVaJa hLitOT"
+      width={620}
+    >
+      <h2
+        className="sc-bwzfXH gxTqoK"
+      >
+        この方との会話のメモを残せます
+      </h2>
+      <h3
+        className="sc-htpNat dVKQpm"
+      >
+        メモを残しておくと、次回会話するときに何を話したのか確認できるので便利です。
+※ メモはあなただけが見れるものです。(残り1013文字)
+      </h3>
+    </div>
+  </div>,
+  <div
+    className="sc-EHOje fOEUSN"
+  >
+    <textarea
+      className="sc-bZQynM jUomKD"
+      onChange={[Function]}
+      value="foobar ほげふが"
+      width={640}
+    />
+  </div>,
+  <div
+    className="sc-ifAKCX dsdWgN"
+  >
+    <button
+      className="sc-gzVnrw cpPWgR"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={360}
+    >
+      メモを残す
+    </button>
+    <p
+      className="sc-dnqmqq kUaYlt"
+      onClick={[Function]}
+    >
+      メモを残さずに終了する
+    </p>
+  </div>,
+]
+`;

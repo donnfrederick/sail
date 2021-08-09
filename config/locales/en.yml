@@ -1,0 +1,466 @@
+---
+en:
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      accepted: must be accepted
+      blank: can't be blank
+      present: must be blank
+      confirmation: doesn't match %{attribute}
+      empty: can't be empty
+      equal_to: must be equal to %{count}
+      even: must be even
+      exclusion: is reserved
+      greater_than: must be greater than %{count}
+      greater_than_or_equal_to: must be greater than or equal to %{count}
+      inclusion: is not included in the list
+      invalid: is invalid
+      less_than: must be less than %{count}
+      less_than_or_equal_to: must be less than or equal to %{count}
+      model_invalid: "Validation failed: %{errors}"
+      not_a_number: is not a number
+      not_an_integer: must be an integer
+      odd: must be odd
+      required: must exist
+      taken: has already been taken
+      too_long:
+        one: is too long (maximum is 1 character)
+        other: is too long (maximum is %{count} characters)
+      too_short:
+        one: is too short (minimum is 1 character)
+        other: is too short (minimum is %{count} characters)
+      wrong_length:
+        one: is the wrong length (should be 1 character)
+        other: is the wrong length (should be %{count} characters)
+      other_than: must be other than %{count}
+      format_with_hiragana: "must be hiragana"
+    template:
+      body: 'There were problems with the following fields:'
+      header:
+        one: 1 error prohibited this %{model} from being saved
+        other: "%{count} errors prohibited this %{model} from being saved"
+    authentication: "Invalid email or password."
+    conversation:
+      past_date: "Can't select past date"
+      less_than_start_at: "Can't select than start time"
+      duplicate_schedule: "Can't duplicate schedules"
+      duplicate_schedule_at: "You have the duplicated schedule at %{start_at}"
+      duplicate_schedule_in_device: "Can't duplicate schedules with other user using this device"
+      not_available: "This conversation is not available"
+      staff_has_only_one_device: "The staff has been already assigned to another device."
+    issue:
+      wrong_type: "Can't deal with transaction whose amount is greater than 0, as free one."
+      cannot_suspend: "Can't suspend the issue due to incompatibility."
+      cannot_cancel: "Can't cancel the issue due to incompatibility."
+    users_organization_section:
+      duplicated_users_section: You have already joined the class
+    point_transaction:
+      duplicate_consumption: "You already have consumed the points for the conversation #%{conversation_id}."
+      no_available_consumption_history: "There is no available point consumption for the conversation #%{conversation_id}."
+    pricing_table:
+      nothing_always_accessible: You must have at least one always-accessible pricing table.
+    package_property:
+      unavailable_currency: Input one of available currencies.
+    sms_authentication:
+      invalid: "This phone number is invalid."
+      unsupported: "This phone number is unsupported."
+      restricted: "This phone number cannot receive SMS from us."
+      banned: "This phone number is banned."
+      incapable: "This phone number cannot receive SMS."
+      bad_code: "It's a wrong code. Please check the SMS."
+      already_exists: "This phone number is already used."
+  time:
+    am: AM
+    formats:
+      default: "%Y/%m/%d %H:%M:%S %z"
+      long: "%B %e, %Y %H:%M"
+      short: "%m/%d %H:%M"
+      at: "%H:%M"
+      date: "%B %e"
+      long_date: "%B %e, %Y(%a)"
+      month: "%Y %B"
+    pm: PM
+    zone:
+      other: "%{country} time"
+  user_profile:
+    conversations: "Conversations"
+    conversation_experiences: "%{count} Times"
+    conversation_experiences_with_partner_male: "You had %{count} conversations with him"
+    conversation_experiences_with_partner_female: "You had %{count} conversations with her"
+    conversation_experiences_with_partner_unknown: "You had %{count} conversations with this user"
+    conversation_experiences_with_partner_other: "You had %{count} conversations with this user"
+    sex:
+      unknown: "不明"
+      male: "男性"
+      female: "女性"
+      other: "その他"
+  mailer:
+    launcher_button: "Open Sail"
+    launcher_guide: "Please open Sail with smartphone APP or desktop Google Chrome."
+  notification:
+    footer_note: "This message is sent by Sail to %{your_name}."
+    conversation_matching:
+      title: "Conversation partner was found"
+      body:  "Conversation between %{your_name} and %{user_name} at %{start_at} on %{start_on} (%{timezone}) has been confirmed! Please check out the details."
+    conversation_canceled:
+      title: "Conversation at %{start_at} on %{start_on} (%{timezone}) has been cancelled."
+      body:  "Conversation between %{your_name} and %{user_name} at %{start_at} on %{start_on} (%{timezone}) has been cancelled. Please find another elder if you wish to talk."
+    conversation_canceled_today:
+      title: "Emergency situation at %{start_at} on %{start_on} (%{timezone})"
+      body:  "Conversation between %{your_name} and %{user_name} at %{start_at} on %{start_on} (%{timezone}) has been cancelled due to emergency situation for %{user_name}. We are deeply sorry, and please find another elder if you wish to talk."
+    conversation_canceled_today_culprit:
+      title: "Conversation at %{start_at} on %{start_on} (%{timezone}) has been cancelled."
+      body:  "You have cancelled your conversation schedule with %{user_name} on %{start_on}. We would like to remind you that the sudden cancellation may cause inconveniences to the person who you've matched with. Please make sure that you arrange the conversation reservation properly so that you are able to participate in the conversation from the start to the end of the schedule."
+    conversation_start:
+      title: "It is time to start conversation"
+      body:  "It is time to conversation with %{user_name}."
+    conversation_points_retrieved_because_of_absence:
+      title: "Conversation point has been paid back"
+      body:  "In the conversation between %{your_name} and %{user_name} at %{start_at} on %{start_on} (%{timezone}), %{user_name} was absent. Therefore, your conversation point has been paid back. Reserve another!"
+    follow_up_next_reservation:
+      title: "Well done!"
+      body: "How was the conversation with %{user_name}? Reserve next conversation and talk more with Japanese!"
+    follow_up_next_reservation_with_sorry:
+      title: "Conversation has finished"
+      body: "Conversation with %{user_name} has finished. Reserve next conversation and talk more with Japanese!"
+    remind_1day_ago:
+      title: "You have the conversation tomorrow"
+      body:  "You have the conversation between %{your_name} and %{user_name} at %{start_at} on %{start_on} (%{timezone}), tomorrow. Please make sure you can be ready beforehand with the stable internet and put on earphones with microphone or headset microphone."
+    remind_1hour_ago:
+      title: "Your conversation will be coming in one hour"
+      body:  "Please kindly participate it on time."
+    remind_10minutes_ago:
+      title: "Conversation will be coming in 10 minutes"
+      body:  "Conversation between %{your_name} and %{user_name} at %{start_at} on %{start_on} (%{timezone}) will be coming in 10 minutes, Please make ready for the conversation with the stable internet and put on earphones with microphone or headset microphone."
+    request_approved:
+      title: "Your request has been approved"
+      body:  "Your request at %{start_at} on %{start_on} (%{timezone}) with %{user_name} has been approved. Please check out the details and make ready for the conversation."
+    request_rejected:
+      title: "Your request was not selected"
+      body:  "Your request at %{start_at} on %{start_on} (%{timezone}) with %{user_name} was not selected. Please reserve or make other requests."
+    new_request:
+      title: ""
+      body:  ""
+    request_cancelled:
+      title: ""
+      body:  ""
+    conversation_restored:
+      title: "Conversation has reopened !"
+      body:  "The conversation at %{start_at} on %{start_on} (%{timezone}) by %{user_name} has reopened. Please check the reservation calendar and make a request if you still can talk !"
+    removed_followed_up:
+      title: "Now you can reserve more !"
+      body: "Congratulations ! Recently you have talked with good attitude so now more conversations are unlocked. Reserve conversations with many people and enjoy talking !"
+    conversation_cancelled_by_absent_penalty:
+      title: "Please check again if you can attend conversations"
+      body: "Due to continuous absence, all coming conversations have been cancelled by the system. Please check again if you can attend conversations. 相手の方も会話を楽しみにしていますので、欠席はできるだけしないようにしてください。"
+    warn_absence:
+      title: "Make sure again that you can participate"
+      body: "As your recent usage, we would like you to make sure again that you can participate in your reserved conversations."
+  conversation:
+    close_soon:
+      comment: "It is time to say goodbye"
+    late:
+      comment: "You are late !"
+    status:
+      waiting: "Vacant"
+      queued: "Queued"
+      progress: "In progress"
+      completed: "Succeeded"
+      failed: "Failed"
+      cancled: "Cancelled"
+      unmatched: "Unmatched"
+      unknown: "Invalid status"
+    cancelled_at:
+      title: "%{time} (caused by %{reason})"
+      missing: "%{time} (data collapsed)"
+      reason:
+        admin: "Helte"
+        teacher: "senior"
+        student: "student"
+        other: "unknown"
+  user:
+    conversation_level:
+      level_0: 0
+      level_1: 1
+      level_2: 2
+      level_3: 3
+      level_4: 4
+      level_5: 5
+    level:
+      level_-10: -10
+      level_-1: -1
+      level_1: 1
+      level_2: 2
+      level_3: 3
+      level_4: 4
+      level_5: 5
+    reliability:
+      highly_reliable: Reliable user
+      suspicious: Less reliable user
+      other: Normal user
+    payment:
+      trial_user: Free trail
+      free_user: Special free
+      paid_user: Paid
+      organization_section_paid_user: Organization paid
+      expired_user: No payment
+  sms_authentication:
+    body: "Your confirmation code： %{code}\nInput this number on the page.\n\nSail"
+  organization:
+    title: Class management
+    signin: Sign in
+    do_signin: Sign in
+    email: Email
+    password: Password
+    email_placeholder: sail@example.com
+    password_placeholder: password
+    invalid_signin: Email or password is not correct
+    invalid_user: User ID is not correct
+    back_button: Back
+    header:
+      menu:
+        home: Home
+        users: Students
+        schedule: Schedule
+        history: History
+        notifications: Notifications
+        accounts: Accounts
+        settings: Preferences
+        icon: Icon
+        tablets: Tablet names
+        signout: Signout
+    forgot_password:
+      title: Password reset
+      label: Forgot your password ?
+      reset_password: Password reset
+      do_reset_password: Reset password
+      new:
+        title: Request email to reset password
+        button: Request email
+    calendar:
+      name_and_time: "name / time"
+      month_header_head: "%b %-d"
+      month_header_middle: "〜"
+      month_header_tail: "%b %-d"
+      prev_month: "<"
+      next_month: ">"
+    accounts:
+      title: Manager accounts
+      email: Email
+      owner_device: Managed device
+      no_device_to_signin: "(none)"
+    invitees:
+      confirm:
+        title: "Are you joining %{class_name} ?"
+        message: "Press \"Join the class\" button to join %{class_name} of %{org_name}"
+        otherwise: Otherwise you can close this page soon.
+        merits:
+          title: "How %{class_name} works ?"
+          message: "Once you join %{class_name}, the teacher can check your interest settings and history of conversations to use in the real class room. If you actually take the class room in your school, please join it."
+        proceed_button: Join the class
+      invalid:
+        title: "Error: invalid invitation URL"
+        message: It's possibly expired or invalid. Please ask the teacher to provide the URL again.
+        alert: "%{class_name}の先生が%{user_name}さんの話題や会話履歴を確認できるようになりました。"
+      joined:
+        title: "You have joined %{class_name} !"
+        message: "You are currently in %{class_name}. Let's start conversations."
+        alert: "The teacher in %{class_name} can check your interest settings and history of conversations to use in the real class room."
+      signin:
+        title: "Sign in to join the class room"
+    profile:
+      student:
+        name: Name
+        sex: Sex
+        level: Speaking level
+        hobbies: Hobbies
+        purposes: Purposes
+        lateness: Lateness
+        evaluate: Feedback
+        male: Male
+        female: Female
+        other: Other
+        level_-10: Have never taken JLPT
+        level_-1: Have never passed JLPT
+        level_1: N1
+        level_2: N2
+        level_3: N3
+        level_4: N4
+        level_5: N5
+      teacher:
+        name: Name
+        sex: Sex
+        hobbies: Hobbies
+        purposes: Purposes
+        evaluate: Feedback
+        desire: Desired speaking level
+        male: Male
+        female: Female
+        other: Other
+        san: "-san"
+    nhs:
+      title: Sail management for elder facility
+      switch_section: Switch facility
+      users:
+        confirm_to_delete:
+          title: "Are you sure to delete %{user_name}"
+          message: "You are going to delete the user account of \"%{user_name}\". Once you delete it, you cannot restore the data. Are you sure to delete the user ?"
+          button: Delete
+    univs:
+      title: Sail management for academic usage
+    recovery:
+      new:
+        not_found: Email address has not found
+      email:
+        title: Reset password
+        message1: You have requested the URL to reset your password to sigin in Sail.
+        message2: Please open the URL below and proceed resetting the password until the URL expires.
+        url_title: Reset password URL
+        url_note: If you have not requested it, just ignore it. Anyone else never knows the URL on this email and never can change your password inproperly. Moreover it nullifies once you use the URL, so that you need to request the URL as you forget the password again.
+        greeting: Best regards, Helte
+      created:
+        title: It has sent the confirmation email !
+        message: It has sent the confirmation email to the above address. Please check your mailbox. It would take 15 minutes at longest; otherwise please check your email address and try it again.
+      edit:
+        title: Set new password
+        button: Apply
+        no_longer_available: This URL has already expired. Please request the URL again.
+    picture:
+      confirm_to_delete:
+        title: Are you sure to delete the icon ?
+        button: Delete
+      index:
+        title: Current icon
+        message: This is the icon currently set. You can find it on notifications page especially.
+        edit_button: Change
+        delete_button: Delete
+      new:
+        title: Upload a picture of your icon
+        message: Select a picture and press the upload button below.
+        picture: Picture
+        upload: Upload
+    videos:
+      play:
+       title: "Conversation at %{start_at} - %{end_at}"
+       download:
+         title: "Download"
+    history:
+      list:
+        title: Conversation history
+        teacher:
+          title: Elder
+        student:
+          title: Student
+        datetime:
+          title: Date & time
+    conversations:
+      the_conversation_at: "Conversation in %{start_at} - %{end_at}"
+      confirm_before_create:
+        the_conversation_at: "Are you sure to reserve a conversation in %{start_at} - %{end_at} ?"
+        button: Apply
+      confirm_before_reserve:
+        the_conversation_at: "Are you sure to reserve the below conversation ?"
+      table:
+        title: Available schedule
+        calendar:
+          title: Calendar
+        table:
+          title: List
+      delete_button: Delete
+      new:
+        title: "Conversation at %{start_at}"
+        title2: Select the available time range
+        message: Conversation will be matched in one of the selected time range by a student's selection. After matching, it will be confirmed.
+        range:
+          title: Time range
+        button: Proceed
+      none: There is no confirmed conversation currently.
+    notifications:
+      title: Notifications
+      index:
+        datetime: Date & time
+        title: Subejct
+        conversations: Conversation schedule
+        conversations_note: You can change and cancel at the schedule page.
+      none: There is no notification to you currently.
+    preferences:
+      email:
+        show:
+          title: Email address setting
+          edit_button: Change
+          current_email: Current email address
+        edit:
+          title: Change the email address
+          message: You can change the email address to sign in Sail. Edit the below field and press "Change" button.
+          button: Change
+          email: Email address
+      password:
+        edit:
+          title: Change password
+          message: You can change the password to sign in Sail. It requires your current password to confirm your operation. Only if the current password is authenticated, it will be changed to the new one.
+          button: Change
+          current_password: Current password
+          password: New password
+          current_password_placeholder: Current password
+          password_placeholder: New password
+    formats:
+      datetime:
+        long: "%b %-d %k:%M"
+        full: "%b %-d, %Y, %k:%M"
+      time:
+        middle: "%k:%M"
+      quotations:
+        start: "\""
+        end: "\""
+      expressions:
+        and: " and "
+    errors:
+      no_contract_section:
+        title: There is no class
+        message: Currently you don't have any class room under contract with Helte. Once you have a class room according to contract, the page turns available.
+        contact: Please contact us to add a class room
+      database_error:
+        title: Proceedure is going wrong. Please try it again few minutes later.
+    prev_month: Previous
+    next_month: Next
+  analysis:
+    matching:
+      wait_time:
+        in_an_hour: "In an hour"
+        in_6_hours: "In 6 hours"
+        in_3_days: "In 3 days"
+        in_a_week: "In a week"
+        more_than_a_week: "More than a week"
+        note: "NOTE: \"In an hour\" would contain reservations made by Helte admin"
+  analytics:
+    student_registrants:
+      description: ""
+    teacher_registrants:
+      description: ""
+    sections_conversations:
+      description: "*To add/remove a section, update the section data at the section edit page with \"See in statistics\""
+    conversation_schedules:
+      description: ""
+    conversation_creations:
+      description: ""
+    successful_conversations:
+      description: ""
+    failure_conversations:
+      description: ""
+    unmatched_conversations:
+      description: ""
+  nh_report:
+    action: "Report"
+    title:
+      conversations_in_month: "Conversations: %m, %Y"
+      total_numer_prefix: "Conversations in this month: "
+    table:
+      empty: "-"
+      skip: ":"
+      conversation_count: "%{count} times"
+      head:
+        date_time: "Date time"
+        remote_user_name: "Elder name"
+        star_count: "Stars"
+        country: "Country"
+        comment: "Comment"

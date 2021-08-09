@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TeachersSignUp /> 1`] = `
+<div
+  className="sc-jnlKLf iwpHjU"
+>
+  <div
+    className="sc-bbmXgH kvRyYY"
+  >
+    <div
+      className="sc-fjdhpX fGniGM"
+    >
+      <div
+        className="sc-cSHVUG heeuJy"
+      />
+      <div
+        className="sc-jzJRlG jeFACt"
+        data-completed={true}
+        data-current={true}
+      >
+        1
+      </div>
+      <div
+        className="sc-jzJRlG jeFACt"
+        data-completed={false}
+        data-current={false}
+      >
+        2
+      </div>
+      <div
+        className="sc-jzJRlG jeFACt"
+        data-completed={false}
+        data-current={false}
+      >
+        3
+      </div>
+      <div
+        className="sc-jzJRlG jeFACt"
+        data-completed={false}
+        data-current={false}
+      >
+        4
+      </div>
+      <div
+        className="sc-jzJRlG jeFACt"
+        data-completed={false}
+        data-current={false}
+      >
+        5
+      </div>
+      <div
+        className="sc-jzJRlG jeFACt"
+        data-completed={false}
+        data-current={false}
+      >
+        6
+      </div>
+      <div
+        className="sc-jzJRlG jeFACt"
+        data-completed={false}
+        data-current={false}
+      >
+        7
+      </div>
+    </div>
+    <h2
+      className="sc-jTzLTM loYLnI"
+    >
+      メールアドレスとパスワードを
+入力してください
+    </h2>
+    <div
+      className="sc-eNQAEJ eNPhws"
+    >
+      <div
+        className="sc-kgoBCf fXXKrX"
+      >
+        <div
+          className="sc-kGXeez hTeSta"
+          data-error={false}
+        >
+          メールアドレス
+        </div>
+        <input
+          className="sc-kpOJdX YAQzy"
+          data-error={false}
+          defaultValue=""
+          maxLength={254}
+          name="mail"
+          onInput={[Function]}
+          placeholder="sail@example.com"
+        />
+      </div>
+      <div
+        className="sc-dxgOiQ fzDiN"
+      >
+        <div
+          className="sc-ckVGcZ ezdubx"
+          data-error={false}
+        >
+          パスワード
+        </div>
+        <input
+          className="sc-jKJlTe bKbCpJ"
+          data-error={false}
+          defaultValue=""
+          maxLength={72}
+          onInput={[Function]}
+          pattern="^[0-9A-Za-z]+$"
+          placeholder="半角英数8字以上"
+          type="password"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-hzDkRC htEemi"
+    >
+      <button
+        className="sc-iRbamj bTqqek"
+        data-active={true}
+        fontSize={40}
+        height={112}
+        width={304}
+      >
+        <a
+          className="sc-Rmtcm eFxYSY"
+          href="/teachers"
+          onClick={[Function]}
+        >
+          戻る
+        </a>
+      </button>
+      <button
+        className="sc-jlyJG bKPENZ"
+        data-active={false}
+        fontSize={40}
+        height={112}
+        onClick={[Function]}
+        width={304}
+      >
+        <div
+          className="sc-bRBYWo kUomBh"
+        >
+          次へ
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="sc-EHOje itwipb"
+  >
+    <div
+      className="sc-bZQynM bZKBNj"
+    >
+      新規登録
+    </div>
+    <a
+      className="sc-gzVnrw jTRbiO"
+      href="/teachers"
+      onClick={[Function]}
+    >
+      最初に戻る
+    </a>
+  </div>
+</div>
+`;

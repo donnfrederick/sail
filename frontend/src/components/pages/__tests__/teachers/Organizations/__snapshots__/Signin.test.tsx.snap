@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <OrganizationsSignin /> 1`] = `
+<div
+  className="sc-kpOJdX dPQPFs"
+>
+  <h1
+    className="sc-dxgOiQ ekxhmW"
+  >
+    施設担当者ログイン
+  </h1>
+  <div
+    className="sc-chPdSV cypMfY"
+  >
+    <img
+      className="sc-kGXeez EYHdO"
+      src="/assets/img/common/teachers@3x.png"
+    />
+    <div
+      className="sc-gZMcBi feDJWf"
+    >
+      <div
+        className="sc-EHOje gSShek"
+      >
+        <div
+          className="sc-bZQynM hACQYa"
+          data-error={false}
+        >
+          メールアドレス
+        </div>
+        <input
+          className="sc-gzVnrw cxZZGk"
+          data-error={false}
+          defaultValue=""
+          maxLength={254}
+          name="mail"
+          onInput={[Function]}
+          placeholder="sail@example.com"
+        />
+      </div>
+      <div
+        className="sc-htoDjs bvZGsq"
+      >
+        <div
+          className="sc-dnqmqq ctaodh"
+          data-error={false}
+        >
+          パスワード
+        </div>
+        <input
+          className="sc-iwsKbI eqQKwa"
+          data-error={false}
+          defaultValue=""
+          maxLength={72}
+          onInput={[Function]}
+          pattern="^[0-9A-Za-z]+$"
+          placeholder="半角英数8字以上"
+          type="password"
+        />
+      </div>
+    </div>
+    <a
+      className="sc-kgoBCf gIVtLY"
+      href="/teachers/password_reset"
+      onClick={[Function]}
+    >
+      パスワードを忘れた場合
+    </a>
+    <div
+      className="sc-kAzzGY jLazLq"
+    >
+      <button
+        className="sc-gqjmRU dvUoAf"
+        data-active={true}
+        fontSize={40}
+        height={112}
+        width={304}
+      >
+        <a
+          className="sc-jzJRlG dIrfbV"
+          href="/teachers"
+          onClick={[Function]}
+        >
+          戻る
+        </a>
+      </button>
+      <button
+        className="sc-VigVT fnVOmk"
+        data-active={false}
+        fontSize={40}
+        height={112}
+        onClick={[Function]}
+        width={304}
+      >
+        <div
+          className="sc-cSHVUG jrqQTV"
+        >
+          ログイン
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

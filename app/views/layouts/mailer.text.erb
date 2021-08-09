@@ -1,0 +1,9 @@
+<%= yield %>
+
+<%= render partial: "components/mailer/content_footer", locals: {user: @user} %>
+
+<% if @notification.nil? %>
+Helte co., ltd
+<% else %>
+<%= I18n.t("notification.footer_note", locale: @notification.user.default_locale, your_name: @notification.user.local_name(locale: @notification.user.default_locale)) %>
+<% end %>

@@ -1,0 +1,11 @@
+= form_tag(org_picture_create_path, class: "new col-4 offset-4", method: "post", multipart: true) do
+  h1.title = I18n.t("organization.picture.new.title")
+  p = I18n.t("organization.picture.new.message")
+  .row
+    .form-group.col-12
+      label[for="picture"] = I18n.t("organization.picture.new.picture")
+      = file_field_tag "picture"
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='#{org_picture_show_path}'; return false;"] = I18n.t("organization.back_button")
+    button.btn.btn-primary[type="submit"] = I18n.t("organization.picture.new.upload")

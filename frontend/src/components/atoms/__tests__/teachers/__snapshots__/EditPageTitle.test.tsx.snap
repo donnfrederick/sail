@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <EditPageTitle /> 1`] = `
+<h2
+  className="sc-bdVaJa hOKqgQ"
+>
+  新しいメールアドレスを入力してください
+</h2>
+`;

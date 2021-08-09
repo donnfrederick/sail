@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <SatisfactionButton /> 1`] = `
+<button
+  className="sc-bdVaJa haJVns"
+  data-active={true}
+  onClick={[Function]}
+>
+  <img
+    className="sc-bwzfXH jOYpiy"
+    src="/assets/img/common/evaluation/smiley_flat_active@2x.png"
+  />
+  <span
+    className="sc-htpNat clHFgE"
+  >
+    とても楽しかった！
+  </span>
+</button>
+`;

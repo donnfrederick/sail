@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <FavoriteCard /> 1`] = `
+<div
+  className="sc-jTzLTM hAUswX"
+>
+  <div
+    className="sc-bdVaJa bHgtVR"
+  >
+    <img
+      className="sc-htpNat iiyWLF"
+      height="150px"
+      src=""
+      srcSet=""
+      width="150px"
+    />
+  </div>
+  <div
+    className="sc-fjdhpX khPDFE"
+  >
+    <p
+      className="sc-jzJRlG bPOcdH"
+    >
+      吉野 瑞葵
+    </p>
+    <button
+      className="sc-bxivhb eeLFPz"
+      data-active={true}
+      fontSize={28}
+      height={56}
+      width={224}
+    >
+      <a
+        className="sc-gzVnrw aZXRC"
+        href="/students/favorites/60331"
+        onClick={[Function]}
+      >
+        Details
+      </a>
+    </button>
+  </div>
+</div>
+`;

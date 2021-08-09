@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StudentsIndex /> 1`] = `
+<div
+  className="sc-kpOJdX fsEIML"
+>
+  <img
+    className="sc-dxgOiQ bQrkxU"
+    src="/assets/img/common/students@3x.png"
+  />
+  <div
+    className="sc-gzVnrw htkAUK"
+  >
+    <button
+      className="sc-bdVaJa fSzpDV"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      type="blue"
+      width={590}
+    >
+      <a
+        className="sc-bwzfXH dYvddp"
+        href="/students/signup"
+        onClick={[Function]}
+      >
+        Create Account
+      </a>
+    </button>
+    <button
+      className="sc-bdVaJa isxZPy"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      type="white"
+      width={590}
+    >
+      <a
+        className="sc-bwzfXH dYvddp"
+        href="/students/signin"
+        onClick={[Function]}
+      >
+        Sign In
+      </a>
+    </button>
+  </div>
+  <small
+    className="sc-EHOje gJGLhn"
+  >
+    By tapping Continue, Create Account, Sign in, you agree to Sail's
+     
+    <a
+      className="sc-bZQynM cjaahz"
+      href="/students/terms"
+      onClick={[Function]}
+    >
+      Terms and Conditions of Use
+    </a>
+     
+    and
+     
+    <a
+      className="sc-bZQynM cjaahz"
+      href="/students/privacy"
+      onClick={[Function]}
+    >
+      Privacy Policy
+    </a>
+    .
+  </small>
+  <header
+    className="sc-fjdhpX gOTJxF"
+  >
+    <div
+      className="sc-jzJRlG ccNbYY"
+    >
+      For International People
+    </div>
+    <a
+      className="sc-kAzzGY knYnzZ"
+      href="/"
+      onClick={[Function]}
+      theme="white"
+    />
+  </header>
+</div>
+`;

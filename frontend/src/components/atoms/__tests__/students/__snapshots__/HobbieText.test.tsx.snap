@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <HobbieText /> 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa bqYLga"
+  >
+    What are you
+interested in?
+  </div>
+  <div
+    className="sc-bwzfXH jZImby"
+  >
+    Please select up to three.
+  </div>
+</div>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Footer /> 1`] = `
+<div
+  className="sc-gzVnrw bbOeQD"
+>
+  <a
+    className="sc-bdVaJa bUUNap"
+    href="/students/mypage"
+    icon="/assets/img/students/footer/home@3x.png"
+    onClick={[Function]}
+  />
+  <a
+    className="sc-bdVaJa jFedXo"
+    href="/students/notifications"
+    icon="/assets/img/students/footer/notification@3x.png"
+    onClick={[Function]}
+  />
+  <a
+    className="sc-bdVaJa efsLoQ"
+    href="/students/mypage"
+    icon="/assets/img/students/footer/cart.png"
+    onClick={[Function]}
+  />
+  <a
+    className="sc-bwzfXH chiMYD"
+    href="/students/reservations/new"
+    icon="/assets/img/students/footer/calendar@3x.png"
+    onClick={[Function]}
+  />
+</div>
+`;

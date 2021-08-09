@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <RemainingTime /> 1`] = `
+<div
+  className="sc-jlyJG eYezqL"
+>
+  <div
+    className="sc-gipzik dFXgvF"
+  >
+    Time Limit
+  </div>
+  <div
+    className="sc-csuQGl gFGqiE"
+    data-color={null}
+  >
+    2018-06-16T09:40:44Z
+  </div>
+</div>
+`;

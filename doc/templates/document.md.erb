@@ -1,0 +1,35 @@
+<%# coding: UTF-8 -%>
+## <%= title %>
+<%= description %>
+
+<% if has_validators? && parameters.present? %>
+### Parameters
+
+Parameter | Type | Required | Format | Description
+--- | --- | --- | --- | ---
+<%= parameters %>
+<% end %>
+
+<% if request_header =~ /Authorization/ %>
+### Headers
+
+Header | Value | Description
+--- | --- | ---
+Authorization | Bearer <auth_token> | user.auth_token (required)
+<% end %>
+
+### Example
+
+#### Request
+
+```
+<%= method %> <%= request.path %><%= request_query %>
+<%= request_header %><%= request_body_section %>
+```
+
+#### Response
+
+```json
+<%= response.status %>
+<%= response_header %><%= response_body_section %>
+```

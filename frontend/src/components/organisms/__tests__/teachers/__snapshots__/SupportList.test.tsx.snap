@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <SupportList /> 1`] = `
+<div
+  className="sc-kGXeez hdOaOS"
+>
+  <div
+    className="sc-kpOJdX dzPzDR"
+  >
+    <div
+      className="sc-EHOje dLfItG"
+    >
+      <a
+        className="sc-htoDjs eoNXye"
+        href="/teachers/profile"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bZQynM bLdJwq"
+        >
+          自分の情報
+        </div>
+        <img
+          className="sc-gzVnrw dDNjlS"
+          src="/assets/img/teachers/arrow@3x.png"
+        />
+      </a>
+    </div>
+    <div
+      className="sc-EHOje dLfItG"
+    >
+      <a
+        className="sc-htoDjs eoNXye"
+        href="/teachers/history"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bZQynM bLdJwq"
+        >
+          会話履歴
+        </div>
+        <img
+          className="sc-gzVnrw dDNjlS"
+          src="/assets/img/teachers/arrow@3x.png"
+        />
+      </a>
+    </div>
+    <div
+      className="sc-EHOje dLfItG"
+    >
+      <a
+        className="sc-htoDjs eoNXye"
+        href="/teachers/favorites"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bZQynM bLdJwq"
+        >
+          お気に入り一覧
+        </div>
+        <img
+          className="sc-gzVnrw dDNjlS"
+          src="/assets/img/teachers/arrow@3x.png"
+        />
+      </a>
+    </div>
+    <div
+      className="sc-EHOje dLfItG"
+    >
+      <a
+        className="sc-htoDjs eoNXye"
+        href="/teachers/faq"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bZQynM bLdJwq"
+        >
+          よくある質問
+        </div>
+        <img
+          className="sc-gzVnrw dDNjlS"
+          src="/assets/img/teachers/arrow@3x.png"
+        />
+      </a>
+    </div>
+    <div
+      className="sc-EHOje dLfItG"
+    >
+      <a
+        className="sc-htoDjs eoNXye"
+        href="/teachers/terms"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bZQynM bLdJwq"
+        >
+          利用規約
+        </div>
+        <img
+          className="sc-gzVnrw dDNjlS"
+          src="/assets/img/teachers/arrow@3x.png"
+        />
+      </a>
+    </div>
+    <div
+      className="sc-EHOje dLfItG"
+    >
+      <a
+        className="sc-htoDjs eoNXye"
+        href="/teachers/privacy"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bZQynM bLdJwq"
+        >
+          プライバシーポリシー
+        </div>
+        <img
+          className="sc-gzVnrw dDNjlS"
+          src="/assets/img/teachers/arrow@3x.png"
+        />
+      </a>
+    </div>
+    <div
+      className="sc-EHOje dLfItG"
+    >
+      <a
+        className="sc-htoDjs eoNXye"
+        href="/teachers/about"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bZQynM bLdJwq"
+        >
+          運営会社について
+        </div>
+        <img
+          className="sc-gzVnrw dDNjlS"
+          src="/assets/img/teachers/arrow@3x.png"
+        />
+      </a>
+    </div>
+    <div
+      className="sc-EHOje dLfItG"
+    >
+      <a
+        className="sc-htoDjs eoNXye"
+        href="/teachers/blocked"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bZQynM bLdJwq"
+        >
+          ブロックした世界の人
+        </div>
+        <img
+          className="sc-gzVnrw dDNjlS"
+          src="/assets/img/teachers/arrow@3x.png"
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="sc-dnqmqq kydLSj"
+    onClick={[Function]}
+  >
+    ログアウト
+  </div>
+</div>
+`;

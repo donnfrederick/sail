@@ -1,0 +1,15 @@
+<section>
+  <div class="table_tools">
+    <ul class="scopes table_tools_segmented_control" style="width: calc((100% - 10px) - 87.9688px); float: left;\">
+      <% topics.each do |t| %>
+        <li class='<%= "scope#{data[:q] == t ? ' selected' : ''}"%>' >
+          <a href=<%= "/admin/stats/?q=#{t}" %> class="table_tools_button"><%= t %></a>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <%= render "shared/#{data[:q]}", data: {users: data[:users], conversations: data[:conversations], issues: data[:issues], cn: data[:cn]}%>
+</section>

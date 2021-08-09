@@ -1,0 +1,38 @@
+h1.title
+  - if start_at.present? && end_at.present?
+    span.start_at = start_at.strftime(I18n.t("organization.formats.datetime.long"))
+    span 〜
+    span.end_at = end_at.strftime(I18n.t("organization.formats.time.middle"))
+  - else
+    span.user.name = user.name
+    span = I18n.t("organization.profile.teacher.san")
+
+.user-photo
+  img.rounded-circle[src="#{small_user_photo(user)}"]
+
+
+- if start_at.present? && end_at.present?
+  h3.title = I18n.t("organization.profile.teacher.name")
+  span.name = user.name
+
+h3.title = I18n.t("organization.profile.teacher.sex")
+- if user.sex == 1
+  span.sex = I18n.t("organization.profile.teacher.male")
+- elsif user.sex == 2
+  span.sex = I18n.t("organization.profile.teacher.female")
+- elsif user.sex == 9
+  span.sex = I18n.t("organization.profile.teacher.other")
+- else
+  span.sex.none
+
+h3.title = I18n.t("organization.profile.teacher.hobbies")
+ul.hobbies
+  - user.hobbies.each do |hobby|
+    - if hobby.present? && hobby.name.present?
+      li.hobby = hobby.name
+
+h3.title = I18n.t("organization.profile.teacher.purposes")
+ul.purposes
+  - user.purposes.each do |purpose|
+    - if purpose.present? && purpose.name.present?
+      li.purpose = purpose.name

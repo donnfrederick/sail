@@ -1,0 +1,53 @@
+meta:
+  ja:
+    title: "Sail (セイル) - 海外の学生と日本語で話そう"
+    keywords: "sail,セイル,helte,ヘルテ,海外,通話,会話,日本語教育,日本語学習,日本語会話,ビデオ通話,webrtc,タイ,thai,ベトナム,vietnam,介護施設,japan,japanese,conversation,leaning,speaking"
+    description: "「Sail (セイル)」は、日本の皆さんが世界で日本語を勉強している学生と日本語を使いながらビデオチャットで皆さんの経験や知恵、日本の文化や歴史を伝えていく日本語教育サービスです"
+    og:
+      url: "https://sail.helte.jp/"
+      image: "https://sail.helte.jp/assets/img/common/ogp_facebook_ja.png"
+    twitter:
+      image: "https://sail.helte.jp/assets/img/common/ogp_twitter_ja.png"
+  en:
+    title: "Sail - LEARN FROM JAPANESE SENIORS"
+    keywords: "sail,セイル,helte,ヘルテ,海外,通話,会話,日本語教育,日本語学習,日本語会話,ビデオ通話,webrtc,タイ,thai,ベトナム,vietnam,介護施設,japan,japanese,conversation,leaning,speaking"
+    description: "Sail allows you to talk with Japanese seniors using Japanese language in video call. The partner is a general seniors living and working in Japan. You can learn more practical Japanese such as Japanese culture, history, work experience and manner which can not be learned only by Japanese lessons."
+    og:
+      url: "https://sail.helte.jp/"
+      image: "https://sail.helte.jp/assets/img/common/ogp_facebook_en.png"
+    twitter:
+      image: "https://sail.helte.jp/assets/img/common/ogp_twitter_en.png"
+
+admin:
+  google_oauth2:
+    hosted_domains:
+      - "helte-corp.com"
+      - "kayac.com"
+      - "co.kayac.com"
+      # - "play-smart.info"
+      # - "3di.ninja"
+
+organizations:
+  max_teacher_in_dimension: 8 # タブレットの最大登録件数
+  max_student_in_dimension: 9999999999 # 大学クラスの最大登録件数
+  max_user_in_table_page:   10 # 管理ページ ユーザー一覧の最大表示件数
+
+users:
+  reset_digest_expiry_time: 86400 # パスワードリセットの有効期間
+  aggregate:
+    threshold:
+      lateness: 5
+      evaluate: 5
+
+conversations:
+  disable_dates:
+    - "2018-12-29"
+    - "2018-12-30"
+    - "2018-12-31"
+    - "2019-01-01"
+    - "2019-01-02"
+    - "2019-01-03"
+
+encoding:
+  max_video_chunk_count: 50 # 日本人・日本語学習者の合計の最大ビデオ分割数 (これ以上は異常)
+  hours_since_end_at: 2 # 会話終了時間からビデオ分割ファイルの全アップロード完了とみなすまでの時間

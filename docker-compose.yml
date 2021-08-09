@@ -1,0 +1,47 @@
+version: '3'
+volumes:
+  mysql:
+  redis:
+  bundle:
+services:
+  redis:
+    image: redis:alpine
+    ports:
+      - 6379:6379
+    volumes:
+      - redis:/data:cached
+    command: redis-server --appendonly yes
+  db:
+    image: mysql:5.6
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql:/var/lib/mysql:cached
+  web:
+    image: nginx:1.15-alpine
+    ports:
+      - "8080:80"
+      - "8443:443"
+    volumes:
+      - ./docker/local/nginx/certificates:/etc/nginx/certificates
+      - ./docker/local/nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app
+  app:
+    build: .
+    environment:
+      - EDITOR=vi
+    volumes:
+      - ".:/app:cached"
+      - /app/public/uploads
+      - /app/vendor
+      - /app/tmp
+      - /app/log
+      - /app/.git
+    ports:
+      - "${RAILS_PORT:-3000}:3000"
+    depends_on:
+      - db
+      - redis

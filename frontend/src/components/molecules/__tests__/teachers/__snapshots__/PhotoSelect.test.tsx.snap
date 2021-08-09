@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <PhotoSelect /> 1`] = `
+<div
+  className="sc-bxivhb cjtmGw"
+>
+  <div
+    className="sc-ifAKCX dJJrfc"
+    size={240}
+  >
+    <div
+      className="sc-bdVaJa bHgtVR"
+    >
+      <img
+        className="sc-htpNat WHSPB"
+        height="240px"
+        src="/assets/img/common/user.png"
+        srcSet=""
+        width="240px"
+      />
+      <img
+        className="sc-bwzfXH hpRuEI"
+        src="/assets/img/common/flags/camera.png"
+        width={80}
+      />
+    </div>
+    <img
+      className="sc-EHOje kVkDes"
+      onClick={[Function]}
+      src="/assets/img/common/picture-rotate@2x.png"
+    />
+  </div>
+  <label
+    className="sc-bZQynM cXZOOa"
+    htmlFor="file"
+  >
+    写真を撮る
+  </label>
+  <input
+    accept="image/*"
+    className="sc-gzVnrw aZFdW"
+    id="file"
+    onChange={[Function]}
+    type="file"
+  />
+</div>
+`;

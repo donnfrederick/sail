@@ -1,0 +1,402 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TeachersReservationNew /> 1`] = `
+<div
+  className="sc-kjoXOD irpliv"
+>
+  <div
+    className="sc-fAjcbJ gSXBFL"
+  >
+    <h2
+      className="sc-caSCKo wNQfZ"
+    >
+      世界の人と話したい日にちを選んでください
+    </h2>
+    <div
+      className="sc-cSHVUG kvbBwa"
+      width={720}
+    >
+      <hr
+        className="sc-kAzzGY hGnhqH"
+      />
+      <span
+        className="sc-chPdSV kGZqxj"
+      >
+        2021年
+      </span>
+    </div>
+    <div
+      className="sc-jWBwVP hxVEmE"
+    >
+      <button
+        className="sc-eHgmQL hxKAxz"
+        color="#138efd"
+        data-disabled={false}
+        data-selected={true}
+        fontSize={40}
+        height={68}
+        onClick={[Function]}
+        width={156}
+      >
+        7月
+      </button>
+      <button
+        className="sc-eHgmQL hxKAxz"
+        color="#138efd"
+        data-disabled={false}
+        data-selected={false}
+        fontSize={40}
+        height={68}
+        onClick={[Function]}
+        width={156}
+      >
+        8月
+      </button>
+      <button
+        className="sc-eHgmQL hxKAxz"
+        color="#138efd"
+        data-disabled={false}
+        data-selected={false}
+        fontSize={40}
+        height={68}
+        onClick={[Function]}
+        width={156}
+      >
+        9月
+      </button>
+      <button
+        className="sc-eHgmQL hxKAxz"
+        color="#138efd"
+        data-disabled={false}
+        data-selected={false}
+        fontSize={40}
+        height={68}
+        onClick={[Function]}
+        width={156}
+      >
+        10月
+      </button>
+    </div>
+    <div
+      className="sc-iAyFgw jzaipg"
+    >
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-day-line="true"
+      >
+        日
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-day-line="true"
+      >
+        月
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-day-line="true"
+      >
+        火
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-day-line="true"
+      >
+        水
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-day-line="true"
+      >
+        木
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-day-line="true"
+      >
+        金
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-day-line="true"
+      >
+        土
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+      />
+      <div
+        className="sc-hSdWYo fGZUWr"
+      />
+      <div
+        className="sc-hSdWYo fGZUWr"
+      />
+      <div
+        className="sc-hSdWYo fGZUWr"
+      />
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        1
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        2
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        3
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        4
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        5
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        6
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        7
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        8
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        9
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        10
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        11
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        12
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        13
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        14
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        15
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        16
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        17
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        18
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        19
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        20
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        21
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        22
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        23
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        24
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        25
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        26
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        27
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        28
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        29
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        30
+      </div>
+      <div
+        className="sc-hSdWYo fGZUWr"
+        data-status={null}
+        onClick={[Function]}
+      >
+        31
+      </div>
+    </div>
+    <button
+      className="sc-gZMcBi dNKJEZ"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      width={304}
+    >
+      <a
+        className="sc-fjdhpX fRklgf"
+        href="/teachers/mypage"
+        onClick={[Function]}
+      >
+        戻る
+      </a>
+    </button>
+  </div>
+  <div
+    className="sc-EHOje itwipb"
+  >
+    <div
+      className="sc-bZQynM bZKBNj"
+    >
+      予約
+    </div>
+    <a
+      className="sc-gzVnrw jTRbiO"
+      href="/teachers/mypage"
+      onClick={[Function]}
+    >
+      ホームに戻る
+    </a>
+    <div
+      className="sc-htoDjs fUCPvq"
+    >
+      <a
+        className="sc-dnqmqq engvPe"
+        href="/teachers/notifications"
+        onClick={[Function]}
+      />
+      <a
+        className="sc-iwsKbI jCgDjX"
+        href="/teachers/support"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

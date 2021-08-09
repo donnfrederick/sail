@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StudentsConversationsDetail /> 1`] = `
+<div
+  className="sc-eXEjpC gpSvmX"
+>
+  <div
+    className="sc-kPVwWT bITfKr"
+  >
+    <div
+      className="sc-kfGgVZ kchAFV"
+    >
+      <div
+        className="sc-kpOJdX fhRtxy"
+      >
+        <img
+          className="sc-dxgOiQ gHzjRZ"
+          src="/assets/img/students/reservation-detail/calendar@3x.png"
+        />
+        <div
+          className="sc-ckVGcZ dGJXrn"
+        >
+          <div
+            className="sc-jKJlTe bKzsnM"
+          >
+            Invalid date
+          </div>
+          <div
+            className="sc-eNQAEJ kovUDg"
+          >
+            Invalid date - Invalid date
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-esjQYD gulEOZ"
+      >
+        <button
+          className="sc-bdVaJa dtbBWx"
+          data-active={false}
+          fontSize={32}
+          height={88}
+          onClick={[Function]}
+          type="green"
+          width={492}
+        >
+          Talk
+        </button>
+      </div>
+    </div>
+  </div>
+  <header
+    className="sc-fjdhpX gQoSWG"
+  >
+    <div
+      className="sc-jzJRlG gGXDMs"
+    >
+      Reservation
+    </div>
+    <div
+      className="sc-cSHVUG eZtxOt"
+      onClick={[Function]}
+    />
+  </header>
+  <div
+    className="sc-gzVnrw bbOeQD"
+  >
+    <a
+      className="sc-EHOje gEifQf"
+      href="/students/mypage"
+      icon="/assets/img/students/footer/home@3x.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-EHOje bIkBAA"
+      href="/students/notifications"
+      icon="/assets/img/students/footer/notification@3x.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-EHOje exXkhS"
+      href="/students/mypage"
+      icon="/assets/img/students/footer/cart.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-bZQynM iAxnUN"
+      href="/students/reservations/new"
+      icon="/assets/img/students/footer/calendar@3x.png"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

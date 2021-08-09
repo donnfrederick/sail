@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ErrorUserMedia /> 1`] = `
+<div
+  className="sc-htoDjs jABLAD"
+>
+  <div
+    className="sc-gzVnrw gGucts"
+  >
+    <div
+      className="sc-EHOje fwRPcB"
+    >
+      ERROR
+    </div>
+    <p
+      className="sc-bZQynM igpBsz"
+    >
+      Your microphone is not working.
+    </p>
+  </div>
+  <div
+    className="sc-dnqmqq kjKeQz"
+  >
+    <button
+      className="sc-bdVaJa evUcPv"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={488}
+    >
+      Try Again
+    </button>
+  </div>
+</div>
+`;

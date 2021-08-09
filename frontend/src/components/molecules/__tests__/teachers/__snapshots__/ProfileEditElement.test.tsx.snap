@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ProfileEditElement /> 1`] = `
+<div
+  className="sc-dnqmqq BASSu"
+>
+  <button
+    className="sc-EHOje ghSYEx"
+    data-active={true}
+    fontSize={36}
+    height={84}
+    width={352}
+  >
+    <a
+      className="sc-gzVnrw aZXRC"
+      href="/teachers/mypage/profile"
+      onClick={[Function]}
+    >
+      メールアドレス
+    </a>
+  </button>
+  <div
+    className="sc-iwsKbI gNOaLU"
+  >
+    
+  </div>
+</div>
+`;

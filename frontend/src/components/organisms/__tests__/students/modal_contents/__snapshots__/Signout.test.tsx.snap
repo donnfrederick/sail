@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <SignoutModal /> 1`] = `
+<div
+  className="sc-htoDjs jABLAD"
+>
+  <div
+    className="sc-gzVnrw gGucts"
+  >
+    <div
+      className="sc-EHOje emHEG"
+    >
+      Are you sure you want
+to sign out?
+    </div>
+  </div>
+  <div
+    className="sc-dnqmqq cEfaRC"
+  >
+    <button
+      className="sc-bdVaJa gKXLMt"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={244}
+    >
+      Cancel
+    </button>
+    <button
+      className="sc-bdVaJa bscZHU"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="white"
+      width={244}
+    >
+      Sign Out
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,7 @@
+===============================================================
+Hi <%= @notification.user.local_name(locale: @notification.user.default_locale) %>
+<%= @notification.title(locale: @notification.user.default_locale) %>
+===============================================================
+
+<%= @notification.body(locale: @notification.user.default_locale) %>
+

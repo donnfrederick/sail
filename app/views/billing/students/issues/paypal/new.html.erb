@@ -1,0 +1,172 @@
+<% if @selected_package.subscription? %>
+  <script src="https://www.paypal.com/sdk/js?client-id=<%= Paypal::Client.client_id %>&commit=false&vault=true"></script>
+<% else %>
+  <script src="https://www.paypal.com/sdk/js?client-id=<%= Paypal::Client.client_id %>"></script>
+<% end %>
+
+<%= form_tag "/billing/students/issues/paypal/charge/#{@student.auth_token}", id: "payment-form", method: "post" %>
+  <div class="form-row">
+
+    <div class="billing-coupon-group">
+      <div class="select-group sc-iujRgT col-md-8">
+        <div class="sc-GMQeP kusbSs">
+          <div class="sc-iuJeZd esWwxq">Coupon code</div>
+          <input class="sc-bAeIUo csKJBT" data-error="false" type="text" placeholder="Discounting coupon code" data-name-input="true" name="code" value="<%= @coupon.try(:code) %>" />
+        </div>
+        <div class="sc-bMVAic gizaNQ"></div>
+      </div>
+      <div class="btn-apply sc-gJWqzi col-md-4">
+        <button class="sc-bdVaJa eEjsbL" data-active="true" font-size="32" height="88" type="blue" width="184">Apply</button>
+      </div>
+    </div>
+
+    <div class="pricing pricing__row multiple">
+      <% @packages.each_with_index do |package, index| %>
+        <div>
+          <div class="pricing__col-md-3" data-package-name="<%= package.id %>">
+            <div class="pricing__block pricing__block-pricing">
+              <div class="pricing__table<%= @featured_package.eql?(package) ? " pricing__table-danger" : "" %>">
+                <h6 class="pricing__category<%= @featured_package.eql?(package) ? " pricing__category-danger" : "" %>"><%= @package_names[index] %> <img class="selected-tick <%= @selected_package.eql?(package) ? "" : "hidden" %>" src="/assets/img/students/billing/tick<%= @selected_package.eql?(package) ? "-reverse" : "" %>.png" /></h6>
+                <h1 class="pricing__block-caption pricing__discounted<%= @featured_package.eql?(package) ? "-danger" : "" %>">
+                  <small>$</small><span><%= package.discounted_price %></span><small>/ mo</small>
+                </h1>
+                <div class="pricing__original-price<%= @featured_package.eql?(package) ? "-danger" : "" %>">$ <%= package.original_price %> / mo</div>
+                <ul>
+                  <li><b><%= package.subscription? ? 'Unlimited' : package.conversations %> conversation<%= package.subscription? || package.conversations > 1 ? "s" : "" %></b></li>
+                  <% if package.bonus_conversations > 0 %>
+                    <li><span>Includes&nbsp;</span><b><%= package.bonus_conversations %> bonus conversation<%= package.bonus_conversations > 1 ? "s" : "" %></b></li>
+                  <% elsif package.subscription? %>
+                    <li><%= "#{package.duration} month" %><br />recurring</li>
+                  <% else %>
+                    <li>No bonus<br />conversations</li>
+                  <% end %>
+                  <li><b>Expires in <%= package.duration > 1 ? "#{package.duration} months" : "#{package.duration} month" %></b></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+    <div class="select-group sc-lhVmIH iSsxwd select-payment-plan paypal">
+      <div class="sc-iELTvK bQbNng">Selected payment plan</div>
+      <select name="package_name" class="sc-cmTdod coCPFM" required="">
+        <% @packages.each_with_index do |package, index| %>
+          <option value="<%= package.id %>" data-amount="<%= package.discounted_price %>" <%= @selected_package.eql?(package) ? " selected" : "" %>><%= "#{package.discounted_price} USD / #{package.conversations < 0 ? 'Unlimited' : package.conversations} conversation#{package.conversations < 0 || package.conversations > 1 ? "s" : ""}" %></option>
+        <% end %>
+      </select>
+      <div class="sc-btzYZH hixNgJ"></div>
+    </div>
+  </div>
+
+  <input type="hidden" name="order_id" value="" />
+
+<div id="paypal-button-container"></div>
+
+<script>
+    <% if @selected_package.subscription? %>
+      paypal.Buttons({
+          style: {
+              layout: "horizontal",
+              fundingicons: "false",
+          },
+          createBillingAgreement: function(_data, _actions) {
+              const CREATE_BILLING_AGREEMENT_URL = "<%= ENV["APP_SERVICE_HOST"] %>/api/v1/paypal/agreements";
+              const package_property_id = $("[name=package_name] [value]:selected").attr("value");
+
+              return fetch(CREATE_BILLING_AGREEMENT_URL, {
+                  method: "post",
+                  headers: {
+                      "content-type": "application/json",
+                      "Authorization": "Bearer <%= @student.auth_token %>"
+                  },
+                  body: JSON.stringify({
+                      "package_property_id": package_property_id
+                  })
+              }).then(function(res) {
+                  return res.json();
+              }).then(function(data) {
+                  return data.token;
+              });
+          },
+          onApprove: function(data, _actions) {
+              const FINALIZE_BILLING_URL = "<%= ENV["APP_SERVICE_HOST"] %>/api/v1/paypal/subscriptions";
+              const package_property_id = $("[name=package_name] [value]:selected").attr("value");
+
+              return fetch(FINALIZE_BILLING_URL, {
+                  method: "post",
+                  headers: {
+                      "content-type": "application/json",
+                      "Authorization": "Bearer <%= @student.auth_token %>"
+                  },
+                  body: JSON.stringify({
+                      "package_property_id": package_property_id,
+                      payment_token: data.orderID
+                  })
+              }).then(function(_res) {
+                  location.href = "/billing/students/points/overview/<%= @student.auth_token %>";
+              });
+          }
+      }).render('#paypal-button-container');
+    <% else %>
+      paypal.Buttons({
+          style: {
+              layout: "horizontal",
+              fundingicons: "false",
+          },
+          createOrder: function(data, actions) {
+              const amount = $("[name=package_name] option:selected").data("amount");
+              return actions.order.create({
+                  purchase_units: [{
+                      amount: {
+                          value: amount
+                      }
+                  }]
+              });
+          },
+          onApprove: function(data, actions) {
+              return actions.order.capture().then(function(_details) {
+                  const order_id = data.orderID;
+                  $('[name=order_id]').val(order_id);
+                  $('#payment-form').submit();
+              });
+          }
+      }).render('#paypal-button-container');
+    <% end %>
+</script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+<script>
+    $('.multiple').slick({
+        infinite: true,
+        dots:true,
+        slidesToShow: 1,
+        centerMode: true, //要素を中央寄せ
+        centerPadding:'120px', //両サイドの見えている部分のサイズ
+        autoplay: false, //自動再生
+        initialSlide: <%= @packages.find_index {|p| p.id === @selected_package.id } || 1 %>,
+    });
+    $('.pricing__col-md-3').click(function(){
+        $('.selected-tick').not('.hidden').addClass('hidden');
+        $('.selected-tick.hidden', this).removeClass('hidden');
+        $('[name=package_name] :selected').attr('selected', false);
+        $('[name=package_name] [value=' + $(this).data("package-name") + ']').attr('selected', true);
+        console.log($(this).data("package-name"));
+        const selected_package_name = $('[name=package_name]').val();
+        location.href = "?package_name=" + selected_package_name;
+        return false;
+    });
+    $('[name=package_name]').change(function(){
+        var selected_package_name = $(this).val();
+        $('.pricing__col-md-3').each(function(){
+            if($(this).data('package-name') == selected_package_name) {
+                $('.selected-tick.hidden', this).removeClass('hidden');
+            }else{
+                $('.selected-tick', this).not('.hidden').addClass('hidden');
+            }
+        });
+        location.href = "?package_name=" + selected_package_name;
+        return false;
+    });
+</script>

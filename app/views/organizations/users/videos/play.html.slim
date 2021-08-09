@@ -1,0 +1,19 @@
+.col-12.col-sm-12.col-md-10.col-lg-8.col-xl-8.offset-md-1.offset-lg-2.offset-xl-2
+  .text-center
+    h1 = I18n.t("organization.videos.play.title", start_at: @conversation.start_at.strftime(I18n.t("organization.formats.datetime.long")), end_at: @conversation.end_at.strftime(I18n.t("organization.formats.time.middle")))
+
+  .text-center
+    span = I18n.t("organization.formats.quotations.start")
+    span.teacher.name = @conversation.teacher.name
+    span = I18n.t("organization.formats.quotations.end") + I18n.t("organization.formats.expressions.and") + I18n.t("organization.formats.quotations.start")
+    span.student.name = @conversation.student.name
+    span = I18n.t("organization.formats.quotations.end")
+
+  - if @conversation.video.present? && @conversation.video.url.present?
+    .embed-responsive.embed-responsive-16by9
+      = video_tag(@conversation.video.url, controls: true, autobuffer: true, allowfullscreen: true)
+    .text-center
+      a.btn.btn-success[role="button" href="#{@conversation.video.url}"] = I18n.t("organization.videos.play.download.title")
+
+  .text-center.footer-buttons
+    a.btn.btn-secondary[role="button" href="#{org_history_path(@role_type)}"] = I18n.t("organization.back_button")

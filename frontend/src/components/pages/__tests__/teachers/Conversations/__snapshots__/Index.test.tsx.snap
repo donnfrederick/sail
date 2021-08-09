@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TeachersConversationsIndex /> 1`] = `
+<div
+  className="sc-ktHwxA cjyOXN"
+>
+  <div
+    className="sc-jbKcbu iiyGNu"
+  >
+    <div
+      className="sc-uJMKN eOSdtg"
+    >
+      <video
+        autoPlay={true}
+        className="sc-bbmXgH frWnVF"
+        id="remote-video"
+        playsInline={true}
+      />
+    </div>
+    <div
+      className="sc-dNLxif jWWPAz"
+    >
+      <video
+        autoPlay={true}
+        className="sc-jqCOkK etpZuV"
+        id="local-video"
+        playsInline={true}
+      />
+    </div>
+    <div
+      className="sc-jTzLTM bnaQOF"
+    >
+      回線状況 : 普通
+    </div>
+    <div
+      className="sc-fMiknA ebelrI"
+    >
+      <div
+        className="sc-dVhcbM iCynHO"
+      >
+        残り時間
+      </div>
+      <div
+        className="sc-eqIVtm hXypXJ"
+        data-color={null}
+      >
+        
+      </div>
+    </div>
+    <div
+      className="sc-kjoXOD jhPbwn"
+    >
+      <button
+        className="sc-fAjcbJ hCHJFY"
+        onClick={[Function]}
+      >
+        通話終了
+      </button>
+      <button
+        className="sc-gisBJw lkNjFl"
+        onClick={[Function]}
+      >
+        音声通話
+      </button>
+    </div>
+    <canvas
+      className="sc-tilXH hTVNYc"
+      id="check-stream"
+    />
+  </div>
+</div>
+`;

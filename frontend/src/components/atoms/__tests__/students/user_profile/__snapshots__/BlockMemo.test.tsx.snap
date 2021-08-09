@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <BlockMemo /> 1`] = `
+<div
+  className="sc-bdVaJa jbVdLO"
+>
+  <div
+    className="sc-bwzfXH gAWaO"
+  >
+    Reports
+  </div>
+  <div
+    className="sc-htpNat cSGOgW"
+  >
+    <div
+      className="sc-bxivhb kurGhb"
+    >
+      2018/01/02 (Tue) 00:00
+    </div>
+    <div
+      className="sc-ifAKCX kXoofU"
+    >
+      sample report
+    </div>
+  </div>
+  <div
+    className="sc-htpNat cSGOgW"
+  >
+    <div
+      className="sc-bxivhb kurGhb"
+    >
+      2018/01/02 (Tue) 00:00
+    </div>
+    <div
+      className="sc-ifAKCX kXoofU"
+    >
+      sample report
+    </div>
+  </div>
+</div>
+`;
