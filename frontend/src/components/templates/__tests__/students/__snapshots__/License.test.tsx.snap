@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StudentsLicense /> 1`] = `
+<div
+  className="sc-kGXeez jiCLde"
+>
+  <header
+    className="sc-jTzLTM gniuBU"
+  >
+    <div
+      className="sc-fjdhpX elOMpg"
+    >
+      License
+    </div>
+    <div
+      className="sc-jzJRlG YWUlh"
+      onClick={[Function]}
+    />
+  </header>
+</div>
+`;

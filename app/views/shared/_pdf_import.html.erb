@@ -1,0 +1,15 @@
+<%# 無料レポート提出一次対応用です。不要になり次第削除してください。 %>
+<div class='float-right'>
+  <%= form_with url: admin_stats_pdf_report_path, method: :post, multipart: true do |f| %>
+    <%= file_field_tag :import_file %>
+      <div class='form-group'>
+        <%= f.label '開始日' %>
+        <%= f.date_select :start_at, start_year: Time.current.year - 1, end_year: Time.current.year + 1, default: Time.current.prev_week(:monday) %>
+      </div>
+      <div class='form-group'>
+        <%= f.label '完了日' %>
+        <%= f.date_select :end_at, start_year: Time.current.year - 1, end_year: Time.current.year + 1, default: Time.current.prev_week(:sunday) %>
+      </div>
+    <%= submit_tag 'CSV_import & PDF_export' %>
+  <% end %>
+</div>

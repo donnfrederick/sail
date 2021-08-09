@@ -1,0 +1,40 @@
+header.bg-light
+  .container
+    nav.navbar.navbar-expand-lg.navbar-light
+      button.navbar-toggler[type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"]
+        span.navbar-toggler-icon
+      #navbarNav.collapse.navbar-collapse
+        ul.navbar-nav.ml-auto
+          li[class="#{controller.controller_name == "users" ? "active " : "" }nav-item"]
+            a.nav-link[href="#{org_user_list_path(@role_type)}"] = I18n.t("organization.header.menu.users")
+          li[class="#{controller.controller_name == "conversations" ? "active " : "" }nav-item"]
+            a.nav-link[href="#{org_conversations_path(@role_type)}"] = I18n.t("organization.header.menu.schedule")
+          li[class="#{controller.controller_name == "history" ? "active " : "" }nav-item"]
+            a.nav-link[href="#{org_history_path(@role_type)}"] = I18n.t("organization.header.menu.history")
+          - if @role_type == "univs"
+            li[class="#{controller.controller_name == "notifications" ? "active " : "" }nav-item"]
+              a.nav-link[href="#{org_notification_list_path(@role_type)}"] = I18n.t("organization.header.menu.notifications")
+          li[class="#{controller.controller_name == "accounts" ? "active " : "" }nav-item"]
+            a.nav-link[href="#{org_account_list_path(@role_type)}"] = I18n.t("organization.header.menu.accounts")
+
+          li.dropdown.nav-item
+            a.nav-link.dropdown-toggle[href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"] = I18n.t("organization.header.menu.settings")
+            .dropdown-menu
+              - if @role_type == "nhs"
+                a[class="#{controller.controller_name == "tablets" ? "active " : "" }dropdown-item" href="#{org_tablet_list_path(@role_type)}"] = I18n.t("organization.header.menu.tablets")
+              a[class="#{controller.controller_name == "picture" ? "active " : "" }dropdown-item" href="#{org_picture_show_path}"] = I18n.t("organization.header.menu.icon")
+              a[class="#{controller.controller_name == "email" ? "active " : "" }dropdown-item" href="#{org_preference_email_path}"] = I18n.t("organization.preferences.email.edit.title")
+              a[class="#{controller.controller_name == "password" ? "active " : "" }dropdown-item" href="#{org_preference_password_edit_path}"] = I18n.t("organization.preferences.password.edit.title")
+
+          li.nav-item
+            a.nav-link.disabled[href="#{org_signout_path}"] = I18n.t("organization.header.menu.signout")
+      - if @role_type == "nhs" && @current_section.present? && @organization_sections.count > 1
+        span = I18n.t("organization.nhs.switch_section")
+        .dropdown
+          button#dropdownMenuButton.btn.btn-secondary.dropdown-toggle[type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: 12px;"] = @current_section.name
+          .dropdown-menu[aria-labelledby="dropdownMenuButton"]
+            - @organization_sections.each do |section|
+              - if @current_section.id == section.id
+                a.dropdown-item.active = section.name
+              - else
+                a.dropdown-item[data-jump-to="#{controller.link_to_section(section)}"] = section.name

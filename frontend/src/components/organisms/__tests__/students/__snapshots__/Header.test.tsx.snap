@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Header /> 1`] = `
+<header
+  className="sc-gqjmRU kcRKOT"
+>
+  <div
+    className="sc-VigVT pzGHc"
+  >
+    Sail
+  </div>
+</header>
+`;

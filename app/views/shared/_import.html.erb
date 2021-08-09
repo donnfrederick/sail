@@ -1,0 +1,6 @@
+<div class='float-right'>
+  <%= form_with url: request.url, method: :post, multipart: true do |f| %>
+    <%= file_field_tag :import_file %>
+    <%= submit_tag 'import' %>
+  <% end %>
+</div>

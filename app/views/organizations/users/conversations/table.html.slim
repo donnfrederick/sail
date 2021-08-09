@@ -1,0 +1,37 @@
+h1.title = I18n.t("organization.conversations.table.title")
+
+.form-group
+  a.btn.btn-outline-primary[role="button" href="#{org_conversations_table_path(@role_type, @current_dimension.id, @month -1)}"] = I18n.t("organization.prev_month")
+  a.btn.btn-outline-primary[role="button" href="#{org_conversations_table_path(@role_type, @current_dimension.id, @month + 1)}"] = I18n.t("organization.next_month")
+  a.btn.btn-outline-primary[role="button" href="#{org_conversations_calendar_path(@role_type, @current_dimension.id)}"] = I18n.t("organization.conversations.table.calendar.title")
+  a.btn.btn-primary[role="button" href="#{org_conversations_table_path(@role_type, @current_dimension.id, @month)}"] = I18n.t("organization.conversations.table.table.title")
+
+ul.nav.nav-tabs
+    - @dimensions.each do |dimension|
+      li.nav-item
+      - if dimension.id == @current_dimension.id
+        a.nav-link.active[href="#{org_conversations_table_path(@role_type, dimension.id, @month)}"] = dimension.is_a?(OrganizationDevice) ? dimension.cognitive_name : dimension.name
+      - else
+        a.nav-link[href="#{org_conversations_table_path(@role_type, dimension.id, @month)}"] = (dimension.is_a?(OrganizationDevice) ? dimension.cognitive_name : dimension.name).truncate(16)
+
+
+table.table.table-striped[page="#{@month}"]
+  tr
+    th = I18n.t("organization.history.list.teacher.title")
+    th = I18n.t("organization.history.list.student.title")
+    th = I18n.t("organization.history.list.datetime.title")
+  - @conversations.each do | conversation |
+    tr
+      td.elder
+        - if conversation.teacher.present?
+          a.user-photo[href="#{calendar_url_show_by_ids(@role_type, conversation.id, @role_type === "univs" ? conversation.student.id : conversation.teacher.id)}"]
+            img.rounded-circle[src="#{small_user_photo(conversation.teacher)}"]
+          span.name = conversation.teacher.name
+      td.student
+        - if conversation.student.present?
+          a.user-photo[href="#{calendar_url_show_by_ids(@role_type, conversation.id, @role_type === "univs" ? conversation.student.id : conversation.teacher.id)}"]
+            img.rounded-circle[src="#{small_user_photo(conversation.student)}"]
+          span.name = conversation.student.name
+      td.date-time
+        a.user-photo[href="#{calendar_url_show_by_ids(@role_type, conversation.id, @role_type === "univs" ? conversation.student.id : conversation.teacher.id)}"]
+          datetime = conversation.start_at.strftime(I18n.t("organization.formats.datetime.long"))

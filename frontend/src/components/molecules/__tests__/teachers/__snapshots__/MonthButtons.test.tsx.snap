@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <MonthButtons /> 1`] = `
+<div
+  className="sc-htpNat fnrSTu"
+>
+  <button
+    className="sc-bdVaJa emZLtH"
+    color="#138efd"
+    data-disabled={false}
+    data-selected={true}
+    fontSize={40}
+    height={68}
+    onClick={[Function]}
+    width={156}
+  >
+    1月
+  </button>
+  <button
+    className="sc-bdVaJa emZLtH"
+    color="#138efd"
+    data-disabled={false}
+    data-selected={false}
+    fontSize={40}
+    height={68}
+    onClick={[Function]}
+    width={156}
+  >
+    2月
+  </button>
+  <button
+    className="sc-bdVaJa emZLtH"
+    color="#138efd"
+    data-disabled={false}
+    data-selected={false}
+    fontSize={40}
+    height={68}
+    onClick={[Function]}
+    width={156}
+  >
+    3月
+  </button>
+  <button
+    className="sc-bdVaJa emZLtH"
+    color="#138efd"
+    data-disabled={false}
+    data-selected={false}
+    fontSize={40}
+    height={68}
+    onClick={[Function]}
+    width={156}
+  >
+    4月
+  </button>
+</div>
+`;

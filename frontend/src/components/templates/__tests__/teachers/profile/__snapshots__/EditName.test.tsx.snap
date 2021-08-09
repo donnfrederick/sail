@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ProfileEditName /> 1`] = `
+<div
+  className="sc-kpOJdX iLOjFd"
+>
+  <h2
+    className="sc-EHOje kKnGHK"
+  >
+    新しい名前をひらがなで入力してください
+  </h2>
+  <div
+    className="sc-gqjmRU ewhFxQ"
+  >
+    <div
+      className="sc-VigVT gMyyfy"
+      data-error={false}
+    >
+      せい
+    </div>
+    <input
+      className="sc-jTzLTM dZoAZd"
+      data-error={false}
+      data-name-input={true}
+      defaultValue=""
+      maxLength={30}
+      onInput={[Function]}
+      placeholder="やまだ"
+    />
+    <div
+      className="sc-VigVT gMyyfy"
+    >
+      めい
+    </div>
+    <input
+      className="sc-jTzLTM dZoAZd"
+      data-error={false}
+      data-name-input={true}
+      maxLength={30}
+      onInput={[Function]}
+      placeholder="たろう"
+    />
+  </div>
+  <div
+    className="sc-kGXeez eUtzhB"
+  >
+    <button
+      className="sc-fjdhpX hazIFB"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      width={304}
+    >
+      <a
+        className="sc-chPdSV hdIjsw"
+        href="/teachers/profile/edit"
+        onClick={[Function]}
+      >
+        戻る
+      </a>
+    </button>
+    <button
+      className="sc-jzJRlG jYfYsa"
+      data-active={false}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={304}
+    >
+      <div
+        className="sc-kgoBCf bnrbZE"
+      >
+        完了
+      </div>
+    </button>
+  </div>
+  <div
+    className="sc-bZQynM exyLZf"
+  >
+    <div
+      className="sc-gzVnrw iZddOJ"
+    >
+      名前を変更
+    </div>
+    <a
+      className="sc-htoDjs bISPcs"
+      href="/teachers/mypage"
+      onClick={[Function]}
+    >
+      ホームに戻る
+    </a>
+    <div
+      className="sc-dnqmqq gIvixX"
+    >
+      <a
+        className="sc-iwsKbI kedmBh"
+        href="/teachers/notifications"
+        onClick={[Function]}
+      />
+      <a
+        className="sc-gZMcBi jjSsDW"
+        href="/teachers/support"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,136 @@
+// General setup
+$theme-color: rgb(19, 142, 253);
+$inverted-color: #ffffff;
+$content-bgcolor: #ffffff;
+$content-width: 640px;
+
+//
+.content-wrapper {
+  max-width: $content-width;
+  margin: auto;
+  border: solid 6px $theme-color;
+
+  .header {
+    background-color: $content-bgcolor;
+    padding-top: 0;
+    text-align: center;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .content {
+    padding: 30px;
+    margin: 30px;
+
+    .section,
+    .section-less-comfortable-margin-top,
+    .section-less-comfortable-margin,
+    .section-comfortable-margin-top,
+    .section-comfortable-margin {
+      text-align: center;
+
+      p {
+        text-align: left;
+      }
+
+      .title {
+        font-size: 185%;
+      }
+
+      .sub-title {
+        font-size: 145%;
+      }
+    }
+
+    .section-comfortable-margin-top {
+      margin-top: 76px;
+    }
+
+    .section-less-comfortable-margin-top {
+      margin-top: 42px;
+    }
+
+    .section-comfortable-margin {
+      margin: 76px 0;
+    }
+
+    .section-less-comfortable-margin {
+      margin: 42px 0;
+    }
+
+    .title {
+      color: $theme-color;
+    }
+
+    .wide-stretched {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .huge-title-80 {
+      width: 80%;
+      color: $theme-color;
+      font-weight: bold;
+      font-size: 240%;
+    }
+
+    .huge-title-90 {
+      width: 90%;
+      color: $theme-color;
+      font-weight: bold;
+      font-size: 240%;
+    }
+
+    img.title-icon {
+      width: 48px;
+    }
+
+    img.app-store {
+      height: 40px;
+    }
+
+    img.profile-photo {
+      width:  171px;
+      height: 171px;
+      box-sizing: border-box;
+      border-radius: 50%;
+      border-style: none;
+    }
+    .profile-detail {
+      margin-bottom: 14px;
+      font-size: 34px;
+      font-weight: 500;
+      line-height: 1.08;
+      letter-spacing: 0.5px;
+    }
+    .profile-sub {
+      font-size: 18px;
+    }
+  }
+
+  .launcher-button {
+    display: block;
+    background-color: $theme-color;
+    border-radius: 50px;
+    width: 140px;
+    padding: 15px 0;
+    margin: 0 auto 24px;
+    box-sizing: border-box;
+    color: $inverted-color;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .footer {
+    text-align: right;
+  }
+}

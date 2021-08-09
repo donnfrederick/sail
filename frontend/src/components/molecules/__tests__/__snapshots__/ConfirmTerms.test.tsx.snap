@@ -1,0 +1,798 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConfirmTerms /> for student 1`] = `
+<div
+  className="sc-htpNat bmTrjQ"
+>
+  <h2
+    className="sc-bdVaJa dtuGiw"
+  >
+    Introduction
+  </h2>
+  <p
+    className="sc-bwzfXH ezSoAa"
+  >
+    These terms of service contain basic promises. In providing our services, Helte Co., Ltd. will guide you through these terms of service.
+
+- Sail provides a platform for native speakers of Japanese (hereinafter referred to as “Japanese Speakers”) and non-native speakers of Japanese (hereinafter referred to as “Other Language Speakers”) to engage in cross-cultural exchange through conversations in Japanese online by using an application. 
+- Japanese Speakers can reserve a time frame in which they wish to communicate with Other Language Speakers. 
+- Other Language Speakers will send a request for a conversation by checking the reserved frames of Japanese Speakers. 
+- Once a match is made, you will be able to start a 25 minutes conversation each time from the reserved time. If there are many requests, the match will be made automatically. 
+- Let’s enjoy the conversation with common sense. 
+- We will take strict action against any unauthorized use.
+  </p>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <h2
+      className="sc-bdVaJa dtuGiw"
+    >
+      Operative Part
+    </h2>
+    <p
+      className="sc-bwzfXH ezSoAa"
+    >
+      These terms of service (hereinafter referred to as these “Terms”) set forth the terms and conditions of use for the online communication service “Sail” (hereinafter referred to as the “Service”) operated by Helte Co., Ltd. (Dai-ichi Mitoya Bldg. 3F 2-28 Azumakami-cho, Kashiwa City, Chiba 277-0011; hereinafter referred to as “Helte”). 
+ Individual users of the Service and those who wish to register (hereinafter referred to as “Users”. In the event that an entity such as a corporation to which Users belong (hereinafter referred to as the “Corporation”) enters into a contract with Helte for the provision of the Service (hereinafter referred to as the “Corporate Contract”) and uses the Service based on the Corporate Contract and these Terms, the relevant Users are referred to as “Corporate Users”. In these Terms, the word “Users” shall include “Corporate Users” unless clearly excluded by its statement.) are requested to use the Service in accordance with these Terms.
+    </p>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 1   Application
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        1. These Terms shall apply to all relationships between Helte and Users regarding the use of the Service. Users are deemed to have agreed to these Terms and the Privacy Policy separately set forth by Helte when they register for the Service (or, for Corporate Users, when they first use the Service).
+2. If there is an individual agreement separate from these Terms between Helte and Users (hereinafter referred to as “Individual Agreement”), the provisions of the Individual Agreement shall take precedence. However, this does not apply to the Privacy Policy.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 2   Basic Policy for the Service
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        1. Helte may change these Terms at its discretion. In the event that Helte changes the Terms, notification will be given in a manner that Helte deems appropriate, stating that the Terms are being changed, the details of the change, and the effective date thereof.
+2. When the Terms are changed, the new Terms shall apply to the fees for using the Service (hereinafter referred to as “Service Fee”) and all policies related to the Service.
+3. Users shall use the Service in accordance with the method separately determined by Helte.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 3   Account Registration
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        1. Users shall register the information necessary to use the Service (hereinafter referred to as “Account”) by the procedures specified by Helte. However, as for the information of Corporate Users, the Corporation shall provide the necessary information to Helte, and Helte shall register an Account on behalf of Corporate Users.
+2. When Users (excluding Corporate Users) register for an Account, they are deemed to have agreed to the following items:
+(1) Users’ internet environment does not interfere with the use of the Service;
+(2) Helte is able to send notifications, ads, and surveys to Users via email and in-app messages regarding the Service;
+(3) For the purpose of improving the quality of the response by the customer support, Helte may record, tape, and store the contents of Users’ inquiry; and
+(4) For the purpose of improving the quality of conversations, ensuring appropriate use, and researching Japanese language learning, etc., Helte may record conversations between users, and Helte and its subcontractor may use, accumulate, and analyze conversation records such as these audio and video recordings and chat histories.
+3. If Corporate Users use the Service, it shall be deemed that they have agreed to each item of the preceding paragraph (“Users” shall be replaced with “Corporate Users”) and that Helte shall disclose the usage of the Service and conversation records of Corporate Users to the Corporation.
+4. If Users are minors (referring to “minor” under the laws of the Users’ home country; the same shall apply hereinafter), their legal representative shall register Users’ account on behalf of Users, and in such cases, Users shall be deemed to have agreed to the items of Paragraph 2 when the person with parental authority registers the Accounts.
+5. Helte may reject the application for registration, or cancel the registration even if it has already been completed, when Users fall under any of the following conditions or are reasonably suspected of falling under any of the conditions:
+(1) Users do not exist;
+(2) Account registration is made by someone other than the person with parental authority over Users, even though Users are minors;
+(3) Multiple registrations are attempted or made;
+(4) Falsehoods, errors, or omissions are found in the registration process;
+(5) Users’ registration has been cancelled by Helte in the past;
+(6) The credit card specified by Users does not exist or has been suspended;
+(7) Users have failed to make payment in the past;
+(8) Users are in violation of Article 19;
+(9) Users are in violation of Article 5;
+(10) The account name or profile photo is deemed inappropriate by Helte; or
+(11) Other cases in which Helte judges Users inappropriate as a user of the Service.
+6. Account must be strictly managed by Users. Helte shall consider that the use of the Service is by Users themselves when the information entered at the time of login matches the registered one.
+7. Users shall not allow a third party to use their Account, and shall not transfer or lend their Account to a third party.
+8. If Users lose their Accounts or suspect that their Accounts are being used illegally by a third party, they must promptly contact Helte and follow the instructions. Users shall be liable to compensate for all damages caused by the delay in contacting Helte.
+9. If the Corporate Contract is terminated or Corporate Users resign from the Corporation, Corporate Users shall not be able to use the Service unless they individually conclude a separate contract with Helte.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 4   Change of Account
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        If there are any changes to the information provided to Helte upon Account registration, or if it becomes necessary to make changes to the Account, Users shall change their Accounts without delay by the procedures specified by Helte. In no event shall Helte be liable for any damages incurred by Users as a result of delays in completing such procedures.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 5   Prohibitions
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        1. Users shall not engage in any of the following acts when using the Service:
+(1) Violation of laws and regulations or public order and morals;
+(2) Criminal acts;
+(3) Destruction or obstruction of the function of the server or network of Helte;
+(4) Behavior that may interfere with the operation of the Service;
+(5) Collection or accumulation of other users’ personal information;
+(6) Impersonation of other users;
+(7) Direct or indirect provision of benefits to anti-social forces in relation to the Service;
+(8) Input or registration of false information when using the Service;
+(9) Actions that cause or may cause trouble, disadvantage or damage to other users, third parties or Helte; 
+(10) Advertisement, promotion, or solicitation involving other users;
+(11) Actions that infringe or may infringe on the intellectual property such as copyrights, privacy, personal rights, or other rights of other users, third parties, or Helte;
+(12) Use of the Service without concluding a separate use contract after Corporate Users leave the Corporation;
+(13) Any behavior that is or may be offensive to public order and morals or in violation of laws and regulations;
+(14) Conversations between users by methods other than directly using the Service;
+(15) Use of the Service for commercial purposes;
+(16) Acts that involve any exchange of money between users; and
+(17) Any other acts that Helte deems inappropriate, such as violent, sexual, and harassing acts.
+2. Users shall not develop, plan, operate, or undertake to provide the same or similar services by using the information and know-how related to the Service, regardless of whether they are using the Service or have finished using it.
+3. When Users are found to be engaging in prohibited activities, Helte may immediately suspend the use of the Service and demand compensation for damages from Users.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 6   Suspension or Discontinuation of Provision of the Service
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        1. Helte may suspend or discontinue the provision of all or part of the Service without prior notice to Users in the event that Helte deems any of the following events to exist:
+(1) Maintenance, inspection, or updating of the computer system for the Service is conducted;
+(2) Providing the Service becomes difficult due to force majeure such as earthquakes, lightning, fire, power outages, natural disasters, wars, and disturbances;
+(3) Providing the Service becomes difficult due to an emergency situation;
+(4) Computers or communication lines are shut down due to an accident;
+(5) Systems or services necessary to provide the Service are interrupted; or
+(6) Any other cases in which Helte deems it difficult to provide the Service.
+2. Even during the period when the provision of the Service is suspended or interrupted based on the preceding paragraph, the Service Fee shall be incurred, and Users shall pay the Service Fee based on Article 7.
+3. Helte shall not be liable for any disadvantage or damage suffered by Users or any other third party due to the suspension or discontinuation of the Service, regardless of its reason.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 7   Service Fee / Payment
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        1. The Service Fee varies depending on Users’ area of residence. For Users who are Other Language Speakers, the free use of the Service will end when the number of free trials specified separately is completed, or when the free trial period specified separately has elapsed, whichever comes first, and in order to continue using the Service, Users will need to switch to a paid plan. The Service Fee for the paid plan is determined based on the time zone and phone number entered by Users at the time of Account registration, and in reference to the fee schedule separately determined by Helte.Any other price described on our website including the landing page (which may be calculated based on IP address) is only for reference purpose.
+2. The monthly Service Fee and any other fees incurred in connection with the use of the Service (taxes and transaction fees, if applicable) will be billed in accordance with the payment method registered in advance by Users (excluding Corporate Users. The same shall apply to this Article.). The timing of invoicing for payment to Users will be on the same day as the paid plan registration date of each month. The payment date may be changed if payment is not completed by the registered payment method, or if Users’ paid plan registration date is a calendar day that does not exist within the relevant month.
+3. To use the Service with a paid plan, Users are required to provide one or more payment methods. If Users’ primary payment method is rejected or is no longer available, Users shall promptly register a new payment method. If there are any outstanding payments, Users shall continue to be responsible for such amounts. If a payment cannot be settled due to expiration, insufficient funds, or any other reasons, Helte may suspend the Users’ use of the Service until a valid payment method can be charged. For some payment methods, the issuer may charge certain fees (such as foreign currency exchange fees or other fees related to the processing of the payment method). The taxation may vary depending on each payment method used by Users. Please check with your service provider for details.
+4. Users can change the payment method by visiting the [Account Information Page]. In some cases, Helte may change Users’ payment method by using information provided by the payment service provider. In this case, Users will allow Helte to continue billing based on that payment method after the change. 
+5. Helte may change the Service Fee from time to time, but any fee change will be effective at least thirty (30) days after notice of the change is given to Users.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 8   Cancellation
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        Users may cancel the Service at any time, and if Users are subscribed to a paid plan, they may continue to use the Service until the end of the billing period. Even if Users terminate their use of the Service before the available period, the paid Service Fee will not be refunded. If Users cancel the Service, the Users’ Accounts will be closed when the Users cancel their paid plans and follow the procedure for Account deletion.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 9   Usage Restriction
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        1. Helte may restrict the use of all or part of the Service to Users without prior notice in the following cases:
+(1) If Users violate any of the provisions of these Terms;
+(2) If all or part of the information provided by Users to Helte is found to be false;
+(3) If Users die, or are judged to have commenced guardianship, conservatorship, or assistance;
+(4) If Users delay payment of the Service Fee;
+(5) If Users become insolvent or unable to make payments, or if there is petition for commencement of bankruptcy proceedings or similar proceedings;
+(6) If Helte determines that Users are, or may be, organized crime groups, organized crime group-related companies, corporate racketeer, or similar parties or their members; or
+(7) In any other cases where Helte judges that the use of the Service by Users is inappropriate.
+2. Even if the use of the Service is restricted based on the preceding paragraph, the Service Fee shall still be incurred, and Users shall pay the Service Fee based on Article 7.
+3. Helte shall not be liable for any damages caused to Users or the Corporation due to the actions taken by Helte in accordance with this Article.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 10   Damages
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        1. Helte shall not be liable to compensate for any damages incurred by Users arising out of or in connection with the use of the Service, except in cases of intentional misconduct or gross negligence by Helte.
+2. If Users cause damage to Helte, Corporations, other users, or any other third parties due to or in connection with the use of the Service for reasons attributable to them, Users shall compensate for such damage.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 11   Indemnity
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        1. Notwithstanding the provision of Paragraph 1 of the preceding Article, Helte shall not be liable for any communication, contract, transaction, transfer of money, or dispute between Users and other users or third parties with respect to the Service.
+2. Notwithstanding the provision of Paragraph 1 of the preceding Article, Helte shall not be liable for any damage or disadvantage caused to Users, Corporations, or third parties arising from the use of the Service, including but not limited to accidents on software or hardware, contamination by computer viruses, and loss or damage of data.
+3. If there is unauthorized access to or unauthorized modification of the Service, Helte shall not be liable for any and all damages incurred by Users as a result of the use of or inability to use the Service.
+4. Even if Helte bears some liability to Users, Helte’s aggregate liability shall be limited to 5,000 yen or the total amount of consideration paid by Users to Helte for the use of the Service in the past three (3) months, whichever is lower, except for Helte’s intentional misconduct or gross negligence.
+5. Helte makes no warranty that the Service is free of errors, defects, or other deficiencies, that it does not infringe on the rights of third parties, or that it has the content and value expected by Users.
+6. Helte may use external services provided by a third party to provide part of the Service, but the service provider shall be responsible for the external service and Helte shall not be responsible for any failure, error, or defect related to such external service.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 12   Changes in Service Content and Notification
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        In the event of a change in the contents of the Service, Helte will notify the change and the date of the change in a manner that Helte deems appropriate.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 13   Termination of the Service
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        Helte may terminate the provision of the Service. In this case, Helte shall notify Users of such termination and date of termination at least three (3) months prior to the termination.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 14   Confidentiality
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        Unless prior written consent is obtained from Helte, Users shall not disclose to any third party any information obtained in connection with the use of the Service, and shall treat such information as confidential.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 15   Notification or Contact
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        Any notification or contact from Helte to Users shall be made by the method that Helte deems appropriate.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 16   No Assignment
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        Users may not transfer its position in the use of the Service or its rights or obligations under these Terms to a third party or offer them as collateral without Helte’s prior written consent.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 17   Intellectual Property Rights
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        1. Users acknowledge and agree that the site of the Service (hereinafter referred to as the “Site”), the software necessary to connect to the Service (hereinafter referred to as the  “Software”), all contents (including documents, videos, images, and other educational materials; the same applies hereafter) within the Site and the Service, and all contents created or provided by Helte in connection with the Service, as well as all copyrights and other intellectual property rights related thereto, belongs to Helte and those who have granted licenses to Helte.
+2. Except for the right to use the Service in accordance with these Terms (which is a non-exclusive and non-transferable right), no rights are transferred or granted to Users.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 18   Handling of Registered Information
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        1. Helte shall use the information registered by Users for the use of the Service (including information received by Helte from the Corporation and registered on behalf of Corporate Users; hereinafter referred to as Registered Information) only for the following purpose:
+(1) Operation and provision of the Service and other services developed by Helte (hereinafter collectively referred to as “Helte’s Services”);
+(2) Improvement of Helte’s Services and development of new services;
+(3) Provision of information and distribution of ads related to Helte’s Services;
+(4) Response to inquiries and consultations from Users;
+(5) Creation of statistical data that cannot identify specific individuals;
+(6) SMS authentication for identification of Users; and
+(7) Various surveys, analysis, and marketing related to purposes of use listed in the preceding items.
+2. Helte shall not disclose or provide the Registered Information to any third party. However, this shall not apply in the following cases:
+(1) When Users have given permission;
+(2) When the information is disclosed or provided in a manner that does not identify Users;
+(3) When disclosure or provision is permitted under laws and regulations;
+(4) When disclosure or provision is required by laws and regulations;
+(5) When part or all of the Service is entrusted to a third party for the purpose of providing the Service; or 
+(6) When the operation of the Service is transferred to a third party. 
+3. Users agree that Helte may disclose or provide their Registered Information to third parties in the following cases:
+(1) When responding to the Corporation when receiving an inquiry or the like about the Registered Information of Corporate Users from the Corporation; or
+(2) When distributing ads and other information about Helte’s Services through a service provided by a third party.
+4. As for the Registered Information which falls under the category of “Personal Information” under the Personal Information Protection Law of Japan, Helte shall manage and use it in accordance with the Privacy Policy on the Site. However, Helte does not guarantee that the leakage, loss, or falsification of the Personal Information will be completely prevented.
+5. Users agree that Helte may use the Registered Information to send mail magazines, direct mails, and other guidance regarding Helte’s Services to Users.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 19   Exclusion of Anti-social Forces
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        1. Helte and Users shall mutually represent and warrant that:
+(1) each of them is not an organized crime group, organized crime group member, a party who has been organized crime group member for less than five (5) years, organized crime group quasi-member, organized crime group-related company, corporate racketeer, a miscreant advocating political activism, an intellectual crime group, or any other party equivalent thereto (hereinafter collectively referred to as “Anti-social Forces”);
+(2) each of them has not been an Anti-social Forces; and 
+(3) each of them has not provided funds or services to Anti-social Forces, has not engaged in any transactions with Anti-social Forces, and has not had any other relationship with Anti-social Forces.
+2. If Helte and Users discover any violation of the preceding paragraph, then Helte and Users shall immediately notify the other Party to that effect.
+3. Users shall not, by itself or through a third party, engage in any of the following acts:
+(1) Demands in a violent manner; 
+(2) Unreasonable demands beyond legal responsibility;
+(3) Use of violence, threatening words or actions in relation to or in use of the Service;
+(4) Dissemination of false rumors, defamation of the reputation or credibility of Helte, or obstruction of the business of Helte by means of deception or force; and 
+(5) Any other action equivalent to the preceding items.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 20   Governing Law and Jurisdiction
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        These Terms shall be governed by and construed in accordance with the laws of Japan. In the event of any dispute regarding the Service, the Tokyo District Court shall have exclusive jurisdiction as the court of first instance.
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        Article 21   Consultation
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        Any matter not stipulated in these Terms or any doubt arising with respect to any provision of these Terms shall be resolved amicably upon mutual consultation in good faith between Helte and Users.
+      </p>
+    </div>
+    <p
+      className="sc-bwzfXH ezSoAa"
+    >
+      Established on 1 August 2019
+Revised on 30 June 2021
+    </p>
+  </div>
+</div>
+`;
+
+exports[`render <ConfirmTerms /> for teacher 1`] = `
+<div
+  className="sc-htpNat bmTrjQ"
+>
+  <h2
+    className="sc-bdVaJa dtuGiw"
+  >
+    はじめに
+  </h2>
+  <p
+    className="sc-bwzfXH ezSoAa"
+  >
+    この利用規約には、基本的なお約束事が書かれています。サービスを提供するにあたり、株式会社Helteはこの規約に基づいてお客様にご案内を致します。
+
+・ Sailは、日本語を母語とする方（「日本語話者」）と日本語を母語としない方（「他言語話者」）とが、アプリケーションを介してオンライン上で、日本語での会話を通して異文化交流する場を提供します。
+・ 日本語話者は、他言語話者との会話を希望する時間帯を指定して、枠の予約をします。
+・ 他言語話者は、日本語話者の予約枠を見て、会話のリクエストを送信します。
+・ マッチングが成立すると、予約されていた時間から１回２５分の会話が始められるようになります。リクエストが多数あった場合には、自動的にマッチングされます。
+・ 良識に従って交流しましょう。
+・ 不正な利用には厳正に対処いたします。
+  </p>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <h2
+      className="sc-bdVaJa dtuGiw"
+    >
+      本文
+    </h2>
+    <p
+      className="sc-bwzfXH ezSoAa"
+    >
+      この利用規約（以下「本規約」という）は，株式会社 Helte（千葉県柏市東上町 2-28 第一水戸屋ビル 3F。以下「甲」という）が運営するオンライン・コミュニケーション・サービス「Sail」（以下「本サービス」という）に関する利用条件を定めるものです。本サービスの個人での登録希望者および利用者（以下「乙」という。なお、乙のうち、乙が属する法人等の団体（以下「法人」という）が甲と本サービスの提供に係る契約（以下「法人契約」という）を締結し、法人契約および本規約に基づいて本サービスを利用する場合、当該乙のことを「丙」といい、本規約において「乙」という場合には丙を除く旨が明記されていない限り丙も含むものとする）には、本規約に従って、サービスをご利用いただきます。
+    </p>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第１条（適 用）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        １．本規約は、甲と乙との間の本サービスの利用に関わる一切の関係に適用されるものとします。また本規約および甲が別途定めるプライバシーポリシーへの同意は、乙が本サービスに登録した時点（但し丙については、本サービスを初めて利用した時点）でなされたものとみなします。
+２．甲乙間において本規約とは別に個別の定め（以下「個別契約」という）がある場合は、個別契約の規定が優先するものとします。ただし、プライバシーポリシーについては、この限りではありません。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第２条（本サービスにおける基本方針）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        １．甲は、甲の裁量により本規約を変更できるものとし、甲が本規約を変更した場合、本規約を変更する旨、その変更内容及び効力発生日を甲が適当と判断する方法で通知します。
+２．本サービス利用料金や本サービスに関する全ての方針は変更後の規約を優先するものとします。
+３．乙は、別途甲が定める方法に従い本サービスを利用するものとします。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第３条（アカウント登録）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        １．乙は、甲が定める手段にて本サービスを利用するために必要な情報（以下「アカウント」という）を登録するものとします。ただし、丙の情報については、法人が甲に対して必要情報を提供し、甲が丙に代わってアカウントを登録するものとします。
+２．乙（但し丙を除く）がアカウント登録をした場合、下記の事項について同意したものとみなします。
+（1）乙の通信環境が本サービスの利用に支障がないこと 
+（2）甲が、乙に対して本サービスに関する電子メール・アプリ内メッセージによる通知、広告、アンケート等を実施することができること 
+（3）カスタマーサポートによる応対の品質向上等のため、甲が乙の問い合わせ内容等を記録、録音、保管できること 
+（4）会話の品質向上、適正な利用の確保、および日本語学習の研究等のため、甲は、利用者同士の会話の録音・録画等を行っており、甲及び甲の委託先が当該録音・録画・チャットの履歴等の会話記録を利用・集積・分析できること 
+３．丙が本サービスを利用した場合、前項各号（乙を丙と読み替えて適用する）及び甲が法人に対して丙の本サービス利用状況及び会話記録を開示することについて同意したものとみなします。
+４．乙が未成年の場合、当該乙を代理して乙の親権者が乙のアカウント登録をするものとし、その場合、乙の親権者がアカウント登録をした時点で乙は第2項各号の事項に同意したものをみなします。
+５．乙が下記に定める事由に該当するか、その合理的な疑いがある場合、甲は、当該登録申込を拒否することができ、また、登録がすでに完了した場合でも、当該登録を取消すことができます。
+（1）実在しない場合 
+（2）未成年であるにもかかわらず乙の親権者以外の者がアカウント登録をした場合 
+（3）複数の登録を行おうとした場合または行った場合 
+（4）登録の際、虚偽、誤記または記入漏れをした場合 
+（5）過去に甲により登録を取り消されている場合 
+（6）乙が指定したクレジットカードが存在しないまたは利用停止中である場合 
+（7）乙が過去に代金の支払いを怠っていた場合 
+（8）第１９条に違反した場合 
+（9）第５条に違反した場合 
+（10）乙が登録しているアカウント名またはプロフィール写真が、不適切であると甲が判断する場合 
+（11）その他、本サービスの利用者として不適切であると甲が判断する場合 
+６．アカウントは、乙が厳重に管理しなければなりません。甲は、ログイン時に入力されたログイン情報と登録されたものとの一致をもって本サービスの利用が乙本人によるものであるとみなします。
+７．乙は、アカウントを第三者に使用させてはならず、第三者への譲渡、貸与等も行ってはなりません。
+８．乙は、アカウントを失念した場合または第三者に不正に使用されている疑いがある場合、甲に対して、速やかに連絡を行い、指示等に従わなければなりません。なお、乙は、同連絡等を遅滞したことにより生じるすべての損害等を賠償する義務を負うものとします。
+９．法人契約が終了した場合、又は丙が法人を退職した場合、丙は、甲との間で別途個人での契約を締結しない限り、本サービスを利用することはできません。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第４条（アカウントの変更）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        乙は、アカウント登録に際して甲に提供した情報に変更がある場合及び自身のアカウントに変更の必要性が生じた場合には、甲が定める手段によって遅滞なくアカウントの変更手続きをするものとします。なお、甲は、乙が同変更手続きを遅滞したことにより損害等を被った場合でも、同損害に対して、一切責任を負わないものとします。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第５条（禁止事項）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        １．乙は、本サービスの利用にあたり、以下の行為をしてはなりません。
+（1）法令または公序良俗に違反する行為 
+（2）犯罪行為に関連する行為 
+（3）甲のサーバーまたはネットワークの機能を破壊したり妨害したりする行為 
+（4）甲のサービスの運営を妨害するおそれのある行為 
+（5）他の利用者に関する個人情報等を収集または蓄積する行為 
+（6）他の利用者に成りすます行為 
+（7）甲の本サービスに関連して、反社会的勢力に対して直接または間接に利益を供与する行為 
+（8）ご利用の際に虚偽の内容を入力あるいは登録する行為 
+（9）他の利用者、第三者もしくは甲に迷惑、不利益、損害を与える行為、またはそれらのおそれのある行為 
+（10）他の利用者への宣伝、広告又は勧誘行為 
+（11）他の利用者、第三者もしくは甲の著作権等の知的財産、プライバシー・人格権その他権利を侵害する行為、またはそれらのおそれのある行為 
+（12）丙が法人を退職後に別途利用契約を締結することなく本サービスを利用する行為 
+（13）公序良俗に反する行為その他法令に違反する行為、又はそれらのおそれのある行為 
+（14）利用者同士が直接本サービスを利用する以外の方法により会話をする行為 
+（15）本サービスを商業的に利用する行為 
+（16）利用者間における金銭のやりとりを伴う行為 
+（17）その他，暴力的な行為、性的な行為、嫌がらせ行為等、甲が不適切と判断する行為 
+２．乙は、本サービスを利用中であると利用終了後であるとを問わず、本サービスに関する情 報・ノウハウを用いて、本サービスと同種または類似するサービスを開発し、その提供を企画、運営し、又はこれらを請け負う行為をしてはなりません。
+３．乙による禁止行為の事実が判明した際、甲は乙に対して、即時利用の停止と損害賠償請求をすることができます。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第６条（本サービスの提供の停止等）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        １．甲は、以下のいずれかの事由があると判断した場合、乙に事前に通知することなく本サービスの全部または一部の提供を停止または中断することができるものとします。
+（1）本サービスにかかるコンピュータシステムの保守点検または更新を行う場合 
+（2）地震、落雷、火災、停電、天災、戦争、騒乱などの不可抗力により、本サービスの提供が困難となった場合 
+（3）緊急の事態により本サービスの提供が困難となった場合 
+（4）コンピュータまたは通信回線等が事故により停止した場合 
+（5）本サービスを提供するために必要なシステム、サービス等に障害が生じた場合 
+（6）その他、甲が本サービスの提供が困難と判断した場合 
+２．前項に基づき本サービスの提供が停止又は中断した期間についても、本サービスの利用料金は生ずるものとし、乙は次条に基づき利用料金を支払うものとします。
+３．甲は、本サービスの提供の停止または中断により、乙または第三者が被ったいかなる不利益または損害について、理由を問わず一切の責任を負わないものとします。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第７条（利用料金・お支払い請求）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        １．乙による本サービスの利用は、別途の定めがある場合を除き、無料です。ただし、乙のうち、日本語を母語としない利用者の皆様については、別途定める無料体験回数を終えたとき、または別途定める無料体験期間が経過したときのいずれか早い時点で、無料での本サービスの利用は終了し、利用を継続するには有料プランへの移行が必要となります。なお、乙のうち日本語を母語とする利用者の皆様についても、有料プランのご用意があります。
+２.　本サービスの月額料金およびサービスの利用に関連して生じるその他の料金 (税金および適用ある場合は取引手数料) は、乙（丙を除く。以下、本条について同様。）が事前に登録したお支払い方法に対して請求されます。 乙のお支払い請求のタイミングは、各月の有料プラン登録日と同日に行います。ご登録のお支払い方法での決済が完了しなかった場合、乙の有料プラン登録日が、該当する月内に存在しない暦日だった場合等には、支払日が変更されることがあります。
+３. 本サービスを有料プランにてご利用になるには、1つ以上のお支払い方法を提供していただく必要があります。 乙の主要なお支払い方法が拒否された場合、もしくは乙の利用料金の支払いが利用できなくなった場合、乙は、速やかに新たなお支払方法を登録するものとします。乙は、未決済金がある場合、当該金額について引き続き責任を負っていただきます。 期限切れ、資金不足その他の理由でお支払いが決済できなかった場合、甲が有効なお支払い方法に請求できるようになるまでの間、乙による本サービスの利用を停止する場合があります。 一部のお支払い方法に関しては、お支払い方法の発行者によって一定の料金 (外貨交換手数料やお支払い方法の処理に関連するその他の料金等) が請求される場合があります。 課税内容は、使用するお支払い方法によって異なる場合があります。 詳細については乙の「お支払い方法」のサービスプロバイダーにご確認ください。
+４. 乙は、【アカウント情報ページ】にアクセスすることにより、お支払い方法の変更をすることが可能です。 決済サービスプロバイダーが提供する情報を使用し、甲が乙のお支払い方法を変更する場合もあります。 この場合、乙は、変更後も甲が当該お支払い方法に基づき引き続き請求を行うことを許可するものとします。
+５. 甲は、本サービスの利用料金を随時変更することがありますが、いかなる料金変更も、乙に変更の通知を行ってから最低30日の期間をおいた後の適用となります。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第８条（解約）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        乙は、本サービスをいつでも解約することができ、乙が有料プランをご利用の場合には、ご請求期間の終了時まではそのまま本サービスの利用が可能です。なお、利用可能期間より前に乙が利用を終了した場合でも、支払い済の利用料金は返金致しません。 乙が本サービスを解約した場合、乙のアカウントは、乙が有料プランを解約し、アカウント削除の手続を行うことで、乙のアカウントは閉鎖されます。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第９条（利用制限）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        １．甲は、以下の場合には、事前の通知なく、乙に対して、本サービスの全部もしく一部の利用を制限することができます。
+（1）本規約のいずれかの条項に違反した場合 
+（2）乙が甲に提供した情報の全部又は一部につき虚偽の事実が判明した場合 
+（3）乙が死亡し、または後見開始、保佐開始若しくは補助開始の審判を受けた場合 
+（4）乙が利用料金の支払を遅滞した場合 
+（5）乙が支払停止若しくは支払不能となり、または破産手続開始若しくはこれに類する手続　の開始の申立てがあった場合 
+（6）乙が、暴力団、暴力団関係企業、総会屋もしくはこれらに準ずる者またはその構成員またはその虞があると甲が判断した場合 
+（7）その他、甲が乙による本サービスの利用を適当でないと判断した場合 
+２．前項に基づき本サービスの利用が制限されている場合であっても、本サービスの利用料金は生ずるものとし、乙は第7条に基づき利用料金を支払うものとします。
+３．甲は、本条に基づき甲が行った行為により乙または法人に生じた損害について、一切の責任を負わないものとします。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第１０条（損害賠償）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        １．甲は、故意又は重過失がある場合を除き、本サービスの利用に起因又は関連して乙が被った損害を賠償する責任を負いません。
+２．乙は、その責めに帰すべき事由により本サービスの利用に起因又は関連して甲、法人、他の利用者その他の第三者に損害を与えたときは、その損害を賠償するものとします。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第１１条（免責事項等）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        １．前条第1項の定めにかかわらず、甲は、本サービスに関して、乙と他の利用者または第三者との間において生じたやりとり、連絡、取引、金銭の授受、及び紛争等について一切責任を負いません。
+２．前条第１項の定めにかかわらず、甲は、本サービスのご利用に起因して乙、法人または第三者に生じた、ソフトウェア・ハードウェア上に生じた事故、コンピューターウィルスによる汚染、データの滅失・毀損等の損害や不利益等について一切の責任を負わないものとします。
+３．甲は，本サービスへの不正アクセスや不正な改変がなされた場合，本サービスを利用したこと，または利用できなかったことによって乙に生じた一切の損害について，一切の賠償責任を負いません。
+４．甲が乙に対して何らかの責任を負担する場合であっても、甲が乙に対して負担する責任の総額は、甲に故意又は重過失がある場合を除き、5,000円又は本サービスの利用に関し乙が甲に過去3ヶ月に支払った対価の総額のうちいずれか金額の低い方を上限とします。
+５．甲は、本サービスに関し、エラー、不具合等の欠陥が存在しないこと、第三者の権利を侵害しないこと、乙が期待する内容及び価値を有することについていかなる保証も行うものではありません。
+６．甲は、第三者が提供する外部サービスを利用して本サービスの一部の提供をすることがありますが、外部サービスについては当該サービスを提供する事業者が責任を負うものとし、甲は、かかる外部サービスに関する障害、エラー、不具合について一切の責任を負うものではありません。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第１２条（サービス内容の変更等）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        本サービスの内容変更については、その変更内容及び変更期日を甲が適当と判断する方法で通知します。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+        第１３条（本サービスの終了）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        甲は、本サービスの提供を終了することがあります。この場合、甲はその3ヶ月前までに乙にその旨及び終了日を通知します。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第１４条（秘密保持）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        乙は、甲の事前の書面による承諾がある場合を除き、本サービスの利用に関連して得た一切の情報を第三者に開示してはならず、秘密として扱うものとします。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第１５条（通知または連絡）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        甲から乙に対する通知または連絡は、甲が適当と判断する方法によって行うものとします。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第１６条（権利義務の譲渡の禁止）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        乙は、甲の書面による事前の承諾なく、本サービス利用上の地位または本規約に基づく権利もしくは義務を第三者に譲渡し、または担保に供することはできません。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第１７条（知的財産権等）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        １．乙は、本サービス、本サービスのサイト（以下「本サイト」という）、本サービスの接続に必要なソフトウェア（以下「ソフトウェア」という）、本サイト内及び本サービス内の全コンテンツ（文書、ビデオ、画像、他教材を含む。以下同じ。）及び本サービスに関連して甲が作成又は提供する全コンテンツ並びにそれらに関する著作権その他の一切の知的財産権が、甲及び甲にライセンスを許諾している者に帰属することを確認し、同意します。
+２．本サービスを本規約に従って利用する権利（これは非独占的かつ譲渡不可能な権利です）を除き、乙にはいかなる権利も譲渡又は付与されません。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第１８条（登録情報の取り扱い）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        １．甲は、乙が本サービスの利用に際して登録した情報（甲が法人から受け取り丙に代わって登録した情報を含む。以下「登録情報」といいます）を以下の目的のみに利用するものとします。
+（1）本サービス及び甲が展開する他のサービス（以下総称して「甲のサービス」といいます）の運営及び提供 
+（2）甲のサービスのサービス向上・改善、新しいサービスの開発 
+（3）甲のサービスに関する情報提供及び広告配信 
+（4）乙からの問い合わせ、相談への対応 
+（5）特定の個人を識別できない統計データの作成 
+（6）乙の本人確認のためのSMS認証 
+（7）前各号の利用目的に関連する各種調査・分析・マーケティング 
+２．甲は、登録情報を第三者に開示又は提供しないものとします。 ただし、以下に該当する場合は、この限りではありません。
+（1）乙が許諾した場合 
+（2）乙を特定できない方法にて開示・提供する場合 
+（3）法令等により開示又は提供が認められる場合 
+（4）法令等に基づいて開示又は提供を求められた場合 
+（5）本サービスの提供の目的のため本サービスの一部又は全部を第三者に委託する場合 
+（6）本サービスの運営を第三者に譲渡する場合 
+３．乙は、以下に該当する場合に甲が登録情報を第三者に開示又は提供することに同意します。
+（1）法人から丙の登録情報について問い合わせ等を受けた場合に当該法人に対して回答する場合 
+（2）第三者が提供するサービスを通じて、甲のサービスに関する広告その他の案内等を配信する場合 
+４．甲は、登録情報のうち、個人情報保護法の「個人情報」に該当する情報について、本サイト上のプライバシーポリシーに基づき管理及び使用するものとします。 ただし、甲は、個人情報の漏洩・消失又は改ざん等が完全に防止されることについての保証を一切しないものとします。
+５．甲は、乙に対して、登録情報を利用して甲のサービスに関するメールマガジン、ダイレクトメール、その他の案内等を送信することがあり、乙は、当該利用に同意します。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第１９条（反社会的勢力の排除等）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        １．甲及び乙は、次の各号について表明し、保証します。
+（1）自らが、暴力団、暴力団員、暴力団員でなくなった時から５年を経過しない者、暴力団準構成員、暴力団関係企業、総会屋、社会運動等標ぼうゴロ、特殊知能暴力集団その他これらに準ずる者（以下総称して「反社会的勢力」という）でないこと 
+（2）自らが反社会的勢力でなかったこと 
+（3）自らが反社会的勢力に対し資金または役務提供等をしていないこと、反社会的勢力と何らかの取引をしていないこと、その他反社会的勢力と何らかの関係を持っていないこと 
+２．甲及び乙は、前項に関する違反を発見した場合は、直ちに相手方に対しその旨を通知するものとします。
+３．乙は、自ら又は第三者を利用して以下の各号の一に該当する行為をしてはなりません。
+（1）暴力的な要求行為 
+（2）法的な責任を超えた不当な要求行為 
+（3）本サービスに関して又は本サービス利用に際して、脅迫的な言動をし、又は暴力を用いる行為 
+（4）風説を流布し、偽計又は威力を用いて甲の名誉・信用を毀損し、又は甲の業務を妨害する行為 
+（5）その他前各号に準ずる行為
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第２０条（準拠法・裁判管轄）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        本規約の解釈にあたっては、日本法を準拠法とします。 本サービスに関して紛争が生じた場合には、東京地方裁判所を第一審の専属的合意管轄裁判所とします。
+      </p>
+    </div>
+    <div>
+      <h2
+        className="sc-bdVaJa dtuGiw"
+      >
+         第２１条（協議事項について）
+      </h2>
+      <p
+        className="sc-bwzfXH ezSoAa"
+      >
+        本規約に定めのない事項又は本規約の条項に解釈上の疑義を生じた場合は、甲、乙は共に誠意を持って協議の上、円満に解決を図るものとします。
+      </p>
+    </div>
+    <p
+      className="sc-bwzfXH ezSoAa"
+    >
+      (附則) 「２０１９年８月１日制定」
+「２０２１年６月３０日更新」
+    </p>
+  </div>
+</div>
+`;

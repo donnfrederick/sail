@@ -1,0 +1,15 @@
+= form_for(@device, url: tablets_edit_path(@role_type, @device.id), html: { class: "edit col-4 offset-4", method: "post" }) do
+  h1.title タブレット名の変更
+  p 管理操作で分かりやすいようにタブレットの名前を変更できます。変更を適用するには下の「変更する」を押してください。
+  - flash.each do |name, msg|
+    .alert.alert-danger = msg.html_safe
+  .row
+    .form-group.col-12
+      label[for="tablet-name"] タブレット名
+      input#tablet-name.form-control[type="text" name="name" placeholder="タブレット1" value="#{@device.name}" required]
+
+  input[name="_method" type="hidden" value="PUT"]
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='#{tablets_path(@role_type)}'; return false;"] = I18n.t("organization.back_button")
+    button.btn.btn-success[type="submit"] 変更する

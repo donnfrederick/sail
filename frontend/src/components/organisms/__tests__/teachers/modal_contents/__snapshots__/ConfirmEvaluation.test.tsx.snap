@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConfirmEvaluation /> 1`] = `
+<div
+  className="sc-kGXeez hFnrPY"
+>
+  <div
+    className="sc-kAzzGY jIGkur"
+  >
+    <div
+      className="sc-jzJRlG ifpyfp"
+    >
+      この評価でよろしいですか？
+    </div>
+  </div>
+  <div
+    className="sc-EHOje fbzZrP"
+  >
+    <img
+      className="sc-gzVnrw QJFQI"
+      height="200px"
+      src=""
+      srcSet=""
+      width="200px"
+    />
+  </div>
+  <div
+    className="sc-dxgOiQ iIghBn"
+  >
+    
+  </div>
+  <div
+    className="sc-fjdhpX fEHXhU"
+  >
+    <img
+      className="sc-jTzLTM cMgGhF"
+      size={50}
+      src="/assets/img/common/full-star@3x.png"
+    />
+    <img
+      className="sc-jTzLTM cMgGhF"
+      size={50}
+      src="/assets/img/common/full-star@3x.png"
+    />
+    <img
+      className="sc-jTzLTM cMgGhF"
+      size={50}
+      src="/assets/img/common/full-star@3x.png"
+    />
+    <img
+      className="sc-jTzLTM cMgGhF"
+      size={50}
+      src="/assets/img/common/empty-star@3x.png"
+    />
+    <img
+      className="sc-jTzLTM cMgGhF"
+      size={50}
+      src="/assets/img/common/empty-star@3x.png"
+    />
+  </div>
+  <div
+    className="sc-kpOJdX iIilcU"
+  >
+    <button
+      className="sc-htoDjs iiCvpw"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={272}
+    >
+      <div
+        className="sc-VigVT dXzNKq"
+      >
+        やり直す
+      </div>
+    </button>
+    <button
+      className="sc-dnqmqq eXECE"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={272}
+    >
+      <div
+        className="sc-VigVT dXzNKq"
+      >
+        決定
+      </div>
+    </button>
+  </div>
+</div>
+`;

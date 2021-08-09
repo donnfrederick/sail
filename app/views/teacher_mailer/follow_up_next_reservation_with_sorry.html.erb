@@ -1,0 +1,36 @@
+<h3><%= @user.name_ja %>様</h3>
+
+<div class="section">
+  <h1 class="title">お疲れ様でした！</h1>
+  <p><%= @student.name_en %>さんとの会話が終了しました。是非また予約を入れて、多くの方々とお話しをしてみてください！</p>
+</div>
+
+<div class="section-comfortable-margin-top">
+  <% if @favorite_students_conversations.empty? %>
+    <h2 class="title">お気に入り機能を活用してみましょう！</h2>
+    <p>
+      お気に入り機能を活用すると、毎回の会話終了の通知メールに、お気に入りユーザーが実際に予約をした時間を知ることができます。
+      その時間を参考に予約を入れることで相手の方との予定が合いやすくなります。
+      是非ご活用ください！
+    </p>
+  <% else %>
+    <h2 class="title">お気に入りユーザーはこの時間に話をしています</h2>
+    <p>
+      お気に入りユーザーの中から最大5名までの直近の予約時間を紹介しています。この時間帯を参考に次の予約を入れてみましょう！
+    </p>
+    <% @favorite_students_conversations.each do |student_conversation| %>
+      <div class="wide-stretched">
+        <%= render partial: "components/user_profile_with_time", locals: {locale: "ja", user: student_conversation.student, start_at: student_conversation.start_at, end_at: student_conversation.end_at, context_user: @user} %>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+
+<div class="section-less-comfortable-margin">
+  <p>
+    他にも現在行われている会話の半数が新しくSailに参加しようと登録いただいている方々です。
+    是非いろいろな方とお話しできるよう、また予約を入れてみましょう！
+  </p>
+</div>
+
+<%= render partial: "components/mailer/launcher_guide", locals: {locale: "ja", url: "https://sail.helte.jp/"} %>

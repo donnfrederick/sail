@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConversationMemo /> 1`] = `
+<div
+  className="sc-bdVaJa khFblK"
+>
+  <div
+    className="sc-bwzfXH bCIXDx"
+  >
+    Conversation Memo with 
+    
+  </div>
+  <div
+    className="sc-htpNat cSGOgW"
+  >
+    <div
+      className="sc-bxivhb kurGhb"
+    >
+      2018/01/02 (Tue) 00:00
+    </div>
+    <div
+      className="sc-ifAKCX kXoofU"
+    >
+      sample memo
+    </div>
+  </div>
+  <div
+    className="sc-htpNat cSGOgW"
+  >
+    <div
+      className="sc-bxivhb kurGhb"
+    >
+      2018/01/02 (Tue) 00:00
+    </div>
+    <div
+      className="sc-ifAKCX kXoofU"
+    >
+      sample memo
+    </div>
+  </div>
+</div>
+`;

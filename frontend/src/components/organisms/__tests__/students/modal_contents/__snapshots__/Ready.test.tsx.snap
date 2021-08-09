@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Ready /> 1`] = `
+<div
+  className="sc-gPEVay fUlKkM"
+>
+  <div
+    className="sc-gzVnrw gGucts"
+  >
+    <div
+      className="sc-EHOje emHEG"
+    >
+      All set
+    </div>
+  </div>
+  <div
+    className="sc-iRbamj hnVvxK"
+  >
+    <button
+      className="sc-bdVaJa evUcPv"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={488}
+    >
+      Start
+    </button>
+  </div>
+</div>
+`;

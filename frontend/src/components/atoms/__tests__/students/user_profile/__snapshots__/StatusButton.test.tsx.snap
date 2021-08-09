@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StatusButton /> 1`] = `
+<button
+  className="sc-bdVaJa btQiBq"
+  data-active={true}
+  fontSize={28}
+  height={56}
+  onClick={[Function]}
+  type="red"
+  width={210}
+>
+  Blocked
+</button>
+`;

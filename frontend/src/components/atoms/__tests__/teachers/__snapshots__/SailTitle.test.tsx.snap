@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <SailTitle /> 1`] = `
+<div
+  className="sc-bdVaJa ezlkVu"
+>
+  <h1
+    className="sc-bwzfXH gjfzmg"
+  >
+    <img
+      className="sc-htpNat kQspvn"
+      src="/assets/img/common/sail@3x.png"
+    />
+  </h1>
+  <h2
+    className="sc-bxivhb liuDuV"
+  >
+    さあ、世界へ船出しよう
+  </h2>
+</div>
+`;

@@ -1,0 +1,10 @@
+= form_tag("#{org_notification_destroy_path(@role_type, @notification.id)}", class: "read col-4 offset-4", method: "post")
+  h1.title Are you sure to delete the below notification ?
+
+  = render partial: "components/organizations/notifications/notification", locals: { notification: @notification, level: 2 }
+
+  input[name="_method" type="hidden" value="DELETE"]
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='#{org_notification_list_path(@role_type)}'; return false;"] = I18n.t("organization.back_button")
+    button.btn.btn-danger[type="submit"] Delete

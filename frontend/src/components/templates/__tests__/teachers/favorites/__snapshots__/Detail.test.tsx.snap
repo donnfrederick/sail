@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <FavoritesIndex /> 1`] = `
+<div
+  className="sc-kafWEX euBzIH"
+>
+  <div
+    className="sc-EHOje itwipb"
+  >
+    <div
+      className="sc-bZQynM bZKBNj"
+    >
+      お気に入り一覧
+    </div>
+    <a
+      className="sc-gzVnrw jTRbiO"
+      href="/teachers/mypage"
+      onClick={[Function]}
+    >
+      ホームに戻る
+    </a>
+    <div
+      className="sc-htoDjs fUCPvq"
+    >
+      <a
+        className="sc-dnqmqq engvPe"
+        href="/teachers/notifications"
+        onClick={[Function]}
+      />
+      <a
+        className="sc-iwsKbI jCgDjX"
+        href="/teachers/support"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

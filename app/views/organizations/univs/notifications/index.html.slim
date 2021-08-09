@@ -1,0 +1,24 @@
+h1.title
+  span Notifications
+  a.btn.btn-success[href="#{org_notification_new_path(@role_type)}"] Add
+p You can publish notifications via Sail to students in the class room.
+
+.organization-section
+  table.table.table-striped
+    tr
+      th.type Class
+      th.title Subject
+      th.body Body
+      th.operation Operation
+    - @notifications.each do |notification|
+      tr
+        td.scope = notification.target_section.name_ja
+        td.title = notification.title
+        td.body = notification.body
+        td.commands
+          - if notification.organization_staff_id.present? && notification.notificated_at.present?
+            a.btn.btn-outline-success.action.apply[role="button" href="#{org_notification_confirm_unpublish_path(@role_type, notification.id)}"] Unpublish
+          - elsif notification.organization_staff_id.present?
+            a.btn.btn-success.action.apply[role="button" href="#{org_notification_confirm_publish_path(@role_type, notification.id)}"] Publish
+          a.btn.btn-warning.action.apply[role="button" href="#{org_notification_edit_path(@role_type, notification.id)}"] Edit
+          a.btn.btn-danger.action.delete[role="button" href="#{org_notification_confirm_destroy_path(@role_type, notification.id)}"] Delete

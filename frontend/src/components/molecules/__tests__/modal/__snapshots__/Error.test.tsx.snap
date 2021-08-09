@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ModalError /> 1`] = `
+<div
+  className="sc-EHOje kzWOdU"
+>
+  <div
+    className="sc-ifAKCX hbuybn"
+  >
+    <div
+      className="sc-htpNat oumOb"
+    >
+      ERROR
+    </div>
+    <p
+      className="sc-bxivhb bxDcYt"
+    >
+      Something is wrong...
+    </p>
+  </div>
+  <div
+    className="sc-bZQynM bqSRsl"
+  >
+    <button
+      className="sc-bdVaJa evUcPv"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={488}
+    >
+      Try Again
+    </button>
+  </div>
+</div>
+`;
+
+exports[`render <ModalError /> with message 1`] = `
+<div
+  className="sc-EHOje kzWOdU"
+>
+  <div
+    className="sc-ifAKCX hbuybn"
+  >
+    <div
+      className="sc-htpNat oumOb"
+    >
+      ERROR
+    </div>
+    <p
+      className="sc-bxivhb bxDcYt"
+    >
+      fuga
+    </p>
+  </div>
+  <div
+    className="sc-bZQynM bqSRsl"
+  >
+    <button
+      className="sc-bdVaJa evUcPv"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={488}
+    >
+      Try Again
+    </button>
+  </div>
+</div>
+`;

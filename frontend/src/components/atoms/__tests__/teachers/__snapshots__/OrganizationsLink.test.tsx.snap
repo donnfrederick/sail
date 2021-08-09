@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <OrganizationsLink /> 1`] = `
+<a
+  className="sc-bdVaJa jVOvUp"
+  href="/teachers/organizations/signin"
+  onClick={[Function]}
+>
+  施設担当者様はこちら
+</a>
+`;

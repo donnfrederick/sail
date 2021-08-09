@@ -1,0 +1,15 @@
+= form_tag org_recovery_create_path, class: "recovery col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 offset-sm-1 offset-md-2 offset-lg-3 offset-xl-4" do |f|
+  h2.title.text-center = I18n.t("organization.forgot_password.new.title")
+  - flash.each do |name, msg|
+    .alert.alert-danger = msg.html_safe
+  .col-12
+    label.sr-only[for="user-email"] = I18n.t("organization.email")
+    .input-group.mb-2
+      .input-group-prepend
+        .input-group-text
+          i.fa.fa-user
+      = text_field_tag :email, '', class: 'form-control', id: 'input-user-email', autofocus: 'autofocus', placeholder: I18n.t("organization.email_placeholder")
+
+  .text-center
+    = button_tag I18n.t("organization.back_button"), class: 'btn btn-secondary', role: 'button', style: 'margin-top: 2.5vh; margin-bottom: 2.5.vh; margin-right: 3vw;', onclick: 'location.href="' + org_path + '"; return false;'
+    = submit_tag I18n.t("organization.forgot_password.new.button"), class: 'btn btn-success', role: 'button', style: 'margin-top: 2.5vh; margin-bottom: 2.5.vh'

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <SignUpInfo /> 1`] = `
+<div
+  className="sc-bxivhb HEVJA"
+>
+  <div
+    className="sc-EHOje hlLiNm"
+  >
+    1
+  </div>
+  <div
+    className="sc-ifAKCX jbSoUk"
+  >
+    メールアドレス
+  </div>
+  <div
+    className="sc-bZQynM dgGpiZ"
+  >
+    sail@example.com
+  </div>
+</div>
+`;

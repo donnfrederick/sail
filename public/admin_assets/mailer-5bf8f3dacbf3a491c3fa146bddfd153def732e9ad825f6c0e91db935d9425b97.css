@@ -1,0 +1,144 @@
+/* line 8, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper {
+  max-width: 640px;
+  margin: auto;
+  border: solid 6px #138efd;
+}
+/* line 13, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .header {
+  background-color: #ffffff;
+  padding-top: 0;
+  text-align: center;
+}
+/* line 18, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .header img {
+  width: 100%;
+}
+/* line 23, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content {
+  padding: 30px;
+  margin: 30px;
+}
+/* line 27, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .section,
+.content-wrapper .content .section-less-comfortable-margin-top,
+.content-wrapper .content .section-less-comfortable-margin,
+.content-wrapper .content .section-comfortable-margin-top,
+.content-wrapper .content .section-comfortable-margin {
+  text-align: center;
+}
+/* line 34, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .section p,
+.content-wrapper .content .section-less-comfortable-margin-top p,
+.content-wrapper .content .section-less-comfortable-margin p,
+.content-wrapper .content .section-comfortable-margin-top p,
+.content-wrapper .content .section-comfortable-margin p {
+  text-align: left;
+}
+/* line 38, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .section .title,
+.content-wrapper .content .section-less-comfortable-margin-top .title,
+.content-wrapper .content .section-less-comfortable-margin .title,
+.content-wrapper .content .section-comfortable-margin-top .title,
+.content-wrapper .content .section-comfortable-margin .title {
+  font-size: 185%;
+}
+/* line 42, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .section .sub-title,
+.content-wrapper .content .section-less-comfortable-margin-top .sub-title,
+.content-wrapper .content .section-less-comfortable-margin .sub-title,
+.content-wrapper .content .section-comfortable-margin-top .sub-title,
+.content-wrapper .content .section-comfortable-margin .sub-title {
+  font-size: 145%;
+}
+/* line 47, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .section-comfortable-margin-top {
+  margin-top: 76px;
+}
+/* line 51, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .section-less-comfortable-margin-top {
+  margin-top: 42px;
+}
+/* line 55, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .section-comfortable-margin {
+  margin: 76px 0;
+}
+/* line 59, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .section-less-comfortable-margin {
+  margin: 42px 0;
+}
+/* line 63, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .title {
+  color: #138efd;
+}
+/* line 67, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .wide-stretched {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 72, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .wide-stretched img {
+  width: 100%;
+}
+/* line 77, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .huge-title-80 {
+  width: 80%;
+  color: #138efd;
+  font-weight: bold;
+  font-size: 240%;
+}
+/* line 84, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .huge-title-90 {
+  width: 90%;
+  color: #138efd;
+  font-weight: bold;
+  font-size: 240%;
+}
+/* line 91, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content img.title-icon {
+  width: 48px;
+}
+/* line 95, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content img.app-store {
+  height: 40px;
+}
+/* line 99, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content img.profile-photo {
+  width: 171px;
+  height: 171px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: none;
+}
+/* line 106, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .profile-detail {
+  margin-bottom: 14px;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: 0.5px;
+}
+/* line 113, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .content .profile-sub {
+  font-size: 18px;
+}
+/* line 118, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .launcher-button {
+  display: block;
+  background-color: #138efd;
+  border-radius: 50px;
+  width: 140px;
+  padding: 15px 0;
+  margin: 0 auto 24px;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 133, /Users/rtshaaaa/Works/kayac/helte/sail/app/assets/stylesheets/mailer.scss */
+.content-wrapper .footer {
+  text-align: right;
+}

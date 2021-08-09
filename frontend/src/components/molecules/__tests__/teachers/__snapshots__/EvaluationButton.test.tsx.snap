@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <EvaluationButton /> 1`] = `
+<div
+  className="sc-htpNat lCejt"
+  onClick={[Function]}
+>
+  <div
+    className="sc-bwzfXH fVAhhA"
+  >
+    <img
+      className="sc-bdVaJa cXnnjS"
+      size={35}
+      src="/assets/img/common/full-star@3x.png"
+    />
+    <img
+      className="sc-bdVaJa cXnnjS"
+      size={35}
+      src="/assets/img/common/full-star@3x.png"
+    />
+    <img
+      className="sc-bdVaJa cXnnjS"
+      size={35}
+      src="/assets/img/common/full-star@3x.png"
+    />
+    <img
+      className="sc-bdVaJa cXnnjS"
+      size={35}
+      src="/assets/img/common/full-star@3x.png"
+    />
+    <img
+      className="sc-bdVaJa cXnnjS"
+      size={35}
+      src="/assets/img/common/full-star@3x.png"
+    />
+  </div>
+  <div
+    className="sc-bxivhb bqGkjm"
+  >
+    とても楽しかった
+  </div>
+</div>
+`;

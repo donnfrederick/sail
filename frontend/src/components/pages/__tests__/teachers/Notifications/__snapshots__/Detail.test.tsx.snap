@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TeachersNotificationsDetail /> 1`] = `
+<div
+  className="sc-bYSBpT rPWWU"
+>
+  <div
+    className="sc-kafWEX hBApeU"
+  >
+    <time
+      className="sc-feJyhm fvUVHp"
+    >
+      Invalid date
+    </time>
+    <h2
+      className="sc-iELTvK efnnXg"
+    >
+      
+    </h2>
+    <p
+      className="sc-cmTdod brpoix"
+    >
+      
+    </p>
+  </div>
+  <div
+    className="sc-btzYZH jFmevL"
+  />
+  <div
+    className="sc-jwKygS dEiOGD"
+  >
+    <button
+      className="sc-gZMcBi gUOamm"
+      data-active={true}
+      fontSize={36}
+      height={112}
+      width={300}
+    >
+      <a
+        className="sc-fjdhpX fRklgf"
+        href="/teachers/notifications"
+        onClick={[Function]}
+      >
+        戻る
+      </a>
+    </button>
+  </div>
+  <div
+    className="sc-EHOje itwipb"
+  >
+    <div
+      className="sc-bZQynM bZKBNj"
+    >
+      運営からのお知らせ
+    </div>
+    <a
+      className="sc-gzVnrw jTRbiO"
+      href="/teachers/mypage"
+      onClick={[Function]}
+    >
+      ホームに戻る
+    </a>
+    <div
+      className="sc-htoDjs fUCPvq"
+    >
+      <a
+        className="sc-dnqmqq engvPe"
+        href="/teachers/notifications"
+        onClick={[Function]}
+      />
+      <a
+        className="sc-iwsKbI jCgDjX"
+        href="/teachers/support"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

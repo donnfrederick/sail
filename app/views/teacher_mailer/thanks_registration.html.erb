@@ -1,0 +1,99 @@
+<h3>Hello <%= @user.name_ja %>様</h3>
+
+<div class="section">
+  <p>
+    Sailカスタマーサポートです。
+  </p>
+  <p>
+    この度は、世界中の人と日本語で交流する「Sail」にご登録いただきありがとうございます。
+  </p>
+  <p>
+    ご登録後は、ホーム画面の「予約する」ボタンから、早速ご予約が可能です。
+    お相手は<%= Student.all.pluck(:country).uniq.size %>か国以上の地域から参加します。どんな方とお話ができるか楽しみですね。
+  </p>
+  <p>
+    まずは実際に予約をし、異文化交流を体験してみましょう！
+  </p>
+</div>
+
+<div class="section-comfortable-margin-top">
+  <img class="huge-title-80" src="https://www.helte.jp/downloads/new-teachers-space-5-1.png" alt="Sailの使い方" />
+</div>
+
+<div class="section-comfortable-margin-top">
+  <h1 class="title">1. 会話のできる日時を予約します</h1>
+  <div class="sub-title">1週間前など余裕を持って予約しましょう。</div>
+  <div class="wide-stretched">
+    <img class="less-comfortable-margin-top" src="https://www.helte.jp/downloads/new-teachers-space-5-2.png" alt="" />
+  </div>
+</div>
+
+<div class="section-comfortable-margin-top">
+  <h1 class="title">2. 相手が現れるのを待ちます</h1>
+  <div class="sub-title">あなたを見つけた日本語学習者が予約します。</div>
+  <div class="wide-stretched">
+    <img class="less-comfortable-margin-top" src="https://www.helte.jp/downloads/new-teachers-space-5-3.png" alt="" />
+  </div>
+</div>
+
+<div class="section-comfortable-margin-top">
+  <h1 class="title">3. 時間になったら会話スタート！</h1>
+  <div class="sub-title">10分前くらいに準備をしましょう。</div>
+  <div class="wide-stretched">
+    <img class="less-comfortable-margin-top" src="https://www.helte.jp/downloads/new-teachers-space-5-4.png" alt="" />
+  </div>
+</div>
+
+<div class="section-comfortable-margin-top">
+  <img class="huge-title-90" src="https://www.helte.jp/downloads/new-teachers-space-5-5.png" alt="異文化交流としてのSail" />
+  <h3 class="sub-title">日本語でできる異文化交流だから誰でも参加できます。</h3>
+</div>
+
+<div class="section">
+  <div class="wide-stretched">
+    <img src="https://www.helte.jp/downloads/student-female-1.jpg" alt="" />
+  </div>
+  <p>
+    Sailは日本語で海外の方と交流のできる新しい可能性です。ご自宅のインターネットから自由な時間に参加できます。
+  </p>
+  <p>
+    特に、今後日本へ旅行や就業などで来る方たちが、日本に来る前の会話練習として使っていただいている例が多くあります。
+  </p>
+  <p>
+    ビデオ通話を通して日本のいろいろな情報、知恵、経験を伝えて、彼ら・彼女らにとって貴重な体験となることを祈りつつ、
+    またご自身もその方の現地の人でしか知り得ない情報を是非いろいろと得ていってください。
+  </p>
+</div>
+
+<div class="section-less-comfortable-margin">
+  <h1 class="title">主な時間帯</h1>
+  <div class="wide-stretched">
+    <img src="https://www.helte.jp/downloads/new-teachers-space-5-7.png" alt="" />
+  </div>
+  <p>
+    上のグラフは予約が海外の方と成立した会話時間の統計です。
+    Sailでは日本の方が先に日時を指定するため、お昼の時間にもっとも多くの会話が成立しています。
+  </p>
+  <p>
+    しかし夕方から夜にかけても増えてきました。
+    お昼はタイやベトナムの方が多く、夜には南米・ヨーロッパの方が多く会話をされています。
+  </p>
+</div>
+
+<div class="section-less-comfortable-margin">
+  <h1 class="title">現在の主な参加国</h1>
+  <div class="wide-stretched">
+    <img src="https://www.helte.jp/downloads/new-teachers-space-5-8.png" alt="" />
+  </div>
+</div>
+
+<div class="section-less-comfortable-margin">
+  <h2>
+    より詳しい最新情報はブログで公開中です！
+  </h2>
+  <div class="section">
+    <a href="https://blog.sail.helte.jp/">https://blog.sail.helte.jp/</a>
+  </div>
+</div>
+
+<%= render partial: "components/mailer/launcher_guide", locals: {locale: "en", url: "https://sail.helte.jp/"} %>

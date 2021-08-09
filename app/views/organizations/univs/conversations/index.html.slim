@@ -1,0 +1,15 @@
+section.py-5
+  .container
+    .mr-5.mb-3.float-right
+      = search_form_for(@q, url: :organizations_univs_conversations) do |f|
+        = f.search_field :student_name_en_cont, class: 'form-control', placeholder: 'Student Name'
+    = render 'table'
+    = paginate @conversations
+
+    .float-right
+      = link_to 'csv', organizations_univs_conversations_path(format: :csv), class: 'btn btn-primary'
+
+javascript:
+  $("#q_student_name_en_cont").change(function(){
+    $('#conversation_search').submit();
+  })

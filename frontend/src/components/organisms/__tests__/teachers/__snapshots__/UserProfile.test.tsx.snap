@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <UserProfile /> 1`] = `
+<div
+  className="sc-frDJqD cNJXYW"
+>
+  <div
+    className="sc-jbKcbu ipOTQr"
+  >
+    <div
+      className="sc-EHOje fbzZrP"
+    >
+      <img
+        className="sc-gzVnrw fVmgVV"
+        height="200px"
+        src="/assets/img/common/user.png"
+        srcSet=""
+        width="200px"
+      />
+      <img
+        className="sc-bZQynM fOENpQ"
+        src="/assets/img/common/flags/.png"
+        width={66.66666666666667}
+      />
+    </div>
+    <div
+      className="sc-dNLxif eRXkoG"
+    >
+      <div
+        className="sc-kvZOFW ivbOlf"
+      >
+        
+      </div>
+      <div
+        className="sc-uJMKN diPGow"
+      >
+        この方と
+        0
+        回会話しています
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-hmzhuo kjACse"
+  >
+    
+  </div>
+  <div
+    className="sc-TOsTZ jRZkxO"
+  >
+    <div
+      className="sc-kgAjT jctAkV"
+    >
+      <div
+        className="sc-cJSrbW ftcugI"
+      >
+        性別
+      </div>
+      <div
+        className="sc-ksYbfQ jHwjmi"
+      >
+        男性
+      </div>
+    </div>
+    <div
+      className="sc-kgAjT jctAkV"
+    >
+      <div
+        className="sc-cJSrbW ftcugI"
+      >
+        国籍
+      </div>
+      <div
+        className="sc-ksYbfQ jHwjmi"
+      >
+        
+      </div>
+    </div>
+    <div
+      className="sc-kgAjT jctAkV"
+    >
+      <div
+        className="sc-cJSrbW ftcugI"
+      >
+        興味
+      </div>
+      <div
+        className="sc-ksYbfQ jHwjmi"
+      >
+        
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gGBfsJ biFSbL"
+  >
+    <div
+      className="sc-cMljjf cYpcTH"
+    >
+      <div
+        className="sc-jAaTju hnvSuy"
+      >
+        日本語レベル
+      </div>
+      <div>
+        0
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+= form_tag(org_conversation_before_create_path(@role_type), class: "new col-4 offset-4", method: "get") do
+  h1.title
+    span = I18n.t("organization.conversations.new.title", start_at: @start_at.strftime(I18n.t("organization.formats.datetime.long")), timezone: Time.zone.name)
+
+  h2.title = I18n.t("organization.conversations.new.title2")
+  p = I18n.t("organization.conversations.new.message")
+  .row
+    .form-group.col-12
+      label[for="input-teacher-name"] = @start_at.strftime(I18n.t("organization.formats.datetime.long"))
+      input[type="hidden" name="start_at" value="#{@start_at.to_s}"]
+  .row
+    .form-group.col-12
+      label[for="select-device"] = I18n.t("organization.conversations.new.range.title")
+      select#select-device.custom-select[name="end_at" required]
+        - (1..24).each do |halves|
+          option[value="#{(@start_at + (halves * 30).minutes - (halves > 0 ? 5 : 0).minutes).to_s}"] = (@start_at + (halves * 30).minutes - (halves > 0 ? 5 : 0).minutes).strftime(I18n.t("organization.formats.time.middle"))
+
+  input[type="hidden" name="user_id" value="#{@user_id}"]
+  input[type="hidden" name="dimension_id" value="#{@current_dimension.id}"]
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='#{org_conversations_path(@role_type)}'; return false;"] = I18n.t("organization.back_button")
+    button.btn.btn-primary[type="submit"] = I18n.t("organization.conversations.new.button")

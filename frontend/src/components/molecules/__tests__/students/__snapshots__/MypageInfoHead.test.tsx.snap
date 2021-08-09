@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <MypageInfoHead /> 1`] = `
+<div
+  className="sc-gqjmRU dcFyIt"
+>
+  <img
+    className="sc-VigVT gEiuiB"
+    data-disabled={true}
+    onClick={[Function]}
+    src="/assets/img/common/left-arrow.png"
+  />
+  <img
+    className="sc-jTzLTM jwOHkJ"
+    onClick={[Function]}
+    src="/assets/img/common/right-arrow.png"
+  />
+</div>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TrialRemainingConvos /> 1`] = `
+<div
+  className="sc-htoDjs jABLAD"
+>
+  <div
+    className="sc-gzVnrw gGucts"
+  >
+    <div
+      className="sc-EHOje emHEG"
+    >
+      You have undefined conversation(s) left in your trial.
+    </div>
+  </div>
+  <div
+    className="sc-dnqmqq zgNjG"
+  >
+    <button
+      className="sc-bdVaJa gKXLMt"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={244}
+    >
+      Upgrade
+    </button>
+  </div>
+</div>
+`;

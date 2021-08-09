@@ -1,0 +1,31 @@
+@import "active_admin/mixins";
+@import "active_admin/base";
+
+img#site_title_image {
+  height: 30px;
+}
+
+#header {
+  background-image: linear-gradient(0deg,#138EFD,#138EFD);
+
+  a, a:link {
+    color: #fff;
+  }
+
+  ul.tabs > li.current > a {
+    background: #2eb1ff;
+  }
+  ul.tabs > li.has_nested.current > a {
+    background: #2eb1ff url(/assets/active_admin/nested_menu_arrow-7c43b8e0a5f8823875f49a093c9d7a6b374f885b6f9cc248ae9cd7e6e9b29034.gif) no-repeat calc(100% - 7px) 50%;
+  }
+  ul.tabs > li:hover > a {
+    background: #2eb1ff;
+  }
+  ul.tabs > li.has_nested:hover > a {
+    border-bottom: 5px solid #2eb1ff;
+    background: #2eb1ff url(/assets/active_admin/nested_menu_arrow-7c43b8e0a5f8823875f49a093c9d7a6b374f885b6f9cc248ae9cd7e6e9b29034.gif) no-repeat calc(100% - 7px) 50%;
+  }
+  ul.tabs > li ul {
+    background: #2eb1ff;
+  }
+}

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Modal /> 1`] = `
+<div
+  className="sc-TOsTZ kZgmYL"
+  step={0}
+>
+  <div
+    className="sc-kEYyzF gXbSvd"
+  >
+    <div
+      className="sc-jKJlTe jrLVdZ"
+    >
+      <h2
+        className="sc-eNQAEJ fSqyfS"
+      >
+        WELL DONE!
+      </h2>
+      <h3
+        className="sc-hMqMXs bsLcHf"
+      >
+        Please rate the conversation.
+You can also report if there is any issue with your conversation partner.
+      </h3>
+    </div>
+  </div>
+  <div
+    className="sc-kkGfuU dExqSJ"
+  >
+    <button
+      className="sc-bdVaJa dnfDUg"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="white"
+      width={360}
+    >
+      Continue
+    </button>
+    <p
+      className="sc-hzDkRC jLozZi"
+      type="white"
+    >
+      <a
+        href="/students/mypage"
+        onClick={[Function]}
+      >
+        Rate later
+      </a>
+    </p>
+  </div>
+</div>
+`;

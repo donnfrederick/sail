@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <SigninHeader /> 1`] = `
+<div
+  className="sc-bdVaJa dEAMeF"
+>
+  <div
+    className="sc-bwzfXH irkmEY"
+  >
+    日本の方
+  </div>
+  <a
+    className="sc-htpNat kIlden"
+    href="/"
+    onClick={[Function]}
+  />
+</div>
+`;

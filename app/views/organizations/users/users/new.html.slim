@@ -1,0 +1,37 @@
+= form_tag("/organizations/#{@role_type}/users/create", class: "new col-4 offset-4", method: "post") do
+  h1.title 新しいシニアの追加
+  p 新しくシニアを追加します。下記のフォームを記入して「追加する」を押してください。
+  .row
+    .form-group.col-12
+      label[for="input-teacher-name"] お名前
+      input#input-teacher-name.form-control[type="text" name="name_ja" placeholder="お名前" required]
+    .form-group.col-12
+      label[for="input-teacher-name-en"] Name in alphabet
+      input#input-teacher-name-en.form-control[type="text" name="name_en" placeholder="Your name" required]
+  .row
+    .form-group.col-12
+      .btn-group[data-toggle="buttons" role="group"]
+        label 性別
+        label.btn.btn-default.btn-on-3.btn-sm.active
+          input[type="radio" value="1" name="sex" checked="checked"] 男性
+        label.btn.btn-default.btn-off-3.btn-sm
+          input[type="radio" value="2" name="sex"] 女性
+  .row
+    .form-group.col-12
+      label[for="select-device"] 登録先タブレット
+      select#select-device.custom-select[name="organization_device_id" required]
+        - @available_devices.each do |device|
+          option[value="#{device.id}"] = device.cognitive_name
+  .row
+    .form-group.col-12
+      label[for="select-section"] 登録先施設
+      select#select-section.custom-select[name="section_id"]
+        - @sections.each do |section|
+          - if @current_section.present? && section.id == @current_section.id
+            option[value="#{section.id}" selected="selected"] = section.name
+          - else
+            option[value="#{section.id}"] = section.name
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='/organizations/#{@role_type}/users/list'; return false;"] 戻る
+    button.btn.btn-primary[type="submit"] 追加する

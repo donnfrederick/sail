@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ChooseDate /> 1`] = `
+<div
+  className="sc-bdVaJa iCUqyZ"
+>
+  <h2
+    className="sc-bwzfXH igvIKo"
+  >
+    Select the date
+  </h2>
+</div>
+`;

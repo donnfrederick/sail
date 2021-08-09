@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <FavoritesIndex /> 1`] = `
+<div
+  className="sc-iQKALj esLfWN"
+>
+  <header
+    className="sc-kPVwWT dnRpvI"
+  >
+    <div
+      className="sc-kfGgVZ NuzMZ"
+    >
+      Profile
+    </div>
+    <div
+      className="sc-esjQYD bttRCn"
+      onClick={[Function]}
+    />
+  </header>
+</div>
+`;

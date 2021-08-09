@@ -1,0 +1,2 @@
+class GradePlatinum < Grade
+end

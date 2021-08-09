@@ -1,0 +1,55 @@
+table.mt-3.table.table-hover.text-center
+  thead
+    tr
+      th Sections
+      th Name
+      th Convs(Cancels)
+      th Start
+      th End
+      th#seats="#{available_seats}/#{@current_staff.organization.name_kana.to_i} Seats"
+      th Operation
+      th Pdf
+  - @students.each do |student|
+    - issue = student.issues.find_by(type: Issue::TYPE_ORGANIZATION_SECTION)
+    tbody
+      tr
+        td=student.organization_sections.first.name_en
+        td=student.name
+        td="#{student.conversations.finished.where(start_at: Time.now.all_month).size}(#{CancelledConversation.where(reason: 'Student').where(student_id: student.id).where(start_at: Time.now.all_month).size})"
+        td=issue.try(:created_at).try(:strftime, '%Y/%m/%d')
+        td=issue.try(:expired_at).try(:strftime, '%Y/%m/%d')
+        td=check_box_tag :enabled, issue.try(:id), checked = (issue.try(:conversations) == -1), id: "enabled_#{issue.try(:id)}"
+        td=link_to 'detail', organizations_univs_user_path(student), class: 'btn'
+        td=check_box_tag 'student[id][]', student.id, checked=true
+
+      javascript:
+        function seat_negative_check(){
+          if($("#seats").text().match(/-/)){
+            var message = "no available seats. check out seats"
+            let html = '<div class="alert alert-danger alert-dismissible fade show">No available seats. Remove check box.</div>'
+            $("#flash").html(html).hide().fadeIn(200)
+          }else{
+            $(".alert-danger").remove();
+          }};
+
+        $("#enabled_#{issue.try(:id)}").change(function(){
+          let $issue = $(this).val();
+          $.ajax({
+            type: 'GET',
+            url: "/organizations/api/v1/issues",
+            data: { id: $issue },
+            dataType: 'json'
+            })
+          .done(function (seats) {
+            $("#seats").text(seats.lefts + " Seats")
+            if(seats.over){
+              let html = '<div class="alert alert-warning alert-dismissible fade show">No available seats. Please purchase more<button class="close" data-dismiss="alert"> ×</button></div>'
+              $("#enabled_#{issue.try(:id)}").prop("checked", false);
+              $("#flash").html(html).hide().fadeIn(200)
+            }
+            seat_negative_check();
+          })
+          .fail(function (){
+          });
+        })
+        $("#seats").ready(seat_negative_check());

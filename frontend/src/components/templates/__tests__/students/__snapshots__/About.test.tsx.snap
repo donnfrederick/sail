@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StudentsAbout /> 1`] = `
+<div
+  className="sc-kGXeez jiCLde"
+>
+  <div>
+    <h2
+      className="sc-EHOje zkWQt"
+    >
+      Company
+    </h2>
+    <p
+      className="sc-bZQynM gkFmQT"
+    >
+      Helte co., ltd
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-EHOje zkWQt"
+    >
+      Website
+    </h2>
+    <p
+      className="sc-bZQynM gkFmQT"
+    >
+      https://www.helte.jp/
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-EHOje zkWQt"
+    >
+      Headquarters
+    </h2>
+    <p
+      className="sc-bZQynM gkFmQT"
+    >
+      Daiichi Suidoshitsu Building 3F Nob+ 2-28 Azumakamicho, Kashiwa, Chiba Prefecture 277-0011
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-EHOje zkWQt"
+    >
+      Contact
+    </h2>
+    <p
+      className="sc-bZQynM gkFmQT"
+    >
+      support@helte-corp.com
+    </p>
+  </div>
+  <div>
+    <h2
+      className="sc-EHOje zkWQt"
+    >
+      Service
+    </h2>
+    <p
+      className="sc-bZQynM gkFmQT"
+    >
+      Online video chat conversation for education and welfare
+    </p>
+  </div>
+  <header
+    className="sc-jTzLTM gniuBU"
+  >
+    <div
+      className="sc-fjdhpX elOMpg"
+    >
+      About
+    </div>
+    <div
+      className="sc-jzJRlG YWUlh"
+      onClick={[Function]}
+    />
+  </header>
+</div>
+`;

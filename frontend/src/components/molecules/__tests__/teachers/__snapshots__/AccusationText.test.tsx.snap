@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <AccusationText /> 1`] = `
+<div
+  className="sc-htpNat hIudTf"
+>
+  <span
+    className="sc-bxivhb eSkIZl"
+    onClick={[Function]}
+  >
+    不適切な行為があった場合はこちら
+  </span>
+  <div
+    className="sc-bdVaJa khrEoP"
+    data-open={true}
+    onClick={[Function]}
+  >
+    <div
+      className="sc-bwzfXH gtdHWW"
+      onClick={[Function]}
+    >
+      ブロックする
+    </div>
+    <div
+      className="sc-bwzfXH gtdHWW"
+      onClick={[Function]}
+    >
+      通報する
+    </div>
+  </div>
+</div>
+`;

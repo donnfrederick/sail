@@ -1,0 +1,28 @@
+.col-4.offset-4
+  h1.title
+    - if @role_type == "univs"
+      - if !@ambush && @conversation.teacher.present?
+        span Are you sure to cancel the conversation with
+        span.teacher.name = @conversation.teacher.name
+        span ?
+      - else
+        span Are you sure to cancel the available time since
+        span.start_at = @conversation.start_at.strftime(I18n.t("organization.formats.datetime.long"))
+        span ?
+    - else
+      - if !@ambush && @conversation.student.present?
+        span.student.name = @conversation.student.name
+        span との会話をキャンセルしますがよろしいですか？
+      - else
+        span.start_at = @conversation.start_at.strftime(I18n.t("organization.formats.datetime.long"))
+        span からの予定をキャンセルしますがよろしいですか？
+
+  - unless (@role_type == "univs" && !@ambush && @conversation.teacher.present?) || (@role_type == "nhs" && @conversation.teacher.present?)
+    h2.time
+      span.start_at = @conversation.start_at.strftime(I18n.t("organization.formats.datetime.long"))
+      span 〜
+      span.end_at = @conversation.end_at.strftime(I18n.t("organization.formats.time.middle"))
+
+  .text-center.footer-buttons
+    a.btn.btn-secondary[role="button" href="#{org_conversations_path(@role_type)}"] = I18n.t("organization.back_button")
+    a.btn.btn-danger[role="button" href="#{calendar_url_destroy_by_ids(@role_type, @conversation.id, @user.id, @dimension, @ambush)}"] = I18n.t("organization.conversations.delete_button")

@@ -1,0 +1,6 @@
+.col-4.offset-4
+
+  = render partial: "components/organizations/notifications/notification", locals: { notification: @notification, level: 1 }
+
+  .text-center.footer-buttons
+    a.btn.btn-secondary[role="button" href="#{org_path(@role_type)}"] = I18n.t("organization.back_button")

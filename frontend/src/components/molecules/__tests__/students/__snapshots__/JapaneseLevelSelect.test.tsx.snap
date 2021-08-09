@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <JapaneseLevelSelect /> 1`] = `
+<div
+  className="sc-ifAKCX hlZnTI"
+>
+  <div
+    className="sc-bdVaJa hckTEI"
+  >
+    JLPT
+  </div>
+  <select
+    className="sc-bwzfXH hIkiXe"
+    defaultValue="1"
+    onChange={[Function]}
+    required={true}
+  >
+    <option
+      className="sc-htpNat irkcXP"
+      disabled={true}
+      value=""
+    >
+      Select Level
+    </option>
+    <option
+      value={-10}
+    >
+      I have never taken the JLPT
+    </option>
+    <option
+      value={-1}
+    >
+      I have never passed the JLPT
+    </option>
+    <option
+      value={5}
+    >
+      N5
+    </option>
+    <option
+      value={4}
+    >
+      N4
+    </option>
+    <option
+      value={3}
+    >
+      N3
+    </option>
+    <option
+      value={2}
+    >
+      N2
+    </option>
+    <option
+      value={1}
+    >
+      N1
+    </option>
+  </select>
+  <div
+    className="sc-bxivhb jsAXDA"
+  />
+</div>
+`;

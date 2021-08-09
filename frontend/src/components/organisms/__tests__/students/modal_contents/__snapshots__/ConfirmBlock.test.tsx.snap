@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConfirmBlock /> 1`] = `
+<div
+  className="sc-fjdhpX bpuzgu"
+>
+  <div
+    className="sc-iwsKbI jLHIKR"
+  >
+    <div
+      className="sc-htoDjs dFIQgt"
+    >
+      Block this user?
+    </div>
+  </div>
+  <div
+    className="sc-EHOje fbzZrP"
+  >
+    <img
+      className="sc-gzVnrw QJFQI"
+      height="200px"
+      src=""
+      srcSet=""
+      width="200px"
+    />
+  </div>
+  <div
+    className="sc-cSHVUG hrNadv"
+  >
+    Blocked users will not be able to talk with you. your information will no longer be displayed.
+  </div>
+  <div
+    className="sc-jzJRlG hDgGcw"
+  >
+    <button
+      className="sc-bdVaJa bsJYMs"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      type="red"
+      width={272}
+    >
+      Cancel
+    </button>
+    <button
+      className="sc-bdVaJa cLgmoo"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      type="white"
+      width={272}
+    >
+      OK
+    </button>
+  </div>
+</div>
+`;

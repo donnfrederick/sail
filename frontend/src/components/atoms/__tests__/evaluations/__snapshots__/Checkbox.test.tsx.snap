@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Checkbox /> 1`] = `
+<div
+  className="sc-bdVaJa euAaOh"
+  onClick={[Function]}
+>
+  <div
+    className="sc-bwzfXH kzjiuI"
+    data-active={true}
+  >
+    <img
+      className="sc-htpNat ldDEDY"
+      data-active={true}
+      src="/assets/img/common/evaluation/check@2x.png"
+    />
+  </div>
+  <span
+    className="sc-bxivhb jYwlOI"
+  >
+    映像がたまに切れてた
+  </span>
+</div>
+`;

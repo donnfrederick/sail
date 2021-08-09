@@ -1,0 +1,97 @@
+@import "bootstrap-colors";
+
+$absoluteVerticalMargin: 24px;
+
+body.org {
+  h1.title, h2.title, h3.title {
+    span, a, button {
+      @extend .align-middle;
+    }
+    span + .btn, a + .btn,
+    span + a .btn {
+      margin-left: 1vw;
+    }
+  }
+
+  h1.title span.h3 {
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+  }
+  h1.title i + span.h3 {
+    margin-left: 0.8vw;
+  }
+
+  .btn + .btn {
+    margin-left: 1vw;
+  }
+
+  form.signin, form.recovery {
+    margin-top: 20vh;
+  }
+
+  .user.profile.show {
+    text-align: center;
+
+    h1.title {
+      margin: 2vh 2vw;
+    }
+
+    ul, li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    h3.title {
+      margin-top: 2vh;
+    }
+    .user-photo {
+      .rounded-circle {
+        width: 10vw;
+        min-width: 128px;
+      }
+    }
+  }
+
+  .organization-section {
+    table td.commands {
+      a.btn {
+        display: block;
+        margin-left: 0;
+      }
+      a.btn + a.btn {
+        margin-top: 0.5vh;
+      }
+    }
+
+    table ul.purposes, table ul.hobbies {
+      li {
+        margin-left: 0;
+        padding-left: 0;
+        word-break: keep-all;
+        word-wrap: unset;
+      }
+    }
+  }
+
+  .staff-photo {
+    margin-bottom: 3vh;
+  }
+
+  .footer-buttons {
+    margin-top: 2vh;
+    margin-bottom: $absoluteVerticalMargin;
+  }
+
+  .margin-1-line {
+    margin-top: 1.0rem;
+  }
+}

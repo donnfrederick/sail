@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PROFILE=${1:-sail}
+
+aws s3 --profile $PROFILE sync ./public/admin_assets s3://sail-production-assets/admin_assets --exact-timestamps --delete

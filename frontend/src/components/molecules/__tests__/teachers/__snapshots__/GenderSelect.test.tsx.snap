@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <GenderSelect /> 1`] = `
+<div
+  className="sc-bwzfXH bFLMJP"
+>
+  <button
+    className="sc-bdVaJa gRCVnm"
+    data-selected={false}
+    fontSize={48}
+    onClick={[Function]}
+    size={240}
+  >
+    男性
+  </button>
+  <button
+    className="sc-bdVaJa gRCVnm"
+    data-selected={false}
+    fontSize={48}
+    onClick={[Function]}
+    size={240}
+  >
+    女性
+  </button>
+</div>
+`;

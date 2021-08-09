@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <FooterButton /> 1`] = `
+<div
+  className="sc-bdVaJa hhYVyr"
+>
+  <div
+    className="sc-bwzfXH jEtEnA"
+  >
+    January 1970
+  </div>
+  <img
+    className="sc-htpNat iZvbbW"
+    data-disabled={true}
+    onClick={[Function]}
+    src="/assets/img/common/left-arrow.png"
+  />
+  <img
+    className="sc-bxivhb ebYeZP"
+    onClick={[Function]}
+    src="/assets/img/common/right-arrow.png"
+  />
+</div>
+`;

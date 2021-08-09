@@ -1,0 +1,13 @@
+.col-4.offset-4
+  h1.title
+    span = I18n.t("organization.conversations.confirm_before_create.the_conversation_at", start_at: @start_at.strftime(I18n.t("organization.formats.datetime.long")), end_at: @end_at.strftime(I18n.t("organization.formats.time.middle")), timezone: Time.zone.name)
+
+  = form_tag(org_conversation_create_path(@role_type), class: "new", method: "get") do
+    input[type="hidden" name="start_at" value="#{@start_at.to_s}"]
+    input[type="hidden" name="end_at" value="#{@end_at.to_s}"]
+    input[type="hidden" name="user_id" value="#{@user_id}"]
+    input[type="hidden" name="dimension_id" value="#{@dimension_id}"]
+
+    .text-center.footer-buttons
+      button.btn.btn-secondary[onclick="location.href='#{org_conversations_path(@role_type)}'; return false;"] = I18n.t("organization.back_button")
+      button.btn.btn-primary[type="submit"] = I18n.t("organization.conversations.confirm_before_create.button")

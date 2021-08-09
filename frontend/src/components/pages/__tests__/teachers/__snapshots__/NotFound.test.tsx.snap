@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TeachersNotFound /> 1`] = `
+<div
+  className="sc-gZMcBi hJucEt"
+>
+  <div
+    className="sc-gqjmRU CKmFy"
+  >
+    ページが見つかりません
+  </div>
+  <img
+    className="sc-VigVT fqTTnY"
+    src="/assets/img/teachers/404@3x.png"
+  />
+  <button
+    className="sc-EHOje fgtSBR"
+    data-active={true}
+    fontSize={40}
+    height={112}
+    width={384}
+  >
+    <a
+      className="sc-dnqmqq iPjOZM"
+      href="/"
+      onClick={[Function]}
+    >
+      戻る
+    </a>
+  </button>
+</div>
+`;

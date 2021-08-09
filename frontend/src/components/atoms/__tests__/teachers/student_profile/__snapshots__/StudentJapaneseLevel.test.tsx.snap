@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StudentJapaneseLevel /> 1`] = `
+<div
+  className="sc-bdVaJa dvVnZO"
+>
+  <div
+    className="sc-bwzfXH bdeuBY"
+  >
+    日本語レベル
+  </div>
+  <div>
+    上手
+  </div>
+</div>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ModalReservedDate /> 1`] = `
+<div
+  className="sc-bdVaJa kMUffF"
+>
+  <div
+    className="sc-bwzfXH kTBMH"
+  >
+    date
+  </div>
+  <div
+    className="sc-htpNat beoeME"
+  >
+    time
+  </div>
+</div>
+`;

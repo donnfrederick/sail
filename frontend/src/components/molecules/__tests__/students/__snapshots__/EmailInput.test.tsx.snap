@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <FooterButton /> 1`] = `
+<div
+  className="sc-bxivhb ihTexl"
+>
+  <div
+    className="sc-htpNat dAEpvs"
+  >
+    Email
+  </div>
+  <input
+    className="sc-bwzfXH fKJexp"
+    data-error={false}
+    onInput={[Function]}
+    placeholder="Email"
+    type="email"
+  />
+  <div
+    className="sc-bdVaJa fqKIaj"
+  />
+</div>
+`;

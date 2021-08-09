@@ -1,0 +1,16 @@
+= form_for(@current_staff, url: org_preference_email_update_path, html: { class: "read col-4 offset-4", method: "post" }) do
+  h1.title = I18n.t("organization.preferences.email.edit.title")
+  p = I18n.t("organization.preferences.email.edit.message")
+
+  - if @error_message.present?
+    .alert.alert-danger = @error_message.html_safe
+  .row
+    .form-group.col-12
+      label[for="email"] = I18n.t("organization.preferences.email.edit.email")
+      input#email.form-control[type="text" name="email" placeholder="Email" value="#{@current_staff.email}" required]
+
+  input[name="_method" type="hidden" value="PUT"]
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='#{org_preference_email_path}'; return false;"] = I18n.t("organization.back_button")
+    button.btn.btn-success[type="submit"] = I18n.t("organization.preferences.email.edit.button")

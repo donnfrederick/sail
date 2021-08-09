@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Topics /> 1`] = `
+<div
+  className="sc-gipzik ghDpqL"
+>
+  <div
+    className="sc-jlyJG lDFWQ"
+    onClick={[Function]}
+  >
+    Talk Free
+  </div>
+  <div
+    className="sc-jlyJG lDFWQ"
+    onClick={[Function]}
+  >
+    Traveling
+  </div>
+  <div
+    className="sc-jlyJG lDFWQ"
+    onClick={[Function]}
+  >
+    Reading
+  </div>
+  <div
+    className="sc-jlyJG lDFWQ"
+    onClick={[Function]}
+  >
+    Art
+  </div>
+</div>
+`;

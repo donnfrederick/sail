@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <NotificationsDetail /> 1`] = `
+Array [
+  <div
+    className="sc-jnlKLf kYXOAm"
+  >
+    <time
+      className="sc-fYxtnH cUfsik"
+    >
+      Invalid date
+    </time>
+    <h2
+      className="sc-tilXH fHIGPW"
+    >
+      
+    </h2>
+    <p
+      className="sc-hEsumM jwWpxI"
+    >
+      
+    </p>
+  </div>,
+  <div
+    className="sc-cIShpX hfNfWB"
+  />,
+  <div
+    className="sc-ktHwxA kJpZCy"
+  >
+    <button
+      className="sc-EHOje bFteLH"
+      data-active={true}
+      fontSize={36}
+      height={112}
+      width={300}
+    >
+      <a
+        className="sc-dnqmqq iPjOZM"
+        href="/teachers/notifications"
+        onClick={[Function]}
+      >
+        戻る
+      </a>
+    </button>
+  </div>,
+]
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <NetworkStatus /> 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa eMqUUI"
+  >
+    回線状況 : 良
+  </div>
+  <div
+    className="sc-bwzfXH dvVSuz"
+  >
+    回線状況 : 普通
+  </div>
+  <div
+    className="sc-htpNat gjbybm"
+  >
+    回線状況 : 悪
+  </div>
+</div>
+`;

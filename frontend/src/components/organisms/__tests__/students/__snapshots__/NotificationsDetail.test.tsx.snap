@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <NotificationsDetail /> 1`] = `
+<div
+  className="sc-gGBfsJ kmQxcA"
+>
+  <div
+    className="sc-jnlKLf iVXAMz"
+  >
+    <time
+      className="sc-fYxtnH kJamYY"
+    >
+      Invalid date
+    </time>
+    <h2
+      className="sc-tilXH kAzzxe"
+    >
+      
+    </h2>
+    <p
+      className="sc-hEsumM izZQFJ"
+    >
+      
+    </p>
+  </div>
+  <div
+    className="sc-cIShpX ePKtiJ"
+  />
+  <div
+    className="sc-ktHwxA kJpZCy"
+  />
+</div>
+`;

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <GenderSelect /> 1`] = `
+<div
+  className="sc-ifAKCX hlZnTI"
+>
+  <div
+    className="sc-ifAKCX hlZnTI"
+  >
+    <div
+      className="sc-bdVaJa hckTEI"
+    >
+      Gender (Optional)
+    </div>
+    <div
+      className="sc-bxivhb jsAXDA"
+    />
+    <select
+      className="sc-bwzfXH hIkiXe"
+      defaultValue="1"
+      onChange={[Function]}
+      required={true}
+    >
+      <option
+        className="sc-htpNat irkcXP"
+        disabled={true}
+        value=""
+      >
+        Select Gender
+      </option>
+      <option
+        value={1}
+      >
+        Male
+      </option>
+      <option
+        value={2}
+      >
+        Female
+      </option>
+      <option
+        value={9}
+      >
+        Other
+      </option>
+      <option
+        value={3}
+      >
+        Prefer Not to Say
+      </option>
+    </select>
+  </div>
+</div>
+`;

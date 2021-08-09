@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <BiographyContent /> 1`] = `
+<div
+  className="sc-bdVaJa enCgeE"
+>
+  日本語を教えたい
+</div>
+`;

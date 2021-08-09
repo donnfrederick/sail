@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <FooterCalendar /> 1`] = `
+<a
+  className="sc-bdVaJa blJaPg"
+  href="/link"
+  icon="icon"
+  onClick={[Function]}
+/>
+`;

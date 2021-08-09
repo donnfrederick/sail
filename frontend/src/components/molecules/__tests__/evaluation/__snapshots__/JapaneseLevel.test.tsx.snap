@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <JapaneseLevel /> 1`] = `
+Array [
+  <div
+    className="sc-bZQynM hnhkng"
+  >
+    <div
+      className="sc-VigVT bKQDaM"
+    >
+      <div
+        className="sc-fjdhpX bUSaVL"
+      />
+      <div
+        className="sc-jTzLTM fBajDi"
+        data-completed={true}
+        data-current={false}
+      >
+        1
+      </div>
+      <div
+        className="sc-jTzLTM fBajDi"
+        data-completed={true}
+        data-current={true}
+      >
+        2
+      </div>
+      <div
+        className="sc-jTzLTM fBajDi"
+        data-completed={false}
+        data-current={false}
+      >
+        3
+      </div>
+      <div
+        className="sc-jTzLTM fBajDi"
+        data-completed={false}
+        data-current={false}
+      >
+        4
+      </div>
+    </div>
+    <div
+      className="sc-bxivhb bnphqz"
+    >
+      <h2
+        className="sc-ifAKCX bLrNrv"
+      >
+        この方の日本語レベルはどうでしたか？
+      </h2>
+      <h3
+        className="sc-EHOje cLIsgX"
+      >
+        どれか１つだけ選んでください。
+      </h3>
+    </div>
+  </div>,
+  <div
+    className="sc-htoDjs fsyInk"
+  >
+    <button
+      className="sc-bdVaJa dATEOj"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH frmFcw"
+        data-active={false}
+      />
+      <span
+        className="sc-htpNat jjyYkU"
+      >
+        スムーズに会話ができた
+      </span>
+    </button>
+    <button
+      className="sc-bdVaJa dATEOj"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH frmFcw"
+        data-active={false}
+      />
+      <span
+        className="sc-htpNat jjyYkU"
+      >
+        たまに単語が出ないでつまづいた
+      </span>
+    </button>
+    <button
+      className="sc-bdVaJa dATEOj"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH frmFcw"
+        data-active={false}
+      />
+      <span
+        className="sc-htpNat jjyYkU"
+      >
+        続くけどしどろもどろ
+      </span>
+    </button>
+    <button
+      className="sc-bdVaJa dATEOj"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH frmFcw"
+        data-active={true}
+      />
+      <span
+        className="sc-htpNat jjyYkU"
+      >
+        あまり続かない
+      </span>
+    </button>
+    <button
+      className="sc-bdVaJa dATEOj"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH frmFcw"
+        data-active={false}
+      />
+      <span
+        className="sc-htpNat jjyYkU"
+      >
+        まったく会話にならない
+      </span>
+    </button>
+  </div>,
+  <div
+    className="sc-gzVnrw eaRuPB"
+  >
+    <button
+      className="sc-jzJRlG eRWgux"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={360}
+    >
+      次へ
+    </button>
+  </div>,
+]
+`;

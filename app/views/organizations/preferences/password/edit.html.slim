@@ -1,0 +1,18 @@
+= form_for(@current_staff, url: org_preference_password_update_path, html: { class: "read col-4 offset-4", method: "post" }) do
+  h1.title = I18n.t("organization.preferences.password.edit.title")
+  p = I18n.t("organization.preferences.password.edit.message")
+
+  - if @error_message.present?
+    .alert.alert-danger = @error_message.html_safe
+  .row
+    .form-group.col-12
+      label[for="current-password"] = I18n.t("organization.preferences.password.edit.current_password")
+      input#current-password.form-control[type="password" name="current_password" placeholder="#{I18n.t("organization.preferences.password.edit.current_password_placeholder")}" value="" required]
+    .form-group.col-12
+      label[for="password"] = I18n.t("organization.preferences.password.edit.password")
+      input#password.form-control[type="password" name="password" placeholder="#{I18n.t("organization.preferences.password.edit.password_placeholder")}" value="" required]
+
+  input[name="_method" type="hidden" value="PUT"]
+
+  .text-center.footer-buttons
+    button.btn.btn-success[type="submit"] = I18n.t("organization.preferences.password.edit.button")

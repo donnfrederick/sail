@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <AskAccusation /> 1`] = `
+<div
+  className="sc-kAzzGY gEvfts"
+>
+  <div
+    className="sc-VigVT kaYUeB"
+  >
+    <div
+      className="sc-gZMcBi fxOrEW"
+    >
+      通報理由を教えてください
+    </div>
+  </div>
+  <div
+    className="sc-chPdSV bInSLw"
+  />
+  <div
+    className="sc-dxgOiQ joELKR"
+  >
+    <button
+      className="sc-EHOje dyvxUy"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={272}
+    >
+      <div
+        className="sc-iwsKbI lgKvmV"
+      >
+        閉じる
+      </div>
+    </button>
+    <button
+      className="sc-bZQynM iiToMd"
+      data-active={false}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={272}
+    >
+      <div
+        className="sc-iwsKbI lgKvmV"
+      >
+        通報
+      </div>
+    </button>
+  </div>
+</div>
+`;

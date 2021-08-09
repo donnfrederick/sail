@@ -1,0 +1,29 @@
+= form_tag(org_notification_create_path(@role_type), class: "new col-4 offset-4", method: "post") do
+  h1.title Add a new notification
+  p You can post a new notification. Fill the below form and press "Post" button. To publish the posted notification, you need to press "Publish" button at the list page of the notifications.
+  .row
+    .form-group.col-12
+      label[for="input-title-ja"] Subject (Japanese)
+      input#input-title.form-control[type="text" name="title_ja" placeholder="Subject" required]
+    .form-group.col-12
+      label[for="input-title-en"] Subject (English)
+      input#input-title-en.form-control[type="text" name="title_en" placeholder="Subject" required]
+    .form-group.col-12
+      label[for="input-body-ja"] Text (Japanese)
+      textarea#input-body.form-control[name="body_ja" placeholder="お知らせの本文を書いてください。" required]
+    .form-group.col-12
+      label[for="input-body-en"] Text (English)
+      textarea#input-body.form-control[name="body_en" placeholder="Write down the description here" required]
+  .row
+    .form-group.col-12
+      label[for="select-section"] Class room
+      select#select-section.custom-select[name="target_section_id"]
+        - @sections.each do |section|
+          - if @current_section.present? && section.id == @current_section.id
+            option[value="#{section.id}" selected="selected"] = section.name
+          - else
+            option[value="#{section.id}"] = section.name
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='#{org_notification_list_path(@role_type)}'; return false;"] = I18n.t("organization.back_button")
+    button.btn.btn-primary[type="submit"] Post

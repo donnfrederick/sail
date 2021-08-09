@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConfirmUnblock /> 1`] = `
+<div
+  className="sc-jzJRlG hqxzyi"
+>
+  <div
+    className="sc-VigVT kaYUeB"
+  >
+    <div
+      className="sc-gZMcBi fxOrEW"
+    >
+      ブロックを解除しますか？
+    </div>
+  </div>
+  <div
+    className="sc-cSHVUG hWsTPk"
+  >
+    <button
+      className="sc-EHOje dyvxUy"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={272}
+    >
+      <div
+        className="sc-iwsKbI lgKvmV"
+      >
+        いいえ
+      </div>
+    </button>
+    <button
+      className="sc-bZQynM iiToMd"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={272}
+    >
+      <div
+        className="sc-iwsKbI lgKvmV"
+      >
+        はい
+      </div>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sail</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css" />
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+
+    <meta name="sail-role-type" content="<%= @role_type %>">
+  </head>
+
+  <body class="org">
+
+    <% if @current_staff.present? %>
+      <%= render partial: "components/organizations/header" %>
+    <% end %>
+
+    <div class="">
+      <main role="main" class="col-md-12">
+        <%= yield %>
+      </main>
+    </div>
+  </body>
+</html>

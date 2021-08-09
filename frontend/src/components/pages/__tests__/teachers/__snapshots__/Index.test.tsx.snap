@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TeachersIndex /> 1`] = `
+<div
+  className="sc-cSHVUG dguCei"
+>
+  <img
+    className="sc-kAzzGY iMAdOe"
+    src="/assets/img/common/teachers@3x.png"
+  />
+  <button
+    className="sc-bZQynM fhvRbr"
+    data-active={true}
+    fontSize={40}
+    height={112}
+    width={528}
+  >
+    <a
+      className="sc-dnqmqq iPjOZM"
+      href="/teachers/signup"
+      onClick={[Function]}
+    >
+      新規会員登録
+    </a>
+  </button>
+  <button
+    className="sc-EHOje iQMWCL"
+    data-active={true}
+    fontSize={30}
+    height={112}
+    width={528}
+  >
+    <a
+      className="sc-dnqmqq iPjOZM"
+      href="/teachers/signin"
+      onClick={[Function]}
+    >
+      会員の方はこちら
+ログイン
+    </a>
+  </button>
+  <a
+    className="sc-VigVT eJsBDf"
+    href="/teachers/organizations/signin"
+    onClick={[Function]}
+  >
+    施設担当者様はこちら
+  </a>
+  <small
+    className="sc-gZMcBi csKtRC"
+  >
+    新規会員登録により、私はSailの
+    <a
+      className="sc-gqjmRU gqTXHX"
+      href="/teachers/terms"
+      onClick={[Function]}
+    >
+      利用規約
+    </a>
+    、
+    <a
+      className="sc-gqjmRU gqTXHX"
+      href="/teachers/privacy"
+      onClick={[Function]}
+    >
+      プライバシーポリシー
+    </a>
+    に同意します。
+  </small>
+  <div
+    className="sc-jTzLTM dFUgaJ"
+  >
+    <div
+      className="sc-fjdhpX ikBHES"
+    >
+      日本の人
+    </div>
+    <a
+      className="sc-jzJRlG ekLfjx"
+      href="/"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

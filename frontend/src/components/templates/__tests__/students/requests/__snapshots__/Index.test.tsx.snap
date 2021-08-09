@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ProfileIndex /> 1`] = `
+<div
+  className="sc-dVhcbM ceBaPO"
+>
+  <header
+    className="sc-fjdhpX gQoSWG"
+  >
+    <div
+      className="sc-jzJRlG gGXDMs"
+    >
+      Conversation Requests
+    </div>
+    <div
+      className="sc-cSHVUG eZtxOt"
+      onClick={[Function]}
+    />
+  </header>
+  <div
+    className="sc-gzVnrw bbOeQD"
+  >
+    <a
+      className="sc-EHOje gEifQf"
+      href="/students/mypage"
+      icon="/assets/img/students/footer/home@3x.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-EHOje bIkBAA"
+      href="/students/notifications"
+      icon="/assets/img/students/footer/notification@3x.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-EHOje exXkhS"
+      href="/students/mypage"
+      icon="/assets/img/students/footer/cart.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-bZQynM iAxnUN"
+      href="/students/reservations/new"
+      icon="/assets/img/students/footer/calendar@3x.png"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

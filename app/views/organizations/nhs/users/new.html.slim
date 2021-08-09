@@ -1,0 +1,47 @@
+= form_tag(org_user_new_path(@role_type), class: "new col-4 offset-4", method: "post") do
+  h1.title 新しいシニアの追加
+  p 新しくシニアを追加します。下記のフォームを記入して「追加する」を押してください。
+  - flash.each do |name, msg|
+    .alert.alert-danger = msg.html_safe
+  .row
+    .form-group.col-12
+      label[for="input-teacher-name"] お名前
+      input#input-teacher-name.form-control[type="text" name="name_ja" placeholder="お名前" required]
+  .row
+    .form-group.col-12
+      .btn-group[data-toggle="buttons" role="group"]
+        label 性別
+        label.btn.btn-default.btn-on-3.btn-sm.active
+          input[type="radio" value="1" name="sex" checked="checked"] 男性
+        label.btn.btn-default.btn-off-3.btn-sm
+          input[type="radio" value="2" name="sex"] 女性
+
+  .row
+    .form-group
+      label[for] あなたがよく知っていることや興味があることを3つまで選んでください
+      .form-group.hobbies.multiple[data-name="hobbies"]
+        - @hobbies.each do |hobby|
+          a.btn.btn-outline-primary[data-id="#{hobby.id}"] = hobby.name_ja
+
+  .row
+    .form-group.purposes.multiple[data-upto="#{@purposes.length}" data-name="purposes"]
+      label[for] あなたはこのサービスを通してどんなことをしたいですか？(複数選択可)
+      .form-group
+        - @purposes.each do |purpose|
+          a.btn.btn-outline-primary[data-id="#{purpose.id}"] = purpose.name_ja
+
+  .row
+    .form-group.col-12
+      label[for] 日本語が得意か不得意か学生への希望条件はありますか？
+      .form-group.col-12
+        .btn-group[data-toggle="buttons" role="group"]
+          label.btn.btn-default.btn-on-3.btn-sm.active
+            input[type="radio" value="1" name="desired_condition" selected] 日本語が得意な方がいい
+          label.btn.btn-default.btn-off-3.btn-sm
+            input[type="radio" value="2" name="desired_condition"] 日本語が不得意でも構わない
+
+  input[type="hidden" name="organization_device_id" value="#{@dimension_id}"]
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='#{org_user_list_path(@role_type)}'; return false;"] 戻る
+    button.btn.btn-primary[type="submit"] 追加する

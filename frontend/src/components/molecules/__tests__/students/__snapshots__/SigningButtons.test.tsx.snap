@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <SigningButtons /> 1`] = `
+<div
+  className="sc-htpNat hBYTMC"
+>
+  <button
+    className="sc-bdVaJa fSzpDV"
+    data-active={true}
+    fontSize={32}
+    height={88}
+    type="blue"
+    width={590}
+  >
+    <a
+      className="sc-bwzfXH dYvddp"
+      href="/students/signup"
+      onClick={[Function]}
+    >
+      Create Account
+    </a>
+  </button>
+  <button
+    className="sc-bdVaJa isxZPy"
+    data-active={true}
+    fontSize={32}
+    height={88}
+    type="white"
+    width={590}
+  >
+    <a
+      className="sc-bwzfXH dYvddp"
+      href="/students/signin"
+      onClick={[Function]}
+    >
+      Sign In
+    </a>
+  </button>
+</div>
+`;

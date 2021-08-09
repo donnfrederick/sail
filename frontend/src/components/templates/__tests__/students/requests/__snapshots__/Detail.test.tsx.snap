@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ProfileIndex /> 1`] = `
+<div
+  className="sc-dqBHgY jsezhk"
+>
+  <header
+    className="sc-gqjmRU kcRKOT"
+  >
+    <div
+      className="sc-VigVT pzGHc"
+    >
+      Request Detail
+    </div>
+    <div
+      className="sc-jTzLTM fHTCdL"
+      onClick={[Function]}
+    />
+  </header>
+</div>
+`;

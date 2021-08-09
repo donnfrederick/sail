@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Stars /> 1`] = `
+<div
+  className="sc-bwzfXH lbvitO"
+>
+  <img
+    className="sc-bdVaJa fOqucS"
+    src="/assets/img/common/full-star@3x.png"
+  />
+  <img
+    className="sc-bdVaJa fOqucS"
+    src="/assets/img/common/full-star@3x.png"
+  />
+  <img
+    className="sc-bdVaJa fOqucS"
+    src="/assets/img/common/full-star@3x.png"
+  />
+  <img
+    className="sc-bdVaJa fOqucS"
+    src="/assets/img/common/half-star@3x.png"
+  />
+  <img
+    className="sc-bdVaJa fOqucS"
+    src="/assets/img/common/empty-star@3x.png"
+  />
+</div>
+`;

@@ -1,0 +1,29 @@
+.container
+  form.login.col-4.offset-4[style="margin-top: 20vh"]
+    h2.title.text-center 生徒管理システム
+    .alert.error.alert-danger
+      b エラー:
+      span ユーザーIDまたはパスワードが違います。
+    .col-12
+      label.sr-only[for="inlineFormInputGroup"] User ID
+      .input-group.mb-2
+        .input-group-prepend
+          .input-group-text
+            i.fa.fa-user
+        input.form-control[id="inlineFormInputGroup" type="text" name="username" placeholder="ユーザーID" autofocus]
+
+
+    .col-12
+      label.sr-only[for="inlineFormInputGroup2"] Password
+      .input-group.mb-2
+        .input-group-prepend
+          .input-group-text
+            i.fa.fa-unlock-alt
+        input.form-control[id="inlineFormInputGroup2" type="password" name="password" placeholder="パスワード"]
+
+    .col-12.text-right
+      a パスワードをお忘れですか？
+
+    .text-center
+      button.btn.btn-secondary[type="button" role="button" style="margin-top: 2.5vh; margin-bottom: 2.5.vh; margin-right: 3vw;" onclick="location.href='/organizations/'; return false;"] 戻る
+      input.btn.btn-success[type="submit" role="button" style="margin-top: 2.5vh; margin-bottom: 2.5.vh" value="ログインする"]

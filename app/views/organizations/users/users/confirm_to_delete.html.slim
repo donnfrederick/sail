@@ -1,0 +1,9 @@
+= form_tag(org_user_destroy_path(@role_type, @user.id), class: "read col-4 offset-4", method: "post")
+  h1.title #{@user.name}さんを削除しますか？
+  p 「#{@user.name}」さんのアカウントを削除しようとしています。やり直しはできません。削除してよろしいですか？
+
+  input[name="_method" type="hidden" value="DELETE"]
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='/organizations/#{@role_type}/users/list'; return false;"] 戻る
+    button.btn.btn-danger[type="submit"] 削除する

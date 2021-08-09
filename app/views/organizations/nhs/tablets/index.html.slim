@@ -1,0 +1,19 @@
+
+h1.title タブレット一覧
+
+.organization-section
+  table.table.table-striped
+    tr
+      th.name 名前
+      th.property-management-number 管理番号
+      th.commands 操作
+    - @devices.each do |device|
+      tr
+        td.name
+          a[href="#{tablets_show_path(@role_type, device.id)}"] = device.cognitive_name
+
+        td.property-management-number
+          a[href="#{tablets_show_path(@role_type, device.id)}"] = device.property_management_number
+
+        td.commands
+          a.btn.btn-success.action.edit[role="button" href="#{tablets_edit_path(@role_type, device.id)}"] 名前変更

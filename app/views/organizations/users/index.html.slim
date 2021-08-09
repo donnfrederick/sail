@@ -1,0 +1,43 @@
+.container.py-3
+  / h4.title.pt-5 = I18n.t("organization.notifications.title")
+  / - if @notifications.present?
+  /   table.table.table-striped
+  /     tr
+  /       th.datetime = I18n.t("organization.notifications.index.datetime")
+  /       th.text = I18n.t("organization.notifications.index.title")
+  /     - @notifications.each do | notification |
+  /       tr
+  /         td.datetime
+  /           a[href="#{org_notification_show_path(@role_type, notification.id)}"] = notification.notificated_at.strftime(I18n.t("organization.formats.datetime.long"))
+  /         td.text
+  /           a[href="#{org_notification_show_path(@role_type, notification.id)}"] = notification.title.truncate(90)
+  / - else
+  /   p = I18n.t("organization.notifications.none")
+
+  h4.title.pt-5  = I18n.t("organization.notifications.index.conversations")
+  - if @conversations.present?
+    p = I18n.t("organization.notifications.index.conversations_note")
+    table.table.table-striped
+      tr
+        th = I18n.t("organization.history.list.teacher.title")
+        th = I18n.t("organization.history.list.student.title")
+        th = I18n.t("organization.history.list.datetime.title")
+      - @conversations.each do | conversation |
+        tr
+          td.elder
+            - if conversation.teacher.present?
+              a[href="#{org_conversation_show_path(@role_type, conversation.id, @role_type == "nhs" ? conversation.teacher.id : conversation.student.id)}"]
+                span.user-photo
+                  img.rounded-circle[src="#{small_user_photo(conversation.teacher)}"]
+                span.name = conversation.teacher.name
+          td.student
+            - if conversation.student.present?
+              a[href="#{org_conversation_show_path(@role_type, conversation.id, @role_type == "nhs" ? conversation.teacher.id : conversation.student.id)}"]
+                span.user-photo
+                  img.rounded-circle[src="#{small_user_photo(conversation.student)}"]
+                span.name = conversation.student.name
+          td.date-time
+            a[href="#{org_conversation_show_path(@role_type, conversation.id, @role_type == "nhs" ? conversation.teacher.id : conversation.student.id)}"]
+              datetime = conversation.start_at.strftime(I18n.t("organization.formats.datetime.long"))
+  - else
+    p = I18n.t("organization.conversations.none")

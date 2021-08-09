@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <AskAccusation /> 1`] = `
+<div
+  className="sc-gqjmRU hSHDLZ"
+>
+  <div
+    className="sc-gzVnrw gGucts"
+  >
+    <div
+      className="sc-EHOje emHEG"
+    >
+      Please tell us the reason for reporting
+    </div>
+  </div>
+  <div
+    className="sc-VigVT hJJRdV"
+  />
+  <div
+    className="sc-cSHVUG hWsTPk"
+  >
+    <button
+      className="sc-bdVaJa cLgmoo"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      type="white"
+      width={272}
+    >
+      Cancel
+    </button>
+    <button
+      className="sc-bdVaJa cHddlD"
+      data-active={false}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      type="blue"
+      width={272}
+    >
+      Send
+    </button>
+  </div>
+</div>
+`;

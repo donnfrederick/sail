@@ -1,0 +1,21 @@
+default: &default
+  adapter: mysql2
+  encoding:  utf8mb4
+  charset:   utf8mb4
+  collation: utf8mb4_general_ci
+  pool:     <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host:     <%= ENV['APP_DATABASE_HOST'] || 'db' %>
+  port:     <%= ENV['APP_DATABASE_PORT'] || '3306' %>
+  database: <%= ENV['APP_DATABASE_NAME'] || 'sail' %>
+  username: <%= ENV['APP_DATABASE_USERNAME']  || 'root' %>
+  password: <%= ENV['APP_DATABASE_PASSWORD']  || '' %>
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+  database: sail_test
+
+production:
+  <<: *default

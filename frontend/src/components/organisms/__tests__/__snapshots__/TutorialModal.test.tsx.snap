@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <CompleteTutorial /> 1`] = `
+<div
+  className="sc-kAzzGY hPFNxH"
+>
+  <div
+    className="sc-gZMcBi jzhMFp"
+  >
+    <div
+      className="sc-dnqmqq gdMXWJ"
+    >
+      <div>
+        <div
+          className="sc-gzVnrw iDrGXm"
+        >
+          3回無料で会話ができます。一回目を予約しましょう！
+        </div>
+        <img
+          className="sc-iwsKbI dOSNGv"
+          src="/assets/img/common/tutorial_register/World01.png"
+        />
+        <div
+          className="sc-htoDjs kPBULV"
+        >
+          Sailで25分間の日本旅行へ行こう！日本語で、日本の人に日本のことを聞き、自分の国について話してみましょう。日本のみなさんは、あなたとお話できることを楽しみにしています。
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-jTzLTM fqDjut"
+    >
+      <img
+        className="sc-gqjmRU ikMuvR"
+        onClick={[Function]}
+        src="/assets/img/common/tutorial_register/right_arrow_01.png"
+      />
+    </div>
+    <div
+      className="sc-EHOje dLkJsE"
+    >
+      <div
+        className="sc-bZQynM bUFPfr"
+        data-current={true}
+      />
+      <div
+        className="sc-bZQynM bUFPfr"
+        data-current={false}
+      />
+      <div
+        className="sc-bZQynM bUFPfr"
+        data-current={false}
+      />
+      <div
+        className="sc-bZQynM bUFPfr"
+        data-current={false}
+      />
+    </div>
+  </div>
+  <div
+    className="sc-fjdhpX gBglCA"
+  >
+    <div
+      className="sc-jzJRlG csgOgc"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-cSHVUG jrqQTV"
+      >
+        Next
+      </div>
+    </div>
+  </div>
+</div>
+`;

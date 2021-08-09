@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ReportDetail /> 1`] = `
+Array [
+  <div
+    className="sc-gzVnrw bQleIr"
+  >
+    <div
+      className="sc-ifAKCX ejEYMR"
+    >
+      <h2
+        className="sc-EHOje hkpgLc"
+      >
+        よろしければ詳細を教えてください
+      </h2>
+    </div>
+  </div>,
+  <div
+    className="sc-dnqmqq dZDGCQ"
+  >
+    <textarea
+      className="sc-iwsKbI bopsOG"
+      onChange={[Function]}
+      value=""
+      width={640}
+    />
+    <div
+      className="sc-bdVaJa cXZfnx"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH kzjiuI"
+        data-active={false}
+      >
+        <img
+          className="sc-htpNat ldDEDY"
+          data-active={false}
+          src="/assets/img/common/evaluation/check@2x.png"
+        />
+      </div>
+      <span
+        className="sc-bxivhb jYwlOI"
+      >
+        このユーザーをブロックしますか？
+      </span>
+    </div>
+  </div>,
+  <div
+    className="sc-htoDjs bqFwbt"
+  >
+    <button
+      className="sc-gZMcBi bZxDPH"
+      data-active={false}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={360}
+    >
+      報告内容の確認
+    </button>
+  </div>,
+]
+`;

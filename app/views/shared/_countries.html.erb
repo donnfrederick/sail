@@ -1,0 +1,24 @@
+<% countries = Student.pluck(:country).uniq %>
+<% data = {} and countries.each {|c| data.store(c,Student.pluck(:country).count(c))} and data = data.sort_by { |_, v| v }.reverse %>
+
+<div class="panel">
+  <h3><%= "country ranking #{countries.size}" %></h3>
+  <div class="panel_contents">
+    <table class='index_table index'>
+      <% 4.times do |i| %>
+        <% hash = data[(0 + (i * 30))..(29 + (i * 30))].to_h %>
+        <tr>
+          <% hash.keys.each do |k| %>
+            <th><%= link_to k, "/admin/stats/?q=country&cn=#{k}" %></th>
+          <% end %>
+        </tr>
+        <tr>
+          <% hash.values.each do |v| %>
+            <td><%= v %></td>
+          <% end %>
+        </tr>
+      <% end %>
+    </table>
+  </div>
+</div>
+

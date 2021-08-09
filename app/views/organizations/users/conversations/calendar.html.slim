@@ -1,0 +1,15 @@
+h1.title = I18n.t("organization.conversations.table.title")
+
+.form-group
+  a.btn.btn-primary[role="button" href="#{org_conversations_calendar_path(@role_type, @current_dimension.id)}"] = I18n.t("organization.conversations.table.calendar.title")
+  a.btn.btn-outline-primary[role="button" href="#{org_conversations_table_path(@role_type, @current_dimension.id, @month)}"] = I18n.t("organization.conversations.table.table.title")
+
+ul.nav.nav-tabs
+    - @dimensions.each do |dimension|
+      li.nav-item
+      - if dimension.id == @current_dimension.id
+        a.nav-link.active[href="#{org_conversations_calendar_path(@role_type, dimension.id, @month)}"] = dimension.is_a?(OrganizationDevice) ? dimension.cognitive_name : dimension.name
+      - else
+        a.nav-link[href="#{org_conversations_calendar_path(@role_type, dimension.id, @month)}"] = (dimension.is_a?(OrganizationDevice) ? dimension.cognitive_name : dimension.name).truncate(16)
+
+.test = render partial: "components/organizations/conversations/table", locals: { page: @month, section_schedule: @section_schedule, role_type: @role_type, month: @start_date, next_month: @start_date_next_month, this_month: @this_month, days: @days, dimension: @current_dimension, first: @first, last: @last, participants: @participants, capacity: @capacity }

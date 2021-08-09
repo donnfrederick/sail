@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <TimeSelectButtons /> 1`] = `
+<div
+  className="sc-htpNat fnrSTu"
+>
+  <button
+    className="sc-bdVaJa bDSVsF"
+    color="#138efd"
+    data-disabled={false}
+    data-selected={true}
+    fontSize={40}
+    height={68}
+    onClick={[Function]}
+    width={344}
+  >
+    時刻で選ぶ
+  </button>
+  <button
+    className="sc-bdVaJa bDSVsF"
+    color="#138efd"
+    data-disabled={false}
+    data-selected={false}
+    fontSize={40}
+    height={68}
+    onClick={[Function]}
+    width={344}
+  >
+    時間帯で選ぶ
+  </button>
+</div>
+`;

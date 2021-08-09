@@ -1,0 +1,13 @@
+<div style="padding: 0 34px; overflow-wrap: break-word; line-height: 1;">
+  <div style="color: rgb(64, 87, 102); text-align: left; overflow-wrap: break-word; line-height: 1;">
+    <div style="text-align: center; -webkit-box-pack: justify; justify-content: space-between; margin-bottom: 24px; overflow-wrap: break-word; line-height: 1;">
+      <img class="profile-photo" src="<%= user.picture_url %>">
+      <div style="width: 100%; flex-direction: column; -webkit-box-flex: 0; flex-grow: 0; justify-content: space-around; margin-top: 18px;">
+        <div class="profile-detail">
+          <div><%= user.local_name(locale: context_user.default_locale) || user.name_en %>さん</div>
+          <div class="profile-sub">(<%= I18n.t(user.country.to_sym, scope: :countries, locale: context_user.default_locale) %>)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

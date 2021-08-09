@@ -1,0 +1,10 @@
+= form_tag(org_notification_publish_path(@role_type), class: "publish col-4 offset-4", method: "post") do
+  h1.title Are you sure to publish the below notification to your class ?
+
+  = render partial: "components/organizations/notifications/notification", locals: { notification: @notification, level: 2 }
+
+  input[type="hidden" name="notification_id" value="#{@notification.id}"]
+
+  .text-center.footer-buttons
+    button.btn.btn-secondary[onclick="location.href='#{org_notification_list_path(@role_type)}'; return false;"] = I18n.t("organization.back_button")
+    button.btn.btn-success[type="submit"] Publish

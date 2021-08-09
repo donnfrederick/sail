@@ -1,0 +1,7 @@
+.user.profile
+  h1.title
+    span.user.name = @user.name
+    span さん
+
+    .user-photo
+      img.rounded-circle[src="#{@user.picture_url.small.url}"]

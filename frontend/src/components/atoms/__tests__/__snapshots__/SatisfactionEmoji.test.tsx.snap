@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <SatisfactionEmoji /> 1`] = `
+<div
+  className="sc-bdVaJa feuFjz"
+  data-type="active"
+>
+  <img
+    className="sc-bwzfXH cjsWnA"
+    src="/assets/img/common/evaluation/smiley_fine_active@2x.png"
+  />
+  <div
+    className="sc-htpNat vsbMt"
+  >
+    1
+  </div>
+</div>
+`;

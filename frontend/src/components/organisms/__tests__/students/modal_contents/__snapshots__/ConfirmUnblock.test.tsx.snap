@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConfirmUnblock /> 1`] = `
+<div
+  className="sc-iwsKbI iPdzUk"
+>
+  <div
+    className="sc-gzVnrw gGucts"
+  >
+    <div
+      className="sc-EHOje emHEG"
+    >
+      Unblock the user?
+    </div>
+  </div>
+  <div
+    className="sc-gZMcBi dzkVYG"
+  >
+    <button
+      className="sc-bdVaJa bscZHU"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="white"
+      width={244}
+    >
+      Cancel
+    </button>
+    <button
+      className="sc-bdVaJa gKXLMt"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={244}
+    >
+      OK
+    </button>
+  </div>
+</div>
+`;

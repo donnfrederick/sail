@@ -1,0 +1,62 @@
+{
+  "templates.About.Header": "关于",
+  "templates.Menu.Header": "菜单",
+  "create.account": "创建账户",
+  "create.email": "电子邮箱",
+  "create.password": "密码",
+  "menu.my_page": "我的主页",
+  "menu.edit_profile": "编辑个人资料",
+  "menu.edit_interest": "编辑兴趣",
+  "menu.edit_purpose": "编辑目的",
+  "menu.change_email": "更改电子邮箱",
+  "menu.change_password": "更改密码",
+  "mypage.japanese_skill": "日语技能（自主登记）",
+  "mypage.rating": "等级",
+  "mypage.conversation": "会话",
+  "mypage.times": "次",
+  "edit.profile_picture": "更改个人资料图片",
+  "edit.first_name": "名",
+  "edit.last_name": "姓",
+  "edit.gender": "性别（可选）",
+  "edit.country": "国家/地区",
+  "edit.time_zone": "时区",
+  "edit.japanese_conversation_level": "日语会话水平",
+  "edit.conversation_level_1": "---知之甚少,几乎不懂",
+  "edit.conversation_level_2": "---了解基本词汇",
+  "edit.conversation_level_3": "---能够说简单的句子",
+  "edit.conversation_level_4": "---日常对话水平",
+  "edit.conversation_level_5": "---能够应付复杂的话题",
+  "edit.jlpt": "日本语能力测试等级",
+  "edit.not_jlpt": "---我从没参加过日本语能力测试",
+  "edit.passed_jlpt": "---我从未通过过日本语能力测试",
+  "edit.self_introduce": "自我介绍",
+  "edit.jlpt_1": "N1",
+  "edit.jlpt_2": "N2",
+  "edit.jlpt_3": "N3",
+  "edit.jlpt_4": "N4",
+  "edit.jlpt_5": "N5",
+  "edit.current_email": "当前的电子邮箱",
+  "edit.new_email": "新邮箱",
+  "edit.save_email": "保存",
+  "edit.current_Password": "当前密码",
+  "edit.new_Password": "新密码",
+  "edit.save_password": "保存",
+  "menu.support": "支持",
+  "menu.help_center": "帮助中心",
+  "menu.conversation_history": "对话记录",
+  "menu.favorites_users": "收藏的用户",
+  "menu.blocked_accounts": "冻结的账户",
+  "menu.legal": "法律",
+  "menu.privacy_policy": "隐私政策",
+  "menu.terms": "条款",
+  "menu.operating_company": "运营公司"
+}
+
+
+
+
+
+
+
+
+

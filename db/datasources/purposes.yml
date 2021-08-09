@@ -1,0 +1,33 @@
+---
+- :id: 1
+  :scope: Teacher
+  :name_ja: 若い人との会話を楽しみたい
+  :name_en: To talk with young people
+- :id: 2
+  :scope: Teacher
+  :name_ja: 若い世代に貢献したい
+  :name_en: To contribute to the younger generation
+- :id: 3
+  :scope: Teacher
+  :name_ja: 仕事や日常の経験を伝えたい
+  :name_en: To convey work and daily experiences
+- :id: 4
+  :scope: Teacher
+  :name_ja: 日本語を教えたい
+  :name_en: To teach Japanese
+- :id: 5
+  :scope: Student
+  :name_ja: 日本語が上手くなりたい
+  :name_en: To improve Japanese language ability
+- :id: 6
+  :scope: Student
+  :name_ja: 日本に移住したい
+  :name_en: To immigrate to Japan
+- :id: 7
+  :scope: Student
+  :name_ja: 日本で働きたい
+  :name_en: To work in Japan
+- :id: 8
+  :scope: Student
+  :name_ja: 日本の文化に触れたい
+  :name_en: To comprehend Japanese cultures

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConversationBalloon /> 1`] = `
+<div
+  className="sc-EHOje befYmc"
+>
+  <img
+    className="sc-bZQynM eWUBUW"
+    src="/assets/img/common/conversation-balloon.png"
+  />
+  <div
+    className="sc-gzVnrw jodxHR"
+  >
+    そろそろお別れの時間です
+  </div>
+</div>
+`;

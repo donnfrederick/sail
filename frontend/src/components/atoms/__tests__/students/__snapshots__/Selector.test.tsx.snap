@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Selector /> 1`] = `
+<select
+  className="sc-bdVaJa jjBqAf"
+  defaultValue=""
+  required={true}
+>
+  <option
+    value="value01"
+  >
+    text01
+  </option>
+  <option
+    value="value02"
+  >
+    text02
+  </option>
+</select>
+`;

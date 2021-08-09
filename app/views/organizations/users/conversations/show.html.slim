@@ -1,0 +1,12 @@
+.col-12.col-sm-10.col-md-8.col-lg-6.col-xl-4.offset-sm-1.offset-md-2.offset-lg-3.offset-xl-4
+  - if @role_type == "univs"
+    .user.profile.show
+      = render partial: "components/organizations/conversations/show_teacher", locals: {user: @conversation.teacher, start_at: @conversation.start_at, end_at: @conversation.end_at}
+  - else
+    .user.profile.show
+      = render partial: "components/organizations/conversations/show_student", locals: {user: @conversation.student, start_at: @conversation.start_at, end_at: @conversation.end_at}
+
+
+  .form-group.text-center.margin-1-line
+    a.btn.btn-secondary[role="button" href="#{org_conversations_path(@role_type)}"] = I18n.t("organization.back_button")
+    a.btn.btn-danger[role="button" href="#{org_conversation_before_destroy(@role_type, @conversation.id, @user.id, @current_dimension.present? ? @current_dimension.id : nil)}"] = I18n.t("organization.conversations.delete_button")

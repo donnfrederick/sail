@@ -1,0 +1,19 @@
+<p><%= Time.now.last_week.all_week.to_formatted_s %></p>
+<table class='index_table index'>
+	<tr>
+		<td>時期</td>
+		<% timerange_headers.each do |h| %>
+			<td><%= h %></td>
+		<% end %>
+	</tr>
+	<% @hash = timerange_hash(data[:conversations].where(start_at: Time.now.last_week.all_week)) %>
+	<% @hash.each do |h| %>
+		<tr>
+			<td><%= "#{h[0]}00" %></td>
+			<td><%= h[1][:detail][:total] %></td>
+			<td><%= "#{h[1][:detail][:completed]}(#{percent(h[1][:detail][:completed],h[1][:detail][:total])}%)" %></td>
+			<td><%= "#{h[1][:detail][:cancled]}(#{percent(h[1][:detail][:cancled],h[1][:detail][:total])}%)" %></td>
+			<td><%= "#{h[1][:detail][:unmatched]}(#{percent(h[1][:detail][:unmatched],h[1][:detail][:total])}%)" %></td>
+		</tr>
+	<% end %>
+</table>

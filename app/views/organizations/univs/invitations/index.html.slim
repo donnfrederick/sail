@@ -1,0 +1,17 @@
+h1.title
+  span Invitation URLs
+  a.btn.btn-success[href="#{org_invitation_new_path(@role_type)}"] Add
+p Students can join your class room by the URL with their own Sail account.
+
+table.table.table-striped
+  tr
+    th Class
+    th Invitation URL
+    th Operation
+  - @invitations.each do | invitation |
+    tr
+      td.class-name = invitation.organization_section.name
+      td.url
+        a[href="#{@url[:root] + invitation.url}"] = @url[:root] + invitation.url
+      td.operation
+        a.btn.btn-danger[href="#{org_invitation_confirm_destroy_path(@role_type, invitation.token)}"] Delete

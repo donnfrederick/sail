@@ -1,0 +1,17 @@
+.notification.margin-1-line
+  .media
+    - if notification.image_url.present?
+      img.mr-3.notification_icon[src="#{notification.image_url}" alt="" style="width: 64px"]
+    - else
+      img.mr-3.notification_icon[src="/assets/img/common/user.png" alt="" style="width: 64px"]
+    .media-body
+      - if level == 1
+        h3.title.mt-0 = notification.title
+      - else
+        h4.title.mt-0 = notification.title
+
+      - if notification.notificated_at.present?
+        .pub-date.text-left.text-secondary
+          time = notification.notificated_at.strftime(I18n.t("organization.formats.datetime.full"))
+
+  .text.margin-1-line = notification.body

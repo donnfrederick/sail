@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <NotifyMatching /> 1`] = `
+<div
+  className="sc-cSHVUG hsIUBe"
+>
+  <div
+    className="sc-jzJRlG bkdbxf"
+  >
+    <div
+      className="sc-jTzLTM llGFMw"
+    >
+      会話相手が見つかりました
+    </div>
+    <p
+      className="sc-fjdhpX fXhuWY"
+    >
+      詳細を確認してみましょう
+    </p>
+  </div>
+  <div
+    className="sc-EHOje fbzZrP"
+  >
+    <img
+      className="sc-gzVnrw QJFQI"
+      height="200px"
+      src=""
+      srcSet=""
+      width="200px"
+    />
+  </div>
+  <div
+    className="sc-chPdSV eqkTzc"
+  >
+    吉野 瑞葵
+  </div>
+  <div
+    className="sc-kAzzGY iutItN"
+  >
+    <button
+      className="sc-htoDjs iiCvpw"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={272}
+    >
+      <div
+        className="sc-VigVT dXzNKq"
+      >
+        とじる
+      </div>
+    </button>
+    <button
+      className="sc-dnqmqq eXECE"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={272}
+    >
+      <a
+        className="sc-gqjmRU klaAAy"
+        href="/teachers/reservations/detail/1"
+        onClick={[Function]}
+      >
+        詳細を見る
+      </a>
+    </button>
+  </div>
+</div>
+`;

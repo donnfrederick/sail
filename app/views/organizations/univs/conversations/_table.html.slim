@@ -1,0 +1,16 @@
+table.mt-3.table.table-hover.text-center
+  thead
+    tr
+      th Section
+      th Student
+      th Partner
+      th Start
+      th Status
+  - @conversations.each do |conversation|
+    tbody
+      tr
+        td=conversation.student.organization_sections.first.name_en
+        td=conversation.student.name
+        td=conversation.teacher.name
+        td=conversation.start_at.strftime('%Y/%m/%d %H:%M')
+        td=conversation.status

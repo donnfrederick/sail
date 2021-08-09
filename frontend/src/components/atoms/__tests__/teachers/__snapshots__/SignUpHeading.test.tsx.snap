@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <SignUpHeading /> 1`] = `
+<h2
+  className="sc-bdVaJa dJczzd"
+>
+  メールアドレスとパスワードを
+入力してください
+</h2>
+`;

@@ -1,0 +1,97 @@
+<h3>Hello <%= @user.name_en %></h3>
+
+<div class="section">
+  <p>
+    Thank you for registration in Sail.
+  </p>
+  <p>
+    Sail is the unique platform where you can learn and practice talking Japanese with exactly Japanese people, and share experiences. Now you have many opportunities and you can start soon!
+  </p>
+  <p>
+    Are you ready to talk in Japanese ? We recommend you to speak in Japanese as the first priority, it is the best way to enhance your successful learning.<br />
+    Belows are checkpoints to make ready for your conversations successfully.
+  </p>
+</div>
+
+<div class="section-comfortable-margin-top">
+  <img class="huge-title-80" src="https://www.helte.jp/downloads/new-students-space-6-1.png" alt="How to Sail" />
+  <h3 class="sub-title">Reserve a conversation as your first step</h3>
+</div>
+
+<div class="section-comfortable-margin-top">
+  <h1 class="title">1. Select your available date & time</h1>
+  <div class="sub-title">Japanese people have already been nominated.</div>
+  <div class="wide-stretched">
+    <img class="less-comfortable-margin-top" src="https://www.helte.jp/downloads/new-students-space-6-2b.png" alt="" />
+  </div>
+</div>
+
+<div class="section-comfortable-margin-top">
+  <h1 class="title">2. Confirm the reservation</h1>
+  <div class="sub-title">Make sure you can attend at the time and proceed the reservation.</div>
+  <div class="wide-stretched">
+    <img class="less-comfortable-margin-top" src="https://www.helte.jp/downloads/new-students-space-6-3b.png" alt="" />
+  </div>
+</div>
+
+<div class="section-comfortable-margin-top">
+  <h1 class="title">3. Get prepared to start talking!</h1>
+  <div class="sub-title">Check your preparation 10 minutes before the start.</div>
+  <div class="wide-stretched">
+    <img class="less-comfortable-margin-top" src="https://www.helte.jp/downloads/new-students-space-6-4b.png" alt="" />
+  </div>
+</div>
+
+<div class="section-comfortable-margin-top">
+  <img class="huge-title-90" src="https://www.helte.jp/downloads/new-students-space-6-5.png" alt="Learn and experience in Sail" />
+  <h3 class="sub-title">You will find many things worthy through Japanese conversation</h3>
+</div>
+
+<div class="section">
+  <div class="wide-stretched">
+    <img src="https://www.helte.jp/downloads/teacher-female-1.jpg" alt="" />
+  </div>
+  <p>
+    Many people in Japan have started using Sail to communicate with Japanese learners to share their experiences and
+    knowledge in life.
+  </p>
+  <p>
+    Especially, there are many experienced, helpful participants who would like to support your successful life in Japan
+    or travel there.
+  </p>
+  <p>
+    Let's talk and discuss precious local information, great knowledge through their experiences, and introduce your daily
+    life in your city besides your Japanese conversation practice.
+  </p>
+</div>
+
+<div class="section-less-comfortable-margin">
+  <h1 class="title">Sail official supporters</h1>
+  <div class="wide-stretched">
+    <img src="https://www.helte.jp/downloads/teachers-community-1.jpg" alt="" />
+  </div>
+  <p>
+    Don't worry to make your first step. There are official supporters who help your initial start in Sail. They also open
+    their available schedule and you can find their reservations.
+  </p>
+  <p>
+    They have been very used to conversations in Sail already and have great mind to help your communication. Feel free to
+    ask questions to them and discuss your thoughts with plain Japanese.
+  </p>
+</div>
+
+<div class="section-less-comfortable-margin">
+  <h2>
+    Do you know Sail is available on multiple platforms ?
+  </h2>
+  <div class="section">
+    <a href="https://apps.apple.com/jp/app/sail-japanese-conversations/id1434041945" style="text-decoration: none;">
+      <img class="app-store" src="https://sail.helte.jp/guide/img/app-store_en.png" alt="App store" />
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=jp.helte.android.sail" style="text-decoration: none;">
+      <img class="app-store" src="https://sail.helte.jp/guide/img/google-play_en.png" alt="Google Play" />
+    </a>
+  </div>
+</div>
+
+<%= render partial: "components/mailer/launcher_guide", locals: {locale: "en", url: "https://sail.helte.jp/"} %>

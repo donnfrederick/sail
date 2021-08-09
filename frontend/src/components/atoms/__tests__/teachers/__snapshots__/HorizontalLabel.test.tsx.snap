@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <HorizontalLabel /> 1`] = `
+<div
+  className="sc-bdVaJa eKjNJv"
+  width={656}
+>
+  <hr
+    className="sc-bwzfXH jalomy"
+  />
+  <span
+    className="sc-htpNat kjObgF"
+  >
+    国籍
+  </span>
+</div>
+`;

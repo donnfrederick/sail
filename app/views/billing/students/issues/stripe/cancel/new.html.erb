@@ -1,0 +1,8 @@
+<h1>Are you sure to cancel the subscription?</h1>
+<p>
+  You still can use Sail by <%= Time.at(@issue.subscription.current_period_end).to_s %>.
+</p>
+
+<%= form_tag "/billing/students/issues/stripe/cancel/#{@student.auth_token}/#{@issue.id}", id: "payment-form", method: "post" do %>
+  <button class="sc-bdVaJa eEjsbL" data-active="true" font-size="32" height="88" type="blue" width="494">Cancel</button>
+<% end %>

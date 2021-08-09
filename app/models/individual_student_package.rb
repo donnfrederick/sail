@@ -1,0 +1,2 @@
+class IndividualStudentPackage < Package
+end

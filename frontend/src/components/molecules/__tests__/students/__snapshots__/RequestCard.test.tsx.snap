@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <RequestCard /> 1`] = `
+<div
+  className="sc-kAzzGY kmAErF"
+  data-type="brief"
+>
+  <a
+    href="/students/requests/detail/1"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-chPdSV hOYBEd"
+    >
+      New
+    </div>
+    <div
+      className="sc-kgoBCf dkkxMv"
+    >
+      2 Jan 2018 12:00am - 11:59pm
+    </div>
+    <div
+      className="sc-kGXeez AYXeq"
+    >
+      <div
+        className="sc-bdVaJa bHgtVR"
+      >
+        <img
+          className="sc-htpNat iiyWLF"
+          height="150px"
+          src=""
+          srcSet=""
+          width="150px"
+        />
+      </div>
+      <div
+        className="sc-kpOJdX cRKxvW"
+      >
+        <p
+          className="sc-dxgOiQ kyCwou"
+        >
+          吉野 瑞葵
+        </p>
+        <button
+          className="sc-bZQynM bErkge"
+          data-active={true}
+          fontSize={28}
+          height={56}
+          type="blue"
+          width={300}
+        >
+          Requesting...
+        </button>
+      </div>
+    </div>
+  </a>
+</div>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ReservedDate /> 1`] = `
+<div
+  className="sc-bdVaJa cbjcdx"
+>
+  <img
+    className="sc-bwzfXH hIIIzN"
+    src="/assets/img/students/reservation-detail/calendar@3x.png"
+  />
+  <div
+    className="sc-htpNat lmWzCS"
+  >
+    <div
+      className="sc-bxivhb kNJPCl"
+    >
+      Monday 1 January 2018
+    </div>
+    <div
+      className="sc-ifAKCX jqdyhy"
+    >
+      12:00am - 12:30am
+    </div>
+  </div>
+</div>
+`;

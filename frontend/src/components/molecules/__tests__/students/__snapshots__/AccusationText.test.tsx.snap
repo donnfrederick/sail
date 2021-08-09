@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <AccusationText /> 1`] = `
+<div
+  className="sc-htpNat hIudTf"
+>
+  <span
+    className="sc-bxivhb eSkIZl"
+    onClick={[Function]}
+  >
+    Click here if you found an inappropriate user
+  </span>
+  <div
+    className="sc-bdVaJa khrEoP"
+    data-open={true}
+    onClick={[Function]}
+  >
+    <div
+      className="sc-bwzfXH WyNdZ"
+      onClick={[Function]}
+    >
+      Block
+    </div>
+    <div
+      className="sc-bwzfXH WyNdZ"
+      onClick={[Function]}
+    >
+      Report
+    </div>
+  </div>
+</div>
+`;

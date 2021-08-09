@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <StudentBiography /> 1`] = `
+<div
+  className="sc-bdVaJa faUWMX"
+>
+  <div
+    className="sc-bwzfXH dgSeGn"
+  >
+    <div
+      className="sc-htpNat iJYhYB"
+    >
+      性別
+    </div>
+    <div
+      className="sc-bxivhb bUZGRr"
+    >
+      男性
+    </div>
+  </div>
+  <div
+    className="sc-bwzfXH dgSeGn"
+  >
+    <div
+      className="sc-htpNat iJYhYB"
+    >
+      国籍
+    </div>
+    <div
+      className="sc-bxivhb bUZGRr"
+    >
+      Japan
+    </div>
+  </div>
+  <div
+    className="sc-bwzfXH dgSeGn"
+  >
+    <div
+      className="sc-htpNat iJYhYB"
+    >
+      興味
+    </div>
+    <div
+      className="sc-bxivhb bUZGRr"
+    >
+      
+    </div>
+  </div>
+</div>
+`;

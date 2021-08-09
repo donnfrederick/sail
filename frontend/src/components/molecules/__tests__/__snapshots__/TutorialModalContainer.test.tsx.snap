@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ConfirmTerms /> 1`] = `
+<div
+  className="sc-htpNat gTLJss"
+>
+  <div>
+    <div
+      className="sc-bdVaJa fxJyhH"
+    >
+      Title
+    </div>
+    <img
+      className="sc-bxivhb cFQjig"
+      src=""
+    />
+    <div
+      className="sc-bwzfXH ggeoDz"
+    >
+      Text
+    </div>
+  </div>
+</div>
+`;

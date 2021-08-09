@@ -1,0 +1,17 @@
+section.py-5
+  .container
+    .ml-5.mb-3.float-left= link_to 'New Student', :new_organizations_univs_user, class: 'btn btn-primary'
+    .mr-5.mb-3.float-right
+      = search_form_for(@q, url: :organizations_univs_users) do |f|
+        = f.collection_select :organization_sections_id_eq, @current_staff.organization.organization_sections, :id, :name, {include_blank: true}, {class: 'form-control float-right mb-3'}
+        = render 'table'
+        = f.label :tram_start, 'beginning'
+        = f.date_field :created_at_range_beginning, {value: Time.now.beginning_of_week.strftime("%Y-%m-%d"), class: "mr-5"}
+        = f.label :tram_end, 'end'
+        = f.date_field :created_at_range_end, {value: Time.now.end_of_week.strftime("%Y-%m-%d")}
+        button.btn.btn-info.float-right.mr-5 type='submit' name='format' value='pdf' PDF
+    = paginate @students
+javascript:
+  $("#q_organization_sections_id_eq").change(function(){
+    $('#user_search').submit();
+    })

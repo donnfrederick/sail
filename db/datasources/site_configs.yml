@@ -1,0 +1,41 @@
+---
+- :admin_user_id: 9
+  :keyword: payment.stripe.api_secret_key
+  :format: 0
+  :content: sk_live_OmbqR1uOghKghVDPUKcrbNt9005OGNRwtu
+  :description: Stripe APIのSecret Keyを指定します。テスト環境用と本番用で異なります。テスト環境では、クレジットカード番号を 4242-4242-4242-4242とし、CVSを424、Post codeを242424 にできます。
+- :admin_user_id: 9
+  :keyword: payment.stripe.api_public_key
+  :format: 0
+  :content: pk_live_MKXdguFR9V99VNLE6FelKJYJ00dgFcVB2T
+  :description: Stripe APIのPublic Keyを指定します。テスト環境用と本番用で異なります。テスト環境では、クレジットカード番号を 4242-4242-4242-4242とし、CVSを424、Post codeを242424 にできます。
+- :admin_user_id: 9
+  :keyword: payment.paypal.api_url
+  :format: 0
+  :content: https://api-m.paypal.com
+  :description: PayPal APIのURLを指定します。
+- :admin_user_id: 9
+  :keyword: payment.paypal.api_client_id
+  :format: 0
+  :content: AYsGFUgtccxAd3iP2E_aTPr2sGPS8_VCmaJbpjO_Y98X9jXK3tHQbUq-aM9BoqQE4KOujuGmitcnR-wM
+  :description: PayPal APIのClient IDを指定します。テスト環境用と本番用で異なります。テスト環境では、https://developer.paypal.com/developer/accounts/ に記述のあるアカウントを使用できます。
+- :admin_user_id: 9
+  :keyword: payment.paypal.api_secret_key
+  :format: 0
+  :content: EIimuwjBHDKYRced9u_1tHLcfA9oH1oOywQe9i0u20ma-gHR1lT6jWw6XLlhnTYBV-2A39GaHA0Oyfq6
+  :description: PayPal APIのClient IDを指定します。テスト環境用と本番用で異なります。テスト環境では、https://developer.paypal.com/developer/accounts/ に記述のあるアカウントを使用できます。
+- :admin_user_id: 9
+  :keyword: sms_authentication.twilio.account_sid
+  :format: 0
+  :content: AC5f1566e1171b7a8a6fedddea44d0a943
+  :description: Twilio SMS APIのAccount SIDを指定します。
+- :admin_user_id: 9
+  :keyword: sms_authentication.twilio.auth_token
+  :format: 0
+  :content: 828515a474468f9f1fb34909357be82f
+  :description: Twilio SMS APIのAuthトークンを指定します。
+- :admin_user_id: 9
+  :keyword: sms_authentication.twilio.sms_phone_number
+  :format: 0
+  :content: +14159094927
+  :description: Twilio SMS APIで使用するTwilioで生成したSMS送信用の電話番号を先頭記号"+"と国際番号を含めて指定します。

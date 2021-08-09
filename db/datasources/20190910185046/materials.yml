@@ -1,0 +1,17 @@
+---
+- :id: 1
+  :admin_user_id: 2
+  :name: nh-video-manual
+  :url: https://www.youtube.com/watch?v=GNPtdik9vbA&list=PLwwxsAlu3rr8iLxoKi9U6AheHrGe9b6Ri
+- :id: 2
+  :admin_user_id: 2
+  :name: univ-video-manual
+  :url: https://www.youtube.com/watch?v=jOOlqo_1SNE&list=PLwwxsAlu3rr8gq5XBi53oVGlephtPwzgW
+- :id: 3
+  :admin_user_id: 2
+  :name: senior-teacher-ja-pdf
+  :url: https://www.helte.jp/downloads/sail-senior-teacher-ja.pdf
+- :id: 4
+  :admin_user_id: 2
+  :name: volunteer-help
+  :url: https://docs.google.com/document/d/1jHWnwourjUq8TkiNpIjT64YnnJPnb_RedEpnOcqjIqI/edit?usp=sharing

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Steps /> 1`] = `
+<div
+  className="sc-bdVaJa kwzYMt"
+>
+  <div
+    className="sc-htpNat clTFOn"
+  />
+  <div
+    className="sc-bwzfXH fJKSla"
+    data-completed={true}
+    data-current={true}
+  >
+    1
+  </div>
+  <div
+    className="sc-bwzfXH fJKSla"
+    data-completed={false}
+    data-current={false}
+  >
+    2
+  </div>
+  <div
+    className="sc-bwzfXH fJKSla"
+    data-completed={false}
+    data-current={false}
+  >
+    3
+  </div>
+  <div
+    className="sc-bwzfXH fJKSla"
+    data-completed={false}
+    data-current={false}
+  >
+    4
+  </div>
+  <div
+    className="sc-bwzfXH fJKSla"
+    data-completed={false}
+    data-current={false}
+  >
+    5
+  </div>
+  <div
+    className="sc-bwzfXH fJKSla"
+    data-completed={false}
+    data-current={false}
+  >
+    6
+  </div>
+  <div
+    className="sc-bwzfXH fJKSla"
+    data-completed={false}
+    data-current={false}
+  >
+    7
+  </div>
+</div>
+`;

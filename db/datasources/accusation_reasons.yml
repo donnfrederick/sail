@@ -1,0 +1,16 @@
+---
+- :id: 1
+  :name_ja: 他サービスへの勧誘行為
+  :name_en: Invitation to other services
+- :id: 2
+  :name_ja: スパム・宣伝目的
+  :name_en: Spam / Advertising
+- :id: 3
+  :name_ja: 出会い・わいせつ目的
+  :name_en: Sexual harassment
+- :id: 4
+  :name_ja: 犯罪・違法行為
+  :name_en: Crime, illegal activities
+- :id: 5
+  :name_ja: その他、迷惑行為
+  :name_en: Other harassment

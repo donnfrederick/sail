@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <SupportHeading /> 1`] = `
+<h2
+  className="sc-bdVaJa kYwYah"
+>
+  Heading
+</h2>
+`;

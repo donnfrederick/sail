@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Reservation /> 1`] = `
+<div
+  className="sc-cSHVUG eLcKPQ"
+>
+  <div
+    className="sc-jzJRlG bkdbxf"
+  >
+    <div
+      className="sc-jTzLTM llGFMw"
+    >
+      以下の時間で予約しました
+    </div>
+    <p
+      className="sc-fjdhpX fXhuWY"
+    >
+      相手が見つかり次第お知らせします。
+    </p>
+  </div>
+  <div
+    className="sc-gZMcBi bzxeNR"
+  >
+    <div
+      className="sc-gqjmRU bnhTCM"
+    >
+      
+    </div>
+    <div
+      className="sc-VigVT hmQUWs"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="sc-kAzzGY lcCVUM"
+  >
+    <button
+      className="sc-bZQynM jTOtoa"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={304}
+    >
+      <a
+        className="sc-dnqmqq iPjOZM"
+        href="/teachers/mypage"
+        onClick={[Function]}
+      >
+        とじる
+      </a>
+    </button>
+  </div>
+</div>
+`;

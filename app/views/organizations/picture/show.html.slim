@@ -1,0 +1,12 @@
+.col-4.offset-4
+  h1.title
+    span = I18n.t("organization.picture.index.title")
+  p = I18n.t("organization.picture.index.message")
+
+  .text-center
+    img.staff-photo[src="#{small_photo(@picture)}"]
+
+  .text-center.footer-buttons
+    a.btn.btn-success.action.apply[role="button" href="#{org_picture_new_path}"] = I18n.t("organization.picture.index.edit_button")
+    - if @picture.middle.url.present?
+      a.btn.btn-danger.action.delete[role="button" href="#{org_picture_confirm_destroy_path}"] = I18n.t("organization.picture.index.delete_button")

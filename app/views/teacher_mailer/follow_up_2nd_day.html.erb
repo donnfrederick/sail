@@ -1,0 +1,60 @@
+<h3><%= @user.name_ja %>様</h3>
+
+<div class="section">
+  <p>
+    Sailカスタマーサポートです。
+  </p>
+  <p>
+    先日は異文化交流のビデオ通話サービス「Sail」(セイル)にご登録いただきありがとうございました。
+    基本的な使い方やサービスの様子はお分かりいただけたでしょうか？
+  </p>
+  <p>
+    Sailでの異文化交流をスタートする皆さまに、これから楽しく快適にご利用いただくための、「おすすめポイント３つ」をご紹介します！
+  </p>
+</div>
+
+<div class="section-comfortable-margin-top">
+  <div class="wide-stretched">
+    <img class="title-icon" src="https://www.helte.jp/downloads/icon-clock.png" alt="" />
+  </div>
+  <h2 class="title">1. ご予約は３日以上前を目安に</h2>
+  <p>
+    ご予約は、お好きな日時にご予約いただいた後、海外の方からの申請があり予約が確定する仕組みとなっております。  相手の方のご都合もある為、余裕を持ってご予約いただくとマッチング率が上がります。前日予約などでマッチングをするケースもありますが、スムーズにいかない場合も考えられる為、３日前～１週間前のご予約をおすすめしております。<br />
+    ※予約方法は２種類あり、リクエスト予約をした場合、相手からのリクエストは遅くても会話前日までには必ず承認をお願いいたします。<br />
+  </p>
+</div>
+<div class="section-less-comfortable-margin-top">
+  <div class="wide-stretched">
+    <img class="title-icon" src="https://www.helte.jp/downloads/icon-headset.png" alt="" />
+  </div>
+  <h2 class="title">2. ヘッドセット、イヤホンを装着</h2>
+  <div class="wide-stretched">
+    <img src="https://www.helte.jp/downloads/new-2nd-teacher-material-2.jpg" alt="" />
+  </div>
+  <p>
+    相手の方へ声がエコーして伝わらないよう、ヘッドセットやイヤホンの装着を推奨しています。お互いに聞きやすく話しやすい環境づくりで、日本の裏側まで快適に通信！<br />
+  </p>
+</div>
+<div class="section-less-comfortable-margin-top">
+  <div class="wide-stretched">
+    <img class="title-icon" src="https://www.helte.jp/downloads/icon-note.png" alt="" />
+  </div>
+  <h2 class="title">3. 会話前の準備で安心</h2>
+  <div class="wide-stretched">
+    <img src="https://www.helte.jp/downloads/new-2nd-teacher-material-1.jpg" alt="" />
+  </div>
+  <p>
+    いざ、海外の方と会話をするとなると、緊張もあるかと思いますが、準備があれば大丈夫。５～１０分前にはイヤホン等を用意して画面を開き、相手の情報をチェックすると、国や興味から話題をイメージできるかもしれません。さらに事前にメモ用紙などを準備すると、お名前が伝わりにくい時に書いたり、聞いた情報をメモできたりと便利です。<br />
+  </p>
+</div>
+<div class="section">
+  <p>
+    以上、おすすめポイントでした！
+  </p>
+  <p>
+    それでは、さまざまな国の皆さまとの日本語での異文化交流をお楽しみください。
+    文化・習慣の話、趣味の話、季節の話、おすすめの観光スポットなど、いろいろな話題を通して、せひ楽しく交流を深めていってくださいね。
+  </p>
+</div>
+
+<%= render partial: "components/mailer/launcher_guide", locals: {locale: "ja", url: "https://sail.helte.jp/"} %>

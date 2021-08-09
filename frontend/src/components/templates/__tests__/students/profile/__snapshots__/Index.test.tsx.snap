@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ProfileIndex /> 1`] = `
+<div
+  className="sc-lhVmIH iaircd"
+>
+  <div
+    className="sc-btzYZH gRHlPm"
+  >
+    <div
+      className="sc-jnlKLf cSNHTa"
+    >
+      <div
+        className="sc-ktHwxA EApgL"
+      >
+        <div
+          className="sc-kpOJdX eRMxDu"
+        >
+          <img
+            className="sc-ckVGcZ kaLVBu"
+            height="200px"
+            src=""
+            srcSet=""
+            width="200px"
+          />
+        </div>
+        <div
+          className="sc-cIShpX jDxsuB"
+        >
+          <div
+            className="sc-fYxtnH LbxQM"
+          >
+            
+          </div>
+          <div
+            className="sc-iELTvK fPvUQI"
+          >
+            
+          </div>
+          <div
+            className="sc-feJyhm dcKBKT"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-gGBfsJ eZxqPd"
+      >
+        
+      </div>
+      <div
+        className="sc-tilXH fuJKlO"
+      >
+        <div
+          className="sc-jKJlTe gAjuzd"
+        >
+          <img
+            className="sc-eNQAEJ gAEBmb"
+            src="/assets/img/students/reservation-detail/gender@3x.png"
+          />
+          <div
+            className="sc-hMqMXs gxspeP"
+          >
+            Unselected
+          </div>
+        </div>
+        <div
+          className="sc-jKJlTe gAjuzd"
+        >
+          <img
+            className="sc-eNQAEJ gAEBmb"
+            src="/assets/img/students/reservation-detail/hobbies@3x.png"
+          />
+          <div
+            className="sc-hMqMXs gxspeP"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-cmTdod iVoqDn"
+      >
+        <div
+          className="sc-iRbamj jQFatE"
+        >
+          <div
+            className="sc-jlyJG fJfKKF"
+          >
+            <div
+              className="sc-Rmtcm lkEIue"
+            >
+              Conversation
+            </div>
+            <div
+              className="sc-hzDkRC fcsumF"
+            >
+              0
+               
+              Times
+            </div>
+          </div>
+          <div
+            className="sc-gipzik fLAAFl"
+          >
+            <div
+              className="sc-csuQGl ocqFo"
+            >
+              <img
+                className="sc-bRBYWo bsfbGD"
+                src="/assets/img/common/evaluation/smiley_humorous_active@2x.png"
+              />
+              <div
+                className="sc-hzDkRC fcsumF"
+              >
+                0
+              </div>
+            </div>
+            <div
+              className="sc-csuQGl ocqFo"
+            >
+              <img
+                className="sc-bRBYWo bsfbGD"
+                src="/assets/img/common/evaluation/smiley_impressed_active@2x.png"
+              />
+              <div
+                className="sc-hzDkRC fcsumF"
+              >
+                0
+              </div>
+            </div>
+            <div
+              className="sc-csuQGl ocqFo"
+            >
+              <img
+                className="sc-bRBYWo bsfbGD"
+                src="/assets/img/common/evaluation/smiley_discovered_active@2x.png"
+              />
+              <div
+                className="sc-hzDkRC fcsumF"
+              >
+                0
+              </div>
+            </div>
+            <div
+              className="sc-csuQGl ocqFo"
+            >
+              <img
+                className="sc-bRBYWo bsfbGD"
+                src="/assets/img/common/evaluation/smiley_fine_active@2x.png"
+              />
+              <div
+                className="sc-hzDkRC fcsumF"
+              >
+                0
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header
+    className="sc-fjdhpX gQoSWG"
+  >
+    <div
+      className="sc-jzJRlG gGXDMs"
+    >
+      My Page
+    </div>
+    <div
+      className="sc-cSHVUG eZtxOt"
+      onClick={[Function]}
+    />
+  </header>
+  <div
+    className="sc-gzVnrw bbOeQD"
+  >
+    <a
+      className="sc-EHOje gEifQf"
+      href="/students/mypage"
+      icon="/assets/img/students/footer/home@3x.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-EHOje bIkBAA"
+      href="/students/notifications"
+      icon="/assets/img/students/footer/notification@3x.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-EHOje exXkhS"
+      href="/students/mypage"
+      icon="/assets/img/students/footer/cart.png"
+      onClick={[Function]}
+    />
+    <a
+      className="sc-bZQynM iAxnUN"
+      href="/students/reservations/new"
+      icon="/assets/img/students/footer/calendar@3x.png"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

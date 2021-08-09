@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ReportConfirm /> 1`] = `
+Array [
+  <div
+    className="sc-bZQynM dIzgxU"
+  >
+    <div
+      className="sc-bxivhb bnphqz"
+    >
+      <h2
+        className="sc-ifAKCX bLrNrv"
+      >
+        よろしければ詳細を教えてください
+      </h2>
+    </div>
+  </div>,
+  <div
+    className="sc-htoDjs jbnYsb"
+    width={570}
+  >
+    <div
+      className="sc-gZMcBi eIKULL"
+    >
+      <h3
+        className="sc-gqjmRU gOMdvW"
+      >
+        報告理由
+      </h3>
+    </div>
+    <div
+      className="sc-gZMcBi eIKULL"
+    >
+      <h3
+        className="sc-gqjmRU gOMdvW"
+      >
+        詳細
+      </h3>
+      <p
+        className="sc-VigVT fVXrqt"
+      >
+        
+      </p>
+    </div>
+    <div
+      className="sc-gZMcBi eIKULL"
+    >
+      <h3
+        className="sc-gqjmRU gOMdvW"
+      >
+        ブロックの有無
+      </h3>
+      <p
+        className="sc-jTzLTM hYsRnZ"
+        data-block={false}
+      >
+        このユーザーをブロックしない
+      </p>
+    </div>
+  </div>,
+  <div
+    className="sc-gzVnrw eaRuPB"
+  >
+    <button
+      className="sc-dnqmqq fcNlVM"
+      data-active={false}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={360}
+    >
+      <a
+        className="sc-iwsKbI jvJYPI"
+        href="/teachers/mypage"
+        onClick={[Function]}
+      >
+        報告する
+      </a>
+    </button>
+  </div>,
+]
+`;

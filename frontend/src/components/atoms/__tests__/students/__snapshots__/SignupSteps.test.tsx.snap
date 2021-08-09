@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <SignUpSteps /> 1`] = `
+<div
+  className="sc-ifAKCX hjGAJx"
+>
+  <div
+    className="sc-bdVaJa ljPqBL"
+  >
+    <div
+      className="sc-bwzfXH djyruM"
+    >
+      <div
+        className="sc-bxivhb kndYPt"
+      />
+      <div
+        className="sc-htpNat fsEzut"
+        data-completed={true}
+        data-current={true}
+      />
+      <div
+        className="sc-htpNat fsEzut"
+        data-completed={false}
+        data-current={false}
+      />
+      <div
+        className="sc-htpNat fsEzut"
+        data-completed={false}
+        data-current={false}
+      />
+      <div
+        className="sc-htpNat fsEzut"
+        data-completed={false}
+        data-current={false}
+      />
+    </div>
+  </div>
+  <div
+    className="sc-EHOje bFNOFX"
+    onClick={[Function]}
+  />
+</div>
+`;

@@ -1,0 +1,4 @@
+package.json
+frontend/src/tsconfig.json
+frontend/guide-src/tsconfig.json
+tslint.json

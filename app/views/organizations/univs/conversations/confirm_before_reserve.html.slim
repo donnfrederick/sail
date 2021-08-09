@@ -1,0 +1,15 @@
+.col-4.offset-4.text-center
+  h1.title
+    span = I18n.t("organization.conversations.confirm_before_reserve.the_conversation_at")
+
+  = form_tag(org_conversation_reserve_path(@role_type, @current_dimension.id), class: "new", method: "get") do
+    input[type="hidden" name="reservable_conversation_id" value="#{@reservable_conversation.id}"]
+    input[type="hidden" name="user_id" value="#{@user.id}"]
+    input[type="hidden" name="dimension_id" value="#{@current_dimension.id}"]
+
+    .user.profile.show
+      = render partial: "components/organizations/conversations/show_teacher", locals: { user: @reservable_conversation.user, start_at: @start_at, end_at: @end_at }
+
+    .text-center.footer-buttons
+      button.btn.btn-secondary[onclick="location.href='#{org_conversations_path(@role_type)}'; return false;"] = I18n.t("organization.back_button")
+      button.btn.btn-primary[type="submit"] = I18n.t("organization.conversations.confirm_before_create.button")

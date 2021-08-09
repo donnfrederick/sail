@@ -1,0 +1,32 @@
+h1.title = I18n.t("organization.history.list.title")
+
+ul.nav.nav-tabs
+    - @dimensions.each do |dimension|
+      li.nav-item
+      - if dimension.id == @current_dimension.id
+        a.nav-link.active[href="#{org_history_path(@role_type, dimension.id)}"] = dimension.is_a?(OrganizationDevice) ? dimension.cognitive_name : dimension.name
+      - else
+        a.nav-link[href="#{org_history_path(@role_type, dimension.id)}"] = (dimension.is_a?(OrganizationDevice) ? dimension.cognitive_name : dimension.name).truncate(16)
+
+
+table.table.table-striped
+  tr
+    th = I18n.t("organization.history.list.teacher.title")
+    th = I18n.t("organization.history.list.student.title")
+    th = I18n.t("organization.history.list.datetime.title")
+  - @conversations.each do | conversation |
+    - if conversation.student.present? && conversation.teacher.present?
+      tr
+        td.elder
+          a.user-photo[href="#{org_video_play_path(@role_type, conversation.id)}"]
+            img.rounded-circle[src="#{small_user_photo(conversation.teacher)}"]
+          span.name = conversation.teacher.name
+        td.student
+          a.user-photo[href="#{org_video_play_path(@role_type, conversation.id)}"]
+            img.rounded-circle[src="#{small_user_photo(conversation.student)}"]
+          span.name = conversation.student.name
+        td.date-time
+          a.user-photo[href="#{org_video_play_path(@role_type, conversation.id)}"]
+            datetime = conversation.start_at.strftime(I18n.t("organization.formats.datetime.long"))
+
+= will_paginate @pagination, :renderer => WillPaginate::ActionView::Bootstrap4LinkRenderer

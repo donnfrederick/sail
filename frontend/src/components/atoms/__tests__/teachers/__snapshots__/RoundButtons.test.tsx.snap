@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Button /> 1`] = `
+<button
+  className="sc-bdVaJa feofRl"
+  fontSize={48}
+  size={240}
+>
+  女性
+</button>
+`;

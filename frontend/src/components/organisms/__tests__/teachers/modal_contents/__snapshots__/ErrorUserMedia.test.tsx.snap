@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ErrorUserMedia /> 1`] = `
+<div
+  className="sc-jTzLTM dMEaru"
+>
+  <div
+    className="sc-VigVT kaYUeB"
+  >
+    <div
+      className="sc-gZMcBi jeuDio"
+    >
+      エラー
+    </div>
+    <p
+      className="sc-gqjmRU kxDtlD"
+    >
+      マイクが動作しておりません
+    </p>
+  </div>
+  <div
+    className="sc-fjdhpX efXwve"
+  >
+    <button
+      className="sc-bZQynM jTOtoa"
+      data-active={true}
+      fontSize={40}
+      height={112}
+      onClick={[Function]}
+      width={304}
+    >
+      <div
+        className="sc-iwsKbI lgKvmV"
+      >
+        もう一度試す
+      </div>
+    </button>
+  </div>
+</div>
+`;

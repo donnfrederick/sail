@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <ChatQuality /> 1`] = `
+Array [
+  <div
+    className="sc-gzVnrw kRftEK"
+  >
+    <div
+      className="sc-jTzLTM biVWil"
+    >
+      <div
+        className="sc-jzJRlG kGjMcW"
+      />
+      <div
+        className="sc-fjdhpX ldPbZJ"
+        data-completed={true}
+        data-current={false}
+      >
+        1
+      </div>
+      <div
+        className="sc-fjdhpX ldPbZJ"
+        data-completed={true}
+        data-current={false}
+      >
+        2
+      </div>
+      <div
+        className="sc-fjdhpX ldPbZJ"
+        data-completed={true}
+        data-current={false}
+      >
+        3
+      </div>
+      <div
+        className="sc-fjdhpX ldPbZJ"
+        data-completed={true}
+        data-current={true}
+      >
+        4
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX cnjyrT"
+      width={640}
+    >
+      <h2
+        className="sc-EHOje hkpgLc"
+      >
+        映像や音声の品質はどうでしたか？
+      </h2>
+      <h3
+        className="sc-bZQynM jcLHie"
+      >
+        会話した方の音声や周囲の環境（雑音など）、映像はいかがでしたか？
+問題ない場合はそのまま終わりを押してください。
+※ 複数選択可
+      </h3>
+    </div>
+  </div>,
+  <div
+    className="sc-dnqmqq gEEnOm"
+  >
+    <div
+      className="sc-bdVaJa cXZfnx"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH kzjiuI"
+        data-active={false}
+      >
+        <img
+          className="sc-htpNat ldDEDY"
+          data-active={false}
+          src="/assets/img/common/evaluation/check@2x.png"
+        />
+      </div>
+      <span
+        className="sc-bxivhb jYwlOI"
+      >
+        映像がたまに切れてた
+      </span>
+    </div>
+    <div
+      className="sc-bdVaJa cXZfnx"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH kzjiuI"
+        data-active={false}
+      >
+        <img
+          className="sc-htpNat ldDEDY"
+          data-active={false}
+          src="/assets/img/common/evaluation/check@2x.png"
+        />
+      </div>
+      <span
+        className="sc-bxivhb jYwlOI"
+      >
+        まったく映らなかった
+      </span>
+    </div>
+    <div
+      className="sc-bdVaJa cXZfnx"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH kzjiuI"
+        data-active={false}
+      >
+        <img
+          className="sc-htpNat ldDEDY"
+          data-active={false}
+          src="/assets/img/common/evaluation/check@2x.png"
+        />
+      </div>
+      <span
+        className="sc-bxivhb jYwlOI"
+      >
+        周囲の雑音が多かった
+      </span>
+    </div>
+    <div
+      className="sc-bdVaJa cXZfnx"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH kzjiuI"
+        data-active={false}
+      >
+        <img
+          className="sc-htpNat ldDEDY"
+          data-active={false}
+          src="/assets/img/common/evaluation/check@2x.png"
+        />
+      </div>
+      <span
+        className="sc-bxivhb jYwlOI"
+      >
+        音声がブツブツ切れてた
+      </span>
+    </div>
+  </div>,
+  <div
+    className="sc-htoDjs bqFwbt"
+  >
+    <button
+      className="sc-cSHVUG fBbgMe"
+      data-active={true}
+      fontSize={32}
+      height={88}
+      onClick={[Function]}
+      type="blue"
+      width={360}
+    >
+      終わり
+    </button>
+  </div>,
+]
+`;

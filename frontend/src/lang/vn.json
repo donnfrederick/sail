@@ -1,0 +1,65 @@
+{
+  "templates.About.Header": "Giới thiệu",
+  "templates.Menu.Header": "Menu",
+  "create.account": "Tạo tài khoản",
+  "create.email": "Địa chỉ email",
+  "create.password": "Mật khẩu",
+  "menu.my_page": "Trang của Tôi",
+  "menu.edit_profile": "Chỉnh sửa Hồ sơ",
+  "menu.edit_interest": "Chỉnh sửa Sở thích",
+  "menu.edit_purpose": "Chỉnh sửa Mục đích",
+  "menu.change_email": "Thay đổi Địa chỉ email",
+  "menu.change_password": "Thay đổi Mật khẩu",
+  "mypage.japanese_skill": "Kỹ năng tiếng Nhật (Tự Đăng ký)",
+  "mypage.rating": "Xếp hạng",
+  "mypage.conversation": "Đàm thoại",
+  "mypage.times": "Lần",
+  "edit.profile_picture": "Thay đổi Ảnh Hồ sơ",
+  "edit.first_name": "Tên",
+  "edit.last_name": "Họ",
+  "edit.gender": "Giới tính (Không bắt buộc)",
+  "edit.country": "Quốc gia",
+  "edit.time_zone": "Múi giờ",
+  "edit.japanese_conversation_level": "Trình độ Đàm thoại tiếng Nhật",
+  "edit.conversation_level_1": "---Gần như không hiểu",
+  "edit.conversation_level_2": "---hiểu biết các từ vựng cơ bản",
+  "edit.conversation_level_3": "---Có thể đặt câu đơn giản",
+  "edit.conversation_level_4": "---Trình độ đàm thoại hàng ngày",
+  "edit.conversation_level_5": "---Có thể bàn về các chủ đề phức tạp",
+  "edit.jlpt": "Trình độ JLPT",
+  "edit.not_jlpt": "---Tôi chưa bao giờ thi JLPT",
+  "edit.passed_jlpt": "---Tôi chưa bao giờ đậu JLPT",
+  "edit.self_introduce": "Tự Giới thiệu",
+  "edit.jlpt_1": "N1",
+  "edit.jlpt_2": "N2",
+  "edit.jlpt_3": "N3",
+  "edit.jlpt_4": "N4",
+  "edit.jlpt_5": "N5",
+  "edit.current_email": "Địa chỉ email Hiện tại",
+  "edit.new_email": "Địa chỉ email Mới",
+  "edit.save_email": "Lưu",
+  "edit.current_Password": "Mật khẩu Hiện tại",
+  "edit.new_Password": "Mật khẩu Mới",
+  "edit.save_password": "Lưu",
+  "menu.support": "Hỗ trợ",
+  "menu.help_center": "Trung tâm Trợ giúp",
+  "menu.conversation_history": "Lịch sử Đàm thoại",
+  "menu.favorites_users": "Người dùng Yêu thích",
+  "menu.blocked_accounts": "Tài khoản Đã chặn",
+  "menu.legal": "Pháp lý",
+  "menu.privacy_policy": "Chính sách Quyền riêng tư",
+  "menu.terms": "Điều khoản",
+  "menu.operating_company": "Công ty Điều hành"
+}
+
+
+
+
+
+
+
+
+
+
+
+

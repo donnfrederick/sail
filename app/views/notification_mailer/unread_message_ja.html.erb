@@ -1,0 +1,15 @@
+<div style="text-align: center;">
+  <p>このメールはシステムより自動配信されています。<br>ご返信、お問合せは文末のお問合わせ先へお願いいたします。</p>
+  <h1><%= @notification.title(locale: @notification.user.default_locale) %></h1>
+</div>
+<p><%= @notification.body(locale: @notification.user.default_locale) %></p>
+
+<% if @notification.conversation.present? %>
+  <%= render partial: "components/mailer/launcher_guide", locals: {locale: @notification.user.default_locale, url: @notification.url} %>
+
+  <% if @notification.conversation_partner.present? %>
+    <%= render partial: "components/user_profile", locals: { context_user: @notification.user, user: @notification.conversation_partner } %>
+  <% end %>
+
+  <%= render partial: "components/mailer/launcher_guide", locals: {locale: @notification.user.default_locale, url: @notification.url} %>
+<% end %>

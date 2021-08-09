@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Steps /> 1`] = `
+<div
+  className="sc-bdVaJa bEcRHf"
+>
+  <div
+    className="sc-bwzfXH cNXRey"
+    data-current={true}
+  />
+  <div
+    className="sc-bwzfXH cNXRey"
+    data-current={false}
+  />
+  <div
+    className="sc-bwzfXH cNXRey"
+    data-current={false}
+  />
+  <div
+    className="sc-bwzfXH cNXRey"
+    data-current={false}
+  />
+</div>
+`;

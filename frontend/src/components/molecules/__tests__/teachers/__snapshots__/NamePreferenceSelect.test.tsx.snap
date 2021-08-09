@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <NamePreferenceSelect /> 1`] = `
+<div
+  className="sc-bwzfXH cKfmoy"
+>
+  <button
+    className="sc-bdVaJa gRCVnm"
+    data-selected={true}
+    fontSize={48}
+    onClick={[Function]}
+    size={240}
+  >
+    フルネーム
+  </button>
+  <button
+    className="sc-bdVaJa gRCVnm"
+    data-selected={false}
+    fontSize={48}
+    onClick={[Function]}
+    size={240}
+  >
+    めい
+  </button>
+  <button
+    className="sc-bdVaJa gRCVnm"
+    data-selected={false}
+    fontSize={48}
+    onClick={[Function]}
+    size={240}
+  >
+    せい
+  </button>
+</div>
+`;

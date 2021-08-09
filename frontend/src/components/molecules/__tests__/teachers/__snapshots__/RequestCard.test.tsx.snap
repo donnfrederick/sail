@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <RequestCard /> 1`] = `
+<div
+  className="sc-hMqMXs iBeuBD"
+>
+  <div
+    className="sc-kEYyzF fZIfES"
+  >
+    初
+  </div>
+  <div
+    className="sc-kkGfuU hreUvu"
+  >
+    <div
+      className="sc-iAyFgw ljOcCV"
+    >
+      会話予約受付日時
+    </div>
+    <div
+      className="sc-hSdWYo kVOcIl"
+    >
+      00:00 ~ 23:59
+    </div>
+  </div>
+  <div
+    className="sc-eHgmQL kkZYQo"
+  >
+    <div
+      className="sc-bdVaJa bHgtVR"
+    >
+      <img
+        className="sc-htpNat iiyWLF"
+        height="150px"
+        src=""
+        srcSet=""
+        width="150px"
+      />
+    </div>
+    <div
+      className="sc-cvbbAY euOzVd"
+    >
+      <p
+        className="sc-jWBwVP dBZTYR"
+      >
+        吉野 瑞葵
+      </p>
+      <div
+        className="sc-brqgnP eBDmDc"
+      >
+        <div
+          className="sc-bxivhb iungcT"
+          data-type="active"
+        >
+          <img
+            className="sc-ifAKCX kSdZHv"
+            src="/assets/img/common/evaluation/smiley_humorous_active@2x.png"
+          />
+          <div
+            className="sc-EHOje bkjBvT"
+          >
+            0
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-cMljjf fuKSth"
+  >
+    <button
+      className="sc-bZQynM doTmMP"
+      data-active={true}
+      fontSize={28}
+      height={56}
+      width={200}
+    >
+      <div
+        className="sc-gZMcBi eEKVIH"
+      >
+        詳細を見る
+      </div>
+    </button>
+    <button
+      className="sc-gzVnrw jXIihR"
+      data-active={true}
+      fontSize={28}
+      height={56}
+      onClick={[Function]}
+      width={360}
+    >
+      <div
+        className="sc-gZMcBi eEKVIH"
+      >
+        この方と会話を予約する
+      </div>
+    </button>
+  </div>
+</div>
+`;

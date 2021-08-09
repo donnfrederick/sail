@@ -1,0 +1,24 @@
+.row
+  .col-6.form-group
+    = form.label :email, 'Email'
+    = form.email_field :email, class: 'form-control', value: @student.try(:email), placeholder: 'test@example.com'
+
+  .col-6.form-group
+    = form.label :organization_section_ids, 'Section'
+    = form.select :organization_section_ids, current_organization_sections.pluck(:name_en, :id), {selected: @student.organization_sections.first.try(:id)}, {class: 'form-control'} 
+  
+  .col-6.form-group.detail
+    = form.label :name_en, 'Name'
+    = form.text_field :name_en, class: 'form-control', value: @student.try(:name_en), placeholder: 'Manabu Goto'
+      
+  .col-6.form-group.detail
+    = form.label :password, 'Password'
+    = form.password_field :password, class: 'form-control'
+
+  .col-6.form-group.detail
+    = form.label :country, 'Country'
+    = form.select :country, ISO3166::Country.all_names_with_codes.map(&:last), {selected: @student.country}, {class: 'form-control'}
+
+  .col-6.form-group.detail
+    = form.label :timezone, 'Timezone'
+    = form.select :timezone, TZInfo::Timezone.all_identifiers, {selected: @student.timezone}, {class: 'form-control'} 

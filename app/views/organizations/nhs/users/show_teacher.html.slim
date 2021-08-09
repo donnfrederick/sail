@@ -1,0 +1,42 @@
+.user.profile.show.col-12.col-sm-10.col-md-8.col-lg-6.col-xl-4.offset-sm-1.offset-md-2.offset-lg-3.offset-xl-4
+  h1.title
+    span.user.name = @user.name
+    span さん
+
+  .user-photo
+    img.rounded-circle[src="#{small_user_photo(@user)}"]
+
+  h3.title 名前
+  span.name = @user.name
+
+  h3.title 性別
+  - if @user.sex == 1
+    span.sex 男性
+  - elsif @user.sex == 2
+    span.sex 女性
+  - elsif @user.sex == 9
+    span.sex その他
+  - else
+    span.sex.none
+
+  h3.title 興味があること
+  ul.hobbies
+    - @user.hobbies.each do |hobby|
+      - if hobby.present? && hobby.name.present?
+        li.hobby = hobby.name
+
+  h3.title 利用目的
+  ul.purposes
+    - @user.purposes.each do |purpose|
+      - if purpose.present? && purpose.name.present?
+        li.purpose = purpose.name
+
+  h3.title 学生への希望条件
+  - if @user.desired_condition == 1
+    span.desire 日本語が得意な方がいい
+  - else
+    span.desire 日本語が不得意でも構わない
+
+  .text-center.footer-buttons
+    a.btn.btn-secondary[href="#{org_user_list_path(@role_type)}"] 戻る
+    a.btn.btn-primary[href="#{org_user_edit_path(@role_type, @user.id)}"] 編集する
